@@ -1,8 +1,8 @@
 {
   "app": "CrossFit Session Tracker",
   "format": 1,
-  "contentVersion": 1,
-  "publishedAt": "2026-10-10 16:01:31",
+  "contentVersion": 2,
+  "publishedAt": "2026-10-10 17:02:44",
   "catalogs": {
     "muscle_group": [
       {
@@ -61744,5 +61744,2547 @@
       ]
     }
   ],
-  "plans": []
+  "plans": [],
+  "challenges": [
+    {
+      "code": "pushups-100",
+      "name": "100 flexiones",
+      "summary": "100 flexiones seguidas en 6 semanas",
+      "kind": "meta_reps",
+      "color": "#ef4444",
+      "equipment": "Ninguno",
+      "unit": "reps",
+      "exercise": {
+        "names": [
+          "Bodyweight Push Up",
+          "Push-up",
+          "Push Up",
+          "Bodyweight Push-Up"
+        ],
+        "create": {
+          "name": "Bodyweight Push Up",
+          "description": "Flexión de brazos con el cuerpo en bloque, pecho cerca del piso y codos a unos 45°.",
+          "primaryMuscle": "Pectorales"
+        }
+      },
+      "regression": {
+        "exercise": {
+          "names": [
+            "Bodyweight Kneeling Push Up",
+            "Knee Push-Up",
+            "Knee Push Up"
+          ],
+          "create": {
+            "name": "Bodyweight Kneeling Push Up",
+            "description": "Flexión con las rodillas apoyadas. Cadera alineada con hombros y rodillas.",
+            "primaryMuscle": "Pectorales"
+          }
+        },
+        "hint": "Con rodillas apoyadas o contra la mesada"
+      },
+      "goal": 100,
+      "testRanges": {
+        "beginnerMax": 5,
+        "intermediateMax": 15
+      }
+    },
+    {
+      "code": "situps-200",
+      "name": "200 abdominales",
+      "summary": "200 abdominales seguidos en 6 semanas",
+      "kind": "meta_reps",
+      "color": "#f59e0b",
+      "equipment": "Toalla o colchoneta",
+      "unit": "reps",
+      "exercise": {
+        "names": [
+          "Bodyweight Sit Up",
+          "Sit-Up",
+          "Sit Up"
+        ],
+        "create": {
+          "name": "Bodyweight Sit Up",
+          "description": "Abdominal completo: desde acostado hasta sentado, pies apoyados en el piso.",
+          "primaryMuscle": "Core/Abdominales"
+        }
+      },
+      "regression": {
+        "exercise": {
+          "names": [
+            "Bodyweight Crunch",
+            "Crunch"
+          ],
+          "create": {
+            "name": "Bodyweight Crunch",
+            "description": "Crunch corto: despegar sólo los omóplatos del piso, manos en el pecho.",
+            "primaryMuscle": "Core/Abdominales"
+          }
+        },
+        "hint": "Crunch corto, manos en el pecho, nunca en la nuca"
+      },
+      "goal": 200,
+      "testRanges": {
+        "beginnerMax": 14,
+        "intermediateMax": 30
+      },
+      "notes": "Si lo hacés junto con el de sentadillas, alterná los días."
+    },
+    {
+      "code": "squats-200",
+      "name": "200 sentadillas",
+      "summary": "200 sentadillas seguidas en 6 semanas",
+      "kind": "meta_reps",
+      "color": "#22c55e",
+      "equipment": "Ninguno",
+      "unit": "reps",
+      "exercise": {
+        "names": [
+          "Bodyweight Squat",
+          "Air Squat",
+          "Squat"
+        ],
+        "create": {
+          "name": "Bodyweight Squat",
+          "description": "Sentadilla sin peso: cadera por debajo de las rodillas, talones apoyados.",
+          "primaryMuscle": "Cuádriceps"
+        }
+      },
+      "regression": {
+        "exercise": {
+          "names": [
+            "Bodyweight Squat to Bench",
+            "Box Squat"
+          ],
+          "create": {
+            "name": "Bodyweight Squat to Bench",
+            "description": "Sentadilla a una silla: tocar el asiento con la cola y volver a subir.",
+            "primaryMuscle": "Cuádriceps"
+          }
+        },
+        "hint": "Tocar la silla con la cola y subir"
+      },
+      "goal": 200,
+      "testRanges": {
+        "beginnerMax": 19,
+        "intermediateMax": 40
+      }
+    },
+    {
+      "code": "dips-150",
+      "name": "150 fondos en silla",
+      "summary": "150 fondos seguidos en 6 semanas",
+      "kind": "meta_reps",
+      "color": "#8b5cf6",
+      "equipment": "Silla firme",
+      "unit": "reps",
+      "exercise": {
+        "names": [
+          "Bodyweight Bench Dip",
+          "Bench Dip",
+          "Chair Dip"
+        ],
+        "create": {
+          "name": "Bodyweight Bench Dip",
+          "description": "Fondos en silla: manos en el borde del asiento, bajar flexionando los codos hacia atrás hasta 90° y empujar.",
+          "primaryMuscle": "Tríceps",
+          "imageUrl": "/img/exercises/bench-dip.svg"
+        }
+      },
+      "regression": {
+        "hint": "Rodillas flexionadas, poco recorrido"
+      },
+      "goal": 150,
+      "testRanges": {
+        "beginnerMax": 7,
+        "intermediateMax": 15
+      }
+    },
+    {
+      "code": "lunges-150",
+      "name": "150 zancadas",
+      "summary": "150 zancadas seguidas (75 por pierna) en 6 semanas",
+      "kind": "meta_reps",
+      "color": "#06b6d4",
+      "equipment": "Ninguno",
+      "unit": "reps",
+      "exercise": {
+        "names": [
+          "Bodyweight Alternating Forward Lunge",
+          "Bodyweight Forward Lunge",
+          "Bodyweight Walking Lunge",
+          "Walking Lunge"
+        ],
+        "create": {
+          "name": "Bodyweight Alternating Forward Lunge",
+          "description": "Zancada al frente alternando piernas: rodilla de atrás cerca del piso, torso erguido.",
+          "primaryMuscle": "Cuádriceps"
+        }
+      },
+      "regression": {
+        "exercise": {
+          "names": [
+            "Bodyweight Split Squat"
+          ],
+          "create": {
+            "name": "Bodyweight Split Squat",
+            "description": "Zancada estática: pies fijos, bajar y subir en el lugar.",
+            "primaryMuscle": "Cuádriceps"
+          }
+        },
+        "hint": "Zancada estática, mano en la pared"
+      },
+      "goal": 150,
+      "testRanges": {
+        "beginnerMax": 15,
+        "intermediateMax": 34
+      },
+      "notes": "El número es el total: 150 son 75 por pierna."
+    },
+    {
+      "code": "burpees-50",
+      "name": "50 burpees",
+      "summary": "50 burpees seguidos en 6 semanas",
+      "kind": "meta_reps",
+      "color": "#ec4899",
+      "equipment": "Ninguno",
+      "unit": "reps",
+      "exercise": {
+        "names": [
+          "Bodyweight Burpee",
+          "Burpee"
+        ],
+        "create": {
+          "name": "Bodyweight Burpee",
+          "description": "Pecho al piso, volver a pararse y saltar con aplauso arriba.",
+          "primaryMuscle": "Cuádriceps"
+        }
+      },
+      "regression": {
+        "hint": "Sin salto y con paso atrás"
+      },
+      "goal": 50,
+      "testRanges": {
+        "beginnerMax": 4,
+        "intermediateMax": 10
+      },
+      "notes": "Es el más duro porque suma cardio. Si cuesta, repetí semanas sin culpa."
+    },
+    {
+      "code": "plank-5min",
+      "name": "Plancha de 5 minutos",
+      "summary": "De 20 segundos a 5 minutos de plancha en 30 días",
+      "kind": "daily",
+      "color": "#3b82f6",
+      "equipment": "Colchoneta",
+      "unit": "seconds",
+      "exercise": {
+        "names": [
+          "Bodyweight Forearm Plank",
+          "Plank Hold",
+          "Plank"
+        ],
+        "create": {
+          "name": "Bodyweight Forearm Plank",
+          "description": "Plancha sobre antebrazos: cuerpo en línea, abdomen y glúteos apretados.",
+          "primaryMuscle": "Core/Abdominales"
+        }
+      },
+      "regression": {
+        "exercise": {
+          "names": [
+            "Bodyweight Kneeling Forearm Plank"
+          ],
+          "create": {
+            "name": "Bodyweight Kneeling Forearm Plank",
+            "description": "Plancha sobre antebrazos con las rodillas apoyadas.",
+            "primaryMuscle": "Core/Abdominales"
+          }
+        },
+        "hint": "Con las rodillas apoyadas"
+      },
+      "days": [
+        {
+          "sets": [
+            20
+          ],
+          "restSeconds": 30
+        },
+        {
+          "sets": [
+            20
+          ],
+          "restSeconds": 30
+        },
+        {
+          "sets": [
+            30
+          ],
+          "restSeconds": 30
+        },
+        {
+          "sets": [
+            30
+          ],
+          "restSeconds": 30
+        },
+        {
+          "sets": [
+            40
+          ],
+          "restSeconds": 30
+        },
+        {
+          "rest": true
+        },
+        {
+          "sets": [
+            45
+          ],
+          "restSeconds": 30
+        },
+        {
+          "sets": [
+            45
+          ],
+          "restSeconds": 30
+        },
+        {
+          "sets": [
+            60
+          ],
+          "restSeconds": 30
+        },
+        {
+          "sets": [
+            60
+          ],
+          "restSeconds": 30
+        },
+        {
+          "sets": [
+            70
+          ],
+          "restSeconds": 30
+        },
+        {
+          "sets": [
+            80
+          ],
+          "restSeconds": 30
+        },
+        {
+          "rest": true
+        },
+        {
+          "sets": [
+            90
+          ],
+          "restSeconds": 30
+        },
+        {
+          "sets": [
+            50,
+            50
+          ],
+          "restSeconds": 30
+        },
+        {
+          "sets": [
+            55,
+            55
+          ],
+          "restSeconds": 30
+        },
+        {
+          "sets": [
+            60,
+            60
+          ],
+          "restSeconds": 30
+        },
+        {
+          "sets": [
+            65,
+            65
+          ],
+          "restSeconds": 30
+        },
+        {
+          "sets": [
+            70,
+            70
+          ],
+          "restSeconds": 30
+        },
+        {
+          "rest": true
+        },
+        {
+          "sets": [
+            75,
+            75
+          ],
+          "restSeconds": 30
+        },
+        {
+          "sets": [
+            83,
+            82
+          ],
+          "restSeconds": 30
+        },
+        {
+          "sets": [
+            90,
+            90
+          ],
+          "restSeconds": 30
+        },
+        {
+          "sets": [
+            65,
+            65,
+            65
+          ],
+          "restSeconds": 30
+        },
+        {
+          "sets": [
+            70,
+            70,
+            70
+          ],
+          "restSeconds": 30
+        },
+        {
+          "sets": [
+            75,
+            75,
+            75
+          ],
+          "restSeconds": 30
+        },
+        {
+          "rest": true
+        },
+        {
+          "sets": [
+            80,
+            80,
+            80
+          ],
+          "restSeconds": 30
+        },
+        {
+          "sets": [
+            90,
+            90,
+            90
+          ],
+          "restSeconds": 30
+        },
+        {
+          "sets": [
+            300
+          ],
+          "restSeconds": 30
+        }
+      ],
+      "notes": "Desde el día 15 el objetivo se parte en series con 30s de descanso. El día 30 es de corrido."
+    },
+    {
+      "code": "squats-30d",
+      "name": "30 días de sentadillas",
+      "summary": "De 20 a 250 sentadillas por día en 30 días",
+      "kind": "daily",
+      "color": "#84cc16",
+      "equipment": "Ninguno",
+      "unit": "reps",
+      "exercise": {
+        "names": [
+          "Bodyweight Squat",
+          "Air Squat",
+          "Squat"
+        ],
+        "create": {
+          "name": "Bodyweight Squat",
+          "description": "Sentadilla sin peso: cadera por debajo de las rodillas, talones apoyados.",
+          "primaryMuscle": "Cuádriceps"
+        }
+      },
+      "regression": {
+        "exercise": {
+          "names": [
+            "Bodyweight Squat to Bench",
+            "Box Squat"
+          ],
+          "create": {
+            "name": "Bodyweight Squat to Bench",
+            "description": "Sentadilla a una silla: tocar el asiento con la cola y volver a subir.",
+            "primaryMuscle": "Cuádriceps"
+          }
+        },
+        "hint": "Tocar la silla con la cola y subir"
+      },
+      "days": [
+        {
+          "sets": [
+            5,
+            5,
+            5,
+            5
+          ],
+          "restSeconds": 45
+        },
+        {
+          "sets": [
+            7,
+            6,
+            6,
+            6
+          ],
+          "restSeconds": 45
+        },
+        {
+          "sets": [
+            9,
+            7,
+            7,
+            7
+          ],
+          "restSeconds": 45
+        },
+        {
+          "sets": [
+            11,
+            8,
+            8,
+            8
+          ],
+          "restSeconds": 45
+        },
+        {
+          "rest": true
+        },
+        {
+          "sets": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "restSeconds": 45
+        },
+        {
+          "sets": [
+            12,
+            11,
+            11,
+            11
+          ],
+          "restSeconds": 45
+        },
+        {
+          "sets": [
+            14,
+            12,
+            12,
+            12
+          ],
+          "restSeconds": 45
+        },
+        {
+          "sets": [
+            16,
+            13,
+            13,
+            13
+          ],
+          "restSeconds": 45
+        },
+        {
+          "rest": true
+        },
+        {
+          "sets": [
+            15,
+            15,
+            15,
+            15
+          ],
+          "restSeconds": 45
+        },
+        {
+          "sets": [
+            19,
+            17,
+            17,
+            17
+          ],
+          "restSeconds": 45
+        },
+        {
+          "sets": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "restSeconds": 45
+        },
+        {
+          "sets": [
+            24,
+            22,
+            22,
+            22
+          ],
+          "restSeconds": 45
+        },
+        {
+          "rest": true
+        },
+        {
+          "sets": [
+            25,
+            25,
+            25,
+            25
+          ],
+          "restSeconds": 60
+        },
+        {
+          "sets": [
+            29,
+            27,
+            27,
+            27
+          ],
+          "restSeconds": 60
+        },
+        {
+          "sets": [
+            30,
+            30,
+            30,
+            30
+          ],
+          "restSeconds": 60
+        },
+        {
+          "sets": [
+            26,
+            26,
+            26,
+            26,
+            26
+          ],
+          "restSeconds": 60
+        },
+        {
+          "rest": true
+        },
+        {
+          "sets": [
+            28,
+            28,
+            28,
+            28,
+            28
+          ],
+          "restSeconds": 60
+        },
+        {
+          "sets": [
+            30,
+            30,
+            30,
+            30,
+            30
+          ],
+          "restSeconds": 60
+        },
+        {
+          "sets": [
+            32,
+            32,
+            32,
+            32,
+            32
+          ],
+          "restSeconds": 60
+        },
+        {
+          "sets": [
+            36,
+            36,
+            36,
+            36,
+            36
+          ],
+          "restSeconds": 60
+        },
+        {
+          "rest": true
+        },
+        {
+          "sets": [
+            38,
+            38,
+            38,
+            38,
+            38
+          ],
+          "restSeconds": 60
+        },
+        {
+          "sets": [
+            40,
+            40,
+            40,
+            40,
+            40
+          ],
+          "restSeconds": 60
+        },
+        {
+          "sets": [
+            44,
+            44,
+            44,
+            44,
+            44
+          ],
+          "restSeconds": 60
+        },
+        {
+          "sets": [
+            48,
+            48,
+            48,
+            48,
+            48
+          ],
+          "restSeconds": 60
+        },
+        {
+          "sets": [
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "restSeconds": 60
+        }
+      ]
+    },
+    {
+      "code": "abs-30d",
+      "name": "30 días de abdominales",
+      "summary": "Circuito de crunch, bicicleta, elevación de piernas y plancha",
+      "kind": "daily",
+      "color": "#f97316",
+      "equipment": "Colchoneta",
+      "unit": "reps",
+      "exercise": {
+        "names": [
+          "Bodyweight Crunch",
+          "Crunch"
+        ],
+        "create": {
+          "name": "Bodyweight Crunch",
+          "description": "Crunch corto: despegar sólo los omóplatos del piso, manos en el pecho.",
+          "primaryMuscle": "Core/Abdominales"
+        }
+      },
+      "days": [
+        {
+          "circuit": {
+            "rounds": 2,
+            "restBetweenExercises": 45,
+            "restBetweenRounds": 60,
+            "items": [
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Crunch",
+                    "Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Crunch",
+                    "description": "Crunch corto: despegar sólo los omóplatos del piso, manos en el pecho.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 12
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Bicycle Crunch",
+                    "Bicycle Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Bicycle Crunch",
+                    "description": "Bicicleta: codo hacia la rodilla contraria alternando lados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 20,
+                "note": "10 por lado"
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Supine Leg Raise",
+                    "Lying Leg Raise",
+                    "Leg Raise"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Supine Leg Raise",
+                    "description": "Elevación de piernas acostado: subir las piernas extendidas sin despegar la zona lumbar.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 8
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Forearm Plank",
+                    "Plank Hold",
+                    "Plank"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Forearm Plank",
+                    "description": "Plancha sobre antebrazos: cuerpo en línea, abdomen y glúteos apretados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "seconds": 20
+              }
+            ]
+          }
+        },
+        {
+          "circuit": {
+            "rounds": 2,
+            "restBetweenExercises": 45,
+            "restBetweenRounds": 60,
+            "items": [
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Crunch",
+                    "Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Crunch",
+                    "description": "Crunch corto: despegar sólo los omóplatos del piso, manos en el pecho.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 12
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Bicycle Crunch",
+                    "Bicycle Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Bicycle Crunch",
+                    "description": "Bicicleta: codo hacia la rodilla contraria alternando lados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 20,
+                "note": "10 por lado"
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Supine Leg Raise",
+                    "Lying Leg Raise",
+                    "Leg Raise"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Supine Leg Raise",
+                    "description": "Elevación de piernas acostado: subir las piernas extendidas sin despegar la zona lumbar.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 8
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Forearm Plank",
+                    "Plank Hold",
+                    "Plank"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Forearm Plank",
+                    "description": "Plancha sobre antebrazos: cuerpo en línea, abdomen y glúteos apretados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "seconds": 20
+              }
+            ]
+          }
+        },
+        {
+          "circuit": {
+            "rounds": 2,
+            "restBetweenExercises": 45,
+            "restBetweenRounds": 60,
+            "items": [
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Crunch",
+                    "Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Crunch",
+                    "description": "Crunch corto: despegar sólo los omóplatos del piso, manos en el pecho.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 12
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Bicycle Crunch",
+                    "Bicycle Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Bicycle Crunch",
+                    "description": "Bicicleta: codo hacia la rodilla contraria alternando lados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 20,
+                "note": "10 por lado"
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Supine Leg Raise",
+                    "Lying Leg Raise",
+                    "Leg Raise"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Supine Leg Raise",
+                    "description": "Elevación de piernas acostado: subir las piernas extendidas sin despegar la zona lumbar.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 8
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Forearm Plank",
+                    "Plank Hold",
+                    "Plank"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Forearm Plank",
+                    "description": "Plancha sobre antebrazos: cuerpo en línea, abdomen y glúteos apretados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "seconds": 20
+              }
+            ]
+          }
+        },
+        {
+          "circuit": {
+            "rounds": 2,
+            "restBetweenExercises": 45,
+            "restBetweenRounds": 60,
+            "items": [
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Crunch",
+                    "Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Crunch",
+                    "description": "Crunch corto: despegar sólo los omóplatos del piso, manos en el pecho.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 12
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Bicycle Crunch",
+                    "Bicycle Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Bicycle Crunch",
+                    "description": "Bicicleta: codo hacia la rodilla contraria alternando lados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 20,
+                "note": "10 por lado"
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Supine Leg Raise",
+                    "Lying Leg Raise",
+                    "Leg Raise"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Supine Leg Raise",
+                    "description": "Elevación de piernas acostado: subir las piernas extendidas sin despegar la zona lumbar.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 8
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Forearm Plank",
+                    "Plank Hold",
+                    "Plank"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Forearm Plank",
+                    "description": "Plancha sobre antebrazos: cuerpo en línea, abdomen y glúteos apretados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "seconds": 20
+              }
+            ]
+          }
+        },
+        {
+          "circuit": {
+            "rounds": 2,
+            "restBetweenExercises": 45,
+            "restBetweenRounds": 60,
+            "items": [
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Crunch",
+                    "Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Crunch",
+                    "description": "Crunch corto: despegar sólo los omóplatos del piso, manos en el pecho.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 12
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Bicycle Crunch",
+                    "Bicycle Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Bicycle Crunch",
+                    "description": "Bicicleta: codo hacia la rodilla contraria alternando lados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 20,
+                "note": "10 por lado"
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Supine Leg Raise",
+                    "Lying Leg Raise",
+                    "Leg Raise"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Supine Leg Raise",
+                    "description": "Elevación de piernas acostado: subir las piernas extendidas sin despegar la zona lumbar.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 8
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Forearm Plank",
+                    "Plank Hold",
+                    "Plank"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Forearm Plank",
+                    "description": "Plancha sobre antebrazos: cuerpo en línea, abdomen y glúteos apretados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "seconds": 20
+              }
+            ]
+          }
+        },
+        {
+          "circuit": {
+            "rounds": 2,
+            "restBetweenExercises": 45,
+            "restBetweenRounds": 60,
+            "items": [
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Crunch",
+                    "Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Crunch",
+                    "description": "Crunch corto: despegar sólo los omóplatos del piso, manos en el pecho.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 12
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Bicycle Crunch",
+                    "Bicycle Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Bicycle Crunch",
+                    "description": "Bicicleta: codo hacia la rodilla contraria alternando lados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 20,
+                "note": "10 por lado"
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Supine Leg Raise",
+                    "Lying Leg Raise",
+                    "Leg Raise"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Supine Leg Raise",
+                    "description": "Elevación de piernas acostado: subir las piernas extendidas sin despegar la zona lumbar.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 8
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Forearm Plank",
+                    "Plank Hold",
+                    "Plank"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Forearm Plank",
+                    "description": "Plancha sobre antebrazos: cuerpo en línea, abdomen y glúteos apretados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "seconds": 20
+              }
+            ]
+          }
+        },
+        {
+          "rest": true,
+          "restNote": "Descanso activo: caminata de 20 minutos"
+        },
+        {
+          "circuit": {
+            "rounds": 3,
+            "restBetweenExercises": 40,
+            "restBetweenRounds": 60,
+            "items": [
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Crunch",
+                    "Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Crunch",
+                    "description": "Crunch corto: despegar sólo los omóplatos del piso, manos en el pecho.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 15
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Bicycle Crunch",
+                    "Bicycle Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Bicycle Crunch",
+                    "description": "Bicicleta: codo hacia la rodilla contraria alternando lados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 24,
+                "note": "12 por lado"
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Supine Leg Raise",
+                    "Lying Leg Raise",
+                    "Leg Raise"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Supine Leg Raise",
+                    "description": "Elevación de piernas acostado: subir las piernas extendidas sin despegar la zona lumbar.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 10
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Forearm Plank",
+                    "Plank Hold",
+                    "Plank"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Forearm Plank",
+                    "description": "Plancha sobre antebrazos: cuerpo en línea, abdomen y glúteos apretados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "seconds": 30
+              }
+            ]
+          }
+        },
+        {
+          "circuit": {
+            "rounds": 3,
+            "restBetweenExercises": 40,
+            "restBetweenRounds": 60,
+            "items": [
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Crunch",
+                    "Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Crunch",
+                    "description": "Crunch corto: despegar sólo los omóplatos del piso, manos en el pecho.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 15
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Bicycle Crunch",
+                    "Bicycle Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Bicycle Crunch",
+                    "description": "Bicicleta: codo hacia la rodilla contraria alternando lados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 24,
+                "note": "12 por lado"
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Supine Leg Raise",
+                    "Lying Leg Raise",
+                    "Leg Raise"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Supine Leg Raise",
+                    "description": "Elevación de piernas acostado: subir las piernas extendidas sin despegar la zona lumbar.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 10
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Forearm Plank",
+                    "Plank Hold",
+                    "Plank"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Forearm Plank",
+                    "description": "Plancha sobre antebrazos: cuerpo en línea, abdomen y glúteos apretados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "seconds": 30
+              }
+            ]
+          }
+        },
+        {
+          "circuit": {
+            "rounds": 3,
+            "restBetweenExercises": 40,
+            "restBetweenRounds": 60,
+            "items": [
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Crunch",
+                    "Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Crunch",
+                    "description": "Crunch corto: despegar sólo los omóplatos del piso, manos en el pecho.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 15
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Bicycle Crunch",
+                    "Bicycle Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Bicycle Crunch",
+                    "description": "Bicicleta: codo hacia la rodilla contraria alternando lados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 24,
+                "note": "12 por lado"
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Supine Leg Raise",
+                    "Lying Leg Raise",
+                    "Leg Raise"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Supine Leg Raise",
+                    "description": "Elevación de piernas acostado: subir las piernas extendidas sin despegar la zona lumbar.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 10
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Forearm Plank",
+                    "Plank Hold",
+                    "Plank"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Forearm Plank",
+                    "description": "Plancha sobre antebrazos: cuerpo en línea, abdomen y glúteos apretados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "seconds": 30
+              }
+            ]
+          }
+        },
+        {
+          "circuit": {
+            "rounds": 3,
+            "restBetweenExercises": 40,
+            "restBetweenRounds": 60,
+            "items": [
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Crunch",
+                    "Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Crunch",
+                    "description": "Crunch corto: despegar sólo los omóplatos del piso, manos en el pecho.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 15
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Bicycle Crunch",
+                    "Bicycle Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Bicycle Crunch",
+                    "description": "Bicicleta: codo hacia la rodilla contraria alternando lados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 24,
+                "note": "12 por lado"
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Supine Leg Raise",
+                    "Lying Leg Raise",
+                    "Leg Raise"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Supine Leg Raise",
+                    "description": "Elevación de piernas acostado: subir las piernas extendidas sin despegar la zona lumbar.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 10
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Forearm Plank",
+                    "Plank Hold",
+                    "Plank"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Forearm Plank",
+                    "description": "Plancha sobre antebrazos: cuerpo en línea, abdomen y glúteos apretados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "seconds": 30
+              }
+            ]
+          }
+        },
+        {
+          "circuit": {
+            "rounds": 3,
+            "restBetweenExercises": 40,
+            "restBetweenRounds": 60,
+            "items": [
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Crunch",
+                    "Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Crunch",
+                    "description": "Crunch corto: despegar sólo los omóplatos del piso, manos en el pecho.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 15
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Bicycle Crunch",
+                    "Bicycle Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Bicycle Crunch",
+                    "description": "Bicicleta: codo hacia la rodilla contraria alternando lados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 24,
+                "note": "12 por lado"
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Supine Leg Raise",
+                    "Lying Leg Raise",
+                    "Leg Raise"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Supine Leg Raise",
+                    "description": "Elevación de piernas acostado: subir las piernas extendidas sin despegar la zona lumbar.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 10
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Forearm Plank",
+                    "Plank Hold",
+                    "Plank"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Forearm Plank",
+                    "description": "Plancha sobre antebrazos: cuerpo en línea, abdomen y glúteos apretados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "seconds": 30
+              }
+            ]
+          }
+        },
+        {
+          "circuit": {
+            "rounds": 3,
+            "restBetweenExercises": 40,
+            "restBetweenRounds": 60,
+            "items": [
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Crunch",
+                    "Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Crunch",
+                    "description": "Crunch corto: despegar sólo los omóplatos del piso, manos en el pecho.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 15
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Bicycle Crunch",
+                    "Bicycle Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Bicycle Crunch",
+                    "description": "Bicicleta: codo hacia la rodilla contraria alternando lados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 24,
+                "note": "12 por lado"
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Supine Leg Raise",
+                    "Lying Leg Raise",
+                    "Leg Raise"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Supine Leg Raise",
+                    "description": "Elevación de piernas acostado: subir las piernas extendidas sin despegar la zona lumbar.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 10
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Forearm Plank",
+                    "Plank Hold",
+                    "Plank"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Forearm Plank",
+                    "description": "Plancha sobre antebrazos: cuerpo en línea, abdomen y glúteos apretados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "seconds": 30
+              }
+            ]
+          }
+        },
+        {
+          "rest": true,
+          "restNote": "Descanso activo: caminata de 20 minutos"
+        },
+        {
+          "circuit": {
+            "rounds": 3,
+            "restBetweenExercises": 35,
+            "restBetweenRounds": 60,
+            "items": [
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Crunch",
+                    "Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Crunch",
+                    "description": "Crunch corto: despegar sólo los omóplatos del piso, manos en el pecho.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 20
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Bicycle Crunch",
+                    "Bicycle Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Bicycle Crunch",
+                    "description": "Bicicleta: codo hacia la rodilla contraria alternando lados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 30,
+                "note": "15 por lado"
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Supine Leg Raise",
+                    "Lying Leg Raise",
+                    "Leg Raise"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Supine Leg Raise",
+                    "description": "Elevación de piernas acostado: subir las piernas extendidas sin despegar la zona lumbar.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 12
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Forearm Plank",
+                    "Plank Hold",
+                    "Plank"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Forearm Plank",
+                    "description": "Plancha sobre antebrazos: cuerpo en línea, abdomen y glúteos apretados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "seconds": 40
+              }
+            ]
+          }
+        },
+        {
+          "circuit": {
+            "rounds": 3,
+            "restBetweenExercises": 35,
+            "restBetweenRounds": 60,
+            "items": [
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Crunch",
+                    "Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Crunch",
+                    "description": "Crunch corto: despegar sólo los omóplatos del piso, manos en el pecho.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 20
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Bicycle Crunch",
+                    "Bicycle Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Bicycle Crunch",
+                    "description": "Bicicleta: codo hacia la rodilla contraria alternando lados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 30,
+                "note": "15 por lado"
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Supine Leg Raise",
+                    "Lying Leg Raise",
+                    "Leg Raise"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Supine Leg Raise",
+                    "description": "Elevación de piernas acostado: subir las piernas extendidas sin despegar la zona lumbar.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 12
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Forearm Plank",
+                    "Plank Hold",
+                    "Plank"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Forearm Plank",
+                    "description": "Plancha sobre antebrazos: cuerpo en línea, abdomen y glúteos apretados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "seconds": 40
+              }
+            ]
+          }
+        },
+        {
+          "circuit": {
+            "rounds": 3,
+            "restBetweenExercises": 35,
+            "restBetweenRounds": 60,
+            "items": [
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Crunch",
+                    "Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Crunch",
+                    "description": "Crunch corto: despegar sólo los omóplatos del piso, manos en el pecho.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 20
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Bicycle Crunch",
+                    "Bicycle Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Bicycle Crunch",
+                    "description": "Bicicleta: codo hacia la rodilla contraria alternando lados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 30,
+                "note": "15 por lado"
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Supine Leg Raise",
+                    "Lying Leg Raise",
+                    "Leg Raise"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Supine Leg Raise",
+                    "description": "Elevación de piernas acostado: subir las piernas extendidas sin despegar la zona lumbar.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 12
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Forearm Plank",
+                    "Plank Hold",
+                    "Plank"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Forearm Plank",
+                    "description": "Plancha sobre antebrazos: cuerpo en línea, abdomen y glúteos apretados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "seconds": 40
+              }
+            ]
+          }
+        },
+        {
+          "circuit": {
+            "rounds": 3,
+            "restBetweenExercises": 35,
+            "restBetweenRounds": 60,
+            "items": [
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Crunch",
+                    "Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Crunch",
+                    "description": "Crunch corto: despegar sólo los omóplatos del piso, manos en el pecho.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 20
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Bicycle Crunch",
+                    "Bicycle Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Bicycle Crunch",
+                    "description": "Bicicleta: codo hacia la rodilla contraria alternando lados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 30,
+                "note": "15 por lado"
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Supine Leg Raise",
+                    "Lying Leg Raise",
+                    "Leg Raise"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Supine Leg Raise",
+                    "description": "Elevación de piernas acostado: subir las piernas extendidas sin despegar la zona lumbar.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 12
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Forearm Plank",
+                    "Plank Hold",
+                    "Plank"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Forearm Plank",
+                    "description": "Plancha sobre antebrazos: cuerpo en línea, abdomen y glúteos apretados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "seconds": 40
+              }
+            ]
+          }
+        },
+        {
+          "circuit": {
+            "rounds": 3,
+            "restBetweenExercises": 35,
+            "restBetweenRounds": 60,
+            "items": [
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Crunch",
+                    "Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Crunch",
+                    "description": "Crunch corto: despegar sólo los omóplatos del piso, manos en el pecho.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 20
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Bicycle Crunch",
+                    "Bicycle Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Bicycle Crunch",
+                    "description": "Bicicleta: codo hacia la rodilla contraria alternando lados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 30,
+                "note": "15 por lado"
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Supine Leg Raise",
+                    "Lying Leg Raise",
+                    "Leg Raise"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Supine Leg Raise",
+                    "description": "Elevación de piernas acostado: subir las piernas extendidas sin despegar la zona lumbar.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 12
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Forearm Plank",
+                    "Plank Hold",
+                    "Plank"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Forearm Plank",
+                    "description": "Plancha sobre antebrazos: cuerpo en línea, abdomen y glúteos apretados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "seconds": 40
+              }
+            ]
+          }
+        },
+        {
+          "circuit": {
+            "rounds": 3,
+            "restBetweenExercises": 35,
+            "restBetweenRounds": 60,
+            "items": [
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Crunch",
+                    "Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Crunch",
+                    "description": "Crunch corto: despegar sólo los omóplatos del piso, manos en el pecho.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 20
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Bicycle Crunch",
+                    "Bicycle Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Bicycle Crunch",
+                    "description": "Bicicleta: codo hacia la rodilla contraria alternando lados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 30,
+                "note": "15 por lado"
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Supine Leg Raise",
+                    "Lying Leg Raise",
+                    "Leg Raise"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Supine Leg Raise",
+                    "description": "Elevación de piernas acostado: subir las piernas extendidas sin despegar la zona lumbar.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 12
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Forearm Plank",
+                    "Plank Hold",
+                    "Plank"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Forearm Plank",
+                    "description": "Plancha sobre antebrazos: cuerpo en línea, abdomen y glúteos apretados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "seconds": 40
+              }
+            ]
+          }
+        },
+        {
+          "rest": true,
+          "restNote": "Descanso activo: caminata de 20 minutos"
+        },
+        {
+          "circuit": {
+            "rounds": 4,
+            "restBetweenExercises": 30,
+            "restBetweenRounds": 60,
+            "items": [
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Crunch",
+                    "Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Crunch",
+                    "description": "Crunch corto: despegar sólo los omóplatos del piso, manos en el pecho.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 22
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Bicycle Crunch",
+                    "Bicycle Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Bicycle Crunch",
+                    "description": "Bicicleta: codo hacia la rodilla contraria alternando lados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 36,
+                "note": "18 por lado"
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Supine Leg Raise",
+                    "Lying Leg Raise",
+                    "Leg Raise"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Supine Leg Raise",
+                    "description": "Elevación de piernas acostado: subir las piernas extendidas sin despegar la zona lumbar.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 15
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Forearm Plank",
+                    "Plank Hold",
+                    "Plank"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Forearm Plank",
+                    "description": "Plancha sobre antebrazos: cuerpo en línea, abdomen y glúteos apretados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "seconds": 50
+              }
+            ]
+          }
+        },
+        {
+          "circuit": {
+            "rounds": 4,
+            "restBetweenExercises": 30,
+            "restBetweenRounds": 60,
+            "items": [
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Crunch",
+                    "Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Crunch",
+                    "description": "Crunch corto: despegar sólo los omóplatos del piso, manos en el pecho.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 22
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Bicycle Crunch",
+                    "Bicycle Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Bicycle Crunch",
+                    "description": "Bicicleta: codo hacia la rodilla contraria alternando lados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 36,
+                "note": "18 por lado"
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Supine Leg Raise",
+                    "Lying Leg Raise",
+                    "Leg Raise"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Supine Leg Raise",
+                    "description": "Elevación de piernas acostado: subir las piernas extendidas sin despegar la zona lumbar.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 15
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Forearm Plank",
+                    "Plank Hold",
+                    "Plank"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Forearm Plank",
+                    "description": "Plancha sobre antebrazos: cuerpo en línea, abdomen y glúteos apretados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "seconds": 50
+              }
+            ]
+          }
+        },
+        {
+          "circuit": {
+            "rounds": 4,
+            "restBetweenExercises": 30,
+            "restBetweenRounds": 60,
+            "items": [
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Crunch",
+                    "Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Crunch",
+                    "description": "Crunch corto: despegar sólo los omóplatos del piso, manos en el pecho.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 22
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Bicycle Crunch",
+                    "Bicycle Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Bicycle Crunch",
+                    "description": "Bicicleta: codo hacia la rodilla contraria alternando lados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 36,
+                "note": "18 por lado"
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Supine Leg Raise",
+                    "Lying Leg Raise",
+                    "Leg Raise"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Supine Leg Raise",
+                    "description": "Elevación de piernas acostado: subir las piernas extendidas sin despegar la zona lumbar.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 15
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Forearm Plank",
+                    "Plank Hold",
+                    "Plank"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Forearm Plank",
+                    "description": "Plancha sobre antebrazos: cuerpo en línea, abdomen y glúteos apretados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "seconds": 50
+              }
+            ]
+          }
+        },
+        {
+          "circuit": {
+            "rounds": 4,
+            "restBetweenExercises": 30,
+            "restBetweenRounds": 60,
+            "items": [
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Crunch",
+                    "Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Crunch",
+                    "description": "Crunch corto: despegar sólo los omóplatos del piso, manos en el pecho.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 22
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Bicycle Crunch",
+                    "Bicycle Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Bicycle Crunch",
+                    "description": "Bicicleta: codo hacia la rodilla contraria alternando lados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 36,
+                "note": "18 por lado"
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Supine Leg Raise",
+                    "Lying Leg Raise",
+                    "Leg Raise"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Supine Leg Raise",
+                    "description": "Elevación de piernas acostado: subir las piernas extendidas sin despegar la zona lumbar.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 15
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Forearm Plank",
+                    "Plank Hold",
+                    "Plank"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Forearm Plank",
+                    "description": "Plancha sobre antebrazos: cuerpo en línea, abdomen y glúteos apretados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "seconds": 50
+              }
+            ]
+          }
+        },
+        {
+          "circuit": {
+            "rounds": 4,
+            "restBetweenExercises": 30,
+            "restBetweenRounds": 60,
+            "items": [
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Crunch",
+                    "Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Crunch",
+                    "description": "Crunch corto: despegar sólo los omóplatos del piso, manos en el pecho.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 22
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Bicycle Crunch",
+                    "Bicycle Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Bicycle Crunch",
+                    "description": "Bicicleta: codo hacia la rodilla contraria alternando lados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 36,
+                "note": "18 por lado"
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Supine Leg Raise",
+                    "Lying Leg Raise",
+                    "Leg Raise"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Supine Leg Raise",
+                    "description": "Elevación de piernas acostado: subir las piernas extendidas sin despegar la zona lumbar.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 15
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Forearm Plank",
+                    "Plank Hold",
+                    "Plank"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Forearm Plank",
+                    "description": "Plancha sobre antebrazos: cuerpo en línea, abdomen y glúteos apretados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "seconds": 50
+              }
+            ]
+          }
+        },
+        {
+          "circuit": {
+            "rounds": 4,
+            "restBetweenExercises": 30,
+            "restBetweenRounds": 60,
+            "items": [
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Crunch",
+                    "Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Crunch",
+                    "description": "Crunch corto: despegar sólo los omóplatos del piso, manos en el pecho.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 22
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Bicycle Crunch",
+                    "Bicycle Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Bicycle Crunch",
+                    "description": "Bicicleta: codo hacia la rodilla contraria alternando lados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 36,
+                "note": "18 por lado"
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Supine Leg Raise",
+                    "Lying Leg Raise",
+                    "Leg Raise"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Supine Leg Raise",
+                    "description": "Elevación de piernas acostado: subir las piernas extendidas sin despegar la zona lumbar.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 15
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Forearm Plank",
+                    "Plank Hold",
+                    "Plank"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Forearm Plank",
+                    "description": "Plancha sobre antebrazos: cuerpo en línea, abdomen y glúteos apretados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "seconds": 50
+              }
+            ]
+          }
+        },
+        {
+          "rest": true,
+          "restNote": "Descanso activo: caminata de 20 minutos"
+        },
+        {
+          "circuit": {
+            "rounds": 4,
+            "restBetweenExercises": 30,
+            "restBetweenRounds": 60,
+            "items": [
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Crunch",
+                    "Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Crunch",
+                    "description": "Crunch corto: despegar sólo los omóplatos del piso, manos en el pecho.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 22
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Bicycle Crunch",
+                    "Bicycle Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Bicycle Crunch",
+                    "description": "Bicicleta: codo hacia la rodilla contraria alternando lados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 36,
+                "note": "18 por lado"
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Supine Leg Raise",
+                    "Lying Leg Raise",
+                    "Leg Raise"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Supine Leg Raise",
+                    "description": "Elevación de piernas acostado: subir las piernas extendidas sin despegar la zona lumbar.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 15
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Forearm Plank",
+                    "Plank Hold",
+                    "Plank"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Forearm Plank",
+                    "description": "Plancha sobre antebrazos: cuerpo en línea, abdomen y glúteos apretados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "seconds": 50
+              }
+            ]
+          }
+        },
+        {
+          "circuit": {
+            "rounds": 5,
+            "restBetweenExercises": 30,
+            "restBetweenRounds": 60,
+            "items": [
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Crunch",
+                    "Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Crunch",
+                    "description": "Crunch corto: despegar sólo los omóplatos del piso, manos en el pecho.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 25
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Bicycle Crunch",
+                    "Bicycle Crunch"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Bicycle Crunch",
+                    "description": "Bicicleta: codo hacia la rodilla contraria alternando lados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 40,
+                "note": "20 por lado"
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Supine Leg Raise",
+                    "Lying Leg Raise",
+                    "Leg Raise"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Supine Leg Raise",
+                    "description": "Elevación de piernas acostado: subir las piernas extendidas sin despegar la zona lumbar.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "reps": 18
+              },
+              {
+                "exercise": {
+                  "names": [
+                    "Bodyweight Forearm Plank",
+                    "Plank Hold",
+                    "Plank"
+                  ],
+                  "create": {
+                    "name": "Bodyweight Forearm Plank",
+                    "description": "Plancha sobre antebrazos: cuerpo en línea, abdomen y glúteos apretados.",
+                    "primaryMuscle": "Core/Abdominales"
+                  }
+                },
+                "seconds": 60
+              }
+            ]
+          }
+        }
+      ],
+      "notes": "Entre vuelta y vuelta, 60s de descanso. Los días 7, 14, 21 y 28 son de descanso activo."
+    }
+  ]
 }
