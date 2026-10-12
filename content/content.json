@@ -1,8 +1,8 @@
 {
   "app": "CrossFit Session Tracker",
   "format": 1,
-  "contentVersion": 2,
-  "publishedAt": "2026-10-10 17:02:44",
+  "contentVersion": 3,
+  "publishedAt": "2026-10-12 14:39:35",
   "catalogs": {
     "muscle_group": [
       {
@@ -3341,11 +3341,11 @@
     },
     {
       "key": "04c7ce96-fe1f-497d-9350-8f6b2726012d",
-      "hash": "01ae1294e961d0",
+      "hash": "04d71613e917a3",
       "row": {
         "name": "Barbell Back Squat",
         "description": "Sentadilla con barra sobre la espalda alta o baja. Movimiento fundamental de fuerza de piernas.",
-        "technical_notes": null,
+        "technical_notes": "Pecho arriba y espalda neutra, rodillas siguiendo la línea de los pies. Bajar al menos hasta paralelo y subir empujando el piso con todo el pie.\nTambién lo nombran: Back Squat.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "0f5aa458-f9df-45b1-98ab-219ca9ce9b44",
         "video_path": "https://www.youtube.com/shorts/ZaSetOZFo-k",
@@ -3711,6 +3711,101 @@
       "image": {
         "path": "/img/exercises/barbell-clean-and-jerk.svg",
         "dataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMjAgMjMwIj4NCiAgPHN0eWxlPg0KICAgIC5mMXthbmltYXRpb246c2gxIDRzIGxpbmVhciBpbmZpbml0ZX0uZjJ7YW5pbWF0aW9uOnNoMiA0cyBsaW5lYXIgaW5maW5pdGV9LmYze2FuaW1hdGlvbjpzaDMgNHMgbGluZWFyIGluZmluaXRlfQ0KICAgIEBrZXlmcmFtZXMgc2gxezAlLDI3JXtvcGFjaXR5OjF9MzMlLDkwJXtvcGFjaXR5OjB9MTAwJXtvcGFjaXR5OjF9fQ0KICAgIEBrZXlmcmFtZXMgc2gyezAlLDMzJXtvcGFjaXR5OjB9NDAlLDYwJXtvcGFjaXR5OjF9NjYlLDEwMCV7b3BhY2l0eTowfX0NCiAgICBAa2V5ZnJhbWVzIHNoM3swJSw2NiV7b3BhY2l0eTowfTcyJSw5MyV7b3BhY2l0eToxfTEwMCV7b3BhY2l0eTowfX0NCiAgPC9zdHlsZT4NCiAgPHJlY3Qgd2lkdGg9IjIyMCIgaGVpZ2h0PSIyMzAiIGZpbGw9IiMxMTE4MjciIHJ4PSIxMiIvPg0KICA8bGluZSB4MT0iMjAiIHkxPSIyMTAiIHgyPSIyMDAiIHkyPSIyMTAiIHN0cm9rZT0iIzM3NDE1MSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4NCiAgPHRleHQgeD0iMTEwIiB5PSIyMjUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJ1aS1zYW5zLXNlcmlmLHN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjkiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiM0NzU1NjkiIGxldHRlci1zcGFjaW5nPSIyIj5DTEVBTiBBTkQgSkVSSzwvdGV4dD4NCiAgPCEtLSBGcmFtZSAxOiBDbGVhbiAtIGZyb250IHJhY2sgY2F0Y2gsIHBhcnRpYWwgc3F1YXQgLS0+DQogIDxnIGNsYXNzPSJmMSI+DQogICAgPGxpbmUgeDE9IjQyIiB5MT0iMTA4IiB4Mj0iMTc4IiB5Mj0iMTA4IiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+DQogICAgPHJlY3QgeD0iMzYiIHk9IjEwMCIgd2lkdGg9IjgiIGhlaWdodD0iMTYiIHJ4PSIyIiBmaWxsPSIjNDc1NTY5Ii8+DQogICAgPHJlY3QgeD0iMTc2IiB5PSIxMDAiIHdpZHRoPSI4IiBoZWlnaHQ9IjE2IiByeD0iMiIgZmlsbD0iIzQ3NTU2OSIvPg0KICAgIDxjaXJjbGUgY3g9IjExMCIgY3k9IjUyIiByPSIxMiIgZmlsbD0iIzk0YTNiOCIvPg0KICAgIDxnIHN0cm9rZT0iIzk0YTNiOCIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiPg0KICAgICAgPGxpbmUgeDE9IjExMCIgeTE9IjY0IiB4Mj0iMTEwIiB5Mj0iMTE4Ii8+DQogICAgICA8IS0tIEZyb250IHJhY2sgLS0+DQogICAgICA8bGluZSB4MT0iOTAiIHkxPSI3NiIgeDI9IjEzMCIgeTI9Ijc2Ii8+DQogICAgICA8bGluZSB4MT0iOTAiIHkxPSI3NiIgeDI9Ijc2IiB5Mj0iMTA4Ii8+DQogICAgICA8bGluZSB4MT0iMTMwIiB5MT0iNzYiIHgyPSIxNDQiIHkyPSIxMDgiLz4NCiAgICAgIDwhLS0gU2xpZ2h0IHNxdWF0IGNhdGNoIC0tPg0KICAgICAgPGxpbmUgeDE9IjEwNCIgeTE9IjExOCIgeDI9Ijk2IiB5Mj0iMTU4Ii8+PGxpbmUgeDE9Ijk2IiB5MT0iMTU4IiB4Mj0iODgiIHkyPSIyMTAiLz4NCiAgICAgIDxsaW5lIHgxPSIxMTYiIHkxPSIxMTgiIHgyPSIxMjQiIHkyPSIxNTgiLz48bGluZSB4MT0iMTI0IiB5MT0iMTU4IiB4Mj0iMTMyIiB5Mj0iMjEwIi8+DQogICAgPC9nPg0KICAgIDxjaXJjbGUgY3g9Ijk2IiBjeT0iMTU4IiByPSI1IiBmaWxsPSIjNjQ3NDhiIi8+DQogICAgPGNpcmNsZSBjeD0iMTI0IiBjeT0iMTU4IiByPSI1IiBmaWxsPSIjNjQ3NDhiIi8+DQogIDwvZz4NCiAgPCEtLSBGcmFtZSAyOiBEaXAgZm9yIGplcmsgLS0+DQogIDxnIGNsYXNzPSJmMiI+DQogICAgPGxpbmUgeDE9IjQyIiB5MT0iMTA0IiB4Mj0iMTc4IiB5Mj0iMTA0IiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+DQogICAgPHJlY3QgeD0iMzYiIHk9Ijk2IiB3aWR0aD0iOCIgaGVpZ2h0PSIxNiIgcng9IjIiIGZpbGw9IiM0NzU1NjkiLz4NCiAgICA8cmVjdCB4PSIxNzYiIHk9Ijk2IiB3aWR0aD0iOCIgaGVpZ2h0PSIxNiIgcng9IjIiIGZpbGw9IiM0NzU1NjkiLz4NCiAgICA8Y2lyY2xlIGN4PSIxMTAiIGN5PSI1NiIgcj0iMTIiIGZpbGw9IiM5NGEzYjgiLz4NCiAgICA8ZyBzdHJva2U9IiM5NGEzYjgiIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIj4NCiAgICAgIDxsaW5lIHgxPSIxMTAiIHkxPSI2OCIgeDI9IjExMCIgeTI9IjExOCIvPg0KICAgICAgPGxpbmUgeDE9IjkwIiB5MT0iODAiIHgyPSIxMzAiIHkyPSI4MCIvPg0KICAgICAgPGxpbmUgeDE9IjkwIiB5MT0iODAiIHgyPSI3NiIgeTI9IjEwNCIvPg0KICAgICAgPGxpbmUgeDE9IjEzMCIgeTE9IjgwIiB4Mj0iMTQ0IiB5Mj0iMTA0Ii8+DQogICAgICA8IS0tIFNsaWdodCBkaXAsIGtuZWVzIGJlbnQgLS0+DQogICAgICA8bGluZSB4MT0iMTA0IiB5MT0iMTE4IiB4Mj0iOTgiIHkyPSIxNjAiLz48bGluZSB4MT0iOTgiIHkxPSIxNjAiIHgyPSI5MCIgeTI9IjIxMCIvPg0KICAgICAgPGxpbmUgeDE9IjExNiIgeTE9IjExOCIgeDI9IjEyMiIgeTI9IjE2MCIvPjxsaW5lIHgxPSIxMjIiIHkxPSIxNjAiIHgyPSIxMzAiIHkyPSIyMTAiLz4NCiAgICA8L2c+DQogICAgPGNpcmNsZSBjeD0iOTgiIGN5PSIxNjAiIHI9IjUiIGZpbGw9IiM2NDc0OGIiLz4NCiAgICA8Y2lyY2xlIGN4PSIxMjIiIGN5PSIxNjAiIHI9IjUiIGZpbGw9IiM2NDc0OGIiLz4NCiAgPC9nPg0KICA8IS0tIEZyYW1lIDM6IFNwbGl0IGplcmsgLSBiYXIgb3ZlcmhlYWQsIHNwbGl0IHN0YW5jZSAtLT4NCiAgPGcgY2xhc3M9ImYzIj4NCiAgICA8bGluZSB4MT0iNDIiIHkxPSI0MCIgeDI9IjE3OCIgeTI9IjQwIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+DQogICAgPHJlY3QgeD0iMzYiIHk9IjMyIiB3aWR0aD0iOCIgaGVpZ2h0PSIxNiIgcng9IjIiIGZpbGw9IiM0NzU1NjkiLz4NCiAgICA8cmVjdCB4PSIxNzYiIHk9IjMyIiB3aWR0aD0iOCIgaGVpZ2h0PSIxNiIgcng9IjIiIGZpbGw9IiM0NzU1NjkiLz4NCiAgICA8Y2lyY2xlIGN4PSIxMTAiIGN5PSI3MCIgcj0iMTIiIGZpbGw9IiM5NGEzYjgiLz4NCiAgICA8ZyBzdHJva2U9IiM5NGEzYjgiIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIj4NCiAgICAgIDxsaW5lIHgxPSIxMTAiIHkxPSI4MiIgeDI9IjExMCIgeTI9IjEzNCIvPg0KICAgICAgPCEtLSBBcm1zIGxvY2tlZCBvdXQgb3ZlcmhlYWQgLS0+DQogICAgICA8bGluZSB4MT0iOTAiIHkxPSI5NCIgeDI9IjEzMCIgeTI9Ijk0Ii8+DQogICAgICA8bGluZSB4MT0iOTAiIHkxPSI5NCIgeDI9IjcyIiB5Mj0iNDAiLz4NCiAgICAgIDxsaW5lIHgxPSIxMzAiIHkxPSI5NCIgeDI9IjE0OCIgeTI9IjQwIi8+DQogICAgICA8IS0tIFNwbGl0IGx1bmdlIC0tPg0KICAgICAgPGxpbmUgeDE9IjEwNCIgeTE9IjEzNCIgeDI9IjgyIiB5Mj0iMTYwIi8+PGxpbmUgeDE9IjgyIiB5MT0iMTYwIiB4Mj0iNjgiIHkyPSIyMTAiLz4NCiAgICAgIDxsaW5lIHgxPSIxMTYiIHkxPSIxMzQiIHgyPSIxMzgiIHkyPSIxNjAiLz48bGluZSB4MT0iMTM4IiB5MT0iMTYwIiB4Mj0iMTQ4IiB5Mj0iMTkwIi8+DQogICAgPC9nPg0KICAgIDxjaXJjbGUgY3g9IjgyIiBjeT0iMTYwIiByPSI1IiBmaWxsPSIjNjQ3NDhiIi8+DQogICAgPGNpcmNsZSBjeD0iMTM4IiBjeT0iMTYwIiByPSI1IiBmaWxsPSIjNjQ3NDhiIi8+DQogIDwvZz4NCjwvc3ZnPg0K"
+      }
+    },
+    {
+      "key": "3d15b28d-d64b-4c8a-8cf5-c02ecab53b9e",
+      "hash": "1b8d3788e35265",
+      "row": {
+        "name": "Barbell Cluster",
+        "description": "Squat clean desde el piso encadenado con un thruster: se recibe la barra en sentadilla frontal profunda y, sin pausa, la subida de la sentadilla impulsa la barra sobre la cabeza. Cada repetición vuelve al piso.",
+        "technical_notes": "No frenar en el rack: la salida del hoyo es la que empuja el press. Codos altos en la recepción y bloqueo completo con la barra sobre la línea media del pie. Distinto de Barbell Hang Power Cluster (desde hang, recibiendo en power).\nTambién lo nombran: Cluster / Squat Clean Thruster.",
+        "difficulty_level_id": "f43a08cf-b32f-47a0-9300-d75d7f9605d6",
+        "primary_muscle_group_id": "cbe3b11a-330b-4325-bee9-fe3f1c1bd068",
+        "video_path": "https://www.youtube.com/watch?v=XmoilY-pc-k",
+        "is_compound": 1,
+        "is_active": 1,
+        "video_long_path": "https://www.youtube.com/watch?v=plCzO45g9nc",
+        "image_url": "/img/exercises/barbell-cluster.svg",
+        "met_value": 7
+      },
+      "relations": {
+        "muscle_groups": [
+          {
+            "muscle_group_id": "00cd7dee-e996-426e-b53e-e67b037d4907",
+            "is_primary": 0
+          },
+          {
+            "muscle_group_id": "0f5aa458-f9df-45b1-98ab-219ca9ce9b44",
+            "is_primary": 0
+          },
+          {
+            "muscle_group_id": "4022be26-1f8e-45a1-8748-a0967b7c6ed5",
+            "is_primary": 0
+          },
+          {
+            "muscle_group_id": "9ebc9099-6c5f-4841-8c79-0e63d89e5d14",
+            "is_primary": 0
+          },
+          {
+            "muscle_group_id": "ace576f8-aafa-46b7-a50f-7c1b3f3cf625",
+            "is_primary": 0
+          },
+          {
+            "muscle_group_id": "cbe3b11a-330b-4325-bee9-fe3f1c1bd068",
+            "is_primary": 1
+          },
+          {
+            "muscle_group_id": "d56158d8-ea6e-438f-afd4-c7d467f6f926",
+            "is_primary": 0
+          },
+          {
+            "muscle_group_id": "e5b26337-11de-46bf-be82-623e389374f1",
+            "is_primary": 0
+          }
+        ],
+        "equipment": [
+          {
+            "equipment_id": "966184d9-df33-4acf-b1de-77fc6e0e2e6a",
+            "is_required": 1
+          }
+        ],
+        "section_types": [
+          {
+            "section_type_id": "4e1bf46f-3437-44de-917a-d114fbcea2af"
+          },
+          {
+            "section_type_id": "b6cd3277-2183-4c8e-94ae-949c7b0f1a21"
+          }
+        ],
+        "units": [
+          {
+            "measurement_unit_id": "30943e5f-5751-47e0-971f-00ae11a56ee4",
+            "is_default": 1
+          },
+          {
+            "measurement_unit_id": "553af60b-61fd-474e-b29b-fd7bb7c210a1",
+            "is_default": 0
+          }
+        ],
+        "tags": [
+          {
+            "tag_id": "63506647-9ab8-49a0-9544-8426af2c23c9"
+          },
+          {
+            "tag_id": "74a09d46-0aa8-4eba-b61a-fa2f5e5ff9cf"
+          },
+          {
+            "tag_id": "d0c05f41-b1a6-4c6b-80ef-2945bc460340"
+          },
+          {
+            "tag_id": "d1454d24-c6a8-4e5b-b591-2add3eb718dc"
+          }
+        ]
+      },
+      "image": {
+        "path": "/img/exercises/barbell-cluster.svg",
+        "dataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMjAgMjMwIj4KICA8c3R5bGU+CiAgICAuZjF7YW5pbWF0aW9uOnNoMSA5LjFzIGxpbmVhciBpbmZpbml0ZX0uZjJ7YW5pbWF0aW9uOnNoMiA5LjFzIGxpbmVhciBpbmZpbml0ZX0uZjN7YW5pbWF0aW9uOnNoMyA5LjFzIGxpbmVhciBpbmZpbml0ZX0uZjR7YW5pbWF0aW9uOnNoNCA5LjFzIGxpbmVhciBpbmZpbml0ZX0uZjV7YW5pbWF0aW9uOnNoNSA5LjFzIGxpbmVhciBpbmZpbml0ZX0uZjZ7YW5pbWF0aW9uOnNoNiA5LjFzIGxpbmVhciBpbmZpbml0ZX0uZjd7YW5pbWF0aW9uOnNoNyA5LjFzIGxpbmVhciBpbmZpbml0ZX0KICAgIEBrZXlmcmFtZXMgc2gxezAlLDExLjQle29wYWNpdHk6MX0xNC4zJSw5Ny4xJXtvcGFjaXR5OjB9MTAwJXtvcGFjaXR5OjF9fQogICAgQGtleWZyYW1lcyBzaDJ7MCUsMTQuMyV7b3BhY2l0eTowfTE3LjElLDI1Ljcle29wYWNpdHk6MX0yOC42JSwxMDAle29wYWNpdHk6MH19CiAgICBAa2V5ZnJhbWVzIHNoM3swJSwyOC42JXtvcGFjaXR5OjB9MzEuNCUsNDAle29wYWNpdHk6MX00Mi45JSwxMDAle29wYWNpdHk6MH19CiAgICBAa2V5ZnJhbWVzIHNoNHswJSw0Mi45JXtvcGFjaXR5OjB9NDUuNyUsNTQuMyV7b3BhY2l0eToxfTU3LjElLDEwMCV7b3BhY2l0eTowfX0KICAgIEBrZXlmcmFtZXMgc2g1ezAlLDU3LjEle29wYWNpdHk6MH02MCUsNjguNiV7b3BhY2l0eToxfTcxLjQlLDEwMCV7b3BhY2l0eTowfX0KICAgIEBrZXlmcmFtZXMgc2g2ezAlLDcxLjQle29wYWNpdHk6MH03NC4zJSw4Mi45JXtvcGFjaXR5OjF9ODUuNyUsMTAwJXtvcGFjaXR5OjB9fQogICAgQGtleWZyYW1lcyBzaDd7MCUsODUuNyV7b3BhY2l0eTowfTg4LjYlLDk3LjEle29wYWNpdHk6MX0xMDAlLDEwMCV7b3BhY2l0eTowfX0KICA8L3N0eWxlPgogIDxyZWN0IHdpZHRoPSIyMjAiIGhlaWdodD0iMjMwIiBmaWxsPSIjMTExODI3IiByeD0iMTIiLz4KICA8bGluZSB4MT0iMjAiIHkxPSIyMTAiIHgyPSIyMDAiIHkyPSIyMTAiIHN0cm9rZT0iIzM3NDE1MSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8dGV4dCB4PSIxMTAiIHk9IjIyNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InVpLXNhbnMtc2VyaWYsc3lzdGVtLXVpLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iOSIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzQ3NTU2OSIgbGV0dGVyLXNwYWNpbmc9IjIiPkNMVVNURVI8L3RleHQ+CiAgPCEtLSBGcmFtZSAxOiBzZXR1cCwgYmFycmEgZW4gZWwgcGlzbyAtLT4KICA8ZyBjbGFzcz0iZjEiPgogICAgPGNpcmNsZSBjeD0iMTEwIiBjeT0iNzQiIHI9IjEyIiBmaWxsPSIjOTRhM2I4Ii8+CiAgICA8ZyBzdHJva2U9IiM5NGEzYjgiIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIj4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iMTEwLDg2IDExMCwxNDAiLz4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iOTAsOTggMTMwLDk4Ii8+CiAgICAgIDxwb2x5bGluZSBwb2ludHM9IjkwLDk4IDc2LDE4NSIvPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSIxMzAsOTggMTQ0LDE4NSIvPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSIxMDQsMTQwIDk4LDE3NiA4OCwyMTAiLz4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iMTE2LDE0MCAxMjIsMTc2IDEzMiwyMTAiLz4KICAgIDwvZz4KICAgIDxjaXJjbGUgY3g9Ijk4IiBjeT0iMTc2IiByPSI1IiBmaWxsPSIjNjQ3NDhiIi8+CiAgICA8Y2lyY2xlIGN4PSIxMjIiIGN5PSIxNzYiIHI9IjUiIGZpbGw9IiM2NDc0OGIiLz4KICAgIDxsaW5lIHgxPSI0NCIgeTE9IjE4NSIgeDI9IjE3NiIgeTI9IjE4NSIgc3Ryb2tlPSIjNDc1NTY5IiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogICAgPHJlY3QgeD0iMzYiIHk9IjE3NyIgd2lkdGg9IjgiIGhlaWdodD0iMTYiIHJ4PSIyIiBmaWxsPSIjNDc1NTY5Ii8+PHJlY3QgeD0iMTc2IiB5PSIxNzciIHdpZHRoPSI4IiBoZWlnaHQ9IjE2IiByeD0iMiIgZmlsbD0iIzQ3NTU2OSIvPgogIDwvZz4KICA8IS0tIEZyYW1lIDI6IHByaW1lcmEgdHJhY2Npw7NuLCBiYXJyYSBhIGxhcyByb2RpbGxhcyAtLT4KICA8ZyBjbGFzcz0iZjIiPgogICAgPGNpcmNsZSBjeD0iMTEwIiBjeT0iNjQiIHI9IjEyIiBmaWxsPSIjOTRhM2I4Ii8+CiAgICA8ZyBzdHJva2U9IiM5NGEzYjgiIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIj4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iMTEwLDc2IDExMCwxMzAiLz4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iOTAsODggMTMwLDg4Ii8+CiAgICAgIDxwb2x5bGluZSBwb2ludHM9IjkwLDg4IDc2LDE1MiIvPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSIxMzAsODggMTQ0LDE1MiIvPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSIxMDQsMTMwIDEwMCwxNzAgODgsMjEwIi8+CiAgICAgIDxwb2x5bGluZSBwb2ludHM9IjExNiwxMzAgMTIwLDE3MCAxMzIsMjEwIi8+CiAgICA8L2c+CiAgICA8Y2lyY2xlIGN4PSIxMDAiIGN5PSIxNzAiIHI9IjUiIGZpbGw9IiM2NDc0OGIiLz4KICAgIDxjaXJjbGUgY3g9IjEyMCIgY3k9IjE3MCIgcj0iNSIgZmlsbD0iIzY0NzQ4YiIvPgogICAgPGxpbmUgeDE9IjQ0IiB5MT0iMTUyIiB4Mj0iMTc2IiB5Mj0iMTUyIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgICA8cmVjdCB4PSIzNiIgeT0iMTQ0IiB3aWR0aD0iOCIgaGVpZ2h0PSIxNiIgcng9IjIiIGZpbGw9IiM0NzU1NjkiLz48cmVjdCB4PSIxNzYiIHk9IjE0NCIgd2lkdGg9IjgiIGhlaWdodD0iMTYiIHJ4PSIyIiBmaWxsPSIjNDc1NTY5Ii8+CiAgPC9nPgogIDwhLS0gRnJhbWUgMzogdHJpcGxlIGV4dGVuc2nDs24sIGVuIHB1bnRhcyBkZSBwaWUgLS0+CiAgPGcgY2xhc3M9ImYzIj4KICAgIDxjaXJjbGUgY3g9IjExMCIgY3k9IjM0IiByPSIxMiIgZmlsbD0iIzk0YTNiOCIvPgogICAgPGcgc3Ryb2tlPSIjOTRhM2I4IiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSI+CiAgICAgIDxwb2x5bGluZSBwb2ludHM9IjExMCw0NiAxMTAsMTEyIi8+CiAgICAgIDxwb2x5bGluZSBwb2ludHM9IjkwLDU4IDEzMCw1OCIvPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSI5MCw1OCA4MCwxMTgiLz4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iMTMwLDU4IDE0MCwxMTgiLz4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iMTA0LDExMiAxMDIsMTYwIDk2LDIwNSIvPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSIxMTYsMTEyIDExOCwxNjAgMTI0LDIwNSIvPgogICAgPC9nPgogICAgPGNpcmNsZSBjeD0iMTAyIiBjeT0iMTYwIiByPSI1IiBmaWxsPSIjNjQ3NDhiIi8+CiAgICA8Y2lyY2xlIGN4PSIxMTgiIGN5PSIxNjAiIHI9IjUiIGZpbGw9IiM2NDc0OGIiLz4KICAgIDxsaW5lIHgxPSI0NCIgeTE9IjExOCIgeDI9IjE3NiIgeTI9IjExOCIgc3Ryb2tlPSIjNDc1NTY5IiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogICAgPHJlY3QgeD0iMzYiIHk9IjExMCIgd2lkdGg9IjgiIGhlaWdodD0iMTYiIHJ4PSIyIiBmaWxsPSIjNDc1NTY5Ii8+PHJlY3QgeD0iMTc2IiB5PSIxMTAiIHdpZHRoPSI4IiBoZWlnaHQ9IjE2IiByeD0iMiIgZmlsbD0iIzQ3NTU2OSIvPgogIDwvZz4KICA8IS0tIEZyYW1lIDQ6IHJlY2VwY2nDs24gZW4gc2VudGFkaWxsYSBwcm9mdW5kYSwgcmFjayBmcm9udGFsIC0tPgogIDxnIGNsYXNzPSJmNCI+CiAgICA8bGluZSB4MT0iNDQiIHkxPSIxMTYiIHgyPSIxNzYiIHkyPSIxMTYiIHN0cm9rZT0iIzQ3NTU2OSIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICAgIDxyZWN0IHg9IjM2IiB5PSIxMDgiIHdpZHRoPSI4IiBoZWlnaHQ9IjE2IiByeD0iMiIgZmlsbD0iIzQ3NTU2OSIvPjxyZWN0IHg9IjE3NiIgeT0iMTA4IiB3aWR0aD0iOCIgaGVpZ2h0PSIxNiIgcng9IjIiIGZpbGw9IiM0NzU1NjkiLz4KICAgIDxjaXJjbGUgY3g9IjExMCIgY3k9Ijk2IiByPSIxMiIgZmlsbD0iIzk0YTNiOCIvPgogICAgPGcgc3Ryb2tlPSIjOTRhM2I4IiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSI+CiAgICAgIDxwb2x5bGluZSBwb2ludHM9IjExMCwxMDggMTEwLDE2OCIvPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSI5MCwxMjAgMTMwLDEyMCIvPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSI5MCwxMjAgODAsMTM0IDkyLDExNiIvPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSIxMzAsMTIwIDE0MCwxMzQgMTI4LDExNiIvPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSIxMDQsMTY4IDc2LDE3MCA4NiwyMTAiLz4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iMTE2LDE2OCAxNDQsMTcwIDEzNCwyMTAiLz4KICAgIDwvZz4KICAgIDxjaXJjbGUgY3g9Ijc2IiBjeT0iMTcwIiByPSI1IiBmaWxsPSIjNjQ3NDhiIi8+CiAgICA8Y2lyY2xlIGN4PSIxNDQiIGN5PSIxNzAiIHI9IjUiIGZpbGw9IiM2NDc0OGIiLz4KICA8L2c+CiAgPCEtLSBGcmFtZSA1OiBzdWJpZW5kbyBjb24gaW1wdWxzbyBkZSBwaWVybmFzIC0tPgogIDxnIGNsYXNzPSJmNSI+CiAgICA8bGluZSB4MT0iNDQiIHkxPSI4NiIgeDI9IjE3NiIgeTI9Ijg2IiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgICA8cmVjdCB4PSIzNiIgeT0iNzgiIHdpZHRoPSI4IiBoZWlnaHQ9IjE2IiByeD0iMiIgZmlsbD0iIzQ3NTU2OSIvPjxyZWN0IHg9IjE3NiIgeT0iNzgiIHdpZHRoPSI4IiBoZWlnaHQ9IjE2IiByeD0iMiIgZmlsbD0iIzQ3NTU2OSIvPgogICAgPGNpcmNsZSBjeD0iMTEwIiBjeT0iNjYiIHI9IjEyIiBmaWxsPSIjOTRhM2I4Ii8+CiAgICA8ZyBzdHJva2U9IiM5NGEzYjgiIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIj4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iMTEwLDc4IDExMCwxNDAiLz4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iOTAsOTAgMTMwLDkwIi8+CiAgICAgIDxwb2x5bGluZSBwb2ludHM9IjkwLDkwIDgwLDEwNCA5Miw4NiIvPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSIxMzAsOTAgMTQwLDEwNCAxMjgsODYiLz4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iMTA0LDE0MCA4NiwxNzYgODgsMjEwIi8+CiAgICAgIDxwb2x5bGluZSBwb2ludHM9IjExNiwxNDAgMTM0LDE3NiAxMzIsMjEwIi8+CiAgICA8L2c+CiAgICA8Y2lyY2xlIGN4PSI4NiIgY3k9IjE3NiIgcj0iNSIgZmlsbD0iIzY0NzQ4YiIvPgogICAgPGNpcmNsZSBjeD0iMTM0IiBjeT0iMTc2IiByPSI1IiBmaWxsPSIjNjQ3NDhiIi8+CiAgPC9nPgogIDwhLS0gRnJhbWUgNjogYmxvcXVlbyBvdmVyaGVhZCAodGhydXN0ZXIpIC0tPgogIDxnIGNsYXNzPSJmNiI+CiAgICA8Y2lyY2xlIGN4PSIxMTAiIGN5PSIzMiIgcj0iMTIiIGZpbGw9IiM5NGEzYjgiLz4KICAgIDxnIHN0cm9rZT0iIzk0YTNiOCIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSIxMTAsNDQgMTEwLDExMCIvPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSI5MCw1NiAxMzAsNTYiLz4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iOTAsNTYgODQsMzQgODYsMTQiLz4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iMTMwLDU2IDEzNiwzNCAxMzQsMTQiLz4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iMTA0LDExMCAxMDIsMTU4IDk0LDIxMCIvPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSIxMTYsMTEwIDExOCwxNTggMTI2LDIxMCIvPgogICAgPC9nPgogICAgPGNpcmNsZSBjeD0iMTAyIiBjeT0iMTU4IiByPSI1IiBmaWxsPSIjNjQ3NDhiIi8+CiAgICA8Y2lyY2xlIGN4PSIxMTgiIGN5PSIxNTgiIHI9IjUiIGZpbGw9IiM2NDc0OGIiLz4KICAgIDxsaW5lIHgxPSI0NCIgeTE9IjE0IiB4Mj0iMTc2IiB5Mj0iMTQiIHN0cm9rZT0iIzQ3NTU2OSIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICAgIDxyZWN0IHg9IjM2IiB5PSI2IiB3aWR0aD0iOCIgaGVpZ2h0PSIxNiIgcng9IjIiIGZpbGw9IiM0NzU1NjkiLz48cmVjdCB4PSIxNzYiIHk9IjYiIHdpZHRoPSI4IiBoZWlnaHQ9IjE2IiByeD0iMiIgZmlsbD0iIzQ3NTU2OSIvPgogIDwvZz4KICA8IS0tIEZyYW1lIDc6IGJhamEgbGEgYmFycmEgYSBsYSBjYWRlcmEgLS0+CiAgPGcgY2xhc3M9ImY3Ij4KICAgIDxjaXJjbGUgY3g9IjExMCIgY3k9IjMyIiByPSIxMiIgZmlsbD0iIzk0YTNiOCIvPgogICAgPGcgc3Ryb2tlPSIjOTRhM2I4IiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSI+CiAgICAgIDxwb2x5bGluZSBwb2ludHM9IjExMCw0NCAxMTAsMTEwIi8+CiAgICAgIDxwb2x5bGluZSBwb2ludHM9IjkwLDU2IDEzMCw1NiIvPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSI5MCw1NiA4NCwxMTIiLz4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iMTMwLDU2IDEzNiwxMTIiLz4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iMTA0LDExMCAxMDIsMTU4IDk0LDIxMCIvPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSIxMTYsMTEwIDExOCwxNTggMTI2LDIxMCIvPgogICAgPC9nPgogICAgPGNpcmNsZSBjeD0iMTAyIiBjeT0iMTU4IiByPSI1IiBmaWxsPSIjNjQ3NDhiIi8+CiAgICA8Y2lyY2xlIGN4PSIxMTgiIGN5PSIxNTgiIHI9IjUiIGZpbGw9IiM2NDc0OGIiLz4KICAgIDxsaW5lIHgxPSI0NCIgeTE9IjExMiIgeDI9IjE3NiIgeTI9IjExMiIgc3Ryb2tlPSIjNDc1NTY5IiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogICAgPHJlY3QgeD0iMzYiIHk9IjEwNCIgd2lkdGg9IjgiIGhlaWdodD0iMTYiIHJ4PSIyIiBmaWxsPSIjNDc1NTY5Ii8+PHJlY3QgeD0iMTc2IiB5PSIxMDQiIHdpZHRoPSI4IiBoZWlnaHQ9IjE2IiByeD0iMiIgZmlsbD0iIzQ3NTU2OSIvPgogIDwvZz4KPC9zdmc+Cg=="
       }
     },
     {
@@ -7735,6 +7830,78 @@
       "image": {
         "path": "/img/exercises/calf-raise-hold.svg",
         "dataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjMwIj4NCiAgPHN0eWxlPg0KICAgIC5mMXthbmltYXRpb246c2gxIDRzIGxpbmVhciBpbmZpbml0ZX0uZjJ7YW5pbWF0aW9uOnNoMiA0cyBsaW5lYXIgaW5maW5pdGV9LmYze2FuaW1hdGlvbjpzaDMgNHMgbGluZWFyIGluZmluaXRlfQ0KICAgIEBrZXlmcmFtZXMgc2gxezAlLDI3JXtvcGFjaXR5OjF9MzMlLDkwJXtvcGFjaXR5OjB9MTAwJXtvcGFjaXR5OjF9fQ0KICAgIEBrZXlmcmFtZXMgc2gyezAlLDMzJXtvcGFjaXR5OjB9NDAlLDYwJXtvcGFjaXR5OjF9NjYlLDEwMCV7b3BhY2l0eTowfX0NCiAgICBAa2V5ZnJhbWVzIHNoM3swJSw2NiV7b3BhY2l0eTowfTcyJSw5MyV7b3BhY2l0eToxfTEwMCV7b3BhY2l0eTowfX0NCiAgPC9zdHlsZT4NCiAgPHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMzAiIGZpbGw9IiMxMTE4MjciIHJ4PSIxMiIvPg0KICA8bGluZSB4MT0iMzAiIHkxPSIyMDciIHgyPSIxNzAiIHkyPSIyMDciIHN0cm9rZT0iIzM3NDE1MSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4NCiAgPGxpbmUgeDE9IjE2OCIgeTE9IjIwIiB4Mj0iMTY4IiB5Mj0iMjA3IiBzdHJva2U9IiMzNzQxNTEiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+DQogIDx0ZXh0IHg9IjEwMCIgeT0iMjI2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0idWktc2Fucy1zZXJpZixzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSI5IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjNDc1NTY5IiBsZXR0ZXItc3BhY2luZz0iMiI+Q0FMRiBSQUlTRSBIT0xEPC90ZXh0Pg0KDQogIDwhLS0gRnJhbWUgMTogZGUgcGllLCB0YWxvbmVzIGFwb3lhZG9zIC0tPg0KICA8ZyBjbGFzcz0iZjEiIHN0cm9rZT0iIzk0YTNiOCIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiPg0KICAgIDxjaXJjbGUgY3g9Ijk0IiBjeT0iMzgiIHI9IjEzIiBmaWxsPSIjOTRhM2I4IiBzdHJva2U9Im5vbmUiLz4NCiAgICA8bGluZSB4MT0iOTQiIHkxPSI1MSIgeDI9Ijk0IiB5Mj0iMTIyIi8+DQogICAgPHBvbHlsaW5lIHBvaW50cz0iOTQsMTIyIDkwLDE2NiA5MCwyMDQiLz4NCiAgICA8cG9seWxpbmUgcG9pbnRzPSI5NCwxMjIgMTAyLDE2NiAxMDIsMjA0Ii8+DQogICAgPGxpbmUgeDE9IjgwIiB5MT0iMjA0IiB4Mj0iMTAyIiB5Mj0iMjA0Ii8+DQogICAgPGxpbmUgeDE9Ijk0IiB5MT0iNjYiIHgyPSIxNjIiIHkyPSI3MCIvPg0KICAgIDxjaXJjbGUgY3g9IjkwIiBjeT0iMTY2IiByPSI0IiBmaWxsPSIjNjQ3NDhiIiBzdHJva2U9Im5vbmUiLz4NCiAgPC9nPg0KDQogIDwhLS0gRnJhbWUgMjogc3ViaWVuZG8gYSBwdW50YXMgZGUgcGllIC0tPg0KICA8ZyBjbGFzcz0iZjIiIHN0cm9rZT0iIzk0YTNiOCIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiPg0KICAgIDxjaXJjbGUgY3g9Ijk0IiBjeT0iMzAiIHI9IjEzIiBmaWxsPSIjOTRhM2I4IiBzdHJva2U9Im5vbmUiLz4NCiAgICA8bGluZSB4MT0iOTQiIHkxPSI0MyIgeDI9Ijk0IiB5Mj0iMTE0Ii8+DQogICAgPHBvbHlsaW5lIHBvaW50cz0iOTQsMTE0IDkwLDE2MCA5MiwxOTIiLz4NCiAgICA8cG9seWxpbmUgcG9pbnRzPSI5NCwxMTQgMTAyLDE2MCAxMDQsMTkyIi8+DQogICAgPGxpbmUgeDE9IjkyIiB5MT0iMTkyIiB4Mj0iMTA2IiB5Mj0iMjA0Ii8+DQogICAgPGxpbmUgeDE9Ijk0IiB5MT0iNTgiIHgyPSIxNjIiIHkyPSI2NCIvPg0KICAgIDxjaXJjbGUgY3g9IjkwIiBjeT0iMTYwIiByPSI0IiBmaWxsPSIjNjQ3NDhiIiBzdHJva2U9Im5vbmUiLz4NCiAgPC9nPg0KDQogIDwhLS0gRnJhbWUgMzogaG9sZCBhcnJpYmEsIHRhbG9uZXMgYWx0b3MgLS0+DQogIDxnIGNsYXNzPSJmMyIgc3Ryb2tlPSIjOTRhM2I4IiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSI+DQogICAgPGNpcmNsZSBjeD0iOTQiIGN5PSIyNCIgcj0iMTMiIGZpbGw9IiM5NGEzYjgiIHN0cm9rZT0ibm9uZSIvPg0KICAgIDxsaW5lIHgxPSI5NCIgeTE9IjM3IiB4Mj0iOTQiIHkyPSIxMDgiLz4NCiAgICA8cG9seWxpbmUgcG9pbnRzPSI5NCwxMDggOTAsMTU0IDkyLDE4NiIvPg0KICAgIDxwb2x5bGluZSBwb2ludHM9Ijk0LDEwOCAxMDIsMTU0IDEwNCwxODYiLz4NCiAgICA8bGluZSB4MT0iOTIiIHkxPSIxODYiIHgyPSIxMDgiIHkyPSIyMDQiLz4NCiAgICA8bGluZSB4MT0iOTQiIHkxPSI1MiIgeDI9IjE2MiIgeTI9IjU4Ii8+DQogICAgPGNpcmNsZSBjeD0iOTAiIGN5PSIxNTQiIHI9IjQiIGZpbGw9IiM2NDc0OGIiIHN0cm9rZT0ibm9uZSIvPg0KICAgIDxjaXJjbGUgY3g9IjUyIiBjeT0iMTUwIiByPSIzIiBmaWxsPSIjNmVlN2I3IiBzdHJva2U9Im5vbmUiLz4NCiAgICA8Y2lyY2xlIGN4PSI1MiIgY3k9IjE2MiIgcj0iMyIgZmlsbD0iIzZlZTdiNyIgc3Ryb2tlPSJub25lIi8+DQogICAgPGNpcmNsZSBjeD0iNTIiIGN5PSIxNzQiIHI9IjMiIGZpbGw9IiM2ZWU3YjciIHN0cm9rZT0ibm9uZSIvPg0KICA8L2c+DQo8L3N2Zz4NCg=="
+      }
+    },
+    {
+      "key": "342d6c18-4e95-4228-8ba8-cfaa710cde47",
+      "hash": "03b6ebbd2a0d12",
+      "row": {
+        "name": "Candlestick to Straddle Stretch",
+        "description": "Desde sentado, rodar hacia atrás sobre la espalda hasta la posición de vela (candlestick: cadera arriba y piernas verticales), volver rodando hacia adelante abriendo las piernas y terminar sentado en straddle, inclinando el tronco al frente entre las piernas.",
+        "technical_notes": "Rodar con la espalda redondeada y el mentón al pecho, sin cargar el cuello. Usar el impulso del rodado para llegar al straddle sin apoyar las manos. En el estiramiento, inclinarse desde la cadera con la espalda larga y las rodillas apuntando al techo.",
+        "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
+        "primary_muscle_group_id": "604cb2e3-7b01-467d-87c7-b1321db9364c",
+        "video_path": "https://www.youtube.com/watch?v=ssLfWGw6Z5o",
+        "is_compound": 0,
+        "is_active": 1,
+        "video_long_path": "https://www.youtube.com/shorts/AJ35xINDwlQ",
+        "image_url": "/img/exercises/candlestick-to-straddle-stretch.svg",
+        "met_value": 7
+      },
+      "relations": {
+        "muscle_groups": [
+          {
+            "muscle_group_id": "27cfdc9f-db0d-4172-a3e9-20bf78710e8f",
+            "is_primary": 0
+          },
+          {
+            "muscle_group_id": "604cb2e3-7b01-467d-87c7-b1321db9364c",
+            "is_primary": 1
+          },
+          {
+            "muscle_group_id": "68fe1106-34b1-4879-bee5-34d956f69a9b",
+            "is_primary": 0
+          },
+          {
+            "muscle_group_id": "9ebc9099-6c5f-4841-8c79-0e63d89e5d14",
+            "is_primary": 0
+          },
+          {
+            "muscle_group_id": "d56158d8-ea6e-438f-afd4-c7d467f6f926",
+            "is_primary": 0
+          }
+        ],
+        "equipment": [],
+        "section_types": [
+          {
+            "section_type_id": "0daa51ee-5656-4b98-aba6-17488ad1628e"
+          },
+          {
+            "section_type_id": "e1a30990-b84c-423a-a73b-194925fb1606"
+          }
+        ],
+        "units": [
+          {
+            "measurement_unit_id": "30943e5f-5751-47e0-971f-00ae11a56ee4",
+            "is_default": 0
+          },
+          {
+            "measurement_unit_id": "e8e11d96-a0ec-488b-b58f-296bd5e0b329",
+            "is_default": 1
+          }
+        ],
+        "tags": [
+          {
+            "tag_id": "799ed0e6-114e-4307-83a7-1e0a0713f064"
+          },
+          {
+            "tag_id": "adf13da7-42a5-4047-9668-6038f7f2efc2"
+          }
+        ]
+      },
+      "image": {
+        "path": "/img/exercises/candlestick-to-straddle-stretch.svg",
+        "dataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMjAgMjMwIj4KICA8c3R5bGU+CiAgICAuZjF7YW5pbWF0aW9uOnNoMSA3LjhzIGxpbmVhciBpbmZpbml0ZX0uZjJ7YW5pbWF0aW9uOnNoMiA3LjhzIGxpbmVhciBpbmZpbml0ZX0uZjN7YW5pbWF0aW9uOnNoMyA3LjhzIGxpbmVhciBpbmZpbml0ZX0uZjR7YW5pbWF0aW9uOnNoNCA3LjhzIGxpbmVhciBpbmZpbml0ZX0uZjV7YW5pbWF0aW9uOnNoNSA3LjhzIGxpbmVhciBpbmZpbml0ZX0uZjZ7YW5pbWF0aW9uOnNoNiA3LjhzIGxpbmVhciBpbmZpbml0ZX0KICAgIEBrZXlmcmFtZXMgc2gxezAlLDEzLjMle29wYWNpdHk6MX0xNi43JSw5Ni43JXtvcGFjaXR5OjB9MTAwJXtvcGFjaXR5OjF9fQogICAgQGtleWZyYW1lcyBzaDJ7MCUsMTYuNyV7b3BhY2l0eTowfTIwJSwzMCV7b3BhY2l0eToxfTMzLjMlLDEwMCV7b3BhY2l0eTowfX0KICAgIEBrZXlmcmFtZXMgc2gzezAlLDMzLjMle29wYWNpdHk6MH0zNi43JSw0Ni43JXtvcGFjaXR5OjF9NTAlLDEwMCV7b3BhY2l0eTowfX0KICAgIEBrZXlmcmFtZXMgc2g0ezAlLDUwJXtvcGFjaXR5OjB9NTMuMyUsNjMuMyV7b3BhY2l0eToxfTY2LjclLDEwMCV7b3BhY2l0eTowfX0KICAgIEBrZXlmcmFtZXMgc2g1ezAlLDY2Ljcle29wYWNpdHk6MH03MCUsODAle29wYWNpdHk6MX04My4zJSwxMDAle29wYWNpdHk6MH19CiAgICBAa2V5ZnJhbWVzIHNoNnswJSw4My4zJXtvcGFjaXR5OjB9ODYuNyUsOTYuNyV7b3BhY2l0eToxfTEwMCUsMTAwJXtvcGFjaXR5OjB9fQogIDwvc3R5bGU+CiAgPHJlY3Qgd2lkdGg9IjIyMCIgaGVpZ2h0PSIyMzAiIGZpbGw9IiMxMTE4MjciIHJ4PSIxMiIvPgogIDxsaW5lIHgxPSIyMCIgeTE9IjIxMCIgeDI9IjIwMCIgeTI9IjIxMCIgc3Ryb2tlPSIjMzc0MTUxIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDx0ZXh0IHg9IjExMCIgeT0iMjI1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0idWktc2Fucy1zZXJpZixzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSI5IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjNDc1NTY5IiBsZXR0ZXItc3BhY2luZz0iMiI+Q0FORExFU1RJQ0sgU1RSQURETEU8L3RleHQ+CiAgPCEtLSBGcmFtZSAxOiBzZW50YWRvLCBwaWVybmFzIGFiaWVydGFzLCBicmF6b3MgYXJyaWJhIC0tPgogIDxnIGNsYXNzPSJmMSI+CiAgICA8Y2lyY2xlIGN4PSI4MCIgY3k9IjEyNiIgcj0iMTIiIGZpbGw9IiM5NGEzYjgiLz4KICAgIDxnIHN0cm9rZT0iIzk0YTNiOCIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSI4MCwxNDAgODIsMTk4Ii8+CiAgICAgIDxwb2x5bGluZSBwb2ludHM9IjgyLDE5OCAxMTgsMTk4IDE1NCwxOTgiLz4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iODAsMTQ2IDg0LDExOCA4Niw5MiIvPgogICAgPC9nPgogICAgPGNpcmNsZSBjeD0iMTE4IiBjeT0iMTk4IiByPSI1IiBmaWxsPSIjNjQ3NDhiIi8+CiAgPC9nPgogIDwhLS0gRnJhbWUgMjogcm9kYW5kbyBoYWNpYSBhdHLDoXMsIHJvZGlsbGFzIGFsIHBlY2hvIC0tPgogIDxnIGNsYXNzPSJmMiI+CiAgICA8Y2lyY2xlIGN4PSI0NiIgY3k9IjE2MCIgcj0iMTIiIGZpbGw9IiM5NGEzYjgiLz4KICAgIDxnIHN0cm9rZT0iIzk0YTNiOCIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSI1NiwxNzAgOTIsMTk2Ii8+CiAgICAgIDxwb2x5bGluZSBwb2ludHM9IjkyLDE5NiAxMTIsMTY4IDEzNCwxNzgiLz4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iNTgsMTcyIDg0LDE2NCAxMDgsMTY4Ii8+CiAgICA8L2c+CiAgICA8Y2lyY2xlIGN4PSIxMTIiIGN5PSIxNjgiIHI9IjUiIGZpbGw9IiM2NDc0OGIiLz4KICA8L2c+CiAgPCEtLSBGcmFtZSAzOiBjYW5kbGVzdGljazogY2FkZXJhIGFycmliYSwgcGllcm5hcyB2ZXJ0aWNhbGVzIC0tPgogIDxnIGNsYXNzPSJmMyI+CiAgICA8Y2lyY2xlIGN4PSI0NCIgY3k9IjE5OCIgcj0iMTIiIGZpbGw9IiM5NGEzYjgiLz4KICAgIDxnIHN0cm9rZT0iIzk0YTNiOCIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSI1OCwxOTQgODAsMTUwIi8+CiAgICAgIDxwb2x5bGluZSBwb2ludHM9IjgwLDE1MCA4MiwxMDQgODQsNTgiLz4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iNjAsMTk4IDg4LDIwMyAxMTQsMjA0Ii8+CiAgICA8L2c+CiAgICA8Y2lyY2xlIGN4PSI4MiIgY3k9IjEwNCIgcj0iNSIgZmlsbD0iIzY0NzQ4YiIvPgogIDwvZz4KICA8IS0tIEZyYW1lIDQ6IHJvZGFuZG8gaGFjaWEgYWRlbGFudGUsIHBpZXJuYXMgYmFqYW5kbyAtLT4KICA8ZyBjbGFzcz0iZjQiPgogICAgPGNpcmNsZSBjeD0iNTAiIGN5PSIxNzAiIHI9IjEyIiBmaWxsPSIjOTRhM2I4Ii8+CiAgICA8ZyBzdHJva2U9IiM5NGEzYjgiIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIj4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iNjAsMTgwIDg4LDE5NiIvPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSI4OCwxOTYgMTE0LDE1MiAxNDAsMTIyIi8+CiAgICAgIDxwb2x5bGluZSBwb2ludHM9IjYyLDE4MiA4OCwxNzAgMTEyLDE2MCIvPgogICAgPC9nPgogICAgPGNpcmNsZSBjeD0iMTE0IiBjeT0iMTUyIiByPSI1IiBmaWxsPSIjNjQ3NDhiIi8+CiAgPC9nPgogIDwhLS0gRnJhbWUgNTogc2VudGFkbyBlbiBzdHJhZGRsZSwgYnJhem9zIGFsIGZyZW50ZSAtLT4KICA8ZyBjbGFzcz0iZjUiPgogICAgPGNpcmNsZSBjeD0iODYiIGN5PSIxMjYiIHI9IjEyIiBmaWxsPSIjOTRhM2I4Ii8+CiAgICA8ZyBzdHJva2U9IiM5NGEzYjgiIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIj4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iODQsMTQwIDgyLDE5OCIvPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSI4MiwxOTggMTE4LDE5OCAxNTQsMTk4Ii8+CiAgICAgIDxwb2x5bGluZSBwb2ludHM9Ijg0LDE0NiAxMDgsMTUyIDEzMiwxNTYiLz4KICAgIDwvZz4KICAgIDxjaXJjbGUgY3g9IjExOCIgY3k9IjE5OCIgcj0iNSIgZmlsbD0iIzY0NzQ4YiIvPgogIDwvZz4KICA8IS0tIEZyYW1lIDY6IGluY2xpbmFjacOzbiBhbCBmcmVudGUgZW50cmUgbGFzIHBpZXJuYXMgLS0+CiAgPGcgY2xhc3M9ImY2Ij4KICAgIDxjaXJjbGUgY3g9IjEzMCIgY3k9IjE1MCIgcj0iMTIiIGZpbGw9IiM5NGEzYjgiLz4KICAgIDxnIHN0cm9rZT0iIzk0YTNiOCIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSIxMTgsMTYwIDgyLDE5OCIvPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSI4MiwxOTggMTE4LDE5OCAxNTQsMTk4Ii8+CiAgICAgIDxwb2x5bGluZSBwb2ludHM9IjExNiwxNjYgMTQwLDE4MCAxNjQsMTk0Ii8+CiAgICA8L2c+CiAgICA8Y2lyY2xlIGN4PSIxMTgiIGN5PSIxOTgiIHI9IjUiIGZpbGw9IiM2NDc0OGIiLz4KICA8L2c+Cjwvc3ZnPgo="
       }
     },
     {
@@ -15716,6 +15883,74 @@
       }
     },
     {
+      "key": "1deb1103-dff9-4b7e-800d-050199decd1d",
+      "hash": "097f57a24bccc8",
+      "row": {
+        "name": "Open the Gate",
+        "description": "De pie sobre una pierna, elevar la rodilla contraria al frente hasta la altura de la cadera y rotarla hacia afuera (\"abrir la puerta\") hasta llevarla al costado; luego bajar la pierna con control. Se hace por lado.",
+        "technical_notes": "Tronco erguido y pelvis estable, sin inclinarse hacia el lado de la pierna que se mueve. El giro sale de la articulación de la cadera: lento y con todo el rango. Apoyarse en una pared si falta equilibrio. El movimiento inverso (de afuera hacia adentro) es Close the Gate.",
+        "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
+        "primary_muscle_group_id": "6d6af2af-8f29-42ea-bcfe-8ddcff28472b",
+        "video_path": "https://www.youtube.com/shorts/1cpY_x7yr8c",
+        "is_compound": 0,
+        "is_active": 1,
+        "video_long_path": null,
+        "image_url": "/img/exercises/open-the-gate.svg",
+        "met_value": 7
+      },
+      "relations": {
+        "muscle_groups": [
+          {
+            "muscle_group_id": "0f5aa458-f9df-45b1-98ab-219ca9ce9b44",
+            "is_primary": 0
+          },
+          {
+            "muscle_group_id": "604cb2e3-7b01-467d-87c7-b1321db9364c",
+            "is_primary": 0
+          },
+          {
+            "muscle_group_id": "6d6af2af-8f29-42ea-bcfe-8ddcff28472b",
+            "is_primary": 1
+          },
+          {
+            "muscle_group_id": "cbe3b11a-330b-4325-bee9-fe3f1c1bd068",
+            "is_primary": 0
+          }
+        ],
+        "equipment": [],
+        "section_types": [
+          {
+            "section_type_id": "c5bb04f8-0779-4642-8244-a460df5b74a1"
+          },
+          {
+            "section_type_id": "e1a30990-b84c-423a-a73b-194925fb1606"
+          }
+        ],
+        "units": [
+          {
+            "measurement_unit_id": "30943e5f-5751-47e0-971f-00ae11a56ee4",
+            "is_default": 0
+          },
+          {
+            "measurement_unit_id": "e8e11d96-a0ec-488b-b58f-296bd5e0b329",
+            "is_default": 1
+          }
+        ],
+        "tags": [
+          {
+            "tag_id": "39ea2606-3fa2-4506-b0f1-2ff9e0a8b4be"
+          },
+          {
+            "tag_id": "799ed0e6-114e-4307-83a7-1e0a0713f064"
+          }
+        ]
+      },
+      "image": {
+        "path": "/img/exercises/open-the-gate.svg",
+        "dataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMjAgMjMwIj4KICA8c3R5bGU+CiAgICAuZjF7YW5pbWF0aW9uOnNoMSA3LjhzIGxpbmVhciBpbmZpbml0ZX0uZjJ7YW5pbWF0aW9uOnNoMiA3LjhzIGxpbmVhciBpbmZpbml0ZX0uZjN7YW5pbWF0aW9uOnNoMyA3LjhzIGxpbmVhciBpbmZpbml0ZX0uZjR7YW5pbWF0aW9uOnNoNCA3LjhzIGxpbmVhciBpbmZpbml0ZX0uZjV7YW5pbWF0aW9uOnNoNSA3LjhzIGxpbmVhciBpbmZpbml0ZX0uZjZ7YW5pbWF0aW9uOnNoNiA3LjhzIGxpbmVhciBpbmZpbml0ZX0KICAgIEBrZXlmcmFtZXMgc2gxezAlLDEzLjMle29wYWNpdHk6MX0xNi43JSw5Ni43JXtvcGFjaXR5OjB9MTAwJXtvcGFjaXR5OjF9fQogICAgQGtleWZyYW1lcyBzaDJ7MCUsMTYuNyV7b3BhY2l0eTowfTIwJSwzMCV7b3BhY2l0eToxfTMzLjMlLDEwMCV7b3BhY2l0eTowfX0KICAgIEBrZXlmcmFtZXMgc2gzezAlLDMzLjMle29wYWNpdHk6MH0zNi43JSw0Ni43JXtvcGFjaXR5OjF9NTAlLDEwMCV7b3BhY2l0eTowfX0KICAgIEBrZXlmcmFtZXMgc2g0ezAlLDUwJXtvcGFjaXR5OjB9NTMuMyUsNjMuMyV7b3BhY2l0eToxfTY2LjclLDEwMCV7b3BhY2l0eTowfX0KICAgIEBrZXlmcmFtZXMgc2g1ezAlLDY2Ljcle29wYWNpdHk6MH03MCUsODAle29wYWNpdHk6MX04My4zJSwxMDAle29wYWNpdHk6MH19CiAgICBAa2V5ZnJhbWVzIHNoNnswJSw4My4zJXtvcGFjaXR5OjB9ODYuNyUsOTYuNyV7b3BhY2l0eToxfTEwMCUsMTAwJXtvcGFjaXR5OjB9fQogIDwvc3R5bGU+CiAgPHJlY3Qgd2lkdGg9IjIyMCIgaGVpZ2h0PSIyMzAiIGZpbGw9IiMxMTE4MjciIHJ4PSIxMiIvPgogIDxsaW5lIHgxPSIyMCIgeTE9IjIxMCIgeDI9IjIwMCIgeTI9IjIxMCIgc3Ryb2tlPSIjMzc0MTUxIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDx0ZXh0IHg9IjExMCIgeT0iMjI1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0idWktc2Fucy1zZXJpZixzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSI5IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjNDc1NTY5IiBsZXR0ZXItc3BhY2luZz0iMiI+T1BFTiBUSEUgR0FURTwvdGV4dD4KICA8IS0tIEZyYW1lIDE6IGRlIHBpZSwgbWFub3MgZW4gbGEgY2FkZXJhIC0tPgogIDxnIGNsYXNzPSJmMSI+CiAgICA8Y2lyY2xlIGN4PSIxMTAiIGN5PSIzNCIgcj0iMTIiIGZpbGw9IiM5NGEzYjgiLz4KICAgIDxnIHN0cm9rZT0iIzk0YTNiOCIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSIxMTAsNDYgMTEwLDExMiIvPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSI5Miw1OCAxMjgsNTgiLz4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iOTIsNTggNzgsODYgMTAwLDExMCIvPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSIxMjgsNTggMTQyLDg2IDEyMCwxMTAiLz4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iMTA0LDExMiAxMDQsMTYwIDEwNCwyMDgiLz4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iMTE2LDExMiAxMTYsMTYwIDExNiwyMDgiLz4KICAgIDwvZz4KICAgIDxjaXJjbGUgY3g9IjEwNCIgY3k9IjE2MCIgcj0iNSIgZmlsbD0iIzY0NzQ4YiIvPgogICAgPGNpcmNsZSBjeD0iMTE2IiBjeT0iMTYwIiByPSI1IiBmaWxsPSIjNjQ3NDhiIi8+CiAgPC9nPgogIDwhLS0gRnJhbWUgMjogcm9kaWxsYSBhcnJpYmEgYWwgZnJlbnRlIC0tPgogIDxnIGNsYXNzPSJmMiI+CiAgICA8Y2lyY2xlIGN4PSIxMTAiIGN5PSIzNCIgcj0iMTIiIGZpbGw9IiM5NGEzYjgiLz4KICAgIDxnIHN0cm9rZT0iIzk0YTNiOCIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSIxMTAsNDYgMTEwLDExMiIvPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSI5Miw1OCAxMjgsNTgiLz4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iOTIsNTggNzgsODYgMTAwLDExMCIvPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSIxMjgsNTggMTQyLDg2IDEyMCwxMTAiLz4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iMTA0LDExMiAxMDQsMTYwIDEwNCwyMDgiLz4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iMTE2LDExMiAxMTgsMTIyIDEyMCwxNjgiLz4KICAgIDwvZz4KICAgIDxjaXJjbGUgY3g9IjEwNCIgY3k9IjE2MCIgcj0iNSIgZmlsbD0iIzY0NzQ4YiIvPgogICAgPGNpcmNsZSBjeD0iMTE4IiBjeT0iMTIyIiByPSI1IiBmaWxsPSIjNjQ3NDhiIi8+CiAgPC9nPgogIDwhLS0gRnJhbWUgMzogcm9kaWxsYSByb3RhbmRvIGhhY2lhIGFmdWVyYSAtLT4KICA8ZyBjbGFzcz0iZjMiPgogICAgPGNpcmNsZSBjeD0iMTEwIiBjeT0iMzQiIHI9IjEyIiBmaWxsPSIjOTRhM2I4Ii8+CiAgICA8ZyBzdHJva2U9IiM5NGEzYjgiIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIj4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iMTEwLDQ2IDExMCwxMTIiLz4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iOTIsNTggMTI4LDU4Ii8+CiAgICAgIDxwb2x5bGluZSBwb2ludHM9IjkyLDU4IDc4LDg2IDEwMCwxMTAiLz4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iMTI4LDU4IDE0Miw4NiAxMjAsMTEwIi8+CiAgICAgIDxwb2x5bGluZSBwb2ludHM9IjEwNCwxMTIgMTA0LDE2MCAxMDQsMjA4Ii8+CiAgICAgIDxwb2x5bGluZSBwb2ludHM9IjExNiwxMTIgMTM4LDEwNCAxMzAsMTUwIi8+CiAgICA8L2c+CiAgICA8Y2lyY2xlIGN4PSIxMDQiIGN5PSIxNjAiIHI9IjUiIGZpbGw9IiM2NDc0OGIiLz4KICAgIDxjaXJjbGUgY3g9IjEzOCIgY3k9IjEwNCIgcj0iNSIgZmlsbD0iIzY0NzQ4YiIvPgogIDwvZz4KICA8IS0tIEZyYW1lIDQ6IGNhZGVyYSBhYmllcnRhLCByb2RpbGxhIGFsIGNvc3RhZG8gLS0+CiAgPGcgY2xhc3M9ImY0Ij4KICAgIDxjaXJjbGUgY3g9IjExMCIgY3k9IjM0IiByPSIxMiIgZmlsbD0iIzk0YTNiOCIvPgogICAgPGcgc3Ryb2tlPSIjOTRhM2I4IiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSI+CiAgICAgIDxwb2x5bGluZSBwb2ludHM9IjExMCw0NiAxMTAsMTEyIi8+CiAgICAgIDxwb2x5bGluZSBwb2ludHM9IjkyLDU4IDEyOCw1OCIvPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSI5Miw1OCA3OCw4NiAxMDAsMTEwIi8+CiAgICAgIDxwb2x5bGluZSBwb2ludHM9IjEyOCw1OCAxNDIsODYgMTIwLDExMCIvPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSIxMDQsMTEyIDEwNCwxNjAgMTA0LDIwOCIvPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSIxMTYsMTEyIDE2MiwxMDAgMTYyLDE0OCIvPgogICAgPC9nPgogICAgPGNpcmNsZSBjeD0iMTA0IiBjeT0iMTYwIiByPSI1IiBmaWxsPSIjNjQ3NDhiIi8+CiAgICA8Y2lyY2xlIGN4PSIxNjIiIGN5PSIxMDAiIHI9IjUiIGZpbGw9IiM2NDc0OGIiLz4KICA8L2c+CiAgPCEtLSBGcmFtZSA1OiBiYWphIGxhIHBpZXJuYSBkZXNkZSBlbCBjb3N0YWRvIC0tPgogIDxnIGNsYXNzPSJmNSI+CiAgICA8Y2lyY2xlIGN4PSIxMTAiIGN5PSIzNCIgcj0iMTIiIGZpbGw9IiM5NGEzYjgiLz4KICAgIDxnIHN0cm9rZT0iIzk0YTNiOCIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSIxMTAsNDYgMTEwLDExMiIvPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSI5Miw1OCAxMjgsNTgiLz4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iOTIsNTggNzgsODYgMTAwLDExMCIvPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSIxMjgsNTggMTQyLDg2IDEyMCwxMTAiLz4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iMTA0LDExMiAxMDQsMTYwIDEwNCwyMDgiLz4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iMTE2LDExMiAxNDYsMTQwIDE0MCwxODYiLz4KICAgIDwvZz4KICAgIDxjaXJjbGUgY3g9IjEwNCIgY3k9IjE2MCIgcj0iNSIgZmlsbD0iIzY0NzQ4YiIvPgogICAgPGNpcmNsZSBjeD0iMTQ2IiBjeT0iMTQwIiByPSI1IiBmaWxsPSIjNjQ3NDhiIi8+CiAgPC9nPgogIDwhLS0gRnJhbWUgNjogcGllIHZvbHZpZW5kbyBhbCBwaXNvIC0tPgogIDxnIGNsYXNzPSJmNiI+CiAgICA8Y2lyY2xlIGN4PSIxMTAiIGN5PSIzNCIgcj0iMTIiIGZpbGw9IiM5NGEzYjgiLz4KICAgIDxnIHN0cm9rZT0iIzk0YTNiOCIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSIxMTAsNDYgMTEwLDExMiIvPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSI5Miw1OCAxMjgsNTgiLz4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iOTIsNTggNzgsODYgMTAwLDExMCIvPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSIxMjgsNTggMTQyLDg2IDEyMCwxMTAiLz4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iMTA0LDExMiAxMDQsMTYwIDEwNCwyMDgiLz4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iMTE2LDExMiAxMjYsMTU2IDEyMiwyMDQiLz4KICAgIDwvZz4KICAgIDxjaXJjbGUgY3g9IjEwNCIgY3k9IjE2MCIgcj0iNSIgZmlsbD0iIzY0NzQ4YiIvPgogICAgPGNpcmNsZSBjeD0iMTI2IiBjeT0iMTU2IiByPSI1IiBmaWxsPSIjNjQ3NDhiIi8+CiAgPC9nPgo8L3N2Zz4K"
+      }
+    },
+    {
       "key": "59890d14-5957-496f-866c-ec309c88f107",
       "hash": "0ceb56be63a270",
       "row": {
@@ -19053,13 +19288,13 @@
     },
     {
       "key": "d879176a-3ff4-4d61-bab7-d02ad97d50e4",
-      "hash": "17e323de4d6286",
+      "hash": "01698b45c7624c",
       "row": {
         "name": "Single-Leg Wall Sit",
         "description": "Sentadilla isométrica contra la pared a 90°, levantando y extendiendo una pierna al frente mientras se sostiene el peso en la pierna de apoyo.",
         "technical_notes": "Espalda y cadera pegadas a la pared, rodilla de apoyo alineada con el pie. Mantener la pierna elevada extendida y el core activo. Ejecutar cada pierna.",
         "difficulty_level_id": "2c3e4b22-a93b-4350-bbcf-dc10a2d75ca0",
-        "primary_muscle_group_id": "66782a0e-7401-471d-95de-f7a8fbc38dee",
+        "primary_muscle_group_id": "0f5aa458-f9df-45b1-98ab-219ca9ce9b44",
         "video_path": "https://www.youtube.com/shorts/1V1QeQNfruk",
         "is_compound": 0,
         "is_active": 1,
@@ -19070,16 +19305,24 @@
       "relations": {
         "muscle_groups": [
           {
-            "muscle_group_id": "0fd5f10e-494b-42a6-90c5-567420d50465",
+            "muscle_group_id": "00cd7dee-e996-426e-b53e-e67b037d4907",
             "is_primary": 0
           },
           {
-            "muscle_group_id": "533bcd8f-1764-4c63-a623-059a646cf6e9",
-            "is_primary": 0
-          },
-          {
-            "muscle_group_id": "66782a0e-7401-471d-95de-f7a8fbc38dee",
+            "muscle_group_id": "0f5aa458-f9df-45b1-98ab-219ca9ce9b44",
             "is_primary": 1
+          },
+          {
+            "muscle_group_id": "9ebc9099-6c5f-4841-8c79-0e63d89e5d14",
+            "is_primary": 0
+          },
+          {
+            "muscle_group_id": "cbe3b11a-330b-4325-bee9-fe3f1c1bd068",
+            "is_primary": 0
+          },
+          {
+            "muscle_group_id": "fb7c7d3e-1a64-4143-b21c-3c6738e309be",
+            "is_primary": 0
           }
         ],
         "equipment": [],
@@ -40940,6 +41183,690 @@
             "rest_between_rounds_seconds": null,
             "notes": null,
             "rest_between_exercises_seconds": null,
+            "rest_after_section_seconds": null,
+            "interval_seconds": null
+          },
+          "exercises": [
+            {
+              "sort_order": 1,
+              "coach_notes": null,
+              "planned_repetitions": null,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": 300,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": null,
+              "exercise_key": "8fa3b57f-4450-4ca1-9301-1a308b7d245a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ccce1e1c-4965-4931-826b-089d26b79b7a",
+      "hash": "0c440064edcfba",
+      "row": {
+        "date": "2026-10-12",
+        "name": "GOAT 12/10/2026",
+        "objective": "Movilidad de cadera, activación por rondas con isométricos y core, fuerza de Back Squat (semana 7/16 del ciclo de fuerza) y WOD for time de 20 minutos con clusters, V-ups y burpee broad jumps.",
+        "general_notes": null,
+        "estimated_duration_minutes": 60,
+        "is_active": 1,
+        "template_type": "my_classes",
+        "video_url": null,
+        "video_duration_seconds": null,
+        "is_plan_day": 0
+      },
+      "sections": [
+        {
+          "row": {
+            "section_type_id": "c5bb04f8-0779-4642-8244-a460df5b74a1",
+            "work_format_id": "712a0d22-c534-4968-a61c-f12660a6b4bf",
+            "sort_order": 1,
+            "visible_title": "Calentamiento",
+            "general_description": "6 minutos de calentamiento",
+            "time_cap_seconds": 360,
+            "total_rounds": null,
+            "rest_between_rounds_seconds": 0,
+            "notes": null,
+            "rest_between_exercises_seconds": 10,
+            "rest_after_section_seconds": 60,
+            "interval_seconds": null
+          },
+          "exercises": [
+            {
+              "sort_order": 1,
+              "coach_notes": "Calentamiento general, ritmo suave",
+              "planned_repetitions": null,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": 360,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": null,
+              "exercise_key": "046ccc51-40b0-423e-a056-cb9a32387979"
+            }
+          ]
+        },
+        {
+          "row": {
+            "section_type_id": "e1a30990-b84c-423a-a73b-194925fb1606",
+            "work_format_id": "f29b4f7c-48ad-45d6-b91c-e2735b3349d9",
+            "sort_order": 2,
+            "visible_title": "Movilidad",
+            "general_description": "2 rondas, 30 segundos cada movimiento",
+            "time_cap_seconds": null,
+            "total_rounds": 2,
+            "rest_between_rounds_seconds": 0,
+            "notes": null,
+            "rest_between_exercises_seconds": 10,
+            "rest_after_section_seconds": 60,
+            "interval_seconds": null
+          },
+          "exercises": [
+            {
+              "sort_order": 1,
+              "coach_notes": "Open the gate izquierda",
+              "planned_repetitions": null,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": 30,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": null,
+              "exercise_key": "1deb1103-dff9-4b7e-800d-050199decd1d"
+            },
+            {
+              "sort_order": 2,
+              "coach_notes": "Open the gate derecha",
+              "planned_repetitions": null,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": 30,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": null,
+              "exercise_key": "1deb1103-dff9-4b7e-800d-050199decd1d"
+            },
+            {
+              "sort_order": 3,
+              "coach_notes": "Candlestick to straddle stretch",
+              "planned_repetitions": null,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": 30,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": null,
+              "exercise_key": "342d6c18-4e95-4228-8ba8-cfaa710cde47"
+            }
+          ]
+        },
+        {
+          "row": {
+            "section_type_id": "36188a05-b153-4e18-bb51-8310be11c9db",
+            "work_format_id": "f29b4f7c-48ad-45d6-b91c-e2735b3349d9",
+            "sort_order": 3,
+            "visible_title": "Activación",
+            "general_description": "3 rondas, 30 segundos cada ejercicio",
+            "time_cap_seconds": null,
+            "total_rounds": 3,
+            "rest_between_rounds_seconds": 0,
+            "notes": null,
+            "rest_between_exercises_seconds": 10,
+            "rest_after_section_seconds": 60,
+            "interval_seconds": null
+          },
+          "exercises": [
+            {
+              "sort_order": 1,
+              "coach_notes": "Pierna izquierda",
+              "planned_repetitions": null,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": 30,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": null,
+              "exercise_key": "d879176a-3ff4-4d61-bab7-d02ad97d50e4"
+            },
+            {
+              "sort_order": 2,
+              "coach_notes": "Pierna derecha",
+              "planned_repetitions": null,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": 30,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": null,
+              "exercise_key": "d879176a-3ff4-4d61-bab7-d02ad97d50e4"
+            },
+            {
+              "sort_order": 3,
+              "coach_notes": null,
+              "planned_repetitions": null,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": 30,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": null,
+              "exercise_key": "fce412a9-e24a-4c71-b52a-787d3448fcb8"
+            },
+            {
+              "sort_order": 4,
+              "coach_notes": "Kettlebell 10 kg",
+              "planned_repetitions": null,
+              "planned_weight_value": 10,
+              "planned_weight_unit_id": "553af60b-61fd-474e-b29b-fd7bb7c210a1",
+              "planned_time_seconds": 30,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": null,
+              "exercise_key": "2e7b024b-1c8c-419f-8d06-6513bd0bdc50"
+            }
+          ]
+        },
+        {
+          "row": {
+            "section_type_id": "b6cd3277-2183-4c8e-94ae-949c7b0f1a21",
+            "work_format_id": "503cfbc0-cc0f-4518-8fe9-e6db1c3dce1a",
+            "sort_order": 4,
+            "visible_title": "Fuerza - Back Squat",
+            "general_description": "Semana 7/16 Ciclo Fuerza. 5 sets cada 2 minutos: sets 1, 2 y 3 de 5 reps al 83% (80 kg), set 4 descanso, set 5 máximo al fallo (0 reps en reserva) al 83%, aprox. 12 reps (80 kg).",
+            "time_cap_seconds": null,
+            "total_rounds": null,
+            "rest_between_rounds_seconds": 0,
+            "notes": null,
+            "rest_between_exercises_seconds": 95,
+            "rest_after_section_seconds": 120,
+            "interval_seconds": null
+          },
+          "exercises": [
+            {
+              "sort_order": 1,
+              "coach_notes": "Back Squat - Set 1: 5 reps al 83% (80 kg). Cada 2 minutos",
+              "planned_repetitions": 5,
+              "planned_weight_value": 80,
+              "planned_weight_unit_id": "553af60b-61fd-474e-b29b-fd7bb7c210a1",
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": 83,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 25,
+              "exercise_key": "04c7ce96-fe1f-497d-9350-8f6b2726012d"
+            },
+            {
+              "sort_order": 2,
+              "coach_notes": "Back Squat - Set 2: 5 reps al 83% (80 kg). Cada 2 minutos",
+              "planned_repetitions": 5,
+              "planned_weight_value": 80,
+              "planned_weight_unit_id": "553af60b-61fd-474e-b29b-fd7bb7c210a1",
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": 83,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 25,
+              "exercise_key": "04c7ce96-fe1f-497d-9350-8f6b2726012d"
+            },
+            {
+              "sort_order": 3,
+              "coach_notes": "Back Squat - Set 3: 5 reps al 83% (80 kg). Después, set 4 de descanso (sale en el minuto 8)",
+              "planned_repetitions": 5,
+              "planned_weight_value": 80,
+              "planned_weight_unit_id": "553af60b-61fd-474e-b29b-fd7bb7c210a1",
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": 215,
+              "planned_rounds": null,
+              "rm_percentage": 83,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 25,
+              "exercise_key": "04c7ce96-fe1f-497d-9350-8f6b2726012d"
+            },
+            {
+              "sort_order": 4,
+              "coach_notes": "Back Squat - Set 5: máximo al fallo (0 reps en reserva) al 83%, aprox. 12 reps (80 kg)",
+              "planned_repetitions": 12,
+              "planned_weight_value": 80,
+              "planned_weight_unit_id": "553af60b-61fd-474e-b29b-fd7bb7c210a1",
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": 83,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 60,
+              "exercise_key": "04c7ce96-fe1f-497d-9350-8f6b2726012d"
+            }
+          ]
+        },
+        {
+          "row": {
+            "section_type_id": "4e1bf46f-3437-44de-917a-d114fbcea2af",
+            "work_format_id": "49c51415-6b63-47ed-813b-90911806a68f",
+            "sort_order": 5,
+            "visible_title": "WOD",
+            "general_description": "For time, 20 minutos máximo. Parte 1 (3 rondas): cluster 8-6-4 + 10 V-Up + 12 burpee broad jump. Descanso 90 segundos. Parte 2 (3 rondas): cluster 8-6-4 + 10 V-Up + 10 burpee broad jump.",
+            "time_cap_seconds": 1200,
+            "total_rounds": null,
+            "rest_between_rounds_seconds": 0,
+            "notes": null,
+            "rest_between_exercises_seconds": 0,
+            "rest_after_section_seconds": 60,
+            "interval_seconds": null
+          },
+          "exercises": [
+            {
+              "sort_order": 1,
+              "coach_notes": "Parte 1, ronda 1 de 3: 8 cluster",
+              "planned_repetitions": 8,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 65,
+              "exercise_key": "3d15b28d-d64b-4c8a-8cf5-c02ecab53b9e"
+            },
+            {
+              "sort_order": 2,
+              "coach_notes": "Parte 1, ronda 1 de 3: 10 V-Up",
+              "planned_repetitions": 10,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 30,
+              "exercise_key": "a30033d4-2aef-4378-8b30-ec73eb1e9ff9"
+            },
+            {
+              "sort_order": 3,
+              "coach_notes": "Parte 1, ronda 1 de 3: 12 burpee broad jump",
+              "planned_repetitions": 12,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 35,
+              "exercise_key": "0fe6d785-2076-4ddd-8b35-875db32e98c0"
+            },
+            {
+              "sort_order": 4,
+              "coach_notes": "Parte 1, ronda 2 de 3: 6 cluster",
+              "planned_repetitions": 6,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 50,
+              "exercise_key": "3d15b28d-d64b-4c8a-8cf5-c02ecab53b9e"
+            },
+            {
+              "sort_order": 5,
+              "coach_notes": "Parte 1, ronda 2 de 3: 10 V-Up",
+              "planned_repetitions": 10,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 30,
+              "exercise_key": "a30033d4-2aef-4378-8b30-ec73eb1e9ff9"
+            },
+            {
+              "sort_order": 6,
+              "coach_notes": "Parte 1, ronda 2 de 3: 12 burpee broad jump",
+              "planned_repetitions": 12,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 35,
+              "exercise_key": "0fe6d785-2076-4ddd-8b35-875db32e98c0"
+            },
+            {
+              "sort_order": 7,
+              "coach_notes": "Parte 1, ronda 3 de 3: 4 cluster",
+              "planned_repetitions": 4,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 30,
+              "exercise_key": "3d15b28d-d64b-4c8a-8cf5-c02ecab53b9e"
+            },
+            {
+              "sort_order": 8,
+              "coach_notes": "Parte 1, ronda 3 de 3: 10 V-Up",
+              "planned_repetitions": 10,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 30,
+              "exercise_key": "a30033d4-2aef-4378-8b30-ec73eb1e9ff9"
+            },
+            {
+              "sort_order": 9,
+              "coach_notes": "Parte 1, ronda 3 de 3: 12 burpee broad jump. Después, descanso de 90 segundos antes de la parte 2",
+              "planned_repetitions": 12,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": 90,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 35,
+              "exercise_key": "0fe6d785-2076-4ddd-8b35-875db32e98c0"
+            },
+            {
+              "sort_order": 10,
+              "coach_notes": "Parte 2, ronda 1 de 3: 8 cluster",
+              "planned_repetitions": 8,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 65,
+              "exercise_key": "3d15b28d-d64b-4c8a-8cf5-c02ecab53b9e"
+            },
+            {
+              "sort_order": 11,
+              "coach_notes": "Parte 2, ronda 1 de 3: 10 V-Up",
+              "planned_repetitions": 10,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 30,
+              "exercise_key": "a30033d4-2aef-4378-8b30-ec73eb1e9ff9"
+            },
+            {
+              "sort_order": 12,
+              "coach_notes": "Parte 2, ronda 1 de 3: 10 burpee broad jump",
+              "planned_repetitions": 10,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 30,
+              "exercise_key": "0fe6d785-2076-4ddd-8b35-875db32e98c0"
+            },
+            {
+              "sort_order": 13,
+              "coach_notes": "Parte 2, ronda 2 de 3: 6 cluster",
+              "planned_repetitions": 6,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 50,
+              "exercise_key": "3d15b28d-d64b-4c8a-8cf5-c02ecab53b9e"
+            },
+            {
+              "sort_order": 14,
+              "coach_notes": "Parte 2, ronda 2 de 3: 10 V-Up",
+              "planned_repetitions": 10,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 30,
+              "exercise_key": "a30033d4-2aef-4378-8b30-ec73eb1e9ff9"
+            },
+            {
+              "sort_order": 15,
+              "coach_notes": "Parte 2, ronda 2 de 3: 10 burpee broad jump",
+              "planned_repetitions": 10,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 30,
+              "exercise_key": "0fe6d785-2076-4ddd-8b35-875db32e98c0"
+            },
+            {
+              "sort_order": 16,
+              "coach_notes": "Parte 2, ronda 3 de 3: 4 cluster",
+              "planned_repetitions": 4,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 30,
+              "exercise_key": "3d15b28d-d64b-4c8a-8cf5-c02ecab53b9e"
+            },
+            {
+              "sort_order": 17,
+              "coach_notes": "Parte 2, ronda 3 de 3: 10 V-Up",
+              "planned_repetitions": 10,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 30,
+              "exercise_key": "a30033d4-2aef-4378-8b30-ec73eb1e9ff9"
+            },
+            {
+              "sort_order": 18,
+              "coach_notes": "Parte 2, ronda 3 de 3: 10 burpee broad jump",
+              "planned_repetitions": 10,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 30,
+              "exercise_key": "0fe6d785-2076-4ddd-8b35-875db32e98c0"
+            }
+          ]
+        },
+        {
+          "row": {
+            "section_type_id": "0daa51ee-5656-4b98-aba6-17488ad1628e",
+            "work_format_id": "712a0d22-c534-4968-a61c-f12660a6b4bf",
+            "sort_order": 6,
+            "visible_title": "Estiramiento",
+            "general_description": "5 minutos aprox. de estiramientos y vuelta a la calma",
+            "time_cap_seconds": 300,
+            "total_rounds": null,
+            "rest_between_rounds_seconds": null,
+            "notes": null,
+            "rest_between_exercises_seconds": 10,
             "rest_after_section_seconds": null,
             "interval_seconds": null
           },
