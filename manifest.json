@@ -1,19 +1,19 @@
 {
   "app": "CrossFit Session Tracker",
   "format": 1,
-  "contentVersion": 3,
-  "publishedAt": "2026-10-12 14:39:35",
-  "contentHash": "1aa71ccf6444fa",
+  "contentVersion": 4,
+  "publishedAt": "2026-10-15 11:54:28",
+  "contentHash": "1f5fabd3e52037",
   "counts": {
-    "exercises": 331,
-    "classes": 127,
+    "exercises": 332,
+    "classes": 128,
     "plans": 0,
     "challenges": 9
   },
   "files": [
     {
       "path": "content/content.json",
-      "size": 4008464
+      "size": 4056808
     }
   ]
 }
