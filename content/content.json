@@ -1,8 +1,8 @@
 {
   "app": "CrossFit Session Tracker",
   "format": 1,
-  "contentVersion": 5,
-  "publishedAt": "2026-10-17 18:53:14",
+  "contentVersion": 6,
+  "publishedAt": "2026-10-22 02:07:52",
   "catalogs": {
     "muscle_group": [
       {
@@ -4111,13 +4111,13 @@
     },
     {
       "key": "34ff6008-0935-454e-bdc0-f2c394a21da1",
-      "hash": "1e34b15d8a4d21",
+      "hash": "0ea58cb85e0515",
       "row": {
         "name": "Barbell Good Morning",
         "description": "De pie con la barra apoyada en la espalda alta. Con rodillas levemente flexionadas, hacer una bisagra de cadera llevando el torso al frente hasta quedar casi paralelo al piso, manteniendo la espalda neutra; volver extendiendo la cadera.",
         "technical_notes": "Bisagra de cadera, no sentadilla. Espalda recta en todo el rango. Peso liviano de movilización. La barra no se desliza del trapecio.",
         "difficulty_level_id": "2c3e4b22-a93b-4350-bbcf-dc10a2d75ca0",
-        "primary_muscle_group_id": "d87faa6d-fb56-4943-89b8-ba2638129a52",
+        "primary_muscle_group_id": "68fe1106-34b1-4879-bee5-34d956f69a9b",
         "video_path": "https://www.youtube.com/shorts/7cpldMZjLOs",
         "is_compound": 1,
         "is_active": 1,
@@ -4128,20 +4128,24 @@
       "relations": {
         "muscle_groups": [
           {
-            "muscle_group_id": "0fd5f10e-494b-42a6-90c5-567420d50465",
+            "muscle_group_id": "27cfdc9f-db0d-4172-a3e9-20bf78710e8f",
             "is_primary": 0
           },
           {
-            "muscle_group_id": "533bcd8f-1764-4c63-a623-059a646cf6e9",
-            "is_primary": 0
-          },
-          {
-            "muscle_group_id": "c756a23e-2be5-4591-9d4e-148bc8583acd",
-            "is_primary": 0
-          },
-          {
-            "muscle_group_id": "d87faa6d-fb56-4943-89b8-ba2638129a52",
+            "muscle_group_id": "68fe1106-34b1-4879-bee5-34d956f69a9b",
             "is_primary": 1
+          },
+          {
+            "muscle_group_id": "9ebc9099-6c5f-4841-8c79-0e63d89e5d14",
+            "is_primary": 0
+          },
+          {
+            "muscle_group_id": "cbe3b11a-330b-4325-bee9-fe3f1c1bd068",
+            "is_primary": 0
+          },
+          {
+            "muscle_group_id": "d56158d8-ea6e-438f-afd4-c7d467f6f926",
+            "is_primary": 0
           }
         ],
         "equipment": [
@@ -15442,6 +15446,83 @@
       "image": {
         "path": "/img/exercises/lateral-shuffle.svg",
         "dataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjMwIj4NCiAgPHN0eWxlPg0KICAgIC5mMXthbmltYXRpb246c2gxIDRzIGxpbmVhciBpbmZpbml0ZX0uZjJ7YW5pbWF0aW9uOnNoMiA0cyBsaW5lYXIgaW5maW5pdGV9LmYze2FuaW1hdGlvbjpzaDMgNHMgbGluZWFyIGluZmluaXRlfQ0KICAgIEBrZXlmcmFtZXMgc2gxezAlLDI3JXtvcGFjaXR5OjF9MzMlLDkwJXtvcGFjaXR5OjB9MTAwJXtvcGFjaXR5OjF9fQ0KICAgIEBrZXlmcmFtZXMgc2gyezAlLDMzJXtvcGFjaXR5OjB9NDAlLDYwJXtvcGFjaXR5OjF9NjYlLDEwMCV7b3BhY2l0eTowfX0NCiAgICBAa2V5ZnJhbWVzIHNoM3swJSw2NiV7b3BhY2l0eTowfTcyJSw5MyV7b3BhY2l0eToxfTEwMCV7b3BhY2l0eTowfX0NCiAgPC9zdHlsZT4NCiAgPHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMzAiIGZpbGw9IiMxMTE4MjciIHJ4PSIxMiIvPg0KICA8bGluZSB4MT0iMzAiIHkxPSIyMTAiIHgyPSIxNzAiIHkyPSIyMTAiIHN0cm9rZT0iIzM3NDE1MSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4NCiAgPHRleHQgeD0iMTAwIiB5PSIyMjYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJ1aS1zYW5zLXNlcmlmLHN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjNDc1NTY5IiBsZXR0ZXItc3BhY2luZz0iMSI+TEFURVJBTCBTSFVGRkxFPC90ZXh0Pg0KICA8ZyBjbGFzcz0iZjEiPg0KICAgIDxjaXJjbGUgY3g9IjEwMCIgY3k9IjUyIiByPSIxMyIgZmlsbD0iIzk0YTNiOCIvPg0KICAgIDxnIHN0cm9rZT0iIzk0YTNiOCIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiPg0KICAgICAgPHBhdGggZD0iTTEwMCA2NSBMMTAwIDEyMCIvPg0KICAgICAgPHBhdGggZD0iTTEwMCA3NiBMODYgOTIgTDkyIDEwNiIvPg0KICAgICAgPHBhdGggZD0iTTEwMCA3NiBMMTE0IDkyIEwxMDggMTA2Ii8+DQogICAgICA8cGF0aCBkPSJNMTAwIDEyMCBMNzggMTYwIEw3MCAyMDUiLz4NCiAgICAgIDxwYXRoIGQ9Ik0xMDAgMTIwIEwxMjIgMTYwIEwxMzAgMjA1Ii8+DQogICAgICA8cGF0aCBkPSJNNjIgMjA1IEw4MCAyMDUiLz4NCiAgICAgIDxwYXRoIGQ9Ik0xMjIgMjA1IEwxNDAgMjA1Ii8+DQogICAgPC9nPg0KICAgIDxjaXJjbGUgY3g9Ijc4IiBjeT0iMTYwIiByPSI1IiBmaWxsPSIjNjQ3NDhiIi8+DQogICAgPGNpcmNsZSBjeD0iMTIyIiBjeT0iMTYwIiByPSI1IiBmaWxsPSIjNjQ3NDhiIi8+DQogIDwvZz4NCiAgPGcgY2xhc3M9ImYyIj4NCiAgICA8Y2lyY2xlIGN4PSI4MiIgY3k9IjU0IiByPSIxMyIgZmlsbD0iIzk0YTNiOCIvPg0KICAgIDxnIHN0cm9rZT0iIzk0YTNiOCIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiPg0KICAgICAgPHBhdGggZD0iTTgyIDY3IEw4NiAxMjIiLz4NCiAgICAgIDxwYXRoIGQ9Ik04MiA3OCBMNjggOTQgTDc0IDEwOCIvPg0KICAgICAgPHBhdGggZD0iTTgyIDc4IEw5NiA5NCBMOTIgMTA4Ii8+DQogICAgICA8cGF0aCBkPSJNODYgMTIyIEw2MiAxNjIgTDUyIDIwNSIvPg0KICAgICAgPHBhdGggZD0iTTg2IDEyMiBMMTEyIDE1OCBMMTI4IDIwMCIvPg0KICAgICAgPHBhdGggZD0iTTQ0IDIwNSBMNjIgMjA1Ii8+DQogICAgICA8cGF0aCBkPSJNMTIyIDIwMiBMMTQwIDE5NiIvPg0KICAgIDwvZz4NCiAgICA8Y2lyY2xlIGN4PSI2MiIgY3k9IjE2MiIgcj0iNSIgZmlsbD0iIzY0NzQ4YiIvPg0KICAgIDxjaXJjbGUgY3g9IjExMiIgY3k9IjE1OCIgcj0iNSIgZmlsbD0iIzY0NzQ4YiIvPg0KICA8L2c+DQogIDxnIGNsYXNzPSJmMyI+DQogICAgPGNpcmNsZSBjeD0iMTE4IiBjeT0iNTQiIHI9IjEzIiBmaWxsPSIjOTRhM2I4Ii8+DQogICAgPGcgc3Ryb2tlPSIjOTRhM2I4IiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSI+DQogICAgICA8cGF0aCBkPSJNMTE4IDY3IEwxMTQgMTIyIi8+DQogICAgICA8cGF0aCBkPSJNMTE4IDc4IEwxMzIgOTQgTDEyNiAxMDgiLz4NCiAgICAgIDxwYXRoIGQ9Ik0xMTggNzggTDEwNCA5NCBMMTA4IDEwOCIvPg0KICAgICAgPHBhdGggZD0iTTExNCAxMjIgTDEzOCAxNjIgTDE0OCAyMDUiLz4NCiAgICAgIDxwYXRoIGQ9Ik0xMTQgMTIyIEw4OCAxNTggTDcyIDIwMCIvPg0KICAgICAgPHBhdGggZD0iTTEzOCAyMDUgTDE1NiAyMDUiLz4NCiAgICAgIDxwYXRoIGQ9Ik02MCAxOTYgTDc4IDIwMiIvPg0KICAgIDwvZz4NCiAgICA8Y2lyY2xlIGN4PSIxMzgiIGN5PSIxNjIiIHI9IjUiIGZpbGw9IiM2NDc0OGIiLz4NCiAgICA8Y2lyY2xlIGN4PSI4OCIgY3k9IjE1OCIgcj0iNSIgZmlsbD0iIzY0NzQ4YiIvPg0KICA8L2c+DQo8L3N2Zz4NCg=="
+      }
+    },
+    {
+      "key": "62a25eb9-f3b5-4460-8213-06ca483b8c12",
+      "hash": "115fd12f353e65",
+      "row": {
+        "name": "Leg Swing",
+        "description": "De pie, de costado a una pared o soporte y apoyado con una mano, balancear una pierna casi extendida hacia adelante y hacia atrás como un péndulo, aumentando de a poco la amplitud. Se hacen todas las repeticiones de una pierna y después las de la otra.",
+        "technical_notes": "El movimiento sale de la cadera, no de la espalda baja: torso erguido y abdomen firme, sin acompañar el balanceo con el tronco. Pierna de apoyo con la rodilla apenas flexionada y el pie plano. Rodilla de la pierna que balancea casi extendida y tobillo relajado. Amplitud progresiva y controlada, sin tirones al final del recorrido: es movilidad dinámica para isquiotibiales (adelante) y flexores de cadera (atrás). También lo nombran: Front-to-Back Leg Swing.",
+        "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
+        "primary_muscle_group_id": "68fe1106-34b1-4879-bee5-34d956f69a9b",
+        "video_path": "https://www.youtube.com/shorts/G2WyCoVwv8Y",
+        "is_compound": 0,
+        "is_active": 1,
+        "video_long_path": "https://www.youtube.com/shorts/SzOYrfTZDSM",
+        "image_url": "/img/exercises/leg-swing.svg",
+        "met_value": 7
+      },
+      "relations": {
+        "muscle_groups": [
+          {
+            "muscle_group_id": "0f5aa458-f9df-45b1-98ab-219ca9ce9b44",
+            "is_primary": 0
+          },
+          {
+            "muscle_group_id": "27cfdc9f-db0d-4172-a3e9-20bf78710e8f",
+            "is_primary": 0
+          },
+          {
+            "muscle_group_id": "68fe1106-34b1-4879-bee5-34d956f69a9b",
+            "is_primary": 1
+          },
+          {
+            "muscle_group_id": "9ebc9099-6c5f-4841-8c79-0e63d89e5d14",
+            "is_primary": 0
+          },
+          {
+            "muscle_group_id": "cbe3b11a-330b-4325-bee9-fe3f1c1bd068",
+            "is_primary": 0
+          }
+        ],
+        "equipment": [
+          {
+            "equipment_id": "0a6807ca-c8a8-4fd4-b89d-3aaf7a8439af",
+            "is_required": 0
+          }
+        ],
+        "section_types": [
+          {
+            "section_type_id": "c5bb04f8-0779-4642-8244-a460df5b74a1"
+          },
+          {
+            "section_type_id": "e1a30990-b84c-423a-a73b-194925fb1606"
+          }
+        ],
+        "units": [
+          {
+            "measurement_unit_id": "30943e5f-5751-47e0-971f-00ae11a56ee4",
+            "is_default": 1
+          },
+          {
+            "measurement_unit_id": "e8e11d96-a0ec-488b-b58f-296bd5e0b329",
+            "is_default": 0
+          }
+        ],
+        "tags": [
+          {
+            "tag_id": "39ea2606-3fa2-4506-b0f1-2ff9e0a8b4be"
+          },
+          {
+            "tag_id": "799ed0e6-114e-4307-83a7-1e0a0713f064"
+          }
+        ]
+      },
+      "image": {
+        "path": "/img/exercises/leg-swing.svg",
+        "dataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjMwIj4KICA8c3R5bGU+CiAgICAuZjF7YW5pbWF0aW9uOnNoMSA3LjhzIGxpbmVhciBpbmZpbml0ZX0uZjJ7YW5pbWF0aW9uOnNoMiA3LjhzIGxpbmVhciBpbmZpbml0ZX0uZjN7YW5pbWF0aW9uOnNoMyA3LjhzIGxpbmVhciBpbmZpbml0ZX0uZjR7YW5pbWF0aW9uOnNoNCA3LjhzIGxpbmVhciBpbmZpbml0ZX0uZjV7YW5pbWF0aW9uOnNoNSA3LjhzIGxpbmVhciBpbmZpbml0ZX0uZjZ7YW5pbWF0aW9uOnNoNiA3LjhzIGxpbmVhciBpbmZpbml0ZX0KICAgIEBrZXlmcmFtZXMgc2gxezAlLDEzLjMle29wYWNpdHk6MX0xNi43JSw5Ni43JXtvcGFjaXR5OjB9MTAwJXtvcGFjaXR5OjF9fQogICAgQGtleWZyYW1lcyBzaDJ7MCUsMTYuNyV7b3BhY2l0eTowfTIwJSwzMCV7b3BhY2l0eToxfTMzLjMlLDEwMCV7b3BhY2l0eTowfX0KICAgIEBrZXlmcmFtZXMgc2gzezAlLDMzLjMle29wYWNpdHk6MH0zNi43JSw0Ni43JXtvcGFjaXR5OjF9NTAlLDEwMCV7b3BhY2l0eTowfX0KICAgIEBrZXlmcmFtZXMgc2g0ezAlLDUwJXtvcGFjaXR5OjB9NTMuMyUsNjMuMyV7b3BhY2l0eToxfTY2LjclLDEwMCV7b3BhY2l0eTowfX0KICAgIEBrZXlmcmFtZXMgc2g1ezAlLDY2Ljcle29wYWNpdHk6MH03MCUsODAle29wYWNpdHk6MX04My4zJSwxMDAle29wYWNpdHk6MH19CiAgICBAa2V5ZnJhbWVzIHNoNnswJSw4My4zJXtvcGFjaXR5OjB9ODYuNyUsOTYuNyV7b3BhY2l0eToxfTEwMCUsMTAwJXtvcGFjaXR5OjB9fQogIDwvc3R5bGU+CiAgPHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMzAiIGZpbGw9IiMxMTE4MjciIHJ4PSIxMiIvPgogIDxsaW5lIHgxPSIzMCIgeTE9IjIxMCIgeDI9IjE3MCIgeTI9IjIxMCIgc3Ryb2tlPSIjMzc0MTUxIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDx0ZXh0IHg9IjEwMCIgeT0iMjI1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0idWktc2Fucy1zZXJpZixzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzQ3NTU2OSIgbGV0dGVyLXNwYWNpbmc9IjIiPkxFRyBTV0lORzwvdGV4dD4KICA8cG9seWxpbmUgcG9pbnRzPSI0Mi4xLDE4MC45IDU1LDE4OS45IDY5LjIsMTk2LjYgODQuNCwyMDAuNiAxMDAsMjAyIDExNS42LDIwMC42IDEzMC44LDE5Ni42IDE0NSwxODkuOSAxNTcuOSwxODAuOSAxNjguOSwxNjkuOSAxNzcuOSwxNTcgMTg0LjYsMTQyLjgiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtZGFzaGFycmF5PSI0IDUiLz4KICA8IS0tIFBpZXJuYSBkZSBhcG95byAoZmlqYSwgZGV0csOhcykgLS0+CiAgPGcgc3Ryb2tlPSIjNjQ3NDhiIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSI+CiAgICA8cG9seWxpbmUgcG9pbnRzPSIxMDAsMTEyIDEwMiwxNjAgMTAwLDIwNSAxMTQsMjA1Ii8+CiAgPC9nPgogIDwhLS0gRnJhbWUgMTogUGllcm5hIGp1bnRvIGEgbGEgZGUgYXBveW8sIHRvcnNvIGVyZ3VpZG8gLS0+CiAgPGcgY2xhc3M9ImYxIj4KICAgIDxjaXJjbGUgY3g9IjEwMCIgY3k9IjMwIiByPSIxMiIgZmlsbD0iIzk0YTNiOCIvPgogICAgPGcgc3Ryb2tlPSIjOTRhM2I4IiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSI+CiAgICAgIDxsaW5lIHgxPSIxMDAiIHkxPSI0NCIgeDI9IjEwMCIgeTI9IjExMiIvPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSIxMDAsNTYgODQsODIgOTYsMTA2Ii8+CiAgICAgIDxwb2x5bGluZSBwb2ludHM9IjEwMCwxMTIgMTAzLjMsMTU5LjkgMTAxLjcsMjA0LjkgMTE0LjcsMjA1LjQiLz4KICAgIDwvZz4KICAgIDxjaXJjbGUgY3g9Ijg0IiBjeT0iODIiIHI9IjQiIGZpbGw9IiM2NDc0OGIiLz4KICAgIDxjaXJjbGUgY3g9IjEwMy4zIiBjeT0iMTU5LjkiIHI9IjUiIGZpbGw9IiM2NDc0OGIiLz4KICA8L2c+CiAgPCEtLSBGcmFtZSAyOiBCYWxhbmNlbyBoYWNpYSBhZGVsYW50ZSAtLT4KICA8ZyBjbGFzcz0iZjIiPgogICAgPGNpcmNsZSBjeD0iOTcuMSIgY3k9IjMwIiByPSIxMiIgZmlsbD0iIzk0YTNiOCIvPgogICAgPGcgc3Ryb2tlPSIjOTRhM2I4IiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSI+CiAgICAgIDxsaW5lIHgxPSI5Ny42IiB5MT0iNDQiIHgyPSIxMDAiIHkyPSIxMTIiLz4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iOTgsNTYgODMsODIuNiA5NS44LDEwNi4xIi8+CiAgICAgIDxwb2x5bGluZSBwb2ludHM9IjEwMCwxMTIgMTI3LjUsMTUxLjMgMTQzLjYsMTkzLjMgMTU1LjcsMTg4LjYiLz4KICAgIDwvZz4KICAgIDxjaXJjbGUgY3g9IjgzIiBjeT0iODIuNiIgcj0iNCIgZmlsbD0iIzY0NzQ4YiIvPgogICAgPGNpcmNsZSBjeD0iMTI3LjUiIGN5PSIxNTEuMyIgcj0iNSIgZmlsbD0iIzY0NzQ4YiIvPgogIDwvZz4KICA8IS0tIEZyYW1lIDM6IFB1bnRvIG3DoXMgYWx0byBhZGVsYW50ZSwgcm9kaWxsYSBjYXNpIGV4dGVuZGlkYSAtLT4KICA8ZyBjbGFzcz0iZjMiPgogICAgPGNpcmNsZSBjeD0iOTQuMyIgY3k9IjMwLjIiIHI9IjEyIiBmaWxsPSIjOTRhM2I4Ii8+CiAgICA8ZyBzdHJva2U9IiM5NGEzYjgiIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIj4KICAgICAgPGxpbmUgeDE9Ijk1LjMiIHkxPSI0NC4yIiB4Mj0iMTAwIiB5Mj0iMTEyIi8+CiAgICAgIDxwb2x5bGluZSBwb2ludHM9Ijk2LjEsNTYuMSA4MS45LDgzLjIgOTUuNiwxMDYuMyIvPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSIxMDAsMTEyIDE0Mi40LDEzNC41IDE4MC42LDE1OC4zIDE4Ny41LDE0Ny4zIi8+CiAgICA8L2c+CiAgICA8Y2lyY2xlIGN4PSI4MS45IiBjeT0iODMuMiIgcj0iNCIgZmlsbD0iIzY0NzQ4YiIvPgogICAgPGNpcmNsZSBjeD0iMTQyLjQiIGN5PSIxMzQuNSIgcj0iNSIgZmlsbD0iIzY0NzQ4YiIvPgogIDwvZz4KICA8IS0tIEZyYW1lIDQ6IFBhc2EgcG9yIGVsIGNlbnRybyAtLT4KICA8ZyBjbGFzcz0iZjQiPgogICAgPGNpcmNsZSBjeD0iMTAwIiBjeT0iMzAiIHI9IjEyIiBmaWxsPSIjOTRhM2I4Ii8+CiAgICA8ZyBzdHJva2U9IiM5NGEzYjgiIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIj4KICAgICAgPGxpbmUgeDE9IjEwMCIgeTE9IjQ0IiB4Mj0iMTAwIiB5Mj0iMTEyIi8+CiAgICAgIDxwb2x5bGluZSBwb2ludHM9IjEwMCw1NiA4NCw4MiA5NiwxMDYiLz4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iMTAwLDExMiAxMDYuNywxNTkuNSAxMDUuMSwyMDQuNSAxMTguMSwyMDUiLz4KICAgIDwvZz4KICAgIDxjaXJjbGUgY3g9Ijg0IiBjeT0iODIiIHI9IjQiIGZpbGw9IiM2NDc0OGIiLz4KICAgIDxjaXJjbGUgY3g9IjEwNi43IiBjeT0iMTU5LjUiIHI9IjUiIGZpbGw9IiM2NDc0OGIiLz4KICA8L2c+CiAgPCEtLSBGcmFtZSA1OiBQdW50byBtw6FzIGF0csOhcywgY2FkZXJhIGV4dGVuZGlkYSAtLT4KICA8ZyBjbGFzcz0iZjUiPgogICAgPGNpcmNsZSBjeD0iMTA4LjYiIGN5PSIzMC40IiByPSIxMiIgZmlsbD0iIzk0YTNiOCIvPgogICAgPGcgc3Ryb2tlPSIjOTRhM2I4IiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSI+CiAgICAgIDxsaW5lIHgxPSIxMDcuMSIgeTE9IjQ0LjQiIHgyPSIxMDAiIHkyPSIxMTIiLz4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iMTA1LjksNTYuMyA4Ny4yLDgwLjUgOTYuNiwxMDUuNiIvPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSIxMDAsMTEyIDcwLjQsMTQ5LjggMzEuNCwxNzIuMyAzNy45LDE4My42Ii8+CiAgICA8L2c+CiAgICA8Y2lyY2xlIGN4PSI4Ny4yIiBjeT0iODAuNSIgcj0iNCIgZmlsbD0iIzY0NzQ4YiIvPgogICAgPGNpcmNsZSBjeD0iNzAuNCIgY3k9IjE0OS44IiByPSI1IiBmaWxsPSIjNjQ3NDhiIi8+CiAgPC9nPgogIDwhLS0gRnJhbWUgNjogVnVlbHZlIGhhY2lhIGVsIGNlbnRybyAtLT4KICA8ZyBjbGFzcz0iZjYiPgogICAgPGNpcmNsZSBjeD0iMTA0LjMiIGN5PSIzMC4xIiByPSIxMiIgZmlsbD0iIzk0YTNiOCIvPgogICAgPGcgc3Ryb2tlPSIjOTRhM2I4IiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSI+CiAgICAgIDxsaW5lIHgxPSIxMDMuNiIgeTE9IjQ0LjEiIHgyPSIxMDAiIHkyPSIxMTIiLz4KICAgICAgPHBvbHlsaW5lIHBvaW50cz0iMTAyLjksNTYuMSA4NS42LDgxLjIgOTYuMywxMDUuOCIvPgogICAgICA8cG9seWxpbmUgcG9pbnRzPSIxMDAsMTEyIDg1LjIsMTU3LjcgNjAsMTk1IDcwLjgsMjAyLjMiLz4KICAgIDwvZz4KICAgIDxjaXJjbGUgY3g9Ijg1LjYiIGN5PSI4MS4yIiByPSI0IiBmaWxsPSIjNjQ3NDhiIi8+CiAgICA8Y2lyY2xlIGN4PSI4NS4yIiBjeT0iMTU3LjciIHI9IjUiIGZpbGw9IiM2NDc0OGIiLz4KICA8L2c+Cjwvc3ZnPgo="
       }
     },
     {
@@ -50885,6 +50966,528 @@
             "time_cap_seconds": 300,
             "total_rounds": null,
             "rest_between_rounds_seconds": 0,
+            "notes": null,
+            "rest_between_exercises_seconds": 10,
+            "rest_after_section_seconds": null,
+            "interval_seconds": null
+          },
+          "exercises": [
+            {
+              "sort_order": 1,
+              "coach_notes": null,
+              "planned_repetitions": null,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": 300,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": null,
+              "exercise_key": "8fa3b57f-4450-4ca1-9301-1a308b7d245a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "5d844dd1-6728-4f6a-9538-bc67a14c7363",
+      "hash": "1d4533106a8bf9",
+      "row": {
+        "date": "2026-10-21",
+        "name": "GOAT 21/10/2026",
+        "objective": "Movilidad de cadera y cadena posterior (leg swings, world's greatest stretch, good morning), activación con el complejo de cargada con barra (AMRAP 6), fuerza de clean and jerk en EMOM de 9 minutos en dos oleadas de carga ascendente y WOD AMRAP de 16 minutos en parejas con shuttle run, toes to bar, flexiones de rodillas y sentadillas.",
+        "general_notes": null,
+        "estimated_duration_minutes": 60,
+        "is_active": 1,
+        "template_type": "my_classes",
+        "video_url": null,
+        "video_duration_seconds": null,
+        "is_plan_day": 0
+      },
+      "sections": [
+        {
+          "row": {
+            "section_type_id": "c5bb04f8-0779-4642-8244-a460df5b74a1",
+            "work_format_id": "712a0d22-c534-4968-a61c-f12660a6b4bf",
+            "sort_order": 1,
+            "visible_title": "Calentamiento",
+            "general_description": "6 minutos de calentamiento",
+            "time_cap_seconds": 360,
+            "total_rounds": null,
+            "rest_between_rounds_seconds": 0,
+            "notes": null,
+            "rest_between_exercises_seconds": 10,
+            "rest_after_section_seconds": 60,
+            "interval_seconds": null
+          },
+          "exercises": [
+            {
+              "sort_order": 1,
+              "coach_notes": "Calentamiento general, ritmo suave",
+              "planned_repetitions": null,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": 360,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": null,
+              "exercise_key": "046ccc51-40b0-423e-a056-cb9a32387979"
+            }
+          ]
+        },
+        {
+          "row": {
+            "section_type_id": "e1a30990-b84c-423a-a73b-194925fb1606",
+            "work_format_id": "f29b4f7c-48ad-45d6-b91c-e2735b3349d9",
+            "sort_order": 2,
+            "visible_title": "Movilidad",
+            "general_description": "3 rondas, 12 repeticiones de cada movimiento",
+            "time_cap_seconds": null,
+            "total_rounds": 3,
+            "rest_between_rounds_seconds": 0,
+            "notes": null,
+            "rest_between_exercises_seconds": 10,
+            "rest_after_section_seconds": 60,
+            "interval_seconds": null
+          },
+          "exercises": [
+            {
+              "sort_order": 1,
+              "coach_notes": "Pierna izquierda",
+              "planned_repetitions": 12,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 35,
+              "exercise_key": "62a25eb9-f3b5-4460-8213-06ca483b8c12"
+            },
+            {
+              "sort_order": 2,
+              "coach_notes": "Pierna derecha",
+              "planned_repetitions": 12,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 35,
+              "exercise_key": "62a25eb9-f3b5-4460-8213-06ca483b8c12"
+            },
+            {
+              "sort_order": 3,
+              "coach_notes": "Alternando piernas",
+              "planned_repetitions": 12,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 25,
+              "exercise_key": "1a3ce2b9-d4ec-40f8-87bb-3c81aa907696"
+            },
+            {
+              "sort_order": 4,
+              "coach_notes": "Barra liviana, foco en la bisagra de cadera",
+              "planned_repetitions": 12,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 60,
+              "exercise_key": "34ff6008-0935-454e-bdc0-f2c394a21da1"
+            }
+          ]
+        },
+        {
+          "row": {
+            "section_type_id": "36188a05-b153-4e18-bb51-8310be11c9db",
+            "work_format_id": "9416f72a-45bf-42d7-ab16-a1dedb94025b",
+            "sort_order": 3,
+            "visible_title": "Activación",
+            "general_description": "Máximo de repeticiones en 6 minutos: 5 deadlift + 5 sumo deadlift high pull + 5 power clean + 5 front squat con la misma barra.",
+            "time_cap_seconds": 360,
+            "total_rounds": 3,
+            "rest_between_rounds_seconds": 0,
+            "notes": null,
+            "rest_between_exercises_seconds": 0,
+            "rest_after_section_seconds": 60,
+            "interval_seconds": null
+          },
+          "exercises": [
+            {
+              "sort_order": 1,
+              "coach_notes": null,
+              "planned_repetitions": 5,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 25,
+              "exercise_key": "dca85182-a4d7-4dd8-a787-79b0397ff67b"
+            },
+            {
+              "sort_order": 2,
+              "coach_notes": null,
+              "planned_repetitions": 5,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 25,
+              "exercise_key": "7e62f615-abb5-4805-83bf-690f42f81726"
+            },
+            {
+              "sort_order": 3,
+              "coach_notes": null,
+              "planned_repetitions": 5,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 40,
+              "exercise_key": "b94f01f3-a5f6-4174-9291-730179b790eb"
+            },
+            {
+              "sort_order": 4,
+              "coach_notes": null,
+              "planned_repetitions": 5,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 25,
+              "exercise_key": "34e92e64-9ef8-42e0-86bb-1880f0d6bc36"
+            }
+          ]
+        },
+        {
+          "row": {
+            "section_type_id": "b6cd3277-2183-4c8e-94ae-949c7b0f1a21",
+            "work_format_id": "f29b4f7c-48ad-45d6-b91c-e2735b3349d9",
+            "sort_order": 4,
+            "visible_title": "Fuerza - Clean and Jerk",
+            "general_description": "EMOM 9 minutos (una serie por minuto). Minutos 1-4: 5/4/3/2 reps con 30/35/40/45 kg. Minuto 5: descanso. Minutos 6-9: 5/4/3/2 reps con 35/40/45/50 kg.",
+            "time_cap_seconds": null,
+            "total_rounds": 1,
+            "rest_between_rounds_seconds": 0,
+            "notes": null,
+            "rest_between_exercises_seconds": 0,
+            "rest_after_section_seconds": 120,
+            "interval_seconds": null
+          },
+          "exercises": [
+            {
+              "sort_order": 1,
+              "coach_notes": "Minuto 1",
+              "planned_repetitions": 5,
+              "planned_weight_value": 30,
+              "planned_weight_unit_id": "553af60b-61fd-474e-b29b-fd7bb7c210a1",
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": 20,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 40,
+              "exercise_key": "3a20f7ad-c8ad-4fc4-845d-c6c92054da37"
+            },
+            {
+              "sort_order": 2,
+              "coach_notes": "Minuto 2",
+              "planned_repetitions": 4,
+              "planned_weight_value": 35,
+              "planned_weight_unit_id": "553af60b-61fd-474e-b29b-fd7bb7c210a1",
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": 30,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 30,
+              "exercise_key": "3a20f7ad-c8ad-4fc4-845d-c6c92054da37"
+            },
+            {
+              "sort_order": 3,
+              "coach_notes": "Minuto 3",
+              "planned_repetitions": 3,
+              "planned_weight_value": 40,
+              "planned_weight_unit_id": "553af60b-61fd-474e-b29b-fd7bb7c210a1",
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": 35,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 25,
+              "exercise_key": "3a20f7ad-c8ad-4fc4-845d-c6c92054da37"
+            },
+            {
+              "sort_order": 4,
+              "coach_notes": "Minuto 4; el minuto 5 es de descanso",
+              "planned_repetitions": 2,
+              "planned_weight_value": 45,
+              "planned_weight_unit_id": "553af60b-61fd-474e-b29b-fd7bb7c210a1",
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": 105,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 15,
+              "exercise_key": "3a20f7ad-c8ad-4fc4-845d-c6c92054da37"
+            },
+            {
+              "sort_order": 5,
+              "coach_notes": "Minuto 6",
+              "planned_repetitions": 5,
+              "planned_weight_value": 35,
+              "planned_weight_unit_id": "553af60b-61fd-474e-b29b-fd7bb7c210a1",
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": 20,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 40,
+              "exercise_key": "3a20f7ad-c8ad-4fc4-845d-c6c92054da37"
+            },
+            {
+              "sort_order": 6,
+              "coach_notes": "Minuto 7",
+              "planned_repetitions": 4,
+              "planned_weight_value": 40,
+              "planned_weight_unit_id": "553af60b-61fd-474e-b29b-fd7bb7c210a1",
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": 30,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 30,
+              "exercise_key": "3a20f7ad-c8ad-4fc4-845d-c6c92054da37"
+            },
+            {
+              "sort_order": 7,
+              "coach_notes": "Minuto 8",
+              "planned_repetitions": 3,
+              "planned_weight_value": 45,
+              "planned_weight_unit_id": "553af60b-61fd-474e-b29b-fd7bb7c210a1",
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": 35,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 25,
+              "exercise_key": "3a20f7ad-c8ad-4fc4-845d-c6c92054da37"
+            },
+            {
+              "sort_order": 8,
+              "coach_notes": "Minuto 9",
+              "planned_repetitions": 2,
+              "planned_weight_value": 50,
+              "planned_weight_unit_id": "553af60b-61fd-474e-b29b-fd7bb7c210a1",
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": 45,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 15,
+              "exercise_key": "3a20f7ad-c8ad-4fc4-845d-c6c92054da37"
+            }
+          ]
+        },
+        {
+          "row": {
+            "section_type_id": "4e1bf46f-3437-44de-917a-d114fbcea2af",
+            "work_format_id": "9416f72a-45bf-42d7-ab16-a1dedb94025b",
+            "sort_order": 5,
+            "visible_title": "WOD",
+            "general_description": "Máximo de repeticiones en 16 minutos, en parejas en espejo (aprox. 2 rondas): 20 shuttle run, 50 toes to bar, 75 flexiones de rodillas y 100 sentadillas.",
+            "time_cap_seconds": 960,
+            "total_rounds": 2,
+            "rest_between_rounds_seconds": 0,
+            "notes": null,
+            "rest_between_exercises_seconds": 0,
+            "rest_after_section_seconds": 60,
+            "interval_seconds": null
+          },
+          "exercises": [
+            {
+              "sort_order": 1,
+              "coach_notes": "En parejas en espejo",
+              "planned_repetitions": 20,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 60,
+              "exercise_key": "cf8e489b-aee4-4797-bbb8-d77b80123223"
+            },
+            {
+              "sort_order": 2,
+              "coach_notes": null,
+              "planned_repetitions": 50,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 120,
+              "exercise_key": "ae17ab62-f0e0-496b-a34e-47d0b48edc8a"
+            },
+            {
+              "sort_order": 3,
+              "coach_notes": null,
+              "planned_repetitions": 75,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 120,
+              "exercise_key": "30b25dd5-499a-4444-a434-6e6a7c895967"
+            },
+            {
+              "sort_order": 4,
+              "coach_notes": null,
+              "planned_repetitions": 100,
+              "planned_weight_value": null,
+              "planned_weight_unit_id": null,
+              "planned_time_seconds": null,
+              "planned_distance_value": null,
+              "planned_distance_unit_id": null,
+              "planned_calories": null,
+              "planned_rest_seconds": null,
+              "planned_rounds": null,
+              "rm_percentage": null,
+              "suggested_scaling": null,
+              "notes": null,
+              "suggested_timer_seconds": 180,
+              "exercise_key": "c798e0b1-7d41-431b-a99d-8be9e181004f"
+            }
+          ]
+        },
+        {
+          "row": {
+            "section_type_id": "0daa51ee-5656-4b98-aba6-17488ad1628e",
+            "work_format_id": "712a0d22-c534-4968-a61c-f12660a6b4bf",
+            "sort_order": 6,
+            "visible_title": "Estiramiento",
+            "general_description": "5 minutos aprox. de estiramientos y vuelta a la calma",
+            "time_cap_seconds": 300,
+            "total_rounds": null,
+            "rest_between_rounds_seconds": null,
             "notes": null,
             "rest_between_exercises_seconds": 10,
             "rest_after_section_seconds": null,
