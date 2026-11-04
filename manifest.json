@@ -1,9 +1,9 @@
 {
-  "app": "CrossFit Session Tracker",
+  "app": "FitLesUY Session Tracker",
   "format": 1,
-  "contentVersion": 7,
-  "publishedAt": "2026-11-02 17:24:05",
-  "contentHash": "0d5365a8728fbd",
+  "contentVersion": 9,
+  "publishedAt": "2026-11-04 01:56:55",
+  "contentHash": "1c4e03da07c9a3",
   "counts": {
     "exercises": 337,
     "classes": 132,
@@ -13,7 +13,7 @@
   "files": [
     {
       "path": "content/content.json",
-      "size": 4215614
+      "size": 4217513
     }
   ]
 }
