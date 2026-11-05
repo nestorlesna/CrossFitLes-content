@@ -1,9 +1,9 @@
 {
   "app": "FitLesUY Session Tracker",
   "format": 1,
-  "contentVersion": 1,
-  "publishedAt": "2026-11-04 22:26:43",
-  "contentHash": "147157c5291991",
+  "contentVersion": 2,
+  "publishedAt": "2026-11-05 00:08:38",
+  "contentHash": "0e96cdb31b1302",
   "counts": {
     "exercises": 337,
     "classes": 132,
@@ -13,7 +13,7 @@
   "files": [
     {
       "path": "content/content.mio.json",
-      "size": 5626026
+      "size": 5626126
     }
   ],
   "classKeys": [

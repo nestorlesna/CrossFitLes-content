@@ -1,8 +1,8 @@
 {
   "app": "FitLesUY Session Tracker",
   "format": 1,
-  "contentVersion": 10,
-  "publishedAt": "2026-11-04 22:23:20",
+  "contentVersion": 11,
+  "publishedAt": "2026-11-05 00:08:32",
   "catalogs": {
     "muscle_group": [
       {
@@ -1079,7 +1079,7 @@
     },
     {
       "key": "f938ef6e-36ca-4665-a010-8913ee1fec81",
-      "hash": "0e93ca3f4585a6",
+      "hash": "0f8730babdfd04",
       "row": {
         "name": "90/90 Hip Rotation",
         "description": "Sentado en el suelo con ambas piernas en 90°, una adelante y una al costado. Rotar activamente el torso y la cadera hacia el lado contrario, cambiando la posición de las piernas.",
@@ -1089,7 +1089,7 @@
         "video_path": "https://www.youtube.com/watch?v=kvyYhCbOUaQ",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/FM7-7-a0FLg",
+        "video_long_path": "https://www.youtube.com/watch?v=zT6Qhd28sIw",
         "image_url": "/img/exercises/hip-90-90-rotation.svg",
         "met_value": 7
       },
@@ -1195,7 +1195,7 @@
     },
     {
       "key": "c798e0b1-7d41-431b-a99d-8be9e181004f",
-      "hash": "1bf1969f9f12ed",
+      "hash": "15dc5795895719",
       "row": {
         "name": "Air Squat",
         "description": "Sentadilla con peso corporal: bajar flexionando caderas y rodillas hasta que los muslos queden por debajo de la paralela, manteniendo el torso erguido, y volver a extender.",
@@ -1205,7 +1205,7 @@
         "video_path": "https://www.youtube.com/shorts/dVjfUlXK93k",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=C_VtOYc6j5c",
+        "video_long_path": "https://www.youtube.com/watch?v=m9bpMsuR_I8",
         "image_url": "/img/exercises/air-squat.svg",
         "met_value": 7
       },
@@ -1270,7 +1270,7 @@
     },
     {
       "key": "115ba152-4e78-43f8-9494-e415ee23a4db",
-      "hash": "1df33a1ad5b45f",
+      "hash": "0f21169780de84",
       "row": {
         "name": "Alternating 90/90 Into Shin Box",
         "description": "Sentado en el suelo, alternar entre la posición 90/90 (ambas piernas en ángulo recto, una adelante y una al costado) y la posición shin box (tibias cruzadas), rotando la cadera de un lado al otro de forma fluida.",
@@ -1280,7 +1280,7 @@
         "video_path": "https://www.youtube.com/shorts/9nhhZIpIZ7A",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=MQbBqrdhjW8",
+        "video_long_path": "https://www.youtube.com/watch?v=i3m5FNtO4y4",
         "image_url": "/img/exercises/alternating-90-90-into-shin-box.svg",
         "met_value": 7
       },
@@ -1542,7 +1542,7 @@
     },
     {
       "key": "4252c619-33ba-4ff7-b13e-5a27405c1da8",
-      "hash": "040a8df5355f93",
+      "hash": "079a9898374db0",
       "row": {
         "name": "Alternating Single Arm Dumbbell Power Snatch",
         "description": null,
@@ -1552,7 +1552,7 @@
         "video_path": "https://youtu.be/OktkfRlGcns",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=zVptpUTqUUg",
+        "video_long_path": "https://www.youtube.com/watch?v=M9Q_h-473fc",
         "image_url": "/img/exercises/alternating-single-arm-dumbbell-power-snatch.svg",
         "met_value": 7
       },
@@ -1815,7 +1815,7 @@
     },
     {
       "key": "0869688e-a4c1-4e2d-81ce-274d546e3aa7",
-      "hash": "0355b6455c1505",
+      "hash": "05c63423169704",
       "row": {
         "name": "Arm Circles",
         "description": "Círculos amplios con los brazos extendidos en cruz: la mitad del tiempo hacia adelante y la otra mitad hacia atrás. Prepara los hombros para planchas, flexiones y pike.",
@@ -1825,7 +1825,7 @@
         "video_path": "https://www.youtube.com/shorts/RN40wyH6x9o",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=mwDgFY86zck",
+        "video_long_path": "https://www.youtube.com/watch?v=HS7MJrdsk4w",
         "image_url": "/img/exercises/arm-circles.svg",
         "met_value": 7
       },
@@ -1879,7 +1879,7 @@
     },
     {
       "key": "d105947c-d1e5-4374-8714-bda65a54c519",
-      "hash": "056b1337088469",
+      "hash": "10cc352361951b",
       "row": {
         "name": "Assault Bike",
         "description": "Bicicleta de aire de cuerpo completo: pedalear y empujar/tirar de los manubrios contra la resistencia del ventilador por calorías o tiempo.",
@@ -1889,7 +1889,7 @@
         "video_path": "https://www.youtube.com/shorts/wF1N48xFcdQ",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=Sg3Id7Lu8XU",
+        "video_long_path": "https://www.youtube.com/watch?v=Ipn_q7jZpNA",
         "image_url": "/img/exercises/assault-bike.svg",
         "met_value": 7
       },
@@ -2026,7 +2026,7 @@
     },
     {
       "key": "b656d581-a62c-4703-8f35-4433171a7178",
-      "hash": "160ea23e160221",
+      "hash": "1f5030f524b1b0",
       "row": {
         "name": "Band External Rotation",
         "description": "De pie junto a un ancla a la altura de la cintura, codo pegado al cuerpo a 90°. Rotar el antebrazo hacia afuera contra la resistencia de la banda y volver. Ejecutar cada lado por separado.",
@@ -2036,7 +2036,7 @@
         "video_path": "https://www.youtube.com/shorts/7DqYesMRkzU",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=UyBb2-bP0CU",
+        "video_long_path": "https://www.youtube.com/watch?v=xikGlUaG3sE",
         "image_url": "/img/exercises/band-external-rotation.svg",
         "met_value": 7
       },
@@ -2176,7 +2176,7 @@
     },
     {
       "key": "f96fa364-fcae-465b-9d97-d0b690c54273",
-      "hash": "1b7cefbdda45d3",
+      "hash": "01e250ee6d009a",
       "row": {
         "name": "Band Pass-Through",
         "description": "De pie con una banda elástica tomada con agarre ancho, pasar los brazos extendidos desde adelante, por encima de la cabeza, hasta la espalda, y volver.",
@@ -2186,7 +2186,7 @@
         "video_path": "https://www.youtube.com/shorts/07lFW_Ulz6E",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/ErTGd0_Mpzo",
+        "video_long_path": "https://www.youtube.com/watch?v=UMRiHkocS4Q",
         "image_url": "/img/exercises/band-pass-through.svg",
         "met_value": 7
       },
@@ -2252,7 +2252,7 @@
     },
     {
       "key": "7005ec2c-5c53-4e44-affd-0cbc3cfe3120",
-      "hash": "0bcb025c327fc9",
+      "hash": "0aa5b841c9ff2f",
       "row": {
         "name": "Band Pull-Apart",
         "description": "De pie, sostener una banda elástica con ambas manos al frente a la altura de los hombros. Separar los brazos horizontalmente hasta que la banda toque el pecho, luego volver controlado.",
@@ -2262,7 +2262,7 @@
         "video_path": "https://www.youtube.com/shorts/qi2y-eI_kuI",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=kZDAZFxA3-c",
+        "video_long_path": "https://www.youtube.com/watch?v=UHpBIGqq_7M",
         "image_url": "/img/exercises/band-pull-apart.svg",
         "met_value": 7
       },
@@ -2718,7 +2718,7 @@
     },
     {
       "key": "0603603d-2ff6-4cac-9d0b-cb342162a9a0",
-      "hash": "05a742bc43c11a",
+      "hash": "188612bcc0b719",
       "row": {
         "name": "Band Triceps Pushdown",
         "description": "De pie, sosteniendo una banda elástica anclada en alto, con los codos pegados al cuerpo, extender los antebrazos hacia abajo contra la resistencia de la banda y volver de forma controlada.",
@@ -2728,7 +2728,7 @@
         "video_path": "https://www.youtube.com/shorts/2c5oyCYILNg",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=Y3CDzx-oj3k",
+        "video_long_path": "https://www.youtube.com/watch?v=7zH0SOBkaYc",
         "image_url": "/img/exercises/band-triceps-pushdown.svg",
         "met_value": 7
       },
@@ -3437,7 +3437,7 @@
     },
     {
       "key": "04c7ce96-fe1f-497d-9350-8f6b2726012d",
-      "hash": "04d71613e917a3",
+      "hash": "0fa0d106dbfc3e",
       "row": {
         "name": "Barbell Back Squat",
         "description": "Sentadilla con barra sobre la espalda alta o baja. Movimiento fundamental de fuerza de piernas.",
@@ -3447,7 +3447,7 @@
         "video_path": "https://www.youtube.com/shorts/ZaSetOZFo-k",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=8PMjqgR8Wa8",
+        "video_long_path": "https://www.youtube.com/watch?v=1Gnk3JDDs3A",
         "image_url": "/img/exercises/back-squat.svg",
         "met_value": 7
       },
@@ -3669,7 +3669,7 @@
     },
     {
       "key": "85189cab-0ff4-42bd-8072-5fc2d7ca867c",
-      "hash": "0f7d63d406cbd7",
+      "hash": "085ed4510e1a86",
       "row": {
         "name": "Barbell Bicep Curl",
         "description": null,
@@ -3679,7 +3679,7 @@
         "video_path": "https://youtu.be/BVrlItPBX8M?si=4NJpARumV7sAFCki",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://youtu.be/bAWLx7PPK10",
+        "video_long_path": "https://www.youtube.com/watch?v=Fh-C00-UTZ0",
         "image_url": "/img/exercises/barbell-bicep-curl.svg",
         "met_value": 7
       },
@@ -3906,7 +3906,7 @@
     },
     {
       "key": "dca85182-a4d7-4dd8-a787-79b0397ff67b",
-      "hash": "1eafddae54f08d",
+      "hash": "06bae08bc64a01",
       "row": {
         "name": "Barbell Deadlift",
         "description": "Levantamiento de peso muerto convencional desde el suelo. Cadena posterior completa.",
@@ -3916,7 +3916,7 @@
         "video_path": "https://www.youtube.com/watch?v=qwdwllxIO94",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=1ZXobu7JvvE",
+        "video_long_path": "https://www.youtube.com/watch?v=NhRlgjzNuwE",
         "image_url": "/img/exercises/barbell-deadlift.svg",
         "met_value": 7
       },
@@ -4279,7 +4279,7 @@
     },
     {
       "key": "95207fec-3c18-4a27-9b6b-a2ec166d442c",
-      "hash": "0e7c9e34686f99",
+      "hash": "14847c393f7764",
       "row": {
         "name": "Barbell Hang Clean",
         "description": "Cargada desde posición de colgado al rack frontal. Puede ser a squat clean o power clean según instrucción.",
@@ -4289,7 +4289,7 @@
         "video_path": "https://www.youtube.com/shorts/_q0dkHb89us",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=DaKC_BEN5bk",
+        "video_long_path": "https://www.youtube.com/watch?v=GLrYmhgwCmc",
         "image_url": "/img/exercises/barbell-hang-clean.svg",
         "met_value": 7
       },
@@ -4481,7 +4481,7 @@
     },
     {
       "key": "27916d9e-30ef-4a95-9b8f-a7f474f3a5ae",
-      "hash": "1c612c46bcb895",
+      "hash": "1f12dd3f2d4bdb",
       "row": {
         "name": "Barbell Hang Power Clean",
         "description": null,
@@ -4491,7 +4491,7 @@
         "video_path": "https://youtu.be/0aP3tgKZcHQ",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://youtu.be/qQ8InArxi-Y?si=-assd3pTkI_Px7CJ",
+        "video_long_path": "https://www.youtube.com/watch?v=OXVmoa-r2Zc",
         "image_url": "/img/exercises/barbell-hang-power-clean.svg",
         "met_value": 7
       },
@@ -4640,7 +4640,7 @@
     },
     {
       "key": "3b2c1321-eb98-466d-bee4-76be1fa879e7",
-      "hash": "03cceedd8da720",
+      "hash": "081b3abb9d5b84",
       "row": {
         "name": "Barbell Hang Power Snatch",
         "description": null,
@@ -4650,7 +4650,7 @@
         "video_path": "https://youtu.be/-mLzQdVAwlw?si=sQHYkOPNIgOBbsrh",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=SpDPcj0W3Yw",
+        "video_long_path": "https://www.youtube.com/watch?v=o5guIJ0BltQ",
         "image_url": "/img/exercises/barbell-hang-power-snatch.svg",
         "met_value": 7
       },
@@ -4736,7 +4736,7 @@
     },
     {
       "key": "1b192cb1-a2dc-476a-8ddc-945422d311b0",
-      "hash": "0a37a1b9d44e53",
+      "hash": "1818030f6b6d41",
       "row": {
         "name": "Barbell High Hang Power Clean",
         "description": "Cargada de potencia desde el hang alto: la barra arranca en el pliegue de la cadera y se recibe en front rack por encima del paralelo.",
@@ -4746,7 +4746,7 @@
         "video_path": "https://www.youtube.com/watch?v=g3fj757-XSA",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/SLtiLAexbTc",
+        "video_long_path": "https://www.youtube.com/watch?v=enFXDetFgVk",
         "image_url": "/img/exercises/barbell-high-hang-power-clean.svg",
         "met_value": 7
       },
@@ -4816,7 +4816,7 @@
     },
     {
       "key": "1a3135fa-3be8-4679-ad8a-1de7971cead9",
-      "hash": "023be8ed81944b",
+      "hash": "1517427964bf46",
       "row": {
         "name": "Barbell High Hang Squat Clean",
         "description": "Cargada desde la posición de hang alto (barra por encima de las rodillas, en el muslo alto). Se extiende la cadera con fuerza, se tira de la barra con los codos altos y se cae bajo ella para recibirla en una sentadilla frontal profunda; luego se sube de pie.",
@@ -4826,7 +4826,7 @@
         "video_path": "https://www.youtube.com/shorts/dsBJaQKpXKE",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/EhjYFEycVko",
+        "video_long_path": "https://www.youtube.com/watch?v=AZJd-W6UX2g",
         "image_url": "/img/exercises/barbell-high-hang-squat-clean.svg",
         "met_value": 7
       },
@@ -5126,7 +5126,7 @@
     },
     {
       "key": "bec560d1-48b6-4030-9b06-0aaf468c7a3c",
-      "hash": "193407ddfc6d2c",
+      "hash": "038764c25100c4",
       "row": {
         "name": "Barbell Muscle Snatch",
         "description": "Arranque muscular: tirón desde el suelo hasta overhead sin re-flexión de rodillas. Alta demanda de hombros y trapecio.",
@@ -5136,7 +5136,7 @@
         "video_path": "https://www.youtube.com/watch?v=nJmtGVutszE",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=GhxhiehJcQY",
+        "video_long_path": "https://www.youtube.com/watch?v=2PvHgCThWaI",
         "image_url": "/img/exercises/barbell-muscle-snatch.svg",
         "met_value": 7
       },
@@ -5779,7 +5779,7 @@
     },
     {
       "key": "99a55d0e-3974-49bf-a502-22c5caa61ea7",
-      "hash": "09d634d4dea069",
+      "hash": "003c8abecced93",
       "row": {
         "name": "Barbell Squat Clean",
         "description": null,
@@ -5789,7 +5789,7 @@
         "video_path": "https://youtu.be/EKRiW9Yt3Ps",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://youtu.be/FXd9p5bryPU",
+        "video_long_path": "https://www.youtube.com/watch?v=9Lgxnt4cthQ",
         "image_url": "/img/exercises/barbell-squat-clean.svg",
         "met_value": 7
       },
@@ -7253,7 +7253,7 @@
     },
     {
       "key": "bfd999c7-815d-4ddd-a681-5b86341a12fb",
-      "hash": "17cff54e47ea10",
+      "hash": "119c54c6abb055",
       "row": {
         "name": "Box Jump",
         "description": "Salto con dos pies sobre el cajón pliométrico aterrizando con cadera en extensión. Potencia de piernas.",
@@ -7263,7 +7263,7 @@
         "video_path": "https://www.youtube.com/shorts/iqhhDf0ggSA",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=Tyni8wPbpWs",
+        "video_long_path": "https://www.youtube.com/watch?v=WrhU452mlbw",
         "image_url": "/img/exercises/box-jump.svg",
         "met_value": 7
       },
@@ -7315,7 +7315,7 @@
     },
     {
       "key": "854a2138-8e64-4e34-9272-e8f8648232fe",
-      "hash": "1d23685d4884d8",
+      "hash": "0a0ca90759e07c",
       "row": {
         "name": "Box Jump-Over",
         "description": "Salto sobre el box (o alrededor) terminando completamente al otro lado. Se puede hacer con salto o step-over según Rx.",
@@ -7325,7 +7325,7 @@
         "video_path": "https://www.youtube.com/watch?v=T7HFJfD8YEw",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=NBY9-kTuHEk",
+        "video_long_path": "https://www.youtube.com/watch?v=nOborecxcS0",
         "image_url": "/img/exercises/box-jump-over.svg",
         "met_value": 7
       },
@@ -7381,7 +7381,7 @@
     },
     {
       "key": "ca714c16-aeda-4645-a38e-84e9f62df9e2",
-      "hash": "085459c04a6869",
+      "hash": "0e4a3eb6bb8985",
       "row": {
         "name": "Box Step-Up",
         "description": "De pie frente a un cajón. Apoyar un pie completo sobre el cajón y empujar para subir extendiendo la pierna, llevando la otra pierna arriba. Bajar de forma controlada apoyando primero la pierna trasera.",
@@ -7391,7 +7391,7 @@
         "video_path": "https://www.youtube.com/shorts/j8KN0jwWaRA",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/mw6iqu9K8DY",
+        "video_long_path": "https://www.youtube.com/watch?v=wdCXfEUHvrA",
         "image_url": "/img/exercises/box-step-up.svg",
         "met_value": 7
       },
@@ -8338,7 +8338,7 @@
     },
     {
       "key": "eeadc513-a0c1-4f49-9b51-0860b57067f4",
-      "hash": "12db7d3705877b",
+      "hash": "1ccb821cadec57",
       "row": {
         "name": "Cobra Pose",
         "description": "Acostado boca abajo con las manos apoyadas bajo los hombros, empujar contra el suelo para elevar el pecho mientras los codos permanecen semi-extendidos o completamente extendidos. Las caderas y piernas permanecen en el suelo.",
@@ -8348,7 +8348,7 @@
         "video_path": "https://www.youtube.com/shorts/dRAibO71JCM",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=n6jrC6WeF84",
+        "video_long_path": "https://www.youtube.com/watch?v=mRthiV8u7cE",
         "image_url": "/img/exercises/cobra-pose.svg",
         "met_value": 7
       },
@@ -8871,7 +8871,7 @@
     },
     {
       "key": "99abcf10-ceb6-4137-bbab-6903516491de",
-      "hash": "0320d406a378c6",
+      "hash": "0c5154aacce38c",
       "row": {
         "name": "Dead Bug",
         "description": "Boca arriba con brazos y piernas al techo, se bajan lentamente brazo y pierna contrarios sin despegar la lumbar del piso. Anti-extensión puro.",
@@ -8881,7 +8881,7 @@
         "video_path": "https://www.youtube.com/shorts/XcYtWYMz39w",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=lqnuY3wiBzA",
+        "video_long_path": "https://www.youtube.com/watch?v=CM61w_n5u8s",
         "image_url": "/img/exercises/dead-bug.svg",
         "met_value": 7
       },
@@ -8934,7 +8934,7 @@
     },
     {
       "key": "9c221c3d-b220-4c8c-b0d3-ce19a0c1b381",
-      "hash": "0f47c86ee2671d",
+      "hash": "0ca2388d63fcf1",
       "row": {
         "name": "Dead Bug Hold with Dumbbell",
         "description": "Decúbito supino, brazos extendidos sosteniendo una mancuerna sobre el pecho, rodillas a 90°. Mantener la posición con la espalda baja pegada al suelo.",
@@ -8944,7 +8944,7 @@
         "video_path": "https://www.youtube.com/watch?v=pXcG0IH2Nkg",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=p4xj3tD1doc",
+        "video_long_path": "https://www.youtube.com/watch?v=jY1h2QZaezw",
         "image_url": "/img/exercises/dead-bug-hold-dumbbell.svg",
         "met_value": 7
       },
@@ -9000,7 +9000,7 @@
     },
     {
       "key": "caa88795-1de3-4bf6-a9ef-a093e4ae5285",
-      "hash": "01ffddca98ebba",
+      "hash": "0bdd692c55dd10",
       "row": {
         "name": "Dead Bug with Band Resistance",
         "description": "Acostado boca arriba con una banda elástica anclada por detrás de la cabeza, sostenerla con ambos brazos extendidos. Extender una pierna y el brazo contrario manteniendo la zona lumbar pegada al piso, contra la resistencia de la banda.",
@@ -9010,7 +9010,7 @@
         "video_path": "https://www.youtube.com/shorts/iW_CtYtzbeU",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/UTkKdH4XDKk",
+        "video_long_path": "https://www.youtube.com/watch?v=Lg3uw3-VUk8",
         "image_url": "/img/exercises/dead-bug.svg",
         "met_value": 7
       },
@@ -11050,7 +11050,7 @@
     },
     {
       "key": "009e6322-14a0-4e58-b8f4-017622be0c5a",
-      "hash": "1e3164e0c02de1",
+      "hash": "1ce3bbc8f9f68b",
       "row": {
         "name": "Dynamic Hollow Hold",
         "description": "Desde la posición de hollow hold, se alternan pequeños movimientos de brazos y piernas mientras la zona lumbar permanece pegada al piso.",
@@ -11060,7 +11060,7 @@
         "video_path": "https://www.youtube.com/shorts/TZ-YNMQNSc0",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=pt23YMKRyzI",
+        "video_long_path": "https://www.youtube.com/watch?v=-zcoalZVNDg",
         "image_url": "/img/exercises/dynamic-hollow-hold.svg",
         "met_value": 7
       },
@@ -11120,7 +11120,7 @@
     },
     {
       "key": "6c5814a7-a391-4a17-8136-4f6ec22d9a17",
-      "hash": "1bed1d095c6ebc",
+      "hash": "1d3bd52a981781",
       "row": {
         "name": "Dynamic Warm-Up",
         "description": "Calentamiento general dinámico de pie: movilidad de hombros, cadera y tobillos con círculos de brazos, sentadillas suaves y elevaciones de rodilla a ritmo progresivo.",
@@ -11130,7 +11130,7 @@
         "video_path": "https://www.youtube.com/watch?v=divaflydT7M",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=pPlFSqXnbls",
+        "video_long_path": "https://www.youtube.com/watch?v=o3-ytL_ReA4",
         "image_url": "/img/exercises/dynamic-warm-up.svg",
         "met_value": 7
       },
@@ -11372,7 +11372,7 @@
     },
     {
       "key": "8fa3b57f-4450-4ca1-9301-1a308b7d245a",
-      "hash": "0b54112a6b8218",
+      "hash": "01b363241ffb9a",
       "row": {
         "name": "General Stretching",
         "description": "Serie libre de estiramientos de las cadenas trabajadas en la clase, sosteniendo cada posición sin rebotes.",
@@ -11382,7 +11382,7 @@
         "video_path": null,
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": null,
+        "video_long_path": "https://www.youtube.com/watch?v=42JLrCpb7qE",
         "image_url": "/img/exercises/general-stretching.svg",
         "met_value": 7
       },
@@ -11777,7 +11777,7 @@
     },
     {
       "key": "e100cc0a-6dbc-4efc-a02b-55e6ad02fe8e",
-      "hash": "12f4dccfe6ddae",
+      "hash": "00bf5b0c01cec0",
       "row": {
         "name": "Half Kneeling Hip Flexor Stretch",
         "description": "En posición media-arrodillada (un pie adelante en 90°, rodilla trasera en el suelo), empujar suavemente la cadera hacia adelante mientras se mantiene el torso erguido. Opcionalmente elevar el brazo del lado de la rodilla trasera para aumentar el estiramiento.",
@@ -11787,7 +11787,7 @@
         "video_path": "https://www.youtube.com/watch?v=VYItAZ1sLhA",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=bW7FqSFKqyE",
+        "video_long_path": "https://www.youtube.com/watch?v=bUrewFPJp2E",
         "image_url": "/img/exercises/half-kneeling-hip-flexor-stretch.svg",
         "met_value": 7
       },
@@ -12655,7 +12655,7 @@
     },
     {
       "key": "03305aa6-3665-4c1f-aea2-52e2c047a458",
-      "hash": "0ca25d329a23b4",
+      "hash": "0b53cd127b8186",
       "row": {
         "name": "Hollow Hold",
         "description": "Boca arriba, se despegan hombros y piernas del piso formando una \"banana\" con la lumbar pegada al suelo. Clásico de gimnasia y del CrossFit.",
@@ -12665,7 +12665,7 @@
         "video_path": "https://www.youtube.com/shorts/skVSiMgOhc0",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=HAfUt2Cco74",
+        "video_long_path": "https://www.youtube.com/watch?v=1oRugI1TFgM",
         "image_url": "/img/exercises/hollow-hold.svg",
         "met_value": 7
       },
@@ -12780,7 +12780,7 @@
     },
     {
       "key": "50326169-bb89-493b-a98c-cbff87df5cd7",
-      "hash": "1b22998dfd4a83",
+      "hash": "1a435addb06a6a",
       "row": {
         "name": "Hollow Rock",
         "description": "Desde posición hollow body (brazos y piernas extendidos y elevados), balancear hacia adelante y atrás manteniendo la tensión.",
@@ -12790,7 +12790,7 @@
         "video_path": "https://www.youtube.com/shorts/uc92iKeEJRU",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=hbsljZvfp6E",
+        "video_long_path": "https://www.youtube.com/watch?v=y6oz3X6cWVw",
         "image_url": "/img/exercises/hollow-rock.svg",
         "met_value": 7
       },
@@ -15916,7 +15916,7 @@
     },
     {
       "key": "e0c3cad0-5961-4865-913c-f1c87112a237",
-      "hash": "162299d536bf07",
+      "hash": "15779d48e31db3",
       "row": {
         "name": "March in Place",
         "description": "Caminata enérgica sin desplazamiento, levantando las rodillas hasta la altura de la cadera y acompañando con braceo amplio. Sube el pulso sin ningún impacto en las rodillas.",
@@ -15926,7 +15926,7 @@
         "video_path": "https://www.youtube.com/shorts/5l-A5_-BPUg",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=QilgMPG7OaA",
+        "video_long_path": "https://www.youtube.com/watch?v=PHWkDN4Znoo",
         "image_url": "/img/exercises/march-in-place.svg",
         "met_value": 7
       },
@@ -16451,7 +16451,7 @@
     },
     {
       "key": "309d6ab7-09b6-4cbf-a602-7c66122a6af9",
-      "hash": "0243dd7a3be2bf",
+      "hash": "1a33e27897a99d",
       "row": {
         "name": "Overhead Triceps Stretch",
         "description": "De pie, llevar un brazo hacia arriba y doblar el codo llevando la mano detrás de la cabeza (como si fuera a rascarse la espalda). Con la mano contraria, empujar suavemente el codo hacia abajo para profundizar el estiramiento del tríceps. Repetir del otro lado.",
@@ -16461,7 +16461,7 @@
         "video_path": "https://www.youtube.com/watch?v=zzvDO56B0HE",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=EQaqm7ycY5s",
+        "video_long_path": "https://www.youtube.com/watch?v=41rifhpbkh4",
         "image_url": "/img/exercises/overhead-triceps-stretch.svg",
         "met_value": 7
       },
@@ -16619,7 +16619,7 @@
     },
     {
       "key": "977cdae2-0187-4ab2-9fa0-eb4ba1a18853",
-      "hash": "0cf3eba92559ca",
+      "hash": "02370ca9deeee7",
       "row": {
         "name": "Pigeon Pose",
         "description": "Desde la posición de cuadrupedia, traer una rodilla hacia adelante y colocarla detrás de la muñeca del mismo lado, con el pie cerca de la cadera opuesta. La pierna trasera queda extendida. Bajar el torso sobre la pierna delantera para profundizar el estiramiento de cadera.",
@@ -16629,7 +16629,7 @@
         "video_path": "https://www.youtube.com/shorts/pjmR5Kacu1w",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/sjkvKwKNa18",
+        "video_long_path": "https://www.youtube.com/watch?v=4O6YbbmBtKQ",
         "image_url": "/img/exercises/pigeon-pose.svg",
         "met_value": 7
       },
@@ -17302,7 +17302,7 @@
     },
     {
       "key": "72132f7b-8987-4e46-8943-17c3c291fb22",
-      "hash": "1208db236395f9",
+      "hash": "1c9a0215e61f51",
       "row": {
         "name": "Power Clean",
         "description": "Levantamiento olímpico: desde el suelo, tirar la barra hacia arriba con una extensión explosiva de cadera y recibirla en la posición de front rack (sobre los hombros) con una sentadilla parcial.",
@@ -17312,7 +17312,7 @@
         "video_path": "https://www.youtube.com/shorts/8HZ2tQNJiPA",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=GVt4uQ0sDJE",
+        "video_long_path": "https://www.youtube.com/watch?v=KUH9IYjMcDQ",
         "image_url": "/img/exercises/power-clean.svg",
         "met_value": 7
       },
@@ -18147,7 +18147,7 @@
     },
     {
       "key": "437dc8b4-74ae-47e6-9f1a-1580f4d1a78a",
-      "hash": "17300d136ba5b8",
+      "hash": "119186e8a95cf4",
       "row": {
         "name": "Rowing",
         "description": "Remo en remoergómetro: secuencia piernas-cadera-brazos en el tirón y brazos-cadera-piernas en la recuperación, por calorías o distancia.",
@@ -18157,7 +18157,7 @@
         "video_path": "https://www.youtube.com/shorts/cGy29PC4oPk",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/soveq2xBNpo",
+        "video_long_path": "https://www.youtube.com/watch?v=nEF63sYn7AQ",
         "image_url": "/img/exercises/rowing.svg",
         "met_value": 7
       },
@@ -18233,7 +18233,7 @@
     },
     {
       "key": "046ccc51-40b0-423e-a056-cb9a32387979",
-      "hash": "11469b9b0c6803",
+      "hash": "1e9e16785eb08f",
       "row": {
         "name": "Running",
         "description": "Carrera continua sobre distancia o tiempo determinado, manteniendo una cadencia estable.",
@@ -18243,7 +18243,7 @@
         "video_path": "https://www.youtube.com/shorts/plREYzvF9tI",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/plREYzvF9tI",
+        "video_long_path": "https://www.youtube.com/watch?v=zDi_f_UMKPI",
         "image_url": "/img/exercises/running.svg",
         "met_value": 7
       },
@@ -20901,7 +20901,7 @@
     },
     {
       "key": "996e1663-9a6f-4be8-b835-f1d6603d0bd7",
-      "hash": "1bcc51b92c6d72",
+      "hash": "06615215cd83f7",
       "row": {
         "name": "Squat to Stand",
         "description": "Desde de pie, flexionar el tronco con las piernas rectas y tomar la punta de los pies. Sin soltarlos, bajar la cadera a una cuclilla profunda, subir el pecho y luego extender la cadera para volver a pararse.",
@@ -20911,7 +20911,7 @@
         "video_path": "https://www.youtube.com/shorts/2B1p06bROd8",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=G5iP1-kE4-4",
+        "video_long_path": "https://www.youtube.com/watch?v=rognkqgRrqM",
         "image_url": "/img/exercises/squat-to-stand.svg",
         "met_value": 7
       },
@@ -21814,7 +21814,7 @@
     },
     {
       "key": "74786a1b-9f82-4c73-98e0-2da22c063e8a",
-      "hash": "0b327538096df2",
+      "hash": "06eb17128f09e0",
       "row": {
         "name": "Supine Figure-4 Stretch",
         "description": "Boca arriba, se cruza un tobillo sobre la rodilla contraria formando un 4 y se trae la pierna hacia el pecho. Libera la cadera después del trabajo de glúteos.",
@@ -21824,7 +21824,7 @@
         "video_path": "https://www.youtube.com/shorts/UFLUfFLSBCA",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=-g0nuyTHMrI",
+        "video_long_path": "https://www.youtube.com/watch?v=om2LBlCVY4Q",
         "image_url": "/img/exercises/supine-figure-4-stretch.svg",
         "met_value": 7
       },
@@ -21875,7 +21875,7 @@
     },
     {
       "key": "b6762a6b-355d-429e-bd38-e45bec38e710",
-      "hash": "093f5de29ed175",
+      "hash": "196dd05cbc48a5",
       "row": {
         "name": "Supine Spinal Twist",
         "description": "Acostado boca arriba con los brazos en T (perpendiculares al cuerpo), llevar las rodillas dobladas hacia un lado hasta donde sea posible sin despegar los hombros del suelo. Mantener el estiramiento y cambiar de lado.",
@@ -21885,7 +21885,7 @@
         "video_path": "https://www.youtube.com/shorts/ElKoMMaTPCM",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=mKC3IeldPOc",
+        "video_long_path": "https://www.youtube.com/watch?v=pmikAsyIpFU",
         "image_url": "/img/exercises/supine-spinal-twist.svg",
         "met_value": 7
       },
@@ -22879,7 +22879,7 @@
     },
     {
       "key": "8afba6ce-a357-4681-a66e-501a4b8294de",
-      "hash": "0c3add0fb03c66",
+      "hash": "165592daf0a580",
       "row": {
         "name": "Wall Ball Shot",
         "description": "Sentadilla completa con balón medicinal lanzándolo hacia una marca en la pared (target 3 m / 10 ft). Recibir el balón y repetir sin pausa.",
@@ -22889,7 +22889,7 @@
         "video_path": "https://www.youtube.com/watch?v=fpUD0mcFp_0",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=EqjGKsiIMCE",
+        "video_long_path": "https://www.youtube.com/watch?v=739bkdUhh5w",
         "image_url": "/img/exercises/wall-ball-shot.svg",
         "met_value": 7
       },
