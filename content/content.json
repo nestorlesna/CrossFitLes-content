@@ -1,8 +1,8 @@
 {
   "app": "FitLesUY Session Tracker",
   "format": 1,
-  "contentVersion": 11,
-  "publishedAt": "2026-11-05 00:08:32",
+  "contentVersion": 12,
+  "publishedAt": "2026-11-07 15:10:49",
   "catalogs": {
     "muscle_group": [
       {
@@ -3065,29 +3065,37 @@
     },
     {
       "key": "685e1830-6519-404f-9f60-e346db6957de",
-      "hash": "1b5b33fc5e87cd",
+      "hash": "1a9f2385067219",
       "row": {
         "name": "Banded Prone Leg Curl",
         "description": "Boca abajo con una banda elástica anclada al rack alrededor del tobillo, flexionar la rodilla llevando el talón hacia el glúteo contra la resistencia de la banda, luego volver con control.",
-        "technical_notes": "Cadera pegada al suelo durante todo el movimiento. Controlar la fase de retorno, no dejar que la banda tire de golpe.",
+        "technical_notes": "Cadera pegada al suelo durante todo el movimiento. Controlar la fase de retorno, no dejar que la banda tire de golpe. También lo nombran: Banded Hamstring Curl.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
-        "primary_muscle_group_id": "d87faa6d-fb56-4943-89b8-ba2638129a52",
-        "video_path": "https://www.youtube.com/watch?v=LtTcXXgeRYo",
+        "primary_muscle_group_id": "68fe1106-34b1-4879-bee5-34d956f69a9b",
+        "video_path": "https://www.youtube.com/shorts/gTVC0qZJLzk",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/gTVC0qZJLzk",
+        "video_long_path": "https://www.youtube.com/watch?v=LtTcXXgeRYo",
         "image_url": "/img/exercises/banded-prone-leg-curl.svg",
         "met_value": 7
       },
       "relations": {
         "muscle_groups": [
           {
-            "muscle_group_id": "0fd5f10e-494b-42a6-90c5-567420d50465",
+            "muscle_group_id": "27cfdc9f-db0d-4172-a3e9-20bf78710e8f",
             "is_primary": 0
           },
           {
-            "muscle_group_id": "d87faa6d-fb56-4943-89b8-ba2638129a52",
+            "muscle_group_id": "3e742369-19b4-4ea5-9867-1c19cab4716d",
+            "is_primary": 0
+          },
+          {
+            "muscle_group_id": "68fe1106-34b1-4879-bee5-34d956f69a9b",
             "is_primary": 1
+          },
+          {
+            "muscle_group_id": "cbe3b11a-330b-4325-bee9-fe3f1c1bd068",
+            "is_primary": 0
           }
         ],
         "equipment": [
@@ -5056,13 +5064,13 @@
     },
     {
       "key": "a6adb42f-cd49-4d82-bc67-994d555aeeff",
-      "hash": "0569fb1f4d48a8",
+      "hash": "19919c1f0ee59f",
       "row": {
         "name": "Barbell Lunge",
         "description": "Zancada con barra en rack frontal o sobre los hombros. Paso largo hacia adelante bajando la rodilla trasera al suelo.",
         "technical_notes": null,
         "difficulty_level_id": "2c3e4b22-a93b-4350-bbcf-dc10a2d75ca0",
-        "primary_muscle_group_id": null,
+        "primary_muscle_group_id": "0f5aa458-f9df-45b1-98ab-219ca9ce9b44",
         "video_path": "https://www.youtube.com/watch?v=Z6i2IQqTuU0",
         "is_compound": 1,
         "is_active": 1,
@@ -5074,7 +5082,7 @@
         "muscle_groups": [
           {
             "muscle_group_id": "00cd7dee-e996-426e-b53e-e67b037d4907",
-            "is_primary": 1
+            "is_primary": 0
           },
           {
             "muscle_group_id": "0f5aa458-f9df-45b1-98ab-219ca9ce9b44",
@@ -5090,7 +5098,7 @@
           },
           {
             "muscle_group_id": "cbe3b11a-330b-4325-bee9-fe3f1c1bd068",
-            "is_primary": 1
+            "is_primary": 0
           },
           {
             "muscle_group_id": "fb7c7d3e-1a64-4143-b21c-3c6738e309be",
@@ -15783,17 +15791,17 @@
     },
     {
       "key": "6419faf4-e0af-4183-879b-8664be673c20",
-      "hash": "0d420309751241",
+      "hash": "17883593886a79",
       "row": {
         "name": "Lunge with Open Rotation",
         "description": "Zancada hacia adelante alternando piernas; al bajar en la posición de zancada se rota el torso hacia la pierna adelantada, abriendo el brazo del mismo lado hacia el techo, y se vuelve al centro antes de cambiar de lado.",
-        "technical_notes": "La rodilla trasera no golpea el piso. La rotación sale del torso, no se fuerza desde el hombro. La mirada acompaña a la mano que sube.",
+        "technical_notes": "La rodilla trasera no golpea el piso. La rotación sale del torso, no se fuerza desde el hombro. La mirada acompaña a la mano que sube. También lo nombran: Lunge with Twist.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "0f5aa458-f9df-45b1-98ab-219ca9ce9b44",
-        "video_path": "https://www.youtube.com/shorts/hesyBQTaMz0",
+        "video_path": "https://www.youtube.com/shorts/XV79Y9_y7qg",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/79iSfO7V8ZQ",
+        "video_long_path": "https://www.youtube.com/shorts/peb887Bc0-Q",
         "image_url": "/img/exercises/lunge-with-open-rotation.svg",
         "met_value": 7
       },
