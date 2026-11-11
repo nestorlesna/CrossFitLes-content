@@ -1,19 +1,19 @@
 {
   "app": "FitLesUY Session Tracker",
   "format": 1,
-  "contentVersion": 5,
-  "publishedAt": "2026-11-10 11:47:21",
-  "contentHash": "0043e405348c17",
+  "contentVersion": 6,
+  "publishedAt": "2026-11-11 23:48:51",
+  "contentHash": "0677491a4eacc8",
   "counts": {
     "exercises": 339,
-    "classes": 134,
+    "classes": 135,
     "plans": 0,
     "challenges": 9
   },
   "files": [
     {
       "path": "content/content.mio.json",
-      "size": 5711622
+      "size": 5740650
     }
   ],
   "classKeys": [
@@ -41,6 +41,7 @@
     "c88c2341-7e79-48e4-b047-032dff2308fe",
     "8b3720c2-0dc8-497c-8b37-a7edb971b8fe",
     "00f35598-c988-42bf-9f2b-fab85803bf1c",
+    "f423f22e-174a-4334-a9be-9de0e6faa25a",
     "c4b2b1b7-7a18-4cbf-821c-d58f94a6bf33",
     "ccce1e1c-4965-4931-826b-089d26b79b7a",
     "e67f64d1-ce63-410a-8876-ea7d39c2f0e7",
