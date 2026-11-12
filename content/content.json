@@ -1,8 +1,8 @@
 {
   "app": "FitLesUY Session Tracker",
   "format": 1,
-  "contentVersion": 14,
-  "publishedAt": "2026-11-10 11:47:15",
+  "contentVersion": 15,
+  "publishedAt": "2026-11-12 00:19:42",
   "catalogs": {
     "muscle_group": [
       {
@@ -448,6 +448,14 @@
         "is_active": 1
       },
       {
+        "id": "1f4c7594-d8cc-41a9-872d-199c3d779942",
+        "name": "Escaladora",
+        "description": null,
+        "category": "machine",
+        "sort_order": 0,
+        "is_active": 1
+      },
+      {
         "id": "9fa153a1-7627-4d82-b356-7e3d5d483253",
         "name": "GHD",
         "description": null,
@@ -469,6 +477,14 @@
         "description": null,
         "category": "dumbbell",
         "sort_order": 2,
+        "is_active": 1
+      },
+      {
+        "id": "c4a652d8-a244-4eda-9440-068a127ba643",
+        "name": "Máquina de abdominales",
+        "description": null,
+        "category": "machine",
+        "sort_order": 0,
         "is_active": 1
       },
       {
@@ -520,6 +536,14 @@
         "is_active": 1
       },
       {
+        "id": "126eaa62-5a9a-42fd-82d0-b2f30dcb1f54",
+        "name": "Silla / banco",
+        "description": null,
+        "category": "other",
+        "sort_order": 0,
+        "is_active": 1
+      },
+      {
         "id": "220953e5-6d56-4376-9f5e-64c6521af7e5",
         "name": "SkiErg",
         "description": null,
@@ -533,6 +557,14 @@
         "description": null,
         "category": "other",
         "sort_order": 15,
+        "is_active": 1
+      },
+      {
+        "id": "1ddff8e6-365a-448f-800a-fe06abe29001",
+        "name": "Smith machine",
+        "description": null,
+        "category": "machine",
+        "sort_order": 0,
         "is_active": 1
       },
       {
@@ -976,17 +1008,17 @@
   "exercises": [
     {
       "key": "8a1eed79-e944-48f2-9631-08e48544ea94",
-      "hash": "14cb8992565af5",
+      "hash": "1af360f6740b8a",
       "row": {
         "name": "4-6 Breathing",
         "description": "Cierre de sesión: se inhala por la nariz contando 4 segundos inflando el abdomen y se exhala por la boca contando 6. Acelera la recuperación y baja las pulsaciones.",
         "technical_notes": "Respirar con el abdomen, no sólo con el pecho: una mano apoyada en la panza para controlarlo. No apurar la exhalación, que sea más larga que la inhalación.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "9ebc9099-6c5f-4841-8c79-0e63d89e5d14",
-        "video_path": "https://www.youtube.com/watch?v=B7vkIbbRBPU",
+        "video_path": "https://www.youtube.com/shorts/bJYnB3PtLtU",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=-awHHifx4sc",
+        "video_long_path": "https://www.youtube.com/watch?v=0W6cmqqlTUU",
         "image_url": "/img/exercises/breathing-4-6.svg",
         "met_value": 7
       },
@@ -1026,14 +1058,14 @@
     },
     {
       "key": "5152f92e-8781-40f6-ba75-e7fd4c4d0d1b",
-      "hash": "14f4e937244d26",
+      "hash": "061520b027db33",
       "row": {
         "name": "90/90 Hip Internal Rotation Lift-Off",
         "description": "Sentado en posición 90/90 (ambas piernas a 90°). Elevar la espinilla trasera del suelo rotando internamente la cadera. Mejora la movilidad de rotación interna.",
         "technical_notes": null,
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "cbe3b11a-330b-4325-bee9-fe3f1c1bd068",
-        "video_path": "https://www.youtube.com/shorts/f1wOPnBDQ6A",
+        "video_path": "https://www.youtube.com/shorts/nkalPsz40FY",
         "is_compound": 0,
         "is_active": 1,
         "video_long_path": "https://www.youtube.com/watch?v=sLWSmo0uk2E",
@@ -1079,14 +1111,14 @@
     },
     {
       "key": "f938ef6e-36ca-4665-a010-8913ee1fec81",
-      "hash": "0f8730babdfd04",
+      "hash": "0a6f3b87364e95",
       "row": {
         "name": "90/90 Hip Rotation",
         "description": "Sentado en el suelo con ambas piernas en 90°, una adelante y una al costado. Rotar activamente el torso y la cadera hacia el lado contrario, cambiando la posición de las piernas.",
         "technical_notes": "Mantener la espalda recta durante toda la rotación. Las rodillas permanecen en 90°. El movimiento es activo (musculado), no se fuerza. Excelente para mejorar la movilidad de cadera necesaria para la sentadilla profunda.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "cbe3b11a-330b-4325-bee9-fe3f1c1bd068",
-        "video_path": "https://www.youtube.com/watch?v=kvyYhCbOUaQ",
+        "video_path": "https://www.youtube.com/shorts/V3hwsnlfOuA",
         "is_compound": 0,
         "is_active": 1,
         "video_long_path": "https://www.youtube.com/watch?v=zT6Qhd28sIw",
@@ -1140,15 +1172,88 @@
       }
     },
     {
+      "key": "9e642325-4aa8-419a-9c75-a9956dd54519",
+      "hash": "0ebb0358502e54",
+      "row": {
+        "name": "Ab Crunch Machine",
+        "description": "Sentado en la máquina con la espalda apoyada y las manos en los agarres, flexionar el tronco acercando el pecho a la pelvis para empujar la palanca. Sostener un instante la contracción y volver con control, sin soltar el peso.",
+        "technical_notes": "Regular el asiento para que el eje de giro de la máquina quede a la altura de la cintura. El movimiento sale del abdomen (acortar la distancia entre costillas y pelvis), no de tirar con los brazos ni de empujar con las caderas. Exhalar al contraer y volver en 2-3 segundos sin apoyar la pila de pesas entre repeticiones. Pies firmes y zona lumbar apoyada. Empezar con poco peso.",
+        "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
+        "primary_muscle_group_id": "9ebc9099-6c5f-4841-8c79-0e63d89e5d14",
+        "video_path": "https://www.youtube.com/shorts/UBYu9L59hAc",
+        "is_compound": 0,
+        "is_active": 1,
+        "video_long_path": null,
+        "image_url": "/img/exercises/ab-crunch-machine.svg",
+        "met_value": 7
+      },
+      "relations": {
+        "muscle_groups": [
+          {
+            "muscle_group_id": "0f5aa458-f9df-45b1-98ab-219ca9ce9b44",
+            "is_primary": 0
+          },
+          {
+            "muscle_group_id": "8264a3e8-8267-4224-80f6-19e689d5ac41",
+            "is_primary": 0
+          },
+          {
+            "muscle_group_id": "9ebc9099-6c5f-4841-8c79-0e63d89e5d14",
+            "is_primary": 1
+          },
+          {
+            "muscle_group_id": "cca1537f-bb61-435c-90b4-738f0257c424",
+            "is_primary": 0
+          }
+        ],
+        "equipment": [
+          {
+            "equipment_id": "c4a652d8-a244-4eda-9440-068a127ba643",
+            "is_required": 1
+          }
+        ],
+        "section_types": [
+          {
+            "section_type_id": "795673b4-aa8d-4e86-b83e-9b8adc9037a2"
+          }
+        ],
+        "units": [
+          {
+            "measurement_unit_id": "30943e5f-5751-47e0-971f-00ae11a56ee4",
+            "is_default": 1
+          },
+          {
+            "measurement_unit_id": "553af60b-61fd-474e-b29b-fd7bb7c210a1",
+            "is_default": 0
+          }
+        ],
+        "tags": [
+          {
+            "tag_id": "74a09d46-0aa8-4eba-b61a-fa2f5e5ff9cf"
+          },
+          {
+            "tag_id": "95df08b5-2a8d-450f-9961-45b5a23a260b"
+          },
+          {
+            "tag_id": "adf13da7-42a5-4047-9668-6038f7f2efc2"
+          }
+        ]
+      },
+      "image": {
+        "path": "/img/exercises/ab-crunch-machine.svg",
+        "dataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMjAgMjMwIj4KICA8c3R5bGU+CiAgICAuZjF7YW5pbWF0aW9uOnNoMSA3LjhzIGxpbmVhciBpbmZpbml0ZX0uZjJ7YW5pbWF0aW9uOnNoMiA3LjhzIGxpbmVhciBpbmZpbml0ZX0uZjN7YW5pbWF0aW9uOnNoMyA3LjhzIGxpbmVhciBpbmZpbml0ZX0uZjR7YW5pbWF0aW9uOnNoNCA3LjhzIGxpbmVhciBpbmZpbml0ZX0uZjV7YW5pbWF0aW9uOnNoNSA3LjhzIGxpbmVhciBpbmZpbml0ZX0uZjZ7YW5pbWF0aW9uOnNoNiA3LjhzIGxpbmVhciBpbmZpbml0ZX0KICAgIEBrZXlmcmFtZXMgc2gxezAlLDEzLjMle29wYWNpdHk6MX0xNi43JSw5Ni43JXtvcGFjaXR5OjB9MTAwJXtvcGFjaXR5OjF9fQogICAgQGtleWZyYW1lcyBzaDJ7MCUsMTYuNyV7b3BhY2l0eTowfTIwJSwzMCV7b3BhY2l0eToxfTMzLjMlLDEwMCV7b3BhY2l0eTowfX0KICAgIEBrZXlmcmFtZXMgc2gzezAlLDMzLjMle29wYWNpdHk6MH0zNi43JSw0Ni43JXtvcGFjaXR5OjF9NTAlLDEwMCV7b3BhY2l0eTowfX0KICAgIEBrZXlmcmFtZXMgc2g0ezAlLDUwJXtvcGFjaXR5OjB9NTMuMyUsNjMuMyV7b3BhY2l0eToxfTY2LjclLDEwMCV7b3BhY2l0eTowfX0KICAgIEBrZXlmcmFtZXMgc2g1ezAlLDY2Ljcle29wYWNpdHk6MH03MCUsODAle29wYWNpdHk6MX04My4zJSwxMDAle29wYWNpdHk6MH19CiAgICBAa2V5ZnJhbWVzIHNoNnswJSw4My4zJXtvcGFjaXR5OjB9ODYuNyUsOTYuNyV7b3BhY2l0eToxfTEwMCUsMTAwJXtvcGFjaXR5OjB9fQogIDwvc3R5bGU+CiAgPHJlY3Qgd2lkdGg9IjIyMCIgaGVpZ2h0PSIyMzAiIGZpbGw9IiMxMTE4MjciIHJ4PSIxMiIvPgogIDxsaW5lIHgxPSIyMCIgeTE9IjIxMCIgeDI9IjIwMCIgeTI9IjIxMCIgc3Ryb2tlPSIjMzc0MTUxIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDx0ZXh0IHg9IjExMCIgeT0iMjI1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0idWktc2Fucy1zZXJpZixzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSI5IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjNDc1NTY5IiBsZXR0ZXItc3BhY2luZz0iMiI+QUIgQ1JVTkNIIE1BQ0hJTkU8L3RleHQ+CiAgPGcgZmlsbD0iIzQ3NTU2OSIgc3Ryb2tlPSJub25lIj4KICAgIDxyZWN0IHg9IjY2IiB5PSIxNzYiIHdpZHRoPSI1MiIgaGVpZ2h0PSI4IiByeD0iMyIvPjxyZWN0IHg9Ijg4IiB5PSIxODQiIHdpZHRoPSI4IiBoZWlnaHQ9IjI2Ii8+CiAgICA8cmVjdCB4PSI1MiIgeT0iOTYiIHdpZHRoPSI5IiBoZWlnaHQ9Ijg0IiByeD0iMyIvPgogICAgPHJlY3QgeD0iMTgiIHk9Ijg2IiB3aWR0aD0iMjIiIGhlaWdodD0iOTQiIHJ4PSIzIiBmaWxsPSIjMzc0MTUxIi8+PC9nPgogICAgPGcgc3Ryb2tlPSIjNDc1NTY5IiBzdHJva2Utd2lkdGg9IjIiPjxsaW5lIHgxPSIxOCIgeTE9IjEwNCIgeDI9IjQwIiB5Mj0iMTA0Ii8+PGxpbmUgeDE9IjE4IiB5MT0iMTIyIiB4Mj0iNDAiIHkyPSIxMjIiLz48bGluZSB4MT0iMTgiIHkxPSIxNDAiIHgyPSI0MCIgeTI9IjE0MCIvPjxsaW5lIHgxPSIxOCIgeTE9IjE1OCIgeDI9IjQwIiB5Mj0iMTU4Ii8+PC9nPgogIDwhLS0gRnJhbWUgMTogU2VudGFkbywgZXNwYWxkYSBhcG95YWRhIC0tPgogIDxnIGNsYXNzPSJmMSI+CiAgICA8bGluZSB4MT0iNTgiIHkxPSI5NCIgeDI9IjExMi40IiB5Mj0iMTIxLjMiIHN0cm9rZT0iIzQ3NTU2OSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48bGluZSB4MT0iMTEzLjIiIHkxPSIxMTAuMyIgeDI9IjExMS43IiB5Mj0iMTMyLjMiIHN0cm9rZT0iIzQ3NTU2OSIgc3Ryb2tlLXdpZHRoPSI4IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48ZyBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSI+PHBvbHlsaW5lIHBvaW50cz0iOTIsMTcwIDk0LDE0Mi4xIDk1LjksMTE0LjEiIHN0cm9rZT0iIzk0YTNiOCIvPjxwb2x5bGluZSBwb2ludHM9IjkyLDE3MCAxMzcuMywxNjIgMTM2LDIwOCAxNDYsMjA4IiBzdHJva2U9IiM5NGEzYjgiLz48cG9seWxpbmUgcG9pbnRzPSI5NS45LDExNC4xIDEyMy4zLDEyNi4zIDEyNC4zLDk4LjQiIHN0cm9rZT0iIzk0YTNiOCIvPjwvZz48Y2lyY2xlIGN4PSI5Ni44IiBjeT0iMTAxLjIiIHI9IjEyIiBmaWxsPSIjOTRhM2I4Ii8+PGNpcmNsZSBjeD0iMTM3LjMiIGN5PSIxNjIiIHI9IjUiIGZpbGw9IiM2NDc0OGIiLz48Y2lyY2xlIGN4PSIxMjMuMyIgY3k9IjEyNi4zIiByPSI0IiBmaWxsPSIjNjQ3NDhiIi8+PGNpcmNsZSBjeD0iNTgiIGN5PSI5NCIgcj0iNCIgZmlsbD0iIzY0NzQ4YiIvPgogIDwvZz4KICA8IS0tIEZyYW1lIDI6IEluaWNpbyBkZSBsYSBmbGV4acOzbiAtLT4KICA8ZyBjbGFzcz0iZjIiPgogICAgPGxpbmUgeDE9IjU4IiB5MT0iOTQiIHgyPSIxMjAuMyIgeTI9IjEyOC44IiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PGxpbmUgeDE9IjEyNC42IiB5MT0iMTE4LjciIHgyPSIxMTYiIHkyPSIxMzguOSIgc3Ryb2tlPSIjNDc1NTY5IiBzdHJva2Utd2lkdGg9IjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxnIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIj48cG9seWxpbmUgcG9pbnRzPSI5MiwxNzAgOTYsMTQyLjMgMTA3LDExNi42IiBzdHJva2U9IiM5NGEzYjgiLz48cG9seWxpbmUgcG9pbnRzPSI5MiwxNzAgMTM3LjMsMTYyIDEzNiwyMDggMTQ2LDIwOCIgc3Ryb2tlPSIjOTRhM2I4Ii8+PHBvbHlsaW5lIHBvaW50cz0iMTA3LDExNi42IDEyOC45LDEzNy4xIDEzOSwxMTEiIHN0cm9rZT0iIzk0YTNiOCIvPjwvZz48Y2lyY2xlIGN4PSIxMTIuMiIgY3k9IjEwNC42IiByPSIxMiIgZmlsbD0iIzk0YTNiOCIvPjxjaXJjbGUgY3g9IjEzNy4zIiBjeT0iMTYyIiByPSI1IiBmaWxsPSIjNjQ3NDhiIi8+PGNpcmNsZSBjeD0iMTI4LjkiIGN5PSIxMzcuMSIgcj0iNCIgZmlsbD0iIzY0NzQ4YiIvPjxjaXJjbGUgY3g9IjU4IiBjeT0iOTQiIHI9IjQiIGZpbGw9IiM2NDc0OGIiLz4KICA8L2c+CiAgPCEtLSBGcmFtZSAzOiBDb250cmF5ZW5kbyBlbCBhYmRvbWVuIC0tPgogIDxnIGNsYXNzPSJmMyI+CiAgICA8bGluZSB4MT0iNTgiIHkxPSI5NCIgeDI9IjEyNS40IiB5Mj0iMTM3LjkiIHN0cm9rZT0iIzQ3NTU2OSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48bGluZSB4MT0iMTMyLjgiIHkxPSIxMjkuOCIgeDI9IjExOCIgeTI9IjE0NiIgc3Ryb2tlPSIjNDc1NTY5IiBzdHJva2Utd2lkdGg9IjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxnIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIj48cG9seWxpbmUgcG9pbnRzPSI5MiwxNzAgOTgsMTQyLjcgMTE2LjksMTIyIiBzdHJva2U9IiM5NGEzYjgiLz48cG9seWxpbmUgcG9pbnRzPSI5MiwxNzAgMTM3LjMsMTYyIDEzNiwyMDggMTQ2LDIwOCIgc3Ryb2tlPSIjOTRhM2I4Ii8+PHBvbHlsaW5lIHBvaW50cz0iMTE2LjksMTIyIDEzMC44LDE0OC42IDE0OSwxMjcuMyIgc3Ryb2tlPSIjOTRhM2I4Ii8+PC9nPjxjaXJjbGUgY3g9IjEyNS43IiBjeT0iMTEyLjQiIHI9IjEyIiBmaWxsPSIjOTRhM2I4Ii8+PGNpcmNsZSBjeD0iMTM3LjMiIGN5PSIxNjIiIHI9IjUiIGZpbGw9IiM2NDc0OGIiLz48Y2lyY2xlIGN4PSIxMzAuOCIgY3k9IjE0OC42IiByPSI0IiBmaWxsPSIjNjQ3NDhiIi8+PGNpcmNsZSBjeD0iNTgiIGN5PSI5NCIgcj0iNCIgZmlsbD0iIzY0NzQ4YiIvPgogIDwvZz4KICA8IS0tIEZyYW1lIDQ6IENvbnRyYWNjacOzbiBtw6F4aW1hIC0tPgogIDxnIGNsYXNzPSJmNCI+CiAgICA8bGluZSB4MT0iNTgiIHkxPSI5NCIgeDI9IjEyNy4zIiB5Mj0iMTQ2LjMiIHN0cm9rZT0iIzQ3NTU2OSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48bGluZSB4MT0iMTM2LjgiIHkxPSIxNDAuNyIgeDI9IjExNy45IiB5Mj0iMTUyIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iOCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PGcgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiPjxwb2x5bGluZSBwb2ludHM9IjkyLDE3MCA5OS43LDE0My4xIDEyMy43LDEyOC43IiBzdHJva2U9IiM5NGEzYjgiLz48cG9seWxpbmUgcG9pbnRzPSI5MiwxNzAgMTM3LjMsMTYyIDEzNiwyMDggMTQ2LDIwOCIgc3Ryb2tlPSIjOTRhM2I4Ii8+PHBvbHlsaW5lIHBvaW50cz0iMTIzLjcsMTI4LjcgMTI5LjQsMTU4LjEgMTUyLjksMTQyLjkiIHN0cm9rZT0iIzk0YTNiOCIvPjwvZz48Y2lyY2xlIGN4PSIxMzQuOSIgY3k9IjEyMiIgcj0iMTIiIGZpbGw9IiM5NGEzYjgiLz48Y2lyY2xlIGN4PSIxMzcuMyIgY3k9IjE2MiIgcj0iNSIgZmlsbD0iIzY0NzQ4YiIvPjxjaXJjbGUgY3g9IjEyOS40IiBjeT0iMTU4LjEiIHI9IjQiIGZpbGw9IiM2NDc0OGIiLz48Y2lyY2xlIGN4PSI1OCIgY3k9Ijk0IiByPSI0IiBmaWxsPSIjNjQ3NDhiIi8+CiAgPC9nPgogIDwhLS0gRnJhbWUgNTogVm9sdmllbmRvIC0tPgogIDxnIGNsYXNzPSJmNSI+CiAgICA8bGluZSB4MT0iNTgiIHkxPSI5NCIgeDI9IjEyNS40IiB5Mj0iMTM3LjkiIHN0cm9rZT0iIzQ3NTU2OSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48bGluZSB4MT0iMTMyLjgiIHkxPSIxMjkuOCIgeDI9IjExOCIgeTI9IjE0NiIgc3Ryb2tlPSIjNDc1NTY5IiBzdHJva2Utd2lkdGg9IjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxnIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIj48cG9seWxpbmUgcG9pbnRzPSI5MiwxNzAgOTgsMTQyLjcgMTE2LjksMTIyIiBzdHJva2U9IiM5NGEzYjgiLz48cG9seWxpbmUgcG9pbnRzPSI5MiwxNzAgMTM3LjMsMTYyIDEzNiwyMDggMTQ2LDIwOCIgc3Ryb2tlPSIjOTRhM2I4Ii8+PHBvbHlsaW5lIHBvaW50cz0iMTE2LjksMTIyIDEzMC44LDE0OC42IDE0OSwxMjcuMyIgc3Ryb2tlPSIjOTRhM2I4Ii8+PC9nPjxjaXJjbGUgY3g9IjEyNS43IiBjeT0iMTEyLjQiIHI9IjEyIiBmaWxsPSIjOTRhM2I4Ii8+PGNpcmNsZSBjeD0iMTM3LjMiIGN5PSIxNjIiIHI9IjUiIGZpbGw9IiM2NDc0OGIiLz48Y2lyY2xlIGN4PSIxMzAuOCIgY3k9IjE0OC42IiByPSI0IiBmaWxsPSIjNjQ3NDhiIi8+PGNpcmNsZSBjeD0iNTgiIGN5PSI5NCIgcj0iNCIgZmlsbD0iIzY0NzQ4YiIvPgogIDwvZz4KICA8IS0tIEZyYW1lIDY6IENhc2kgZW4gZWwgaW5pY2lvIC0tPgogIDxnIGNsYXNzPSJmNiI+CiAgICA8bGluZSB4MT0iNTgiIHkxPSI5NCIgeDI9IjExOS4zIiB5Mj0iMTI3LjYiIHN0cm9rZT0iIzQ3NTU2OSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48bGluZSB4MT0iMTIzLjIiIHkxPSIxMTcuMyIgeDI9IjExNS41IiB5Mj0iMTM3LjkiIHN0cm9rZT0iIzQ3NTU2OSIgc3Ryb2tlLXdpZHRoPSI4IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48ZyBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSI+PHBvbHlsaW5lIHBvaW50cz0iOTIsMTcwIDk1LjcsMTQyLjIgMTA1LjUsMTE2IiBzdHJva2U9IiM5NGEzYjgiLz48cG9seWxpbmUgcG9pbnRzPSI5MiwxNzAgMTM3LjMsMTYyIDEzNiwyMDggMTQ2LDIwOCIgc3Ryb2tlPSIjOTRhM2I4Ii8+PHBvbHlsaW5lIHBvaW50cz0iMTA1LjUsMTE2IDEyOC4zLDEzNS41IDEzNy4yLDEwOC45IiBzdHJva2U9IiM5NGEzYjgiLz48L2c+PGNpcmNsZSBjeD0iMTEwLjEiIGN5PSIxMDMuOCIgcj0iMTIiIGZpbGw9IiM5NGEzYjgiLz48Y2lyY2xlIGN4PSIxMzcuMyIgY3k9IjE2MiIgcj0iNSIgZmlsbD0iIzY0NzQ4YiIvPjxjaXJjbGUgY3g9IjEyOC4zIiBjeT0iMTM1LjUiIHI9IjQiIGZpbGw9IiM2NDc0OGIiLz48Y2lyY2xlIGN4PSI1OCIgY3k9Ijk0IiByPSI0IiBmaWxsPSIjNjQ3NDhiIi8+CiAgPC9nPgo8L3N2Zz4K"
+      }
+    },
+    {
       "key": "a4ed49d6-48ac-4043-b8dc-a47d3eb5e3ef",
-      "hash": "1aa9e0de95ceb5",
+      "hash": "1da84c21951bd4",
       "row": {
         "name": "Ab Wheel Kneeling Rollout",
         "description": null,
         "technical_notes": null,
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "9ebc9099-6c5f-4841-8c79-0e63d89e5d14",
-        "video_path": "https://www.youtube.com/shorts/hutwpqVBdok",
+        "video_path": "https://www.youtube.com/shorts/Wz1wJz79AMY",
         "is_compound": 1,
         "is_active": 1,
         "video_long_path": "https://www.youtube.com/watch?v=2Uw8oDIF2AY",
@@ -1195,14 +1300,14 @@
     },
     {
       "key": "c798e0b1-7d41-431b-a99d-8be9e181004f",
-      "hash": "15dc5795895719",
+      "hash": "1e0ff4ed6104f7",
       "row": {
         "name": "Air Squat",
         "description": "Sentadilla con peso corporal: bajar flexionando caderas y rodillas hasta que los muslos queden por debajo de la paralela, manteniendo el torso erguido, y volver a extender.",
         "technical_notes": "Rodillas alineadas con la punta de los pies, talones apoyados y pecho arriba. Bajar con control y subir extendiendo la cadera.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "0f5aa458-f9df-45b1-98ab-219ca9ce9b44",
-        "video_path": "https://www.youtube.com/shorts/dVjfUlXK93k",
+        "video_path": "https://www.youtube.com/shorts/qi2uWme2JYY",
         "is_compound": 1,
         "is_active": 1,
         "video_long_path": "https://www.youtube.com/watch?v=m9bpMsuR_I8",
@@ -1270,14 +1375,14 @@
     },
     {
       "key": "115ba152-4e78-43f8-9494-e415ee23a4db",
-      "hash": "0f21169780de84",
+      "hash": "15034bf7c8ce21",
       "row": {
         "name": "Alternating 90/90 Into Shin Box",
         "description": "Sentado en el suelo, alternar entre la posición 90/90 (ambas piernas en ángulo recto, una adelante y una al costado) y la posición shin box (tibias cruzadas), rotando la cadera de un lado al otro de forma fluida.",
         "technical_notes": "Mantener el torso erguido durante la transición. La cadera lidera el movimiento, no los brazos. Controlar la velocidad de la rotación.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "cbe3b11a-330b-4325-bee9-fe3f1c1bd068",
-        "video_path": "https://www.youtube.com/shorts/9nhhZIpIZ7A",
+        "video_path": "https://www.youtube.com/shorts/rPbuQTfpfl8",
         "is_compound": 0,
         "is_active": 1,
         "video_long_path": "https://www.youtube.com/watch?v=i3m5FNtO4y4",
@@ -1331,14 +1436,14 @@
     },
     {
       "key": "aaf1de75-6cb4-4ec4-a385-4ed0372a55d0",
-      "hash": "1d59cc68c76a51",
+      "hash": "0eb2a9879cce3f",
       "row": {
         "name": "Alternating Heel Touches",
         "description": "Acostado boca arriba con rodillas flexionadas, elevar levemente los hombros del suelo y alternar tocando los talones de cada pie con la mano del mismo lado mediante flexión lateral del torso.",
         "technical_notes": null,
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "cca1537f-bb61-435c-90b4-738f0257c424",
-        "video_path": "https://www.youtube.com/shorts/G5riYVf_c9k",
+        "video_path": "https://www.youtube.com/shorts/5KlbrVTxNTA",
         "is_compound": 0,
         "is_active": 1,
         "video_long_path": "https://www.youtube.com/watch?v=IVppNiu0hvw",
@@ -1381,14 +1486,14 @@
     },
     {
       "key": "b982e2e3-0a03-457b-b2d4-9bcb14a73942",
-      "hash": "0c06346dbbd699",
+      "hash": "1725c48d469ce7",
       "row": {
         "name": "Alternating Kettlebell Clean and Press",
         "description": "Con una kettlebell en una mano, llevarla desde el piso hasta la posición de rack en el hombro (clean) y empujarla por encima de la cabeza hasta bloquear el codo (press). Se alterna el brazo en cada repetición o serie.",
         "technical_notes": "La cadera inicia el tirón y la kettlebell sube pegada al cuerpo, rotando alrededor de la muñeca sin golpear el antebrazo. En el rack el codo queda apoyado cerca de la cadera. Empujar con el core firme, sin arquear la espalda, y bloquear arriba con el bíceps junto a la oreja.",
         "difficulty_level_id": "2c3e4b22-a93b-4350-bbcf-dc10a2d75ca0",
         "primary_muscle_group_id": "cbe3b11a-330b-4325-bee9-fe3f1c1bd068",
-        "video_path": "https://www.youtube.com/shorts/ey9CD8i0eLk",
+        "video_path": "https://www.youtube.com/shorts/794o0fw7cKo",
         "is_compound": 1,
         "is_active": 1,
         "video_long_path": "https://www.youtube.com/watch?v=fGKMchSmj7c",
@@ -1472,14 +1577,14 @@
     },
     {
       "key": "1f0f2f82-909b-440a-968e-c424ff97fd5d",
-      "hash": "0f499e96a7e313",
+      "hash": "0e7c9c33bee37b",
       "row": {
         "name": "Alternating Kettlebell Row",
         "description": "En posición de bisagra de cadera con una kettlebell en cada mano, remar alternando un brazo a la vez llevando la pesa hacia la cadera mientras el otro brazo cuelga.",
         "technical_notes": "Torso firme y paralelo al piso. Tirar con el codo pegado al cuerpo. Evitar rotar el tronco al alternar.",
         "difficulty_level_id": "2c3e4b22-a93b-4350-bbcf-dc10a2d75ca0",
         "primary_muscle_group_id": "c756a23e-2be5-4591-9d4e-148bc8583acd",
-        "video_path": "https://www.youtube.com/watch?v=doPA462HS9Y",
+        "video_path": "https://www.youtube.com/shorts/Fy6wxkRgTRo",
         "is_compound": 1,
         "is_active": 1,
         "video_long_path": "https://www.youtube.com/shorts/Jht218U7ENw",
@@ -1542,14 +1647,14 @@
     },
     {
       "key": "4252c619-33ba-4ff7-b13e-5a27405c1da8",
-      "hash": "079a9898374db0",
+      "hash": "015b988745f9bd",
       "row": {
         "name": "Alternating Single Arm Dumbbell Power Snatch",
         "description": null,
         "technical_notes": null,
         "difficulty_level_id": "2c3e4b22-a93b-4350-bbcf-dc10a2d75ca0",
         "primary_muscle_group_id": "cbe3b11a-330b-4325-bee9-fe3f1c1bd068",
-        "video_path": "https://youtu.be/OktkfRlGcns",
+        "video_path": "https://www.youtube.com/shorts/9jHg9G-wvss",
         "is_compound": 1,
         "is_active": 1,
         "video_long_path": "https://www.youtube.com/watch?v=M9Q_h-473fc",
@@ -1681,14 +1786,14 @@
     },
     {
       "key": "4f658865-805e-4d37-9472-9779dd3f575f",
-      "hash": "0d9b2d541bdfa6",
+      "hash": "07cd98422b15f9",
       "row": {
         "name": "American Kettlebell Swing",
         "description": "Igual que el swing ruso de kettlebell pero el recorrido continúa hasta llevar la kettlebell completamente overhead (por encima de la cabeza), con los brazos extendidos al final. La cadera genera toda la potencia.",
         "technical_notes": "A diferencia del swing ruso (que termina a altura de pecho), el americano termina overhead. Los brazos no deben tirar de la KB: es la extensión explosiva de cadera la que genera la elevación. Mantener el core activo en la posición overhead.",
         "difficulty_level_id": "2c3e4b22-a93b-4350-bbcf-dc10a2d75ca0",
         "primary_muscle_group_id": "cbe3b11a-330b-4325-bee9-fe3f1c1bd068",
-        "video_path": "https://www.youtube.com/watch?v=d94xX-AQZ0A",
+        "video_path": "https://www.youtube.com/shorts/IAhu0WpdDKY",
         "is_compound": 1,
         "is_active": 1,
         "video_long_path": "https://www.youtube.com/watch?v=X12k2AiJuwE",
@@ -1761,17 +1866,17 @@
     },
     {
       "key": "2505b605-ed19-4da2-bc18-76c7f4b1ff1f",
-      "hash": "0ab82d1cf79f11",
+      "hash": "14dba7a0f42bed",
       "row": {
         "name": "Ankle Mobility Rock",
         "description": "Desde una posición de medio arrodillado (una rodilla apoyada en el suelo y la otra pierna al frente flexionada a 90°), llevar la rodilla delantera hacia adelante por encima de los dedos del pie y luego volver. Trabaja la dorsiflexión del tobillo.",
         "technical_notes": "Mantener el talón delantero apoyado en el piso durante todo el movimiento. Movimiento controlado, sin rebotes. Cambiar de pierna luego del tiempo asignado.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "3e742369-19b4-4ea5-9867-1c19cab4716d",
-        "video_path": "https://www.youtube.com/watch?v=QmqVoWqXe8w",
+        "video_path": "https://www.youtube.com/shorts/VXeAn7IAKhc",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/sFAv_qdQUAE",
+        "video_long_path": "https://www.youtube.com/watch?v=HGgGPnDOo8A",
         "image_url": "/img/exercises/ankle-mobility-rock.svg",
         "met_value": 7
       },
@@ -1879,14 +1984,14 @@
     },
     {
       "key": "d105947c-d1e5-4374-8714-bda65a54c519",
-      "hash": "10cc352361951b",
+      "hash": "1a624f306bf5a2",
       "row": {
         "name": "Assault Bike",
         "description": "Bicicleta de aire de cuerpo completo: pedalear y empujar/tirar de los manubrios contra la resistencia del ventilador por calorías o tiempo.",
         "technical_notes": "Brazos y piernas empujan a la vez; mantener una cadencia constante. Medida en calorías o tiempo.\nTambién lo nombran: Bike (en \"row/bike/ski\").",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "0f5aa458-f9df-45b1-98ab-219ca9ce9b44",
-        "video_path": "https://www.youtube.com/shorts/wF1N48xFcdQ",
+        "video_path": "https://www.youtube.com/shorts/SUZkR14-IiE",
         "is_compound": 1,
         "is_active": 1,
         "video_long_path": "https://www.youtube.com/watch?v=Ipn_q7jZpNA",
@@ -2776,7 +2881,7 @@
     },
     {
       "key": "1155d689-f515-4604-85ef-0c981e2c38b4",
-      "hash": "115df2f743a673",
+      "hash": "0f624507078528",
       "row": {
         "name": "Band Woodchopper",
         "description": "Movimiento de leñador: con la banda anclada arriba, se tira en diagonal desde el hombro hasta la cadera contraria rotando el tronco.",
@@ -2786,7 +2891,7 @@
         "video_path": "https://www.youtube.com/watch?v=ooP1Zq6lq5Y",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=Yp2DmHk3KnY",
+        "video_long_path": "https://www.youtube.com/watch?v=_mwW76HkmEU",
         "image_url": "/img/exercises/band-woodchopper.svg",
         "met_value": 7
       },
@@ -3223,17 +3328,17 @@
     },
     {
       "key": "32a7e2f3-9a1f-4aad-92ed-510091078acd",
-      "hash": "1f8616a4b73e8c",
+      "hash": "1710acbe633ed5",
       "row": {
         "name": "Banded Triceps Extensions",
         "description": "De pie con una banda elástica anclada por encima de la cabeza. Sostener la banda con ambas manos detrás de la nuca, codos apuntando hacia arriba. Extender los brazos hasta arriba contrayendo el tríceps, luego volver controlado.",
         "technical_notes": "Codos altos y fijos durante el movimiento — solo se mueven los antebrazos. Sin arquear la espalda. Extensión completa arriba.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "e5b26337-11de-46bf-be82-623e389374f1",
-        "video_path": "https://www.youtube.com/watch?v=_udhCHi3ZpA",
+        "video_path": "https://www.youtube.com/shorts/A4rZbp6WAnY",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=HXia-KuaBu4",
+        "video_long_path": "https://www.youtube.com/watch?v=9ngNdtOdnLo",
         "image_url": "/img/exercises/banded-triceps-extensions.svg",
         "met_value": 7
       },
@@ -3291,7 +3396,7 @@
     },
     {
       "key": "5b5d6bea-f74b-47f1-acef-1d5db8ddb99d",
-      "hash": "1ffa59484d8cd1",
+      "hash": "1a8ff57c8f32ee",
       "row": {
         "name": "Bar Muscle-Up",
         "description": "Muscle-up en barra fija: dominada explosiva con transición a fondos sobre la barra. Requiere coordinación y fuerza gimnástica.",
@@ -3301,7 +3406,7 @@
         "video_path": "https://www.youtube.com/shorts/Oc6uDMv5qMo",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=xDoCF9CfH68",
+        "video_long_path": "https://www.youtube.com/watch?v=tq6NQEL-f4c",
         "image_url": "/img/exercises/bar-muscle-up.svg",
         "met_value": 7
       },
@@ -3445,14 +3550,14 @@
     },
     {
       "key": "04c7ce96-fe1f-497d-9350-8f6b2726012d",
-      "hash": "0ea38a1ffe3652",
+      "hash": "086f51032a9b30",
       "row": {
         "name": "Barbell Back Squat",
         "description": "Sentadilla con barra sobre la espalda alta o baja. Movimiento fundamental de fuerza de piernas.",
         "technical_notes": "Pecho arriba y espalda neutra, rodillas siguiendo la línea de los pies. Bajar al menos hasta paralelo y subir empujando el piso con todo el pie.\nTambién lo nombran: Back Squat.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "0f5aa458-f9df-45b1-98ab-219ca9ce9b44",
-        "video_path": "https://www.youtube.com/shorts/ZaSetOZFo-k",
+        "video_path": "https://www.youtube.com/shorts/NsomTQrEzdE",
         "is_compound": 1,
         "is_active": 1,
         "video_long_path": "https://www.youtube.com/watch?v=1Gnk3JDDs3A",
@@ -3911,14 +4016,14 @@
     },
     {
       "key": "dca85182-a4d7-4dd8-a787-79b0397ff67b",
-      "hash": "06bae08bc64a01",
+      "hash": "04f6666bc39862",
       "row": {
         "name": "Barbell Deadlift",
         "description": "Levantamiento de peso muerto convencional desde el suelo. Cadena posterior completa.",
         "technical_notes": "Barra pegada a la tibia, espalda neutra y pecho alto. La cadera y los hombros suben juntos: si la cadera se adelanta, la barra se despega y la espalda se redondea. Bloquear arriba con glúteo, sin hiperextender la lumbar.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "cbe3b11a-330b-4325-bee9-fe3f1c1bd068",
-        "video_path": "https://www.youtube.com/watch?v=qwdwllxIO94",
+        "video_path": "https://www.youtube.com/shorts/hwxat8ViG6s",
         "is_compound": 1,
         "is_active": 1,
         "video_long_path": "https://www.youtube.com/watch?v=NhRlgjzNuwE",
@@ -3981,7 +4086,7 @@
     },
     {
       "key": "382a16c5-290c-4782-9b68-1cfc7ba49bd0",
-      "hash": "0062bf77721f62",
+      "hash": "1bbe69cb9fd430",
       "row": {
         "name": "Barbell Deadlift to Knee Height",
         "description": "Peso muerto parcial: desde el piso, levantar la barra con espalda neutra hasta la altura de las rodillas, hacer una breve pausa y volver a bajarla. Se usa para fijar la posición de salida del snatch y el clean.",
@@ -3991,7 +4096,7 @@
         "video_path": "https://www.youtube.com/watch?v=c097Nh5H2_s",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/ZaTM37cfiDs",
+        "video_long_path": "https://www.youtube.com/watch?v=BuPH4FaGZGw",
         "image_url": "/img/exercises/barbell-deadlift-to-knee-height.svg",
         "met_value": 7
       },
@@ -4069,17 +4174,17 @@
     },
     {
       "key": "3d72dbbc-57ac-4b08-9e69-14074feb042b",
-      "hash": "0da918ef80a6a7",
+      "hash": "1c794cc47dab64",
       "row": {
         "name": "Barbell Front Rack Reverse Lunge",
         "description": null,
         "technical_notes": null,
         "difficulty_level_id": "2c3e4b22-a93b-4350-bbcf-dc10a2d75ca0",
         "primary_muscle_group_id": "0f5aa458-f9df-45b1-98ab-219ca9ce9b44",
-        "video_path": "https://youtu.be/Vlgh0ImT5oU?si=WOAwroyeZ6jJWGto",
+        "video_path": "https://www.youtube.com/shorts/UN8DMC8HBN0",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://youtu.be/73OwYFfga1g?si=LaOU5bMAPop8e7Ii",
+        "video_long_path": "https://www.youtube.com/watch?v=Nf8zKTquPjo",
         "image_url": "/img/exercises/barbell-front-rack-reverse-lunge.svg",
         "met_value": 7
       },
@@ -4134,17 +4239,17 @@
     },
     {
       "key": "34e92e64-9ef8-42e0-86bb-1880f0d6bc36",
-      "hash": "1b1967685c7311",
+      "hash": "1177f127b6255e",
       "row": {
         "name": "Barbell Front Squat",
         "description": "Sentadilla completa con barra en rack frontal. Exige torso vertical y movilidad de muñeca y tobillo.",
         "technical_notes": "Codos bien altos durante todo el recorrido: si caen, el pecho se va al piso y se pierde la barra. Torso vertical, rodillas hacia afuera y sentadilla completa antes de subir.",
         "difficulty_level_id": "2c3e4b22-a93b-4350-bbcf-dc10a2d75ca0",
         "primary_muscle_group_id": "0f5aa458-f9df-45b1-98ab-219ca9ce9b44",
-        "video_path": "https://www.youtube.com/shorts/rKjh8K-ZxLc",
+        "video_path": "https://www.youtube.com/shorts/s5dALPG5tHQ",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=uYumuL_G_V0",
+        "video_long_path": "https://www.youtube.com/watch?v=DoKrSiMTTz8",
         "image_url": "/img/exercises/barbell-front-squat.svg",
         "met_value": 7
       },
@@ -4903,7 +5008,7 @@
     },
     {
       "key": "be0ce3a8-5f1b-4715-b762-5030927ccc1a",
-      "hash": "03ee836392a749",
+      "hash": "08cd6ee673500b",
       "row": {
         "name": "Barbell Inverted Row",
         "description": "Acostado boca arriba debajo de una barra fija a la altura de la cadera, agarrar la barra a ancho de hombros y, con el cuerpo rígido como una tabla y los talones apoyados, llevar el pecho hacia la barra. Bajar controlado hasta extender los brazos.",
@@ -4913,7 +5018,7 @@
         "video_path": "https://www.youtube.com/shorts/Gpm1N98x0Ek",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/ezT5Ho5yV0k",
+        "video_long_path": "https://www.youtube.com/watch?v=fsVh2FBEpzI",
         "image_url": "/img/exercises/barbell-inverted-row.svg",
         "met_value": 7
       },
@@ -5366,17 +5471,17 @@
     },
     {
       "key": "9d954bc2-88da-4ef4-9f7f-bc5f53f804f0",
-      "hash": "003ecf7eb0f824",
+      "hash": "09d59df1fed686",
       "row": {
         "name": "Barbell Power Snatch",
         "description": null,
         "technical_notes": null,
         "difficulty_level_id": "a048f54f-cb12-4d40-a22e-0cc2978eccf9",
         "primary_muscle_group_id": "cbe3b11a-330b-4325-bee9-fe3f1c1bd068",
-        "video_path": "https://youtu.be/TL8SMp7RdXQ",
+        "video_path": "https://www.youtube.com/shorts/s6pWnnZqyN0",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://youtu.be/Aq8Tp5r-DZo",
+        "video_long_path": "https://www.youtube.com/watch?v=bE-IXyLlXr4",
         "image_url": "/img/exercises/barbell-power-snatch.svg",
         "met_value": 7
       },
@@ -6087,17 +6192,17 @@
     },
     {
       "key": "cbdc9c1f-f239-40ec-9b40-d6971886bd04",
-      "hash": "069b7fa30b10c1",
+      "hash": "18820ef840e66e",
       "row": {
         "name": "Barbell Thruster",
         "description": "Front squat completo encadenado con un push press: la subida de la sentadilla y el empuje sobre la cabeza son un solo movimiento continuo, sin pausa en el rack frontal.",
         "technical_notes": "No frenar al salir del hoyo: el impulso de piernas es lo que manda la barra arriba. Codos altos abajo y bíceps al lado de la oreja en el bloqueo. Respirar arriba, no en el hoyo.",
         "difficulty_level_id": "2c3e4b22-a93b-4350-bbcf-dc10a2d75ca0",
         "primary_muscle_group_id": "0f5aa458-f9df-45b1-98ab-219ca9ce9b44",
-        "video_path": "https://youtu.be/aea5BGj9a8Y",
+        "video_path": "https://www.youtube.com/shorts/WT-N7PAKchU",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://youtu.be/Zvt5-mugUco",
+        "video_long_path": "https://www.youtube.com/watch?v=XIvE5ArLT9I",
         "image_url": "/img/exercises/thruster.svg",
         "met_value": 7
       },
@@ -6434,7 +6539,7 @@
     },
     {
       "key": "c92e39d4-b770-4a6f-abfb-17c67f2f6804",
-      "hash": "06d7040e8d3ba9",
+      "hash": "10a706e692d1fc",
       "row": {
         "name": "Bird Dog Crunch",
         "description": "Desde cuadrupedia, extender el brazo y la pierna opuestos hasta quedar alineados, luego flexionar llevando el codo a la rodilla por debajo del cuerpo (crunch) y volver a extender.",
@@ -6444,7 +6549,7 @@
         "video_path": "https://www.youtube.com/watch?v=A3HGdX53U0s",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=hgB5ftP-JOg",
+        "video_long_path": "https://www.youtube.com/watch?v=8Zvth3p8REw",
         "image_url": "/img/exercises/bird-dog-crunch.svg",
         "met_value": 7
       },
@@ -6699,17 +6804,17 @@
     },
     {
       "key": "c92d3556-b33f-443b-849f-ce2354fdf354",
-      "hash": "1a0dfdca30da53",
+      "hash": "10d6154aad674e",
       "row": {
         "name": "Bodyweight Handstand Push-Up",
         "description": "Flexión invertida en pino (vertical) contra la pared o libre. Activa deltoides y tríceps.",
         "technical_notes": null,
         "difficulty_level_id": "f43a08cf-b32f-47a0-9300-d75d7f9605d6",
         "primary_muscle_group_id": "4022be26-1f8e-45a1-8748-a0967b7c6ed5",
-        "video_path": "https://www.youtube.com/watch?v=cLTvfDlhiXM",
+        "video_path": "https://www.youtube.com/shorts/-gWRmi8gaa0",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=QLLi1dym-9E",
+        "video_long_path": "https://www.youtube.com/watch?v=Uvkrhbm3qDY",
         "image_url": "/img/exercises/bodyweight-handstand-push-up.svg",
         "met_value": 7
       },
@@ -7320,14 +7425,14 @@
     },
     {
       "key": "854a2138-8e64-4e34-9272-e8f8648232fe",
-      "hash": "0a0ca90759e07c",
+      "hash": "10a18de57fc59f",
       "row": {
         "name": "Box Jump-Over",
         "description": "Salto sobre el box (o alrededor) terminando completamente al otro lado. Se puede hacer con salto o step-over según Rx.",
         "technical_notes": null,
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "3e742369-19b4-4ea5-9867-1c19cab4716d",
-        "video_path": "https://www.youtube.com/watch?v=T7HFJfD8YEw",
+        "video_path": "https://www.youtube.com/shorts/3lSYckZUbRc",
         "is_compound": 1,
         "is_active": 1,
         "video_long_path": "https://www.youtube.com/watch?v=nOborecxcS0",
@@ -7617,17 +7722,17 @@
     },
     {
       "key": "0fe6d785-2076-4ddd-8b35-875db32e98c0",
-      "hash": "0bec1ae560889d",
+      "hash": "001db8c1ad0056",
       "row": {
         "name": "Burpee Broad Jump",
         "description": "Burpee seguido de un salto horizontal hacia adelante con ambos pies, aterrizando suave para encadenar la siguiente repetición.",
         "technical_notes": "Pecho al piso en el burpee. Extender cadera en el salto y aterrizar amortiguando con rodillas y cadera.",
         "difficulty_level_id": "2c3e4b22-a93b-4350-bbcf-dc10a2d75ca0",
         "primary_muscle_group_id": "0f5aa458-f9df-45b1-98ab-219ca9ce9b44",
-        "video_path": "https://www.youtube.com/shorts/VnDbhYDmuLo",
+        "video_path": "https://www.youtube.com/shorts/pvfMzvthV9U",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/lgONqLbf7cE",
+        "video_long_path": "https://www.youtube.com/watch?v=Lp0ED-Lt0pc",
         "image_url": "/img/exercises/burpee-broad-jump.svg",
         "met_value": 7
       },
@@ -7689,17 +7794,17 @@
     },
     {
       "key": "bf3a3ffe-2e0a-4f9d-a902-bd32a13edc75",
-      "hash": "118f46d38b059f",
+      "hash": "1e43c718b614cc",
       "row": {
         "name": "Burpee Over the Bar",
         "description": "Burpee lateral sobre la barra olímpica en el suelo. Caer al lado, burpee, saltar sobre la barra al otro lado.",
         "technical_notes": null,
         "difficulty_level_id": "2c3e4b22-a93b-4350-bbcf-dc10a2d75ca0",
         "primary_muscle_group_id": "ef87c973-9379-4a66-8012-1f498644cb58",
-        "video_path": "https://www.youtube.com/shorts/8QPyif3vjKU",
+        "video_path": "https://www.youtube.com/shorts/9sWYCx2Q4vE",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=BX_t8RArfKw",
+        "video_long_path": "https://www.youtube.com/watch?v=c-7TyTXDabs",
         "image_url": "/img/exercises/burpee-over-the-bar.svg",
         "met_value": 7
       },
@@ -7876,7 +7981,7 @@
     },
     {
       "key": "c3f450a3-d36a-407e-a91b-e2472a65f07e",
-      "hash": "0f46e2a56454c7",
+      "hash": "0f510dfb454bf9",
       "row": {
         "name": "Calf Raise Hold",
         "description": "Se sube a puntas de pie lo más alto posible y se sostiene arriba. Gemelos y sóleo absorben carga que de otro modo pasa a la rodilla.",
@@ -7886,7 +7991,7 @@
         "video_path": "https://www.youtube.com/shorts/2IZDcabLLoM",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=yp_sC7Mvo3g",
+        "video_long_path": "https://www.youtube.com/watch?v=-RaXKFnUQi4",
         "image_url": "/img/exercises/calf-raise-hold.svg",
         "met_value": 7
       },
@@ -8011,17 +8116,17 @@
     },
     {
       "key": "94074742-75da-4e3a-b784-11aaf42bcf52",
-      "hash": "185e9d25826315",
+      "hash": "1e2857b19317f5",
       "row": {
         "name": "Cat-Cow",
         "description": "Movilidad de columna en cuadrupedia: se alterna redondear la espalda hacia el techo (gato) con hundirla suavemente dejando caer el abdomen (camello).",
         "technical_notes": "En cuadrupedia, alternar espalda arqueada (cow) y redondeada (cat) acompañando la respiración, moviendo toda la columna. Ir lento y sin forzar.\nTambién lo nombran: Cat Cow.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "d56158d8-ea6e-438f-afd4-c7d467f6f926",
-        "video_path": "https://www.youtube.com/shorts/rbuptYr2CGM",
+        "video_path": "https://www.youtube.com/shorts/C4K6VDLwO0g",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=xyNwxiuERXc",
+        "video_long_path": "https://www.youtube.com/watch?v=184ScsiviBU",
         "image_url": "/img/exercises/cat-cow.svg",
         "met_value": 7
       },
@@ -8145,17 +8250,17 @@
     },
     {
       "key": "54a6b2a0-2017-409c-92e3-f3b7d23266db",
-      "hash": "1b35169d28958f",
+      "hash": "1f4410abbc9597",
       "row": {
         "name": "Child's Pose",
         "description": "Desde posición arrodillada, bajar las caderas hacia los talones y extender los brazos al frente sobre el suelo, dejando la frente apoyada en el piso. Mantener la posición respirando profundamente.",
         "technical_notes": "Excelente postura de recuperación. Para mayor profundidad, separar ligeramente las rodillas. Si las caderas no llegan a los talones, colocar una manta doblada entre los muslos y las pantorrillas.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "d8fe29d5-376d-487f-ae07-312b5f96a5e9",
-        "video_path": "https://www.youtube.com/watch?v=kH12QrSGedM",
+        "video_path": "https://www.youtube.com/shorts/YCLj3Qx44-A",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=eqVMAPM00DM",
+        "video_long_path": "https://www.youtube.com/watch?v=q7ek5fhdkHM",
         "image_url": "/img/exercises/childs-pose.svg",
         "met_value": 7
       },
@@ -8343,14 +8448,14 @@
     },
     {
       "key": "eeadc513-a0c1-4f49-9b51-0860b57067f4",
-      "hash": "1ccb821cadec57",
+      "hash": "15999e3a95899c",
       "row": {
         "name": "Cobra Pose",
         "description": "Acostado boca abajo con las manos apoyadas bajo los hombros, empujar contra el suelo para elevar el pecho mientras los codos permanecen semi-extendidos o completamente extendidos. Las caderas y piernas permanecen en el suelo.",
         "technical_notes": "No contraer los glúteos durante el movimiento. Alejar los hombros de las orejas. El nivel de extensión depende de la flexibilidad individual: es válido quedarse con los codos doblados (Baby Cobra) si no hay extensión completa.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "9ebc9099-6c5f-4841-8c79-0e63d89e5d14",
-        "video_path": "https://www.youtube.com/shorts/dRAibO71JCM",
+        "video_path": "https://www.youtube.com/shorts/FvKWc7wdLoc",
         "is_compound": 0,
         "is_active": 1,
         "video_long_path": "https://www.youtube.com/watch?v=mRthiV8u7cE",
@@ -8505,7 +8610,7 @@
     },
     {
       "key": "7e76b3c3-4769-4dbf-af7d-67a9cec4d75d",
-      "hash": "16a69498bb58ba",
+      "hash": "143d68fab9e03c",
       "row": {
         "name": "Cossack Squat",
         "description": "Desde posición de pie con pies bien abiertos (más que el ancho de hombros), bajar el peso del cuerpo hacia un lado flexionando esa rodilla hasta llegar lo más abajo posible, mientras la otra pierna queda completamente extendida en el suelo. Los brazos se extienden al frente como contrapeso. Alternar lados.",
@@ -8515,7 +8620,7 @@
         "video_path": "https://www.youtube.com/shorts/pJzSDpcehuQ",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/nFVTuC1jC_I",
+        "video_long_path": "https://www.youtube.com/watch?v=4F6gco8w5Rk",
         "image_url": "/img/exercises/cossack-squat.svg",
         "met_value": 7
       },
@@ -9138,17 +9243,17 @@
     },
     {
       "key": "454daca9-2fd5-438d-a91b-a1e5d1acfbd4",
-      "hash": "0524fac385c035",
+      "hash": "0460314a509118",
       "row": {
         "name": "Deficit Banded Deadlift",
         "description": "Peso muerto parado sobre una plataforma o discos (déficit) y con bandas elásticas enganchadas a la barra, que sumen resistencia hacia el final del recorrido. El déficit alarga el recorrido desde el piso y la banda exige más al bloquear.",
         "technical_notes": "Usar un déficit chico (2 a 4 cm) para no perder la espalda neutra. Barra pegada a las tibias, tensar el cuerpo antes de tirar. La banda aumenta la carga arriba: bloquear con glúteo sin hiperextender. El video cargado es de deficit deadlift sin banda.\nTambién lo nombran: Deficit Banded Deadlift.",
         "difficulty_level_id": "f43a08cf-b32f-47a0-9300-d75d7f9605d6",
         "primary_muscle_group_id": "cbe3b11a-330b-4325-bee9-fe3f1c1bd068",
-        "video_path": "https://www.youtube.com/watch?v=WB3Jyqio4sA",
+        "video_path": "https://www.youtube.com/shorts/Cu0oCr1A94E",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/U9TMVMYyzhs",
+        "video_long_path": "https://www.youtube.com/watch?v=EAe2x19HOPY",
         "image_url": "/img/exercises/deficit-banded-deadlift.svg",
         "met_value": 7
       },
@@ -9228,7 +9333,7 @@
     },
     {
       "key": "f1041cd4-fe92-453e-9a59-5c3667cd075e",
-      "hash": "035d350dbe0f45",
+      "hash": "06c1b0fbdb1183",
       "row": {
         "name": "Descanso",
         "description": "Pausa de recuperación dentro de una serie, ronda o circuito. No se ejecuta ningún movimiento: es un espacio para descansar el tiempo indicado antes de retomar el trabajo. Sirve para modelar en una clase los minutos de pausa que marca el WOD o el bloque de fuerza.",
@@ -9238,7 +9343,7 @@
         "video_path": null,
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": null,
+        "video_long_path": "https://www.youtube.com/watch?v=ptE-3avSUsU",
         "image_url": "/img/exercises/descanso.svg",
         "met_value": 7
       },
@@ -9272,17 +9377,17 @@
     },
     {
       "key": "028541a2-4cb4-4133-9cdf-c37410fb01b0",
-      "hash": "168fe1e2c70177",
+      "hash": "0699384540ec0d",
       "row": {
         "name": "Doorway Chest Stretch",
         "description": "Con el antebrazo apoyado en el marco de una puerta, se rota el cuerpo alejándose hasta sentir el estiramiento en el pecho. Contrarresta las horas de escritorio y el trabajo de empuje.",
         "technical_notes": "El codo a la altura del hombro, no por encima (molesta la articulación). No encoger el hombro. Se puede hacer un lado por vez o ambos a la vez en el marco.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "ef87c973-9379-4a66-8012-1f498644cb58",
-        "video_path": "https://www.youtube.com/shorts/CiIshHzAkQQ",
+        "video_path": "https://www.youtube.com/shorts/_jrDHH3vwII",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=M850sCj9LHQ",
+        "video_long_path": "https://www.youtube.com/watch?v=2mszEmo3pwc",
         "image_url": "/img/exercises/doorway-chest-stretch.svg",
         "met_value": 7
       },
@@ -9638,17 +9743,17 @@
     },
     {
       "key": "55329a90-17c1-47c6-bd32-393ddb29b677",
-      "hash": "143af353e3f8da",
+      "hash": "1eb824241ab664",
       "row": {
         "name": "Dumbbell Back Rack Lunge",
         "description": "Lunge (zancada) con una mancuerna sobre cada hombro, en la posición de back rack (apoyadas sobre la parte superior de la espalda/hombros). Dar un paso, bajar hasta que la rodilla trasera roce el piso y volver.",
         "technical_notes": "Mantener el torso erguido y los codos adelante para que las mancuernas no se caigan. Rodilla delantera sobre el pie, sin que se cierre hacia adentro. Empujar con el talón del pie adelantado.\nTambién lo nombran: Dumbbell back rack lunges / DB Back Rack Lunge.",
         "difficulty_level_id": "2c3e4b22-a93b-4350-bbcf-dc10a2d75ca0",
         "primary_muscle_group_id": "0f5aa458-f9df-45b1-98ab-219ca9ce9b44",
-        "video_path": "https://www.youtube.com/watch?v=rXobUw__r7g",
+        "video_path": "https://www.youtube.com/shorts/tCDuhSrhQHw",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/oi6ue1AHG0Q",
+        "video_long_path": "https://www.youtube.com/watch?v=Gs7Lms7qfpA",
         "image_url": "/img/exercises/dumbbell-back-rack-lunge.svg",
         "met_value": 7
       },
@@ -9716,17 +9821,17 @@
     },
     {
       "key": "64961325-28a0-4379-a2ae-0419af4c28b0",
-      "hash": "053487d52febf1",
+      "hash": "1513bd5837ac73",
       "row": {
         "name": "Dumbbell Bench Press",
         "description": "Press de pecho con mancuernas. Puede realizarse en banco o en el suelo (floor press).",
         "technical_notes": null,
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": null,
-        "video_path": "https://www.youtube.com/shorts/IdLPQP-r8oo",
+        "video_path": "https://www.youtube.com/shorts/AXQaVsjB6Rg",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=IxQDQ2jwS5Y",
+        "video_long_path": "https://www.youtube.com/watch?v=IcLE6zdKuFY",
         "image_url": "/img/exercises/dumbbell-bench-press.svg",
         "met_value": 7
       },
@@ -10278,7 +10383,7 @@
     },
     {
       "key": "c68ae327-22da-4349-a831-c266d60f4fab",
-      "hash": "1636ad65685570",
+      "hash": "12e024362319eb",
       "row": {
         "name": "Dumbbell Hang Clean and Push Jerk",
         "description": "Desde la posición hang (mancuernas a la altura de los muslos/rodillas), extender la cadera con fuerza para llevar las mancuernas a la posición de rack en los hombros (hang clean); luego, con un pequeño dip y extensión de piernas, empujar las mancuernas overhead (push jerk).",
@@ -10288,7 +10393,7 @@
         "video_path": "https://www.youtube.com/shorts/p-GBOGjTYz8",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/yQ69y9NK5ok",
+        "video_long_path": "https://www.youtube.com/watch?v=8rGqXr3hhsE",
         "image_url": "/img/exercises/dumbbell-hang-clean-and-push-jerk.svg",
         "met_value": 7
       },
@@ -10499,17 +10604,17 @@
     },
     {
       "key": "1b9aa186-8a4f-4784-b180-cd12d5a2a1de",
-      "hash": "1d67b95216ef5a",
+      "hash": "04462e36a5f824",
       "row": {
         "name": "Dumbbell Overhead Hold",
         "description": "De pie con dos mancuernas extendidas sobre la cabeza. Mantener la posición con el core activo, hombros estables y codos bloqueados.",
         "technical_notes": null,
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "4022be26-1f8e-45a1-8748-a0967b7c6ed5",
-        "video_path": "https://www.youtube.com/shorts/brDgWSYumFU",
+        "video_path": "https://www.youtube.com/shorts/BBLvdf1evAw",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=QKsPGwXjxjM",
+        "video_long_path": "https://www.youtube.com/watch?v=4SzP3PEkNXA",
         "image_url": "/img/exercises/dumbbell-overhead-hold.svg",
         "met_value": 7
       },
@@ -10557,7 +10662,7 @@
     },
     {
       "key": "29c41add-1186-48b8-9654-24642a5ce69c",
-      "hash": "1ed1f84d1eb65d",
+      "hash": "0e2ab669fc5788",
       "row": {
         "name": "Dumbbell Push Press",
         "description": "Con mancuernas en rack position (a la altura de los hombros), hacer un pequeño dip de rodillas y usar el impulso de la extensión de piernas para empujar las mancuernas hasta overhead.",
@@ -10567,7 +10672,7 @@
         "video_path": "https://www.youtube.com/watch?v=EVRFMAtHYUs",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/cQ67XoqcItE",
+        "video_long_path": "https://www.youtube.com/watch?v=qcH0ukuGVuo",
         "image_url": "/img/exercises/dumbbell-push-press.svg",
         "met_value": 7
       },
@@ -11263,7 +11368,7 @@
     },
     {
       "key": "47c502fb-c55f-46bd-ad61-54ddd9eb36d6",
-      "hash": "1ebe766215d4fb",
+      "hash": "0713217f31e836",
       "row": {
         "name": "Farmer's Carry",
         "description": "De pie, sosteniendo dos kettlebells (o mancuernas) pesadas a los costados. Caminar una distancia manteniendo postura firme: espalda recta, hombros hacia atrás y core activo.",
@@ -11273,7 +11378,7 @@
         "video_path": "https://www.youtube.com/shorts/2bwQawTwVt8",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/1uOs1hP3u4A",
+        "video_long_path": "https://www.youtube.com/watch?v=bymkkgRLdFk",
         "image_url": "/img/exercises/farmers-carry.svg",
         "met_value": 7
       },
@@ -11336,7 +11441,7 @@
     },
     {
       "key": "b29f39c3-a795-46a1-99d2-f411ef4e47dd",
-      "hash": "168d8f0531ff30",
+      "hash": "1d3c6024d901ce",
       "row": {
         "name": "GHD Back Extension",
         "description": "Extensión lumbar en máquina GHD. Fortalece cadena posterior baja.",
@@ -11346,7 +11451,7 @@
         "video_path": "https://www.youtube.com/watch?v=xMyFXMZ6Ch0",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=ivDB23Kcv-A",
+        "video_long_path": "https://www.youtube.com/watch?v=tnypXSH1zUg",
         "image_url": "/img/exercises/ghd-back-extension.svg",
         "met_value": 7
       },
@@ -11399,7 +11504,7 @@
     },
     {
       "key": "6e1148f3-1ac1-46c7-85df-f7839fa7f62b",
-      "hash": "135f088df03106",
+      "hash": "02d7c39ec57556",
       "row": {
         "name": "GHD Sit-Up",
         "description": "Abdominal completo en máquina GHD con extensión de cadera total. Alta demanda de core.",
@@ -11409,7 +11514,7 @@
         "video_path": "https://www.youtube.com/watch?v=1pbZ8mX2D1U",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=oFwt7WfnPcc",
+        "video_long_path": "https://www.youtube.com/watch?v=NfKgLL9w4Tw",
         "image_url": "/img/exercises/ghd-sit-up.svg",
         "met_value": 7
       },
@@ -11457,14 +11562,14 @@
     },
     {
       "key": "8fa3b57f-4450-4ca1-9301-1a308b7d245a",
-      "hash": "01b363241ffb9a",
+      "hash": "0cc0919a1840d1",
       "row": {
         "name": "General Stretching",
         "description": "Serie libre de estiramientos de las cadenas trabajadas en la clase, sosteniendo cada posición sin rebotes.",
         "technical_notes": "Sostener entre 20 y 30 segundos por posición. Respirar hondo y aflojar en cada exhalación. Nunca llegar al dolor.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "68fe1106-34b1-4879-bee5-34d956f69a9b",
-        "video_path": null,
+        "video_path": "https://www.youtube.com/shorts/hIEwkbTUVrY",
         "is_compound": 0,
         "is_active": 1,
         "video_long_path": "https://www.youtube.com/watch?v=42JLrCpb7qE",
@@ -11588,7 +11693,7 @@
     },
     {
       "key": "9c17682e-2c3c-42a2-a1f4-4ee37d3f9c00",
-      "hash": "14117274ddf027",
+      "hash": "1d616f83354b47",
       "row": {
         "name": "Goblet Squat Hold Press",
         "description": "Sosteniendo una kettlebell o mancuerna al pecho, bajar a la posición de squat goblet y en el fondo extender los brazos al frente (press-out). Mejora la movilidad de cadera y tobillo.",
@@ -11598,7 +11703,7 @@
         "video_path": "https://www.youtube.com/shorts/uGwLKy8LmlU",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=ZT4l7eZwScA",
+        "video_long_path": "https://www.youtube.com/watch?v=iv1Ujdy6Ms0",
         "image_url": "/img/exercises/goblet-squat-hold-press.svg",
         "met_value": 7
       },
@@ -11862,14 +11967,14 @@
     },
     {
       "key": "e100cc0a-6dbc-4efc-a02b-55e6ad02fe8e",
-      "hash": "00bf5b0c01cec0",
+      "hash": "14a9744f2e4fa1",
       "row": {
         "name": "Half Kneeling Hip Flexor Stretch",
         "description": "En posición media-arrodillada (un pie adelante en 90°, rodilla trasera en el suelo), empujar suavemente la cadera hacia adelante mientras se mantiene el torso erguido. Opcionalmente elevar el brazo del lado de la rodilla trasera para aumentar el estiramiento.",
         "technical_notes": "El estiramiento se siente en el flexor de cadera (psoas/ilíaco) del lado de la rodilla en el suelo. Evitar que la espalda se arquee excesivamente. La rodilla delantera debe estar directamente sobre el tobillo.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "0f5aa458-f9df-45b1-98ab-219ca9ce9b44",
-        "video_path": "https://www.youtube.com/watch?v=VYItAZ1sLhA",
+        "video_path": "https://www.youtube.com/shorts/wbsgHGf2x3w",
         "is_compound": 0,
         "is_active": 1,
         "video_long_path": "https://www.youtube.com/watch?v=bUrewFPJp2E",
@@ -12234,7 +12339,7 @@
     },
     {
       "key": "69e98145-875a-4e65-bd3a-510388d561e7",
-      "hash": "14d07f354c8650",
+      "hash": "0c508fda7e3062",
       "row": {
         "name": "Hanging Leg Raise with Rotation Over Box",
         "description": "Colgado de la barra, elevar las piernas extendidas hasta la horizontal y rotar la cadera para llevar los pies por encima de un cajón ubicado al costado, alternando lados.",
@@ -12244,7 +12349,7 @@
         "video_path": "https://www.youtube.com/shorts/rDtBVY3DBNg",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=5RHbtTO2aWM",
+        "video_long_path": "https://www.youtube.com/watch?v=2TfDh44E5lc",
         "image_url": "/img/exercises/hanging-leg-raise-rotation-over-box.svg",
         "met_value": 7
       },
@@ -12314,17 +12419,17 @@
     },
     {
       "key": "ae17ab62-f0e0-496b-a34e-47d0b48edc8a",
-      "hash": "084bd9122b9d7d",
+      "hash": "110f8fbb0e21c2",
       "row": {
         "name": "Hanging Toes to Bar",
         "description": "Colgado de la barra, subir las puntas de los pies hasta tocar la barra. Activa core completo y flexores de cadera.",
         "technical_notes": null,
         "difficulty_level_id": "2c3e4b22-a93b-4350-bbcf-dc10a2d75ca0",
         "primary_muscle_group_id": "9ebc9099-6c5f-4841-8c79-0e63d89e5d14",
-        "video_path": "https://www.youtube.com/watch?v=I72GuIrPTSs",
+        "video_path": "https://www.youtube.com/shorts/OxKtoThBvfE",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=oFwt7WfnPcc",
+        "video_long_path": "https://www.youtube.com/watch?v=ffMZNBWb1Oo",
         "image_url": "/img/exercises/hanging-toes-to-bar.svg",
         "met_value": 7
       },
@@ -12380,17 +12485,17 @@
     },
     {
       "key": "a014a474-4c1b-418f-81d1-c8dbb1ff51a4",
-      "hash": "0c0fdbf1648bf5",
+      "hash": "1ee7b2dabbedc3",
       "row": {
         "name": "Heel-Elevated Goblet Squat",
         "description": "Sentadilla sosteniendo una mancuerna en posición goblet (frente al pecho) con los talones elevados sobre una cuña o discos. La elevación de talones permite mayor profundidad manteniendo el torso vertical.",
         "technical_notes": "Torso lo más erguido posible, codos dentro de las rodillas en el fondo. Bajar hasta que la cadera pase la línea de las rodillas. Talones y planta apoyados en la cuña, sin volcarse al frente.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "0f5aa458-f9df-45b1-98ab-219ca9ce9b44",
-        "video_path": "https://www.youtube.com/shorts/EAAeQM3-U1w",
+        "video_path": "https://www.youtube.com/shorts/24AqeXHI_2w",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/M2WFgYumN_Q",
+        "video_long_path": "https://www.youtube.com/watch?v=p51NiReDMMg",
         "image_url": "/img/exercises/heel-elevated-goblet-squat.svg",
         "met_value": 7
       },
@@ -12675,7 +12780,7 @@
     },
     {
       "key": "ea8cf48b-9541-4e38-a3d2-07e54d699ca3",
-      "hash": "1b6548d849f416",
+      "hash": "1eb3472a8fa1d4",
       "row": {
         "name": "Hip Rotations in Squat",
         "description": "Sentadilla profunda mantenida en la posición baja. Desde ahí, alternar la rotación interna y externa de cada cadera, dejando caer la rodilla hacia adentro y hacia afuera de forma controlada.",
@@ -12685,7 +12790,7 @@
         "video_path": "https://www.youtube.com/shorts/uVhMR5r9NF8",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=BWdOO8bxk34",
+        "video_long_path": "https://www.youtube.com/watch?v=2TjIGONm630",
         "image_url": "/img/exercises/hip-rotations-in-squat.svg",
         "met_value": 7
       },
@@ -12918,7 +13023,7 @@
     },
     {
       "key": "e809cf0f-2288-451d-9b1c-6292f686bad3",
-      "hash": "0d842242152cc5",
+      "hash": "16f518b55d2b16",
       "row": {
         "name": "Hollow to Superman Roll",
         "description": "Empezar en posición Hollow Hold (boca arriba, brazos y piernas levemente elevadas formando una \"banana\" invertida). Girar el cuerpo hacia un lado llegando a posición Superman Hold (boca abajo, brazos y piernas elevados). Volver girando hacia el otro lado. Repetir alternando.",
@@ -12928,7 +13033,7 @@
         "video_path": "https://www.youtube.com/watch?v=IDyzloCxcYs",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/whdwVYvpdZg",
+        "video_long_path": "https://www.youtube.com/watch?v=Gz9ufwM4gUk",
         "image_url": "/img/exercises/hollow-to-superman-roll.svg",
         "met_value": 7
       },
@@ -13110,7 +13215,7 @@
     },
     {
       "key": "e9ab4c7f-490d-41f7-be77-5c77e2243fb0",
-      "hash": "17b17cfb335a3e",
+      "hash": "14b53590cb153d",
       "row": {
         "name": "Isometric Lunge",
         "description": "Con mancuernas en cada mano, posicionarse en lunge (una pierna adelante, otra atrás). Bajar hasta que la rodilla trasera quede a pocos centímetros del suelo y mantener esa posición el tiempo indicado. La pierna delantera a 90° en rodilla y cadera.",
@@ -13120,7 +13225,7 @@
         "video_path": "https://www.youtube.com/shorts/495P768V5sQ",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=FvrSfS9cQ9w",
+        "video_long_path": "https://www.youtube.com/watch?v=2_4Ik10_lo8",
         "image_url": "/img/exercises/isometric-lunge.svg",
         "met_value": 7
       },
@@ -13330,17 +13435,17 @@
     },
     {
       "key": "efc8f4ef-3381-498c-8edb-38fca20dee93",
-      "hash": "11bf43bbe061c2",
+      "hash": "16606034e7411b",
       "row": {
         "name": "Jump Rope",
         "description": "Saltos de cuerda básicos (single-under). Un salto por cada vuelta de la cuerda. Mantener ritmo constante con muñecas girando la cuerda y saltos pequeños.",
         "technical_notes": null,
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "3e742369-19b4-4ea5-9867-1c19cab4716d",
-        "video_path": "https://www.youtube.com/shorts/WA1xNoWA7yA",
+        "video_path": "https://www.youtube.com/shorts/jOljlKMb9g4",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=Y3wzaWE9QRY",
+        "video_long_path": "https://www.youtube.com/watch?v=rMSHizDgr6w",
         "image_url": "/img/exercises/jump-rope.svg",
         "met_value": 7
       },
@@ -13475,7 +13580,7 @@
     },
     {
       "key": "1f236821-4c9d-43c5-b069-cd1904f6f072",
-      "hash": "083ef6b365c9b7",
+      "hash": "198fb2b8abc4e1",
       "row": {
         "name": "Jumping Jack",
         "description": "Salto abriendo y cerrando piernas mientras los brazos suben por los costados hasta juntarse arriba. Ritmo continuo, aterrizaje suave sobre la planta del pie.",
@@ -13485,7 +13590,7 @@
         "video_path": "https://www.youtube.com/shorts/S8V_iXijSwc",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=uLVt6u15L98",
+        "video_long_path": "https://www.youtube.com/watch?v=zZlMz1CfLCc",
         "image_url": "/img/exercises/jumping-jack.svg",
         "met_value": 7
       },
@@ -13701,7 +13806,7 @@
     },
     {
       "key": "2ce61306-8584-4826-b642-4119c2eaea77",
-      "hash": "1947bea0797f2e",
+      "hash": "0b049ca98127a9",
       "row": {
         "name": "Kettlebell Ankle Mobility Drill",
         "description": "En posición de medio-arrodillado (half kneeling) con una rodilla en el suelo y el pie contrario plano adelante. Colocar una kettlebell frente al pie adelantado como referencia. Empujar la rodilla delantera hacia adelante, sobre la punta del pie, lo más lejos posible sin que el talón se despegue del suelo. Volver y repetir.",
@@ -13711,7 +13816,7 @@
         "video_path": "https://www.youtube.com/watch?v=jEUGo80-yBY",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/t0dW_gbaQG0",
+        "video_long_path": "https://www.youtube.com/watch?v=Ke_i3CabXF4",
         "image_url": "/img/exercises/kettlebell-ankle-mobility-drill.svg",
         "met_value": 7
       },
@@ -13991,17 +14096,17 @@
     },
     {
       "key": "7c72bf38-6231-419d-84e1-47a2c1604a19",
-      "hash": "01c2fdfc59e78c",
+      "hash": "1d8cf3dfa9a309",
       "row": {
         "name": "Kettlebell Farmer Carry",
         "description": "Caminar (o marchar) una distancia sosteniendo una kettlebell pesada en cada mano, manteniendo el tronco erguido y el core firme.",
         "technical_notes": "Hombros atrás, escápulas estables. Pasos cortos y controlados. En la variante \"march\" elevar las rodillas.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "ace576f8-aafa-46b7-a50f-7c1b3f3cf625",
-        "video_path": "https://www.youtube.com/shorts/WO5Iex8b3Pw",
+        "video_path": "https://www.youtube.com/shorts/G-OWtWukGBk",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=8OtwXwrJizk",
+        "video_long_path": "https://www.youtube.com/watch?v=yOhuajdpUbg",
         "image_url": "/img/exercises/kettlebell-farmer-carry.svg",
         "met_value": 7
       },
@@ -14134,17 +14239,17 @@
     },
     {
       "key": "2e7b024b-1c8c-419f-8d06-6513bd0bdc50",
-      "hash": "055ffc02e2719c",
+      "hash": "106f2b28ea7e11",
       "row": {
         "name": "Kettlebell Good Morning",
         "description": "Con una kettlebell sostenida en goblet position (contra el pecho), realizar una bisagra de cadera hacia adelante manteniendo la espalda neutra hasta sentir tensión en los isquiotibiales, luego volver a la posición inicial.",
         "technical_notes": "El movimiento parte de la cadera, no de la columna. Rodillas ligeramente flexionadas. Mantener el pecho elevado y la columna neutral durante todo el recorrido.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "cbe3b11a-330b-4325-bee9-fe3f1c1bd068",
-        "video_path": "https://www.youtube.com/shorts/FkvZv75xPkw",
+        "video_path": "https://www.youtube.com/shorts/Az1dkp67MG0",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=0lcPSo2gRoY",
+        "video_long_path": "https://www.youtube.com/watch?v=8OaibaJ6pyQ",
         "image_url": "/img/exercises/kettlebell-good-morning.svg",
         "met_value": 7
       },
@@ -14214,17 +14319,17 @@
     },
     {
       "key": "01bea536-e2be-4668-844a-d31b233c81b0",
-      "hash": "040badbdcc74c7",
+      "hash": "08ee949dead8d7",
       "row": {
         "name": "Kettlebell Good Morning to Squat",
         "description": "Con una kettlebell sostenida en el pecho (goblet), realizar un good morning (bisagra de cadera con espalda recta) y, al volver, encadenar una sentadilla profunda.",
         "technical_notes": "La bisagra es de cadera, no de espalda; mantener la columna neutra. En la sentadilla, rodillas siguiendo la línea de los pies.\nTambién lo nombran: KB Kang Squat / Kang Squat (el profesor lo llama así: good morning + sentadilla).",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "cbe3b11a-330b-4325-bee9-fe3f1c1bd068",
-        "video_path": "https://www.youtube.com/watch?v=jyV_TwPdbKM",
+        "video_path": "https://www.youtube.com/shorts/XvFrzwLFDQ8",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=jyV_TwPdbKM",
+        "video_long_path": "https://www.youtube.com/watch?v=ud1nn-hbH6o",
         "image_url": "/img/exercises/kettlebell-good-morning-to-squat.svg",
         "met_value": 7
       },
@@ -15049,7 +15154,7 @@
     },
     {
       "key": "41f6820b-952b-402c-9a81-00186933e5b6",
-      "hash": "17edc2abcf8e39",
+      "hash": "09ba25a9ce7ab2",
       "row": {
         "name": "Kettlebell Turkish Sit-Up",
         "description": "Acostado boca arriba con una kettlebell sostenida con el brazo extendido hacia el techo, sentarse hasta quedar con el torso erguido manteniendo la kettlebell arriba, y volver a acostarse con control.",
@@ -15059,7 +15164,7 @@
         "video_path": "https://www.youtube.com/shorts/yt1_FPJBT4g",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=RttCwCerCiM",
+        "video_long_path": "https://www.youtube.com/watch?v=wjjdAepJdmg",
         "image_url": "/img/exercises/kettlebell-turkish-sit-up.svg",
         "met_value": 7
       },
@@ -15510,17 +15615,17 @@
     },
     {
       "key": "3ae30ad2-93ea-46db-99aa-e253623e1eff",
-      "hash": "140605993b54f2",
+      "hash": "0eb5699e1d16a4",
       "row": {
         "name": "L-Sit Hold",
         "description": "En apoyo sobre paralelas (o en el piso), sostener el cuerpo con los brazos extendidos y las piernas rectas al frente formando una \"L\" con el torso. Mantener la posición isométrica el tiempo indicado.",
         "technical_notes": "Deprimir los hombros (alejarlos de las orejas), redondear ligeramente la lumbar y activar el abdomen. Piernas juntas y rodillas extendidas; si no se llega, empezar con las rodillas dobladas (tuck).",
         "difficulty_level_id": "2c3e4b22-a93b-4350-bbcf-dc10a2d75ca0",
         "primary_muscle_group_id": "9ebc9099-6c5f-4841-8c79-0e63d89e5d14",
-        "video_path": "https://www.youtube.com/shorts/a4qGW79QtrE",
+        "video_path": "https://www.youtube.com/shorts/KPPPA5W9zNA",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/xBquRSTa_Jo",
+        "video_long_path": "https://www.youtube.com/watch?v=oeiGgc8KWOs",
         "image_url": "/img/exercises/l-sit-hold.svg",
         "met_value": 7
       },
@@ -15648,7 +15753,7 @@
     },
     {
       "key": "becb43a8-c8d9-4359-978f-b534605df252",
-      "hash": "04273d05276333",
+      "hash": "056d03ad00d16d",
       "row": {
         "name": "Lateral Raise to Overhead",
         "description": "De pie con discos muy livianos (2.5 kg). Elevar los brazos lateralmente hasta la horizontal (lateral raise) y continuar el arco hasta overhead. Bajar por el mismo camino.",
@@ -15658,7 +15763,7 @@
         "video_path": "https://www.youtube.com/shorts/m1hHC13jxuE",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=7mUqxKfg6zo",
+        "video_long_path": "https://www.youtube.com/watch?v=BaSF1awuv3Q",
         "image_url": "/img/exercises/lateral-raise-to-overhead.svg",
         "met_value": 7
       },
@@ -15713,7 +15818,7 @@
     },
     {
       "key": "2f4ff170-e97e-43fe-8748-002dfc054e55",
-      "hash": "0f9407a0582fe7",
+      "hash": "1346bdb7dfb100",
       "row": {
         "name": "Lateral Shuffle",
         "description": "Desplazamiento lateral en posición atlética baja: cadera abajo, pecho arriba y pasos cortos y rápidos hacia un lado y hacia el otro.",
@@ -15723,7 +15828,7 @@
         "video_path": "https://www.youtube.com/watch?v=mziPKITnPeQ",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=SDEKG4epIik",
+        "video_long_path": "https://www.youtube.com/watch?v=_Z9Yjf-G2kQ",
         "image_url": "/img/exercises/lateral-shuffle.svg",
         "met_value": 7
       },
@@ -16334,17 +16439,17 @@
     },
     {
       "key": "fc710acf-42b5-4d10-a275-b4a8aea18fa1",
-      "hash": "127b6f24330f27",
+      "hash": "182e35a819cff7",
       "row": {
         "name": "Oblique Crunch",
         "description": "Acostado de lado con las rodillas flexionadas, se eleva el tronco acercando las costillas a la cadera del mismo lado.",
         "technical_notes": "El movimiento es corto: no tirar del cuello con la mano. Trabajar un lado y después el otro.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "cca1537f-bb61-435c-90b4-738f0257c424",
-        "video_path": "https://www.youtube.com/shorts/wmTw8cQUT74",
+        "video_path": "https://www.youtube.com/shorts/ON8WgmzUIq0",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=VVnvS7e2rno",
+        "video_long_path": "https://www.youtube.com/watch?v=mEZ9KoARYeE",
         "image_url": "/img/exercises/oblique-crunch.svg",
         "met_value": 7
       },
@@ -16536,14 +16641,14 @@
     },
     {
       "key": "309d6ab7-09b6-4cbf-a602-7c66122a6af9",
-      "hash": "1a33e27897a99d",
+      "hash": "0f7c73b0b34777",
       "row": {
         "name": "Overhead Triceps Stretch",
         "description": "De pie, llevar un brazo hacia arriba y doblar el codo llevando la mano detrás de la cabeza (como si fuera a rascarse la espalda). Con la mano contraria, empujar suavemente el codo hacia abajo para profundizar el estiramiento del tríceps. Repetir del otro lado.",
         "technical_notes": "Mantener el torso erguido sin inclinar el cuerpo hacia el lado que se estira. El codo estirado apunta hacia el techo. La mano opuesta actúa solo como guía, sin forzar.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "e5b26337-11de-46bf-be82-623e389374f1",
-        "video_path": "https://www.youtube.com/watch?v=zzvDO56B0HE",
+        "video_path": "https://www.youtube.com/shorts/flM4AK4QWhE",
         "is_compound": 0,
         "is_active": 1,
         "video_long_path": "https://www.youtube.com/watch?v=41rifhpbkh4",
@@ -16645,7 +16750,7 @@
     },
     {
       "key": "5d076de5-47b2-45a5-bc6d-1446b058c8cc",
-      "hash": "09e5b526bdeb36",
+      "hash": "1b39c74a27330f",
       "row": {
         "name": "Partner Wall Ball Sit-Up",
         "description": "En parejas frente a frente (o espalda con espalda), hacer sit-ups pasando el balón medicinal al compañero en la cima del movimiento. El compañero lo recibe y baja.",
@@ -16655,7 +16760,7 @@
         "video_path": "https://www.youtube.com/shorts/_Jpx6xKMh5s",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=XR2efvj-O5M",
+        "video_long_path": "https://www.youtube.com/watch?v=cPXQ015vnfQ",
         "image_url": "/img/exercises/partner-wall-ball-sit-up.svg",
         "met_value": 7
       },
@@ -16704,14 +16809,14 @@
     },
     {
       "key": "977cdae2-0187-4ab2-9fa0-eb4ba1a18853",
-      "hash": "02370ca9deeee7",
+      "hash": "063a22c0aa19e4",
       "row": {
         "name": "Pigeon Pose",
         "description": "Desde la posición de cuadrupedia, traer una rodilla hacia adelante y colocarla detrás de la muñeca del mismo lado, con el pie cerca de la cadera opuesta. La pierna trasera queda extendida. Bajar el torso sobre la pierna delantera para profundizar el estiramiento de cadera.",
         "technical_notes": "El estiramiento principal es en el glúteo y el rotador externo de cadera del lado de la pierna delantera. Mantener las caderas a nivel (no dejar que caiga un lado más que el otro). Modificación: con el pie del lado doblado más cerca del cuerpo reduce la intensidad.",
         "difficulty_level_id": "2c3e4b22-a93b-4350-bbcf-dc10a2d75ca0",
         "primary_muscle_group_id": "cbe3b11a-330b-4325-bee9-fe3f1c1bd068",
-        "video_path": "https://www.youtube.com/shorts/pjmR5Kacu1w",
+        "video_path": "https://www.youtube.com/shorts/s3kI7Rj-N0Y",
         "is_compound": 0,
         "is_active": 1,
         "video_long_path": "https://www.youtube.com/watch?v=4O6YbbmBtKQ",
@@ -17250,7 +17355,7 @@
     },
     {
       "key": "fce412a9-e24a-4c71-b52a-787d3448fcb8",
-      "hash": "1efade74c1d02b",
+      "hash": "0acca88fa05d95",
       "row": {
         "name": "Plank Up-Down",
         "description": "Desde plancha alta (manos apoyadas), descender un brazo a la vez a la posición de plancha baja (antebrazos) y volver a la posición alta. Alternar el brazo que lidera el movimiento.",
@@ -17260,7 +17365,7 @@
         "video_path": "https://www.youtube.com/watch?v=jF3wvzUUw7s",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=L4oFJRDAU4Q",
+        "video_long_path": "https://www.youtube.com/watch?v=CClPHsPVAEI",
         "image_url": "/img/exercises/plank-up-down.svg",
         "met_value": 7
       },
@@ -17321,7 +17426,7 @@
     },
     {
       "key": "90e875a6-1c0c-42be-90b1-5d3be12a2205",
-      "hash": "04609062af4425",
+      "hash": "111eff9ff1789c",
       "row": {
         "name": "Plank to Opposite Toe Touch",
         "description": "Desde plancha alta (high plank), elevar la cadera tipo pike y llevar una mano al pie contrario. Volver a plancha y alternar lados.",
@@ -17331,7 +17436,7 @@
         "video_path": "https://www.youtube.com/shorts/v25dawSzRTM",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=RyCG6z252WQ",
+        "video_long_path": "https://www.youtube.com/watch?v=Ix1iKRYMg80",
         "image_url": "/img/exercises/plank-to-opposite-toe-touch.svg",
         "met_value": 7
       },
@@ -17462,7 +17567,7 @@
     },
     {
       "key": "72132f7b-8987-4e46-8943-17c3c291fb22",
-      "hash": "1c9a0215e61f51",
+      "hash": "0a60340bf65d7a",
       "row": {
         "name": "Power Clean",
         "description": "Levantamiento olímpico: desde el suelo, tirar la barra hacia arriba con una extensión explosiva de cadera y recibirla en la posición de front rack (sobre los hombros) con una sentadilla parcial.",
@@ -17472,7 +17577,7 @@
         "video_path": "https://www.youtube.com/shorts/8HZ2tQNJiPA",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=KUH9IYjMcDQ",
+        "video_long_path": "https://www.youtube.com/watch?v=MoEDdC9OqDY",
         "image_url": "/img/exercises/power-clean.svg",
         "met_value": 7
       },
@@ -17542,7 +17647,7 @@
     },
     {
       "key": "0800451f-da2b-413b-a8c5-7d63966cab0d",
-      "hash": "094b50ed224319",
+      "hash": "1afb33892fb262",
       "row": {
         "name": "Prone Around the World",
         "description": "Boca abajo, con pecho y brazos despegados del suelo, se dibuja un círculo llevando los brazos desde arriba de la cabeza hasta los costados y de vuelta.",
@@ -17552,7 +17657,7 @@
         "video_path": "https://www.youtube.com/shorts/jHNyY0-X4kE",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=u3IiuoYXDp0",
+        "video_long_path": "https://www.youtube.com/watch?v=AIEUakgGHn4",
         "image_url": "/img/exercises/prone-around-the-world.svg",
         "met_value": 7
       },
@@ -17620,17 +17725,17 @@
     },
     {
       "key": "1169aec1-289e-4ce7-8ca7-d4f22feac507",
-      "hash": "17b751b143fad5",
+      "hash": "19219cc7c0fd41",
       "row": {
         "name": "Push Press Behind the Neck",
         "description": "Con la barra apoyada detrás de la nuca (sobre los trapecios), realizar un breve dip de rodillas y usar el impulso de las piernas para empujar la barra por encima de la cabeza hasta el bloqueo. Bajar controlado detrás de la nuca.",
         "technical_notes": "El dip es corto y vertical. La barra termina alineada sobre la mitad del pie con los hombros activos. Requiere buena movilidad de hombro; mantener el core firme.",
         "difficulty_level_id": "2c3e4b22-a93b-4350-bbcf-dc10a2d75ca0",
         "primary_muscle_group_id": "4022be26-1f8e-45a1-8748-a0967b7c6ed5",
-        "video_path": "https://www.youtube.com/shorts/ECQxCyXg-ik",
+        "video_path": "https://www.youtube.com/shorts/dVzE2ywXY_c",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=eAkalDSMcbo",
+        "video_long_path": "https://www.youtube.com/watch?v=qV_0AEbhkks",
         "image_url": "/img/exercises/push-press-behind-the-neck.svg",
         "met_value": 7
       },
@@ -17943,7 +18048,7 @@
     },
     {
       "key": "46a96f35-4bef-4e0c-bfef-5f7e7e706e00",
-      "hash": "1ef6c6b01e50d0",
+      "hash": "1f0ae1a6fcf8c1",
       "row": {
         "name": "Ring Dip",
         "description": "Fondos en anillas. Mayor rango de movimiento y estabilización que las paralelas.",
@@ -17953,7 +18058,7 @@
         "video_path": "https://www.youtube.com/watch?v=EznLCDBAPIU",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=EznLCDBAPIU",
+        "video_long_path": "https://www.youtube.com/watch?v=_X0ZtbFF1O8",
         "image_url": "/img/exercises/ring-dip.svg",
         "met_value": 7
       },
@@ -18009,7 +18114,7 @@
     },
     {
       "key": "a3f56b1b-182f-46af-bee1-db7f4239a368",
-      "hash": "0450838a600e96",
+      "hash": "0fc2d197af6e77",
       "row": {
         "name": "Ring Handstand Push-Up",
         "description": "Flexión invertida en anillas. Mayor rango de movimiento y dificultad que el HSPU en pared.",
@@ -18019,7 +18124,7 @@
         "video_path": "https://www.youtube.com/watch?v=9wIkPCS4Mbo",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=5WmPkHS-jCg",
+        "video_long_path": "https://www.youtube.com/watch?v=iTe8X_kOawo",
         "image_url": "/img/exercises/ring-handstand-push-up.svg",
         "met_value": 7
       },
@@ -18075,7 +18180,7 @@
     },
     {
       "key": "f50341f0-81c5-4461-94ab-6fbd30a6d917",
-      "hash": "061e22a7f01089",
+      "hash": "0d465846fcb432",
       "row": {
         "name": "Ring Row",
         "description": null,
@@ -18085,7 +18190,7 @@
         "video_path": "https://youtu.be/xhlReCpAE9k",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=VQn3aGSUorc",
+        "video_long_path": "https://www.youtube.com/watch?v=zVvcFDvObUo",
         "image_url": "/img/exercises/ring-row.svg",
         "met_value": 7
       },
@@ -18155,7 +18260,7 @@
     },
     {
       "key": "2fbba5ef-0d58-4d06-900d-7940fdb87858",
-      "hash": "0597a1b5cae474",
+      "hash": "0beb1cbcaee783",
       "row": {
         "name": "Ring Strict Muscle Up",
         "description": null,
@@ -18165,7 +18270,7 @@
         "video_path": "https://youtu.be/vJTJFc2wmk4",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://youtu.be/j-5Ubq3ZOds",
+        "video_long_path": "https://www.youtube.com/watch?v=fp6FgIYpKKQ",
         "image_url": "/img/exercises/ring-strict-muscle-up.svg",
         "met_value": 7
       },
@@ -18242,17 +18347,17 @@
     },
     {
       "key": "25817a76-fa8d-4d65-9edb-6bcc053a25b4",
-      "hash": "19a762febfed31",
+      "hash": "121235ab6dafc3",
       "row": {
         "name": "Rope Climb",
         "description": "Subida de cuerda hasta tocar el tope (tipicamente 4-5 m). Fuerza de tracción y agarre.",
         "technical_notes": null,
         "difficulty_level_id": "f43a08cf-b32f-47a0-9300-d75d7f9605d6",
         "primary_muscle_group_id": null,
-        "video_path": "https://www.youtube.com/shorts/RFnyVHdLUvk",
+        "video_path": "https://www.youtube.com/shorts/9CCwGfPB_QE",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=dspcCqtnNHU",
+        "video_long_path": "https://www.youtube.com/watch?v=BNZGSeFRmis",
         "image_url": "/img/exercises/rope-climb.svg",
         "met_value": 7
       },
@@ -18307,14 +18412,14 @@
     },
     {
       "key": "437dc8b4-74ae-47e6-9f1a-1580f4d1a78a",
-      "hash": "119186e8a95cf4",
+      "hash": "0953bb97706202",
       "row": {
         "name": "Rowing",
         "description": "Remo en remoergómetro: secuencia piernas-cadera-brazos en el tirón y brazos-cadera-piernas en la recuperación, por calorías o distancia.",
         "technical_notes": "Secuencia: piernas, tronco, brazos; al volver, brazos, tronco, piernas.\nTambién lo nombran: Row (en \"row/bike/ski\").",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "d8fe29d5-376d-487f-ae07-312b5f96a5e9",
-        "video_path": "https://www.youtube.com/shorts/cGy29PC4oPk",
+        "video_path": "https://www.youtube.com/shorts/StOEr65CD8w",
         "is_compound": 1,
         "is_active": 1,
         "video_long_path": "https://www.youtube.com/watch?v=nEF63sYn7AQ",
@@ -18392,15 +18497,111 @@
       }
     },
     {
+      "key": "a737f370-33f5-4a95-a3f3-a40a8d0d1948",
+      "hash": "15face958f30ce",
+      "row": {
+        "name": "Rowing Machine",
+        "description": "Remo en la máquina de remo (ergómetro): desde el catch con las piernas flexionadas y los brazos extendidos, empujar con las piernas, abrir el torso hacia atrás y terminar tirando la manija hacia el pecho. Volver en orden inverso: primero los brazos, luego el torso y por último las rodillas.",
+        "technical_notes": "La secuencia es piernas, torso, brazos al ir y brazos, torso, piernas al volver. Más de la mitad de la potencia sale de las piernas; los brazos tiran al final. Espalda neutra, sin redondear en el catch ni inclinarse de más atrás en el final. La recuperación es el doble de lenta que el empuje. Regular el amortiguador (damper) entre 3 y 5, y atar bien los pies. En la app existe también \"Rowing\" (el mismo ergómetro, pensado por distancia o calorías); este ejercicio se usa cuando interesa la técnica.",
+        "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
+        "primary_muscle_group_id": "d8fe29d5-376d-487f-ae07-312b5f96a5e9",
+        "video_path": null,
+        "is_compound": 1,
+        "is_active": 1,
+        "video_long_path": "https://www.youtube.com/watch?v=QJe4wwjcZbk",
+        "image_url": "/img/exercises/rowing-machine.svg",
+        "met_value": 7
+      },
+      "relations": {
+        "muscle_groups": [
+          {
+            "muscle_group_id": "09527364-edd8-4c88-9db4-92f40c9efc92",
+            "is_primary": 0
+          },
+          {
+            "muscle_group_id": "0f5aa458-f9df-45b1-98ab-219ca9ce9b44",
+            "is_primary": 0
+          },
+          {
+            "muscle_group_id": "68fe1106-34b1-4879-bee5-34d956f69a9b",
+            "is_primary": 0
+          },
+          {
+            "muscle_group_id": "cbe3b11a-330b-4325-bee9-fe3f1c1bd068",
+            "is_primary": 0
+          },
+          {
+            "muscle_group_id": "d56158d8-ea6e-438f-afd4-c7d467f6f926",
+            "is_primary": 0
+          },
+          {
+            "muscle_group_id": "d8fe29d5-376d-487f-ae07-312b5f96a5e9",
+            "is_primary": 1
+          },
+          {
+            "muscle_group_id": "e569b7db-c27a-4666-9dd5-d6e72bffc041",
+            "is_primary": 0
+          },
+          {
+            "muscle_group_id": "ef5a5c90-9b99-4fd3-9235-49931a03149d",
+            "is_primary": 0
+          }
+        ],
+        "equipment": [
+          {
+            "equipment_id": "4cdb1627-df53-4bfd-bbf6-e23ec101b3b3",
+            "is_required": 1
+          }
+        ],
+        "section_types": [
+          {
+            "section_type_id": "4e1bf46f-3437-44de-917a-d114fbcea2af"
+          },
+          {
+            "section_type_id": "c5bb04f8-0779-4642-8244-a460df5b74a1"
+          }
+        ],
+        "units": [
+          {
+            "measurement_unit_id": "2168a727-3c4d-45d4-af3d-c0387243712e",
+            "is_default": 0
+          },
+          {
+            "measurement_unit_id": "e7d5c491-a03c-4937-a4c5-ff9d79c7b41b",
+            "is_default": 0
+          },
+          {
+            "measurement_unit_id": "f05edee1-4c30-408d-90e8-09cc63a7e0ab",
+            "is_default": 1
+          }
+        ],
+        "tags": [
+          {
+            "tag_id": "0ad8fa9e-7ea5-49b2-975f-544dd22aa6aa"
+          },
+          {
+            "tag_id": "74a09d46-0aa8-4eba-b61a-fa2f5e5ff9cf"
+          },
+          {
+            "tag_id": "e003f375-7c83-42f6-bdb0-d52d2e04a639"
+          }
+        ]
+      },
+      "image": {
+        "path": "/img/exercises/rowing-machine.svg",
+        "dataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMjAgMjMwIj4KICA8c3R5bGU+CiAgICAuZjF7YW5pbWF0aW9uOnNoMSA3LjhzIGxpbmVhciBpbmZpbml0ZX0uZjJ7YW5pbWF0aW9uOnNoMiA3LjhzIGxpbmVhciBpbmZpbml0ZX0uZjN7YW5pbWF0aW9uOnNoMyA3LjhzIGxpbmVhciBpbmZpbml0ZX0uZjR7YW5pbWF0aW9uOnNoNCA3LjhzIGxpbmVhciBpbmZpbml0ZX0uZjV7YW5pbWF0aW9uOnNoNSA3LjhzIGxpbmVhciBpbmZpbml0ZX0uZjZ7YW5pbWF0aW9uOnNoNiA3LjhzIGxpbmVhciBpbmZpbml0ZX0KICAgIEBrZXlmcmFtZXMgc2gxezAlLDEzLjMle29wYWNpdHk6MX0xNi43JSw5Ni43JXtvcGFjaXR5OjB9MTAwJXtvcGFjaXR5OjF9fQogICAgQGtleWZyYW1lcyBzaDJ7MCUsMTYuNyV7b3BhY2l0eTowfTIwJSwzMCV7b3BhY2l0eToxfTMzLjMlLDEwMCV7b3BhY2l0eTowfX0KICAgIEBrZXlmcmFtZXMgc2gzezAlLDMzLjMle29wYWNpdHk6MH0zNi43JSw0Ni43JXtvcGFjaXR5OjF9NTAlLDEwMCV7b3BhY2l0eTowfX0KICAgIEBrZXlmcmFtZXMgc2g0ezAlLDUwJXtvcGFjaXR5OjB9NTMuMyUsNjMuMyV7b3BhY2l0eToxfTY2LjclLDEwMCV7b3BhY2l0eTowfX0KICAgIEBrZXlmcmFtZXMgc2g1ezAlLDY2Ljcle29wYWNpdHk6MH03MCUsODAle29wYWNpdHk6MX04My4zJSwxMDAle29wYWNpdHk6MH19CiAgICBAa2V5ZnJhbWVzIHNoNnswJSw4My4zJXtvcGFjaXR5OjB9ODYuNyUsOTYuNyV7b3BhY2l0eToxfTEwMCUsMTAwJXtvcGFjaXR5OjB9fQogIDwvc3R5bGU+CiAgPHJlY3Qgd2lkdGg9IjIyMCIgaGVpZ2h0PSIyMzAiIGZpbGw9IiMxMTE4MjciIHJ4PSIxMiIvPgogIDxsaW5lIHgxPSIyMCIgeTE9IjIxMCIgeDI9IjIwMCIgeTI9IjIxMCIgc3Ryb2tlPSIjMzc0MTUxIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDx0ZXh0IHg9IjExMCIgeT0iMjI1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0idWktc2Fucy1zZXJpZixzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSI5IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjNDc1NTY5IiBsZXR0ZXItc3BhY2luZz0iMiI+Uk9XSU5HIE1BQ0hJTkU8L3RleHQ+CiAgPGxpbmUgeDE9IjI0IiB5MT0iMTkyIiB4Mj0iMTc4IiB5Mj0iMTkyIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgICA8Y2lyY2xlIGN4PSIxOTgiIGN5PSIxNzIiIHI9IjE5IiBmaWxsPSJub25lIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iNCIvPjxjaXJjbGUgY3g9IjE5OCIgY3k9IjE3MiIgcj0iNSIgZmlsbD0iIzQ3NTU2OSIvPgogICAgPGxpbmUgeDE9IjE1MCIgeTE9IjE5MCIgeDI9IjE2OCIgeTI9IjE3NiIgc3Ryb2tlPSIjNDc1NTY5IiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogICAgPGxpbmUgeDE9IjE2NiIgeTE9IjE5MiIgeDI9IjE2NiIgeTI9IjIxMCIgc3Ryb2tlPSIjNDc1NTY5IiBzdHJva2Utd2lkdGg9IjQiLz48bGluZSB4MT0iNDAiIHkxPSIxOTIiIHgyPSI0MCIgeTI9IjIxMCIgc3Ryb2tlPSIjNDc1NTY5IiBzdHJva2Utd2lkdGg9IjQiLz4KICA8IS0tIEZyYW1lIDE6IENhdGNoOiBwaWVybmFzIGZsZXhpb25hZGFzLCBicmF6b3MgYWRlbGFudGUgLS0+CiAgPGcgY2xhc3M9ImYxIj4KICAgIDxyZWN0IHg9IjkyIiB5PSIxODYiIHdpZHRoPSIzMiIgaGVpZ2h0PSI3IiByeD0iMyIgZmlsbD0iIzQ3NTU2OSIvPjxsaW5lIHgxPSIxOTYiIHkxPSIxNzIiIHgyPSIxODIiIHkyPSIxNDAiIHN0cm9rZT0iIzY0NzQ4YiIgc3Ryb2tlLXdpZHRoPSIyIi8+PGcgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiPjxwb2x5bGluZSBwb2ludHM9IjEwOCwxNzggMTM3LjcsMTMwLjUiIHN0cm9rZT0iIzk0YTNiOCIvPjxwb2x5bGluZSBwb2ludHM9IjEwOCwxNzggMTI5LDEzNy4xIDE1MCwxNzggMTYwLDE3OCIgc3Ryb2tlPSIjOTRhM2I4Ii8+PHBvbHlsaW5lIHBvaW50cz0iMTM3LjcsMTMwLjUgMTU2LjIsMTU5IDE4MiwxNDAiIHN0cm9rZT0iIzk0YTNiOCIvPjwvZz48Y2lyY2xlIGN4PSIxNDQuNiIgY3k9IjExOS41IiByPSIxMiIgZmlsbD0iIzk0YTNiOCIvPjxjaXJjbGUgY3g9IjEyOSIgY3k9IjEzNy4xIiByPSI1IiBmaWxsPSIjNjQ3NDhiIi8+PGNpcmNsZSBjeD0iMTU2LjIiIGN5PSIxNTkiIHI9IjQiIGZpbGw9IiM2NDc0OGIiLz48bGluZSB4MT0iMTg0IiB5MT0iMTMzIiB4Mj0iMTg0IiB5Mj0iMTQ3IiBzdHJva2U9IiNmOTczMTYiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPC9nPgogIDwhLS0gRnJhbWUgMjogRW1wdWplIGRlIHBpZXJuYXMgLS0+CiAgPGcgY2xhc3M9ImYyIj4KICAgIDxyZWN0IHg9Ijc2IiB5PSIxODYiIHdpZHRoPSIzMiIgaGVpZ2h0PSI3IiByeD0iMyIgZmlsbD0iIzQ3NTU2OSIvPjxsaW5lIHgxPSIxOTYiIHkxPSIxNzIiIHgyPSIxNzIuNSIgeTI9IjEzOS43IiBzdHJva2U9IiM2NDc0OGIiIHN0cm9rZS13aWR0aD0iMiIvPjxnIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIj48cG9seWxpbmUgcG9pbnRzPSI5MiwxNzggMTE2LjUsMTI3LjciIHN0cm9rZT0iIzk0YTNiOCIvPjxwb2x5bGluZSBwb2ludHM9IjkyLDE3OCAxMjEsMTQyLjMgMTUwLDE3OCAxNjAsMTc4IiBzdHJva2U9IiM5NGEzYjgiLz48cG9seWxpbmUgcG9pbnRzPSIxMTYuNSwxMjcuNyAxNDIuMiwxNDkuOSAxNzIuNSwxMzkuNyIgc3Ryb2tlPSIjOTRhM2I4Ii8+PC9nPjxjaXJjbGUgY3g9IjEyMi4yIiBjeT0iMTE2IiByPSIxMiIgZmlsbD0iIzk0YTNiOCIvPjxjaXJjbGUgY3g9IjEyMSIgY3k9IjE0Mi4zIiByPSI1IiBmaWxsPSIjNjQ3NDhiIi8+PGNpcmNsZSBjeD0iMTQyLjIiIGN5PSIxNDkuOSIgcj0iNCIgZmlsbD0iIzY0NzQ4YiIvPjxsaW5lIHgxPSIxNzQuNSIgeTE9IjEzMi43IiB4Mj0iMTc0LjUiIHkyPSIxNDYuNyIgc3Ryb2tlPSIjZjk3MzE2IiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDwvZz4KICA8IS0tIEZyYW1lIDM6IFRvcnNvIHNlIGFicmUsIGJyYXpvcyBlbXBpZXphbiBhIHRpcmFyIC0tPgogIDxnIGNsYXNzPSJmMyI+CiAgICA8cmVjdCB4PSI2MCIgeT0iMTg2IiB3aWR0aD0iMzIiIGhlaWdodD0iNyIgcng9IjMiIGZpbGw9IiM0NzU1NjkiLz48bGluZSB4MT0iMTk2IiB5MT0iMTcyIiB4Mj0iMTMzLjkiIHkyPSIxNDQuMyIgc3Ryb2tlPSIjNjQ3NDhiIiBzdHJva2Utd2lkdGg9IjIiLz48ZyBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSI+PHBvbHlsaW5lIHBvaW50cz0iNzYsMTc4IDgxLjksMTIyLjMiIHN0cm9rZT0iIzk0YTNiOCIvPjxwb2x5bGluZSBwb2ludHM9Ijc2LDE3OCAxMTMsMTUwLjcgMTUwLDE3OCAxNjAsMTc4IiBzdHJva2U9IiM5NGEzYjgiLz48cG9seWxpbmUgcG9pbnRzPSI4MS45LDEyMi4zIDEwMi4zLDE0OS41IDEzMy45LDE0NC4zIiBzdHJva2U9IiM5NGEzYjgiLz48L2c+PGNpcmNsZSBjeD0iODMuMiIgY3k9IjEwOS40IiByPSIxMiIgZmlsbD0iIzk0YTNiOCIvPjxjaXJjbGUgY3g9IjExMyIgY3k9IjE1MC43IiByPSI1IiBmaWxsPSIjNjQ3NDhiIi8+PGNpcmNsZSBjeD0iMTAyLjMiIGN5PSIxNDkuNSIgcj0iNCIgZmlsbD0iIzY0NzQ4YiIvPjxsaW5lIHgxPSIxMzUuOSIgeTE9IjEzNy4zIiB4Mj0iMTM1LjkiIHkyPSIxNTEuMyIgc3Ryb2tlPSIjZjk3MzE2IiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDwvZz4KICA8IS0tIEZyYW1lIDQ6IEZpbmFsOiBwaWVybmFzIGV4dGVuZGlkYXMsIG1hbmlqYSBhbCBwZWNobyAtLT4KICA8ZyBjbGFzcz0iZjQiPgogICAgPHJlY3QgeD0iNDYiIHk9IjE4NiIgd2lkdGg9IjMyIiBoZWlnaHQ9IjciIHJ4PSIzIiBmaWxsPSIjNDc1NTY5Ii8+PGxpbmUgeDE9IjE5NiIgeTE9IjE3MiIgeDI9IjY4LjciIHkyPSIxNTAuNyIgc3Ryb2tlPSIjNjQ3NDhiIiBzdHJva2Utd2lkdGg9IjIiLz48ZyBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSI+PHBvbHlsaW5lIHBvaW50cz0iNjIsMTc4IDQ0LjcsMTI0LjciIHN0cm9rZT0iIzk0YTNiOCIvPjxwb2x5bGluZSBwb2ludHM9IjYyLDE3OCAxMDYsMTY0LjYgMTUwLDE3OCAxNjAsMTc4IiBzdHJva2U9IiM5NGEzYjgiLz48cG9seWxpbmUgcG9pbnRzPSI0NC43LDEyNC43IDM3LjUsMTU4IDY4LjcsMTUwLjciIHN0cm9rZT0iIzk0YTNiOCIvPjwvZz48Y2lyY2xlIGN4PSI0MC43IiBjeT0iMTEyLjQiIHI9IjEyIiBmaWxsPSIjOTRhM2I4Ii8+PGNpcmNsZSBjeD0iMTA2IiBjeT0iMTY0LjYiIHI9IjUiIGZpbGw9IiM2NDc0OGIiLz48Y2lyY2xlIGN4PSIzNy41IiBjeT0iMTU4IiByPSI0IiBmaWxsPSIjNjQ3NDhiIi8+PGxpbmUgeDE9IjcwLjciIHkxPSIxNDMuNyIgeDI9IjcwLjciIHkyPSIxNTcuNyIgc3Ryb2tlPSIjZjk3MzE2IiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDwvZz4KICA8IS0tIEZyYW1lIDU6IFJlY3VwZXJhY2nDs246IGJyYXpvcyBhZGVsYW50ZSAtLT4KICA8ZyBjbGFzcz0iZjUiPgogICAgPHJlY3QgeD0iNDgiIHk9IjE4NiIgd2lkdGg9IjMyIiBoZWlnaHQ9IjciIHJ4PSIzIiBmaWxsPSIjNDc1NTY5Ii8+PGxpbmUgeDE9IjE5NiIgeTE9IjE3MiIgeDI9IjExNC4zIiB5Mj0iMTM4LjkiIHN0cm9rZT0iIzY0NzQ4YiIgc3Ryb2tlLXdpZHRoPSIyIi8+PGcgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiPjxwb2x5bGluZSBwb2ludHM9IjY0LDE3OCA1NC4zLDEyMi45IiBzdHJva2U9IiM5NGEzYjgiLz48cG9seWxpbmUgcG9pbnRzPSI2NCwxNzggMTA3LDE2MS43IDE1MCwxNzggMTYwLDE3OCIgc3Ryb2tlPSIjOTRhM2I4Ii8+PHBvbHlsaW5lIHBvaW50cz0iNTQuMywxMjIuOSA4Mi40LDE0MS45IDExNC4zLDEzOC45IiBzdHJva2U9IiM5NGEzYjgiLz48L2c+PGNpcmNsZSBjeD0iNTIiIGN5PSIxMTAiIHI9IjEyIiBmaWxsPSIjOTRhM2I4Ii8+PGNpcmNsZSBjeD0iMTA3IiBjeT0iMTYxLjciIHI9IjUiIGZpbGw9IiM2NDc0OGIiLz48Y2lyY2xlIGN4PSI4Mi40IiBjeT0iMTQxLjkiIHI9IjQiIGZpbGw9IiM2NDc0OGIiLz48bGluZSB4MT0iMTE2LjMiIHkxPSIxMzEuOSIgeDI9IjExNi4zIiB5Mj0iMTQ1LjkiIHN0cm9rZT0iI2Y5NzMxNiIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8L2c+CiAgPCEtLSBGcmFtZSA2OiBSZWN1cGVyYWNpw7NuOiB0b3JzbyBhZGVsYW50ZSwgcm9kaWxsYXMgZmxleGlvbmFuIC0tPgogIDxnIGNsYXNzPSJmNiI+CiAgICA8cmVjdCB4PSI3MCIgeT0iMTg2IiB3aWR0aD0iMzIiIGhlaWdodD0iNyIgcng9IjMiIGZpbGw9IiM0NzU1NjkiLz48bGluZSB4MT0iMTk2IiB5MT0iMTcyIiB4Mj0iMTY1IiB5Mj0iMTM4LjEiIHN0cm9rZT0iIzY0NzQ4YiIgc3Ryb2tlLXdpZHRoPSIyIi8+PGcgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiPjxwb2x5bGluZSBwb2ludHM9Ijg2LDE3OCAxMDcsMTI2LjEiIHN0cm9rZT0iIzk0YTNiOCIvPjxwb2x5bGluZSBwb2ludHM9Ijg2LDE3OCAxMTgsMTQ1IDE1MCwxNzggMTYwLDE3OCIgc3Ryb2tlPSIjOTRhM2I4Ii8+PHBvbHlsaW5lIHBvaW50cz0iMTA3LDEyNi4xIDEzNC4xLDE0Ni42IDE2NSwxMzguMSIgc3Ryb2tlPSIjOTRhM2I4Ii8+PC9nPjxjaXJjbGUgY3g9IjExMS44IiBjeT0iMTE0IiByPSIxMiIgZmlsbD0iIzk0YTNiOCIvPjxjaXJjbGUgY3g9IjExOCIgY3k9IjE0NSIgcj0iNSIgZmlsbD0iIzY0NzQ4YiIvPjxjaXJjbGUgY3g9IjEzNC4xIiBjeT0iMTQ2LjYiIHI9IjQiIGZpbGw9IiM2NDc0OGIiLz48bGluZSB4MT0iMTY3IiB5MT0iMTMxLjEiIHgyPSIxNjciIHkyPSIxNDUuMSIgc3Ryb2tlPSIjZjk3MzE2IiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDwvZz4KPC9zdmc+Cg=="
+      }
+    },
+    {
       "key": "046ccc51-40b0-423e-a056-cb9a32387979",
-      "hash": "1e9e16785eb08f",
+      "hash": "175e59ad98e8ca",
       "row": {
         "name": "Running",
         "description": "Carrera continua sobre distancia o tiempo determinado, manteniendo una cadencia estable.",
         "technical_notes": "Tronco erguido, zancada relajada, respiración rítmica.\nTambién lo nombran: Run.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "0f5aa458-f9df-45b1-98ab-219ca9ce9b44",
-        "video_path": "https://www.youtube.com/shorts/plREYzvF9tI",
+        "video_path": "https://www.youtube.com/shorts/fgxHzg3KtVU",
         "is_compound": 1,
         "is_active": 1,
         "video_long_path": "https://www.youtube.com/watch?v=zDi_f_UMKPI",
@@ -18462,17 +18663,17 @@
     },
     {
       "key": "2637856f-b4e1-4237-a6aa-f67919e24bc1",
-      "hash": "01142007c9bcf1",
+      "hash": "0896c470f16136",
       "row": {
         "name": "Russian Twist",
         "description": "Sentado con el torso inclinado hacia atrás y los pies elevados, rotar el tronco de lado a lado llevando las manos (o un peso) de un costado al otro.",
         "technical_notes": "Rotar desde el torso manteniendo la espalda recta. Controlar el movimiento en ambos sentidos sin dejar caer las piernas.",
         "difficulty_level_id": "2c3e4b22-a93b-4350-bbcf-dc10a2d75ca0",
         "primary_muscle_group_id": "cca1537f-bb61-435c-90b4-738f0257c424",
-        "video_path": "https://www.youtube.com/shorts/51Dw8c3wcPs",
+        "video_path": "https://www.youtube.com/shorts/U-P0U1SoQRU",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=DF0sPfwys_g",
+        "video_long_path": "https://www.youtube.com/watch?v=SMf_etzcFYY",
         "image_url": "/img/exercises/russian-twist.svg",
         "met_value": 7
       },
@@ -18586,7 +18787,7 @@
     },
     {
       "key": "05c8cdca-2492-40f3-a91f-9f4d7632ab9c",
-      "hash": "1d6efc3ac3fe1b",
+      "hash": "0db26221cb422a",
       "row": {
         "name": "Sandbag Carry",
         "description": "Cargar un sandbag contra el pecho o al hombro y caminar una distancia determinada, manteniendo el core activo y la postura erguida durante todo el recorrido.",
@@ -18596,7 +18797,7 @@
         "video_path": "https://www.youtube.com/shorts/QQ0beWNWnGQ",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/TeHfb--MwPI",
+        "video_long_path": "https://www.youtube.com/watch?v=z2gWVwfJYvY",
         "image_url": "/img/exercises/sandbag-carry.svg",
         "met_value": 7
       },
@@ -18656,7 +18857,7 @@
     },
     {
       "key": "f7e520bf-5019-48f3-9c88-f7c1fa5fb665",
-      "hash": "0e7525516a4967",
+      "hash": "1e17eec99dcfa0",
       "row": {
         "name": "Sandbag Walking Lunges",
         "description": "Caminar haciendo lunges (zancadas) sosteniendo un sandbag sobre los hombros o en posición frontal. Alternar pierna en cada paso y avanzar la distancia indicada.",
@@ -18666,7 +18867,7 @@
         "video_path": "https://www.youtube.com/shorts/vxI_losa-tw",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=MdbmUltyo5I",
+        "video_long_path": "https://www.youtube.com/watch?v=tmUPvXQoPy4",
         "image_url": "/img/exercises/sandbag-walking-lunges.svg",
         "met_value": 7
       },
@@ -18792,17 +18993,17 @@
     },
     {
       "key": "1899b143-e99c-4970-931c-f9894f2172be",
-      "hash": "0b5696e086067d",
+      "hash": "18ee8e9be16311",
       "row": {
         "name": "Scapular Push-Up",
         "description": "En posición de plancha alta, sin doblar los codos, hacer protracción (separar escápulas, torso sube) y retracción (juntar escápulas, torso baja) escapular. El movimiento es de pocos centímetros.",
         "technical_notes": "Los codos permanecen completamente extendidos en todo momento. Es un movimiento puro de escápulas, no de brazos. Core activo. Desarrolla el control serrátil anterior y la estabilidad escapular necesaria para los movimientos overhead.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "d8fe29d5-376d-487f-ae07-312b5f96a5e9",
-        "video_path": "https://www.youtube.com/watch?v=VMbyf9RKRIM",
+        "video_path": "https://www.youtube.com/shorts/ePh7xz0Nlos",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=huGj4aBk9C4",
+        "video_long_path": "https://www.youtube.com/watch?v=8aTVRhRq-q0",
         "image_url": "/img/exercises/scapular-push-up.svg",
         "met_value": 7
       },
@@ -18906,17 +19107,17 @@
     },
     {
       "key": "ef869842-0c57-4526-a188-12c44300ba47",
-      "hash": "0ef86c4af3de74",
+      "hash": "0b38d7ba3f66db",
       "row": {
         "name": "Seated Forward Fold",
         "description": "Sentado en el suelo con las piernas extendidas y juntas, inclinar el torso hacia adelante intentando alcanzar los pies con las manos. Mantener la espalda lo más recta posible al inicio y permitir que se curve al profundizar el estiramiento.",
         "technical_notes": "No forzar el estiramiento bruscamente. La respiración profunda en la exhalación permite profundizar. Mantener las rodillas sin doblar. Si no se llega a los pies, agarrar los tobillos o las pantorrillas.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "68fe1106-34b1-4879-bee5-34d956f69a9b",
-        "video_path": "https://www.youtube.com/shorts/5njnlgYYdD4",
+        "video_path": "https://www.youtube.com/shorts/axyASO-RWXk",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=g7Uhp5tphAs",
+        "video_long_path": "https://www.youtube.com/watch?v=xhFf7RvGcyg",
         "image_url": "/img/exercises/seated-forward-fold.svg",
         "met_value": 7
       },
@@ -19089,17 +19290,17 @@
     },
     {
       "key": "df18d2c0-7c7f-440c-b816-432886c41b71",
-      "hash": "065e4687cc8d43",
+      "hash": "1609eb5b45ed93",
       "row": {
         "name": "Seated Quad Stretch",
         "description": "Sentado en el suelo, doblar una pierna hacia atrás (como en posición de héroe unilateral) mientras la otra permanece extendida. Mantener la postura erguida o inclinarse ligeramente hacia atrás para aumentar el estiramiento del cuádriceps.",
         "technical_notes": "Si hay incomodidad en la rodilla, colocar una almohada o toalla doblada debajo. No forzar el estiramiento hacia atrás sin control. Trabajar de a una pierna por vez.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "0f5aa458-f9df-45b1-98ab-219ca9ce9b44",
-        "video_path": "https://www.youtube.com/watch?v=aZnXCfGyvl8",
+        "video_path": "https://www.youtube.com/shorts/6or8pO9waqA",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=zi5__zBRzYc",
+        "video_long_path": "https://www.youtube.com/watch?v=w6RdGXynqWI",
         "image_url": "/img/exercises/seated-quad-stretch.svg",
         "met_value": 7
       },
@@ -19282,17 +19483,17 @@
     },
     {
       "key": "cf8e489b-aee4-4797-bbb8-d77b80123223",
-      "hash": "0715980c1acdba",
+      "hash": "06342353dd9832",
       "row": {
         "name": "Shuttle Run",
         "description": "Carrera de ida y vuelta entre dos puntos (típicamente 5–10 m). Alta aceleración y desaceleración.",
         "technical_notes": "El costo está en frenar y volver a salir: bajar la cadera en el cambio de sentido y tocar la línea con la mano. Pasos cortos al frenar, zancada larga al acelerar.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "0f5aa458-f9df-45b1-98ab-219ca9ce9b44",
-        "video_path": "https://www.youtube.com/watch?v=CBJFVNd3tUE",
+        "video_path": "https://www.youtube.com/shorts/sKjlsoE2ETQ",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/6ibv7Tnx77I",
+        "video_long_path": "https://www.youtube.com/watch?v=EXqchRL6ok4",
         "image_url": "/img/exercises/shuttle-run.svg",
         "met_value": 7
       },
@@ -19343,7 +19544,7 @@
     },
     {
       "key": "305a8d42-c6ea-437b-813c-c99f2c82a1f4",
-      "hash": "1603e6df70dde8",
+      "hash": "1bb99a77ca94b3",
       "row": {
         "name": "Side Lying Thoracic Opening",
         "description": "Acostado de lado con las rodillas flexionadas y los brazos juntos al frente, se abre el brazo de arriba en arco hasta apoyarlo del otro lado (apertura de libro).",
@@ -19353,7 +19554,7 @@
         "video_path": "https://www.youtube.com/shorts/85YPQ4tdJds",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=5TdmVlQe64c",
+        "video_long_path": "https://www.youtube.com/watch?v=MXrQ-3cYJqk",
         "image_url": "/img/exercises/side-lying-thoracic-opening.svg",
         "met_value": 7
       },
@@ -19548,17 +19749,17 @@
     },
     {
       "key": "a56d3538-45a2-4481-ab3b-92f99ab7049c",
-      "hash": "1b9f3d42798fa4",
+      "hash": "0384446f336def",
       "row": {
         "name": "Single-Leg Calf Raise",
         "description": "De pie sobre una pierna, elevar el talón lo más alto posible realizando una plantar flexión completa y bajar con control, idealmente por debajo del nivel del apoyo para mayor amplitud de movimiento.",
         "technical_notes": "Mantener el core activo para el equilibrio. Subir con potencia y bajar lento (fase excéntrica). Realizar el mismo número de repeticiones en cada pierna.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "3e742369-19b4-4ea5-9867-1c19cab4716d",
-        "video_path": "https://www.youtube.com/watch?v=qPd73snQfUs",
+        "video_path": "https://www.youtube.com/shorts/3xcok2-AEbc",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=QEILIo9Kzlw",
+        "video_long_path": "https://www.youtube.com/watch?v=o0OEAf7fCbI",
         "image_url": "/img/exercises/single-leg-calf-raise.svg",
         "met_value": 7
       },
@@ -19943,7 +20144,7 @@
     },
     {
       "key": "a5b5812d-e0d4-4e2a-a095-2c91f55d2104",
-      "hash": "15c8b1c9403aec",
+      "hash": "10251062c879d2",
       "row": {
         "name": "Skater Jump",
         "description": "Salto lateral de una pierna a la otra, cruzando la pierna libre por detrás y tocando el suelo con la mano del lado del apoyo.",
@@ -19953,7 +20154,7 @@
         "video_path": "https://www.youtube.com/shorts/pTm9T-5f7go",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=niEGdFUQ6sY",
+        "video_long_path": "https://www.youtube.com/watch?v=i1hWBQUR_8w",
         "image_url": "/img/exercises/skater-jump.svg",
         "met_value": 7
       },
@@ -20018,17 +20219,17 @@
     },
     {
       "key": "84b0e439-636d-48d7-86a5-89a44701c052",
-      "hash": "1ccedfcc666195",
+      "hash": "1cadcb61e9d404",
       "row": {
         "name": "SkiErg",
         "description": "Ergómetro de ski: de pie, tirar de las dos manijas desde arriba hacia abajo (como el doble bastón de esquí), usando core y cadera, por calorías o distancia.",
         "technical_notes": "Iniciar con brazos altos y core firme. Acompañar el tirón con una leve bisagra de cadera. Volver controlado a la posición alta.\nTambién lo nombran: Ski (en \"row/bike/ski\").",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "d8fe29d5-376d-487f-ae07-312b5f96a5e9",
-        "video_path": "https://www.youtube.com/shorts/a7jTvJLNN0w",
+        "video_path": "https://www.youtube.com/shorts/cM5Hi-Wf0C0",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=B0lIgT5PHc8",
+        "video_long_path": "https://www.youtube.com/watch?v=u33JaYJDA04",
         "image_url": "/img/exercises/skierg.svg",
         "met_value": 7
       },
@@ -20250,17 +20451,17 @@
     },
     {
       "key": "310da466-139c-44f1-b52a-d8c9568a4432",
-      "hash": "0f4eba73ea7b28",
+      "hash": "0330dee54ac3e5",
       "row": {
         "name": "Sled Push & Pull",
         "description": "Empujar el trineo cargado una distancia y luego tirar de él de regreso, manteniendo posición atlética y empuje continuo de piernas.",
         "technical_notes": "Brazos firmes al empujar, espalda neutra. Al tirar, bajar la cadera y tirar con la espalda y las piernas.",
         "difficulty_level_id": "2c3e4b22-a93b-4350-bbcf-dc10a2d75ca0",
         "primary_muscle_group_id": "cbe3b11a-330b-4325-bee9-fe3f1c1bd068",
-        "video_path": "https://www.youtube.com/shorts/Qjw94vXFXeU",
+        "video_path": "https://www.youtube.com/shorts/lcDqPkNl6xI",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/q2w7Y1gvwKQ",
+        "video_long_path": "https://www.youtube.com/watch?v=c3oOCioMYuk",
         "image_url": "/img/exercises/sled-push-pull.svg",
         "met_value": 7
       },
@@ -20319,6 +20520,86 @@
       "image": {
         "path": "/img/exercises/sled-push-pull.svg",
         "dataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjMwIj4NCjxkZWZzPjxzdHlsZT4NCi5mMXthbmltYXRpb246c2gxIDRzIGxpbmVhciBpbmZpbml0ZX0uZjJ7YW5pbWF0aW9uOnNoMiA0cyBsaW5lYXIgaW5maW5pdGV9LmYze2FuaW1hdGlvbjpzaDMgNHMgbGluZWFyIGluZmluaXRlfQ0KQGtleWZyYW1lcyBzaDF7MCUsMjcle29wYWNpdHk6MX0zMyUsOTAle29wYWNpdHk6MH0xMDAle29wYWNpdHk6MX19DQpAa2V5ZnJhbWVzIHNoMnswJSwzMyV7b3BhY2l0eTowfTQwJSw2MCV7b3BhY2l0eToxfTY2JSwxMDAle29wYWNpdHk6MH19DQpAa2V5ZnJhbWVzIHNoM3swJSw2NiV7b3BhY2l0eTowfTcyJSw5MyV7b3BhY2l0eToxfTEwMCV7b3BhY2l0eTowfX0NCjwvc3R5bGU+PC9kZWZzPg0KPHJlY3Qgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMzAiIGZpbGw9IiMxMTE4MjciIHJ4PSIxMiIvPg0KPGxpbmUgeDE9IjIwIiB5MT0iMjEwIiB4Mj0iMTgwIiB5Mj0iMjEwIiBzdHJva2U9IiMzNzQxNTEiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+DQo8dGV4dCB4PSIxMDAiIHk9IjIyNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIGZpbGw9IiM0NzU1NjkiPlNMRUQgUFVTSCAmYW1wOyBQVUxMPC90ZXh0Pg0KDQo8IS0tIEYxOiBQdXNoaW5nIHNsZWQgKGxlYW5pbmcgZm9yd2FyZCwgc2xlZCBpbiBmcm9udCkgLS0+DQo8ZyBjbGFzcz0iZjEiIHN0cm9rZT0iIzk0YTNiOCIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIGZpbGw9Im5vbmUiPg0KICA8IS0tIFNsZWQgKGluIGZyb250LCByaWdodCBzaWRlKSAtLT4NCiAgPHJlY3QgeD0iMTM1IiB5PSIxODAiIHdpZHRoPSI0MCIgaGVpZ2h0PSIyMCIgc3Ryb2tlPSIjNjQ3NDhiIiBmaWxsPSJub25lIi8+DQogIDxsaW5lIHgxPSIxMzUiIHkxPSIxOTAiIHgyPSIxMTUiIHkyPSIxNTUiIHN0cm9rZT0iIzY0NzQ4YiIvPg0KICA8bGluZSB4MT0iMTM1IiB5MT0iMTkwIiB4Mj0iMTE1IiB5Mj0iMTU1IiBzdHJva2U9IiM2NDc0OGIiLz4NCiAgPGNpcmNsZSBjeD0iMTQzIiBjeT0iMjA1IiByPSIzIiBmaWxsPSIjNjQ3NDhiIiBzdHJva2U9Im5vbmUiLz4NCiAgPGNpcmNsZSBjeD0iMTY3IiBjeT0iMjA1IiByPSIzIiBmaWxsPSIjNjQ3NDhiIiBzdHJva2U9Im5vbmUiLz4NCiAgPCEtLSBQZXJzb24gbGVhbmluZyBmb3J3YXJkLCBoYW5kcyBvbiBzbGVkIGhhbmRsZXMgLS0+DQogIDxjaXJjbGUgY3g9IjYwIiBjeT0iODAiIHI9IjExIiBmaWxsPSIjOTRhM2I4IiBzdHJva2U9Im5vbmUiLz4NCiAgPCEtLSBUb3JzbyBsZWFuaW5nIGZvcndhcmQgLS0+DQogIDxsaW5lIHgxPSI2NCIgeTE9IjkwIiB4Mj0iOTAiIHkyPSIxMzUiLz4NCiAgPCEtLSBBcm1zIHJlYWNoaW5nIHRvIHNsZWQgLS0+DQogIDxsaW5lIHgxPSI5MCIgeTE9IjEzNSIgeDI9IjExNSIgeTI9IjE1NSIvPg0KICA8IS0tIEhpcC9MZWdzIGluIGRyaXZlIHBvc2l0aW9uIC0tPg0KICA8bGluZSB4MT0iOTAiIHkxPSIxMzUiIHgyPSI3NSIgeTI9IjE3MCIvPg0KICA8bGluZSB4MT0iNzUiIHkxPSIxNzAiIHgyPSI1MCIgeTI9IjIwMCIvPg0KICA8bGluZSB4MT0iOTAiIHkxPSIxMzUiIHgyPSIxMDUiIHkyPSIxNzUiLz4NCiAgPGxpbmUgeDE9IjEwNSIgeTE9IjE3NSIgeDI9Ijk1IiB5Mj0iMjA1Ii8+DQogIDxjaXJjbGUgY3g9Ijc1IiBjeT0iMTcwIiByPSI0IiBmaWxsPSIjNjQ3NDhiIiBzdHJva2U9Im5vbmUiLz4NCiAgPGNpcmNsZSBjeD0iMTA1IiBjeT0iMTc1IiByPSI0IiBmaWxsPSIjNjQ3NDhiIiBzdHJva2U9Im5vbmUiLz4NCjwvZz4NCg0KPCEtLSBGMjogU3RhbmRpbmcgYmV0d2VlbiBwdXNoIGFuZCBwdWxsICh0cmFuc2l0aW9uKSAtLT4NCjxnIGNsYXNzPSJmMiIgc3Ryb2tlPSIjOTRhM2I4IiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgZmlsbD0ibm9uZSI+DQogIDwhLS0gU2xlZCAoY2VudGVyZWQpIC0tPg0KICA8cmVjdCB4PSI4MCIgeT0iMTkwIiB3aWR0aD0iNDAiIGhlaWdodD0iMjAiIHN0cm9rZT0iIzY0NzQ4YiIgZmlsbD0ibm9uZSIvPg0KICA8IS0tIFBlcnNvbiB1cHJpZ2h0IC0tPg0KICA8Y2lyY2xlIGN4PSIxMDAiIGN5PSI0MCIgcj0iMTIiIGZpbGw9IiM5NGEzYjgiIHN0cm9rZT0ibm9uZSIvPg0KICA8bGluZSB4MT0iMTAwIiB5MT0iNTIiIHgyPSIxMDAiIHkyPSIxMjUiLz4NCiAgPCEtLSBBcm1zIGZvcndhcmQgaG9sZGluZyByb3BlL2hhbmRsZSAtLT4NCiAgPGxpbmUgeDE9IjEwMCIgeTE9IjgwIiB4Mj0iODUiIHkyPSIxMjAiLz4NCiAgPGxpbmUgeDE9IjEwMCIgeTE9IjgwIiB4Mj0iMTE1IiB5Mj0iMTIwIi8+DQogIDwhLS0gUm9wZSBmcm9tIGhhbmRzIHRvIHNsZWQgLS0+DQogIDxsaW5lIHgxPSI4NSIgeTE9IjEyMCIgeDI9Ijg4IiB5Mj0iMTkwIiBzdHJva2U9IiM2NDc0OGIiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWRhc2hhcnJheT0iMywyIi8+DQogIDxsaW5lIHgxPSIxMTUiIHkxPSIxMjAiIHgyPSIxMTIiIHkyPSIxOTAiIHN0cm9rZT0iIzY0NzQ4YiIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtZGFzaGFycmF5PSIzLDIiLz4NCiAgPCEtLSBMZWdzIC0tPg0KICA8bGluZSB4MT0iMTAwIiB5MT0iMTI1IiB4Mj0iODgiIHkyPSIxNzAiLz4NCiAgPGxpbmUgeDE9Ijg4IiB5MT0iMTcwIiB4Mj0iODUiIHkyPSIyMDAiLz4NCiAgPGxpbmUgeDE9IjEwMCIgeTE9IjEyNSIgeDI9IjExMiIgeTI9IjE3MCIvPg0KICA8bGluZSB4MT0iMTEyIiB5MT0iMTcwIiB4Mj0iMTE1IiB5Mj0iMjAwIi8+DQo8L2c+DQoNCjwhLS0gRjM6IFB1bGxpbmcgc2xlZCBiYWNrd2FyZCAobGVhbmluZyBiYWNrLCBzbGVkIGJlaGluZCkgLS0+DQo8ZyBjbGFzcz0iZjMiIHN0cm9rZT0iIzk0YTNiOCIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIGZpbGw9Im5vbmUiPg0KICA8IS0tIFNsZWQgYmVoaW5kIChyaWdodCBzaWRlKSAtLT4NCiAgPHJlY3QgeD0iMTM1IiB5PSIxOTAiIHdpZHRoPSI0MCIgaGVpZ2h0PSIxNSIgc3Ryb2tlPSIjNjQ3NDhiIiBmaWxsPSJub25lIi8+DQogIDwhLS0gUGVyc29uIGxlYW5pbmcgYmFjaywgcHVsbGluZyByb3BlIC0tPg0KICA8Y2lyY2xlIGN4PSI2NSIgY3k9IjU4IiByPSIxMSIgZmlsbD0iIzk0YTNiOCIgc3Ryb2tlPSJub25lIi8+DQogIDxsaW5lIHgxPSI2OCIgeTE9IjY4IiB4Mj0iNzgiIHkyPSIxMzUiLz4NCiAgPCEtLSBBcm1zIHB1bGxpbmcgYmFjayAtLT4NCiAgPGxpbmUgeDE9Ijc4IiB5MT0iMTAwIiB4Mj0iMTAwIiB5Mj0iMTMwIi8+DQogIDxsaW5lIHgxPSI3OCIgeTE9IjEwMCIgeDI9Ijk1IiB5Mj0iMTM1Ii8+DQogIDwhLS0gUm9wZSBmcm9tIGhhbmRzIGdvaW5nIGJlaGluZCB0byBzbGVkIC0tPg0KICA8bGluZSB4MT0iMTAwIiB5MT0iMTMwIiB4Mj0iMTM1IiB5Mj0iMTk1IiBzdHJva2U9IiM2NDc0OGIiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWRhc2hhcnJheT0iMywyIi8+DQogIDxsaW5lIHgxPSI5NSIgeTE9IjEzNSIgeDI9IjEzOCIgeTI9IjE5OCIgc3Ryb2tlPSIjNjQ3NDhiIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1kYXNoYXJyYXk9IjMsMiIvPg0KICA8IS0tIExlZ3MgaW4gcHVsbCBzdGFuY2UgLS0+DQogIDxsaW5lIHgxPSI3OCIgeTE9IjEzNSIgeDI9IjYyIiB5Mj0iMTcwIi8+DQogIDxsaW5lIHgxPSI2MiIgeTE9IjE3MCIgeDI9IjU1IiB5Mj0iMjA1Ii8+DQogIDxsaW5lIHgxPSI3OCIgeTE9IjEzNSIgeDI9IjkyIiB5Mj0iMTc1Ii8+DQogIDxsaW5lIHgxPSI5MiIgeTE9IjE3NSIgeDI9IjEwMCIgeTI9IjIwNSIvPg0KICA8Y2lyY2xlIGN4PSI2MiIgY3k9IjE3MCIgcj0iNCIgZmlsbD0iIzY0NzQ4YiIgc3Ryb2tlPSJub25lIi8+DQogIDxjaXJjbGUgY3g9IjkyIiBjeT0iMTc1IiByPSI0IiBmaWxsPSIjNjQ3NDhiIiBzdHJva2U9Im5vbmUiLz4NCjwvZz4NCjwvc3ZnPg0K"
+      }
+    },
+    {
+      "key": "14368d85-faaa-4a89-9230-e0814d33013d",
+      "hash": "13e270c37446bf",
+      "row": {
+        "name": "Smith Machine Bench Press",
+        "description": "Acostado en un banco bajo la barra de la máquina Smith, con los pies apoyados en el piso y los ojos bajo la barra. Soltar los topes girando las muñecas, bajar la barra con control hasta rozar la parte media del pecho y empujar hasta extender los brazos sin bloquear los codos con fuerza.",
+        "technical_notes": "Colocar el banco para que la barra baje a la altura de la parte media del pecho. Agarre un poco más ancho que los hombros, muñecas rectas y escápulas juntas y abajo. Glúteos y cabeza apoyados en el banco y pies firmes en el piso. Codos a unos 45-60° del tronco, no abiertos a 90°. Bajar en 2 segundos y empujar sin rebotar. La barra guiada ayuda a estabilizar, pero no es motivo para cargar de más: dejar los topes siempre a mano y volver a engancharla al terminar.",
+        "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
+        "primary_muscle_group_id": "ef87c973-9379-4a66-8012-1f498644cb58",
+        "video_path": null,
+        "is_compound": 1,
+        "is_active": 1,
+        "video_long_path": "https://www.youtube.com/watch?v=JcU2L2D2QtQ",
+        "image_url": "/img/exercises/smith-machine-bench-press.svg",
+        "met_value": 7
+      },
+      "relations": {
+        "muscle_groups": [
+          {
+            "muscle_group_id": "4022be26-1f8e-45a1-8748-a0967b7c6ed5",
+            "is_primary": 0
+          },
+          {
+            "muscle_group_id": "80b17347-7e6d-4d25-9011-e25a054bb3af",
+            "is_primary": 0
+          },
+          {
+            "muscle_group_id": "e5b26337-11de-46bf-be82-623e389374f1",
+            "is_primary": 0
+          },
+          {
+            "muscle_group_id": "ef87c973-9379-4a66-8012-1f498644cb58",
+            "is_primary": 1
+          }
+        ],
+        "equipment": [
+          {
+            "equipment_id": "126eaa62-5a9a-42fd-82d0-b2f30dcb1f54",
+            "is_required": 1
+          },
+          {
+            "equipment_id": "1ddff8e6-365a-448f-800a-fe06abe29001",
+            "is_required": 1
+          }
+        ],
+        "section_types": [
+          {
+            "section_type_id": "795673b4-aa8d-4e86-b83e-9b8adc9037a2"
+          },
+          {
+            "section_type_id": "b6cd3277-2183-4c8e-94ae-949c7b0f1a21"
+          }
+        ],
+        "units": [
+          {
+            "measurement_unit_id": "30943e5f-5751-47e0-971f-00ae11a56ee4",
+            "is_default": 0
+          },
+          {
+            "measurement_unit_id": "553af60b-61fd-474e-b29b-fd7bb7c210a1",
+            "is_default": 1
+          }
+        ],
+        "tags": [
+          {
+            "tag_id": "63506647-9ab8-49a0-9544-8426af2c23c9"
+          },
+          {
+            "tag_id": "74a09d46-0aa8-4eba-b61a-fa2f5e5ff9cf"
+          },
+          {
+            "tag_id": "fbe84eab-5095-473d-8322-0f30fef2b72a"
+          }
+        ]
+      },
+      "image": {
+        "path": "/img/exercises/smith-machine-bench-press.svg",
+        "dataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMjAgMjMwIj4KICA8c3R5bGU+CiAgICAuZjF7YW5pbWF0aW9uOnNoMSA3LjhzIGxpbmVhciBpbmZpbml0ZX0uZjJ7YW5pbWF0aW9uOnNoMiA3LjhzIGxpbmVhciBpbmZpbml0ZX0uZjN7YW5pbWF0aW9uOnNoMyA3LjhzIGxpbmVhciBpbmZpbml0ZX0uZjR7YW5pbWF0aW9uOnNoNCA3LjhzIGxpbmVhciBpbmZpbml0ZX0uZjV7YW5pbWF0aW9uOnNoNSA3LjhzIGxpbmVhciBpbmZpbml0ZX0uZjZ7YW5pbWF0aW9uOnNoNiA3LjhzIGxpbmVhciBpbmZpbml0ZX0KICAgIEBrZXlmcmFtZXMgc2gxezAlLDEzLjMle29wYWNpdHk6MX0xNi43JSw5Ni43JXtvcGFjaXR5OjB9MTAwJXtvcGFjaXR5OjF9fQogICAgQGtleWZyYW1lcyBzaDJ7MCUsMTYuNyV7b3BhY2l0eTowfTIwJSwzMCV7b3BhY2l0eToxfTMzLjMlLDEwMCV7b3BhY2l0eTowfX0KICAgIEBrZXlmcmFtZXMgc2gzezAlLDMzLjMle29wYWNpdHk6MH0zNi43JSw0Ni43JXtvcGFjaXR5OjF9NTAlLDEwMCV7b3BhY2l0eTowfX0KICAgIEBrZXlmcmFtZXMgc2g0ezAlLDUwJXtvcGFjaXR5OjB9NTMuMyUsNjMuMyV7b3BhY2l0eToxfTY2LjclLDEwMCV7b3BhY2l0eTowfX0KICAgIEBrZXlmcmFtZXMgc2g1ezAlLDY2Ljcle29wYWNpdHk6MH03MCUsODAle29wYWNpdHk6MX04My4zJSwxMDAle29wYWNpdHk6MH19CiAgICBAa2V5ZnJhbWVzIHNoNnswJSw4My4zJXtvcGFjaXR5OjB9ODYuNyUsOTYuNyV7b3BhY2l0eToxfTEwMCUsMTAwJXtvcGFjaXR5OjB9fQogIDwvc3R5bGU+CiAgPHJlY3Qgd2lkdGg9IjIyMCIgaGVpZ2h0PSIyMzAiIGZpbGw9IiMxMTE4MjciIHJ4PSIxMiIvPgogIDxsaW5lIHgxPSIyMCIgeTE9IjIxMCIgeDI9IjIwMCIgeTI9IjIxMCIgc3Ryb2tlPSIjMzc0MTUxIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDx0ZXh0IHg9IjExMCIgeT0iMjI1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0idWktc2Fucy1zZXJpZixzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSI5IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjNDc1NTY5IiBsZXR0ZXItc3BhY2luZz0iMiI+U01JVEggQkVOQ0ggUFJFU1M8L3RleHQ+CiAgPGcgZmlsbD0iIzQ3NTU2OSI+PHJlY3QgeD0iMzQiIHk9IjE2NiIgd2lkdGg9IjEzMiIgaGVpZ2h0PSI4IiByeD0iMyIvPjxyZWN0IHg9IjQ2IiB5PSIxNzQiIHdpZHRoPSI3IiBoZWlnaHQ9IjM2Ii8+PHJlY3QgeD0iMTQ2IiB5PSIxNzQiIHdpZHRoPSI3IiBoZWlnaHQ9IjM2Ii8+PC9nPgogICAgPGxpbmUgeDE9IjYyIiB5MT0iNDAiIHgyPSI2MiIgeTI9IjIxMCIgc3Ryb2tlPSIjNDc1NTY5IiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxyZWN0IHg9IjQ0IiB5PSIyMDQiIHdpZHRoPSIzNiIgaGVpZ2h0PSI2IiByeD0iMiIgZmlsbD0iIzQ3NTU2OSIvPgogICAgPGcgc3Ryb2tlPSIjNDc1NTY5IiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+PGxpbmUgeDE9IjYyIiB5MT0iMTQ4IiB4Mj0iNzIiIHkyPSIxNDgiLz48bGluZSB4MT0iNjIiIHkxPSI2NCIgeDI9IjcyIiB5Mj0iNjQiLz48L2c+CiAgPCEtLSBGcmFtZSAxOiBCcmF6b3MgZXh0ZW5kaWRvcywgYmFycmEgYXJyaWJhIC0tPgogIDxnIGNsYXNzPSJmMSI+CiAgICA8ZyBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSI+PHBvbHlsaW5lIHBvaW50cz0iMTE4LDE1NCA2MiwxNTQiIHN0cm9rZT0iIzk0YTNiOCIvPjxwb2x5bGluZSBwb2ludHM9IjExOCwxNTQgMTYzLjQsMTYxLjQgMTUyLDIwNiAxNjIsMjA2IiBzdHJva2U9IiM5NGEzYjgiLz48cG9seWxpbmUgcG9pbnRzPSI2MiwxNTQgNzAuMSwxMjEgNjIsOTAiIHN0cm9rZT0iIzk0YTNiOCIvPjwvZz48Y2lyY2xlIGN4PSI0OSIgY3k9IjE1NCIgcj0iMTIiIGZpbGw9IiM5NGEzYjgiLz48Y2lyY2xlIGN4PSIxNjMuNCIgY3k9IjE2MS40IiByPSI1IiBmaWxsPSIjNjQ3NDhiIi8+PGNpcmNsZSBjeD0iNzAuMSIgY3k9IjEyMSIgcj0iNCIgZmlsbD0iIzY0NzQ4YiIvPjxjaXJjbGUgY3g9IjYyIiBjeT0iOTAiIHI9IjE1IiBmaWxsPSIjMWYyOTM3IiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMyIvPjxjaXJjbGUgY3g9IjYyIiBjeT0iOTAiIHI9IjMuNSIgZmlsbD0iIzk0YTNiOCIvPgogIDwvZz4KICA8IS0tIEZyYW1lIDI6IEJhamFuZG8gLS0+CiAgPGcgY2xhc3M9ImYyIj4KICAgIDxnIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIj48cG9seWxpbmUgcG9pbnRzPSIxMTgsMTU0IDYyLDE1NCIgc3Ryb2tlPSIjOTRhM2I4Ii8+PHBvbHlsaW5lIHBvaW50cz0iMTE4LDE1NCAxNjMuNCwxNjEuNCAxNTIsMjA2IDE2MiwyMDYiIHN0cm9rZT0iIzk0YTNiOCIvPjxwb2x5bGluZSBwb2ludHM9IjYyLDE1NCA4My41LDEyNy43IDYyLDEwNCIgc3Ryb2tlPSIjOTRhM2I4Ii8+PC9nPjxjaXJjbGUgY3g9IjQ5IiBjeT0iMTU0IiByPSIxMiIgZmlsbD0iIzk0YTNiOCIvPjxjaXJjbGUgY3g9IjE2My40IiBjeT0iMTYxLjQiIHI9IjUiIGZpbGw9IiM2NDc0OGIiLz48Y2lyY2xlIGN4PSI4My41IiBjeT0iMTI3LjciIHI9IjQiIGZpbGw9IiM2NDc0OGIiLz48Y2lyY2xlIGN4PSI2MiIgY3k9IjEwNCIgcj0iMTUiIGZpbGw9IiMxZjI5MzciIHN0cm9rZT0iIzQ3NTU2OSIgc3Ryb2tlLXdpZHRoPSIzIi8+PGNpcmNsZSBjeD0iNjIiIGN5PSIxMDQiIHI9IjMuNSIgZmlsbD0iIzk0YTNiOCIvPgogIDwvZz4KICA8IS0tIEZyYW1lIDM6IEJhcnJhIGVuIGVsIHBlY2hvIC0tPgogIDxnIGNsYXNzPSJmMyI+CiAgICA8ZyBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSI+PHBvbHlsaW5lIHBvaW50cz0iMTE4LDE1NCA2MiwxNTQiIHN0cm9rZT0iIzk0YTNiOCIvPjxwb2x5bGluZSBwb2ludHM9IjExOCwxNTQgMTYzLjQsMTYxLjQgMTUyLDIwNiAxNjIsMjA2IiBzdHJva2U9IiM5NGEzYjgiLz48cG9seWxpbmUgcG9pbnRzPSI2MiwxNTQgOTIuMiwxMzguNSA2MiwxMjgiIHN0cm9rZT0iIzk0YTNiOCIvPjwvZz48Y2lyY2xlIGN4PSI0OSIgY3k9IjE1NCIgcj0iMTIiIGZpbGw9IiM5NGEzYjgiLz48Y2lyY2xlIGN4PSIxNjMuNCIgY3k9IjE2MS40IiByPSI1IiBmaWxsPSIjNjQ3NDhiIi8+PGNpcmNsZSBjeD0iOTIuMiIgY3k9IjEzOC41IiByPSI0IiBmaWxsPSIjNjQ3NDhiIi8+PGNpcmNsZSBjeD0iNjIiIGN5PSIxMjgiIHI9IjE1IiBmaWxsPSIjMWYyOTM3IiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMyIvPjxjaXJjbGUgY3g9IjYyIiBjeT0iMTI4IiByPSIzLjUiIGZpbGw9IiM5NGEzYjgiLz4KICA8L2c+CiAgPCEtLSBGcmFtZSA0OiBFbXB1amFuZG8gLS0+CiAgPGcgY2xhc3M9ImY0Ij4KICAgIDxnIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIj48cG9seWxpbmUgcG9pbnRzPSIxMTgsMTU0IDYyLDE1NCIgc3Ryb2tlPSIjOTRhM2I4Ii8+PHBvbHlsaW5lIHBvaW50cz0iMTE4LDE1NCAxNjMuNCwxNjEuNCAxNTIsMjA2IDE2MiwyMDYiIHN0cm9rZT0iIzk0YTNiOCIvPjxwb2x5bGluZSBwb2ludHM9IjYyLDE1NCA4OS42LDEzNC4yIDYyLDExOCIgc3Ryb2tlPSIjOTRhM2I4Ii8+PC9nPjxjaXJjbGUgY3g9IjQ5IiBjeT0iMTU0IiByPSIxMiIgZmlsbD0iIzk0YTNiOCIvPjxjaXJjbGUgY3g9IjE2My40IiBjeT0iMTYxLjQiIHI9IjUiIGZpbGw9IiM2NDc0OGIiLz48Y2lyY2xlIGN4PSI4OS42IiBjeT0iMTM0LjIiIHI9IjQiIGZpbGw9IiM2NDc0OGIiLz48Y2lyY2xlIGN4PSI2MiIgY3k9IjExOCIgcj0iMTUiIGZpbGw9IiMxZjI5MzciIHN0cm9rZT0iIzQ3NTU2OSIgc3Ryb2tlLXdpZHRoPSIzIi8+PGNpcmNsZSBjeD0iNjIiIGN5PSIxMTgiIHI9IjMuNSIgZmlsbD0iIzk0YTNiOCIvPgogIDwvZz4KICA8IS0tIEZyYW1lIDU6IENhc2kgYXJyaWJhIC0tPgogIDxnIGNsYXNzPSJmNSI+CiAgICA8ZyBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSI+PHBvbHlsaW5lIHBvaW50cz0iMTE4LDE1NCA2MiwxNTQiIHN0cm9rZT0iIzk0YTNiOCIvPjxwb2x5bGluZSBwb2ludHM9IjExOCwxNTQgMTYzLjQsMTYxLjQgMTUyLDIwNiAxNjIsMjA2IiBzdHJva2U9IiM5NGEzYjgiLz48cG9seWxpbmUgcG9pbnRzPSI2MiwxNTQgODEsMTI1LjggNjIsMTAwIiBzdHJva2U9IiM5NGEzYjgiLz48L2c+PGNpcmNsZSBjeD0iNDkiIGN5PSIxNTQiIHI9IjEyIiBmaWxsPSIjOTRhM2I4Ii8+PGNpcmNsZSBjeD0iMTYzLjQiIGN5PSIxNjEuNCIgcj0iNSIgZmlsbD0iIzY0NzQ4YiIvPjxjaXJjbGUgY3g9IjgxIiBjeT0iMTI1LjgiIHI9IjQiIGZpbGw9IiM2NDc0OGIiLz48Y2lyY2xlIGN4PSI2MiIgY3k9IjEwMCIgcj0iMTUiIGZpbGw9IiMxZjI5MzciIHN0cm9rZT0iIzQ3NTU2OSIgc3Ryb2tlLXdpZHRoPSIzIi8+PGNpcmNsZSBjeD0iNjIiIGN5PSIxMDAiIHI9IjMuNSIgZmlsbD0iIzk0YTNiOCIvPgogIDwvZz4KICA8IS0tIEZyYW1lIDY6IEJsb3F1ZW8gLS0+CiAgPGcgY2xhc3M9ImY2Ij4KICAgIDxnIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIj48cG9seWxpbmUgcG9pbnRzPSIxMTgsMTU0IDYyLDE1NCIgc3Ryb2tlPSIjOTRhM2I4Ii8+PHBvbHlsaW5lIHBvaW50cz0iMTE4LDE1NCAxNjMuNCwxNjEuNCAxNTIsMjA2IDE2MiwyMDYiIHN0cm9rZT0iIzk0YTNiOCIvPjxwb2x5bGluZSBwb2ludHM9IjYyLDE1NCA3My4zLDEyMS45IDYyLDkyIiBzdHJva2U9IiM5NGEzYjgiLz48L2c+PGNpcmNsZSBjeD0iNDkiIGN5PSIxNTQiIHI9IjEyIiBmaWxsPSIjOTRhM2I4Ii8+PGNpcmNsZSBjeD0iMTYzLjQiIGN5PSIxNjEuNCIgcj0iNSIgZmlsbD0iIzY0NzQ4YiIvPjxjaXJjbGUgY3g9IjczLjMiIGN5PSIxMjEuOSIgcj0iNCIgZmlsbD0iIzY0NzQ4YiIvPjxjaXJjbGUgY3g9IjYyIiBjeT0iOTIiIHI9IjE1IiBmaWxsPSIjMWYyOTM3IiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMyIvPjxjaXJjbGUgY3g9IjYyIiBjeT0iOTIiIHI9IjMuNSIgZmlsbD0iIzk0YTNiOCIvPgogIDwvZz4KPC9zdmc+Cg=="
       }
     },
     {
@@ -20499,17 +20780,17 @@
     },
     {
       "key": "bb0ef3dd-3497-4b74-a59c-2c8285e5bbe3",
-      "hash": "07f0e61b7815a5",
+      "hash": "1cb1542542bba6",
       "row": {
         "name": "Snatch High Pull",
         "description": "Con agarre de arrancada desde la cadera o el suelo, extender violentamente la cadera y luego tirar con los codos hacia arriba y afuera hasta que la barra llegue al nivel del pecho o la barbilla. Termina en puntillas.",
         "technical_notes": "La extensión de cadera es la fuente principal de potencia. Los codos salen hacia afuera y hacia arriba (nunca hacia atrás). La barra sube pegada al cuerpo. Es la antesala del pull de la arrancada completa.",
         "difficulty_level_id": "2c3e4b22-a93b-4350-bbcf-dc10a2d75ca0",
         "primary_muscle_group_id": "ace576f8-aafa-46b7-a50f-7c1b3f3cf625",
-        "video_path": "https://www.youtube.com/shorts/MBe9EnHt6ac",
+        "video_path": "https://www.youtube.com/shorts/nYa9FrGmWe4",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=33jE3S5IMMo",
+        "video_long_path": "https://www.youtube.com/watch?v=1YqbSqiWs8Q",
         "image_url": "/img/exercises/barbell-snatch-high-pull.svg",
         "met_value": 7
       },
@@ -20850,7 +21131,7 @@
     },
     {
       "key": "ca8170c4-7782-476a-b3b5-49c8c16ee277",
-      "hash": "11400e732b0dd0",
+      "hash": "179626e8ceefeb",
       "row": {
         "name": "Squat Jump to Plate",
         "description": "Desde de pie junto a un disco apoyado en el piso, bajar a una sentadilla y saltar con fuerza para pasar al otro lado del disco (o sobre él), aterrizando suave y encadenando la siguiente repetición.",
@@ -20860,7 +21141,7 @@
         "video_path": "https://www.youtube.com/watch?v=Ks7VcxFekP0",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/eQOGNf97KiM",
+        "video_long_path": "https://www.youtube.com/watch?v=ZHZrUGQbp-c",
         "image_url": "/img/exercises/squat-jump-to-plate.svg",
         "met_value": 7
       },
@@ -20920,7 +21201,7 @@
     },
     {
       "key": "6892dda6-01d6-428b-9b28-66e7668b9c99",
-      "hash": "01007448273327",
+      "hash": "14808da0ad1e26",
       "row": {
         "name": "Squat Press-Out",
         "description": "Con un disco o mancuerna liviana sostenida con ambas manos a la altura del pecho, descender a la posición de sentadilla. Durante el descenso, presionar el implemento hacia adelante extendiendo los brazos. Volver a la posición inicial.",
@@ -20930,7 +21211,7 @@
         "video_path": "https://www.youtube.com/shorts/bl83fI7Cs6c",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=cJWPjkkZ6iA",
+        "video_long_path": "https://www.youtube.com/watch?v=MhYF_Lhw-FQ",
         "image_url": "/img/exercises/squat-press-out.svg",
         "met_value": 7
       },
@@ -20993,17 +21274,17 @@
     },
     {
       "key": "b7907d28-ac17-43f0-be11-8e96302f7e56",
-      "hash": "1c7ec0c2069ea1",
+      "hash": "1f683129d3a126",
       "row": {
         "name": "Squat Thoracic Rotation",
         "description": "En la posición baja de la sentadilla con ambas manos apoyadas en el piso entre las piernas, levantar un brazo hacia el cielo realizando una rotación torácica. Bajar y alternar con el otro brazo.",
         "technical_notes": "Mantener el pecho abierto durante la rotación. La mirada sigue a la mano que sube. Talones apoyados en todo momento.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "d56158d8-ea6e-438f-afd4-c7d467f6f926",
-        "video_path": "https://www.youtube.com/watch?v=M0ftGdILi78",
+        "video_path": "https://www.youtube.com/shorts/nZsFBvDky0M",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=w4IdAUSHJUU",
+        "video_long_path": "https://www.youtube.com/watch?v=2tCeGqVlN5E",
         "image_url": "/img/exercises/squat-thoracic-rotation.svg",
         "met_value": 7
       },
@@ -21061,14 +21342,14 @@
     },
     {
       "key": "996e1663-9a6f-4be8-b835-f1d6603d0bd7",
-      "hash": "06615215cd83f7",
+      "hash": "05dc07f402b7b0",
       "row": {
         "name": "Squat to Stand",
         "description": "Desde de pie, flexionar el tronco con las piernas rectas y tomar la punta de los pies. Sin soltarlos, bajar la cadera a una cuclilla profunda, subir el pecho y luego extender la cadera para volver a pararse.",
         "technical_notes": "Mantener las manos agarrando los pies todo el recorrido. En la cuclilla profunda abrir las rodillas con los codos por dentro y el pecho alto. Al subir, estirar las piernas sin soltar los pies. Es un movimiento de movilidad: ir lento y sin rebotes.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "cbe3b11a-330b-4325-bee9-fe3f1c1bd068",
-        "video_path": "https://www.youtube.com/shorts/2B1p06bROd8",
+        "video_path": "https://www.youtube.com/shorts/9LxVm7AX5kQ",
         "is_compound": 1,
         "is_active": 1,
         "video_long_path": "https://www.youtube.com/watch?v=rognkqgRrqM",
@@ -21212,7 +21493,7 @@
     },
     {
       "key": "47c4db98-eb47-426b-aa2a-ac7e3ac2eb3d",
-      "hash": "0d65ae140a45be",
+      "hash": "194e95fbc3c001",
       "row": {
         "name": "Stability Ball Plate Crunch",
         "description": "Acostado sobre una pelota suiza (stability ball / swiss ball) quedando paralelo al suelo, con pies apoyados para estabilidad. Sostener un disco (plate) con ambas manos. Extender el torso hacia atrás y luego hacer crunch llevando el disco hacia adelante/arriba.",
@@ -21222,7 +21503,7 @@
         "video_path": "https://www.youtube.com/shorts/aRUMRbl7KS4",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=uKEYmOZMkRM",
+        "video_long_path": "https://www.youtube.com/watch?v=vdTmJgkRDxg",
         "image_url": "/img/exercises/stability-ball-plate-crunch.svg",
         "met_value": 7
       },
@@ -21264,18 +21545,99 @@
       }
     },
     {
+      "key": "20124eb2-50f1-43c4-8d08-c6dd89d79381",
+      "hash": "16e03598ef1d56",
+      "row": {
+        "name": "Stair Climber",
+        "description": "Subir de forma continua los escalones de la máquina escaladora, alternando las piernas a un ritmo constante, con las manos apoyadas suavemente en los pasamanos para mantener el equilibrio.",
+        "technical_notes": "Postura erguida con el torso levemente inclinado al frente; no colgarse de los pasamanos ni apoyar todo el peso en los brazos. Apoyar el pie completo en cada escalón y empujar con el talón para trabajar glúteo. Cadencia pareja y respiración rítmica. Empezar a un ritmo suave y subir la velocidad de a poco.",
+        "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
+        "primary_muscle_group_id": "0f5aa458-f9df-45b1-98ab-219ca9ce9b44",
+        "video_path": null,
+        "is_compound": 1,
+        "is_active": 1,
+        "video_long_path": "https://www.youtube.com/watch?v=tRk7kI9gXHY",
+        "image_url": "/img/exercises/stair-climber.svg",
+        "met_value": 7
+      },
+      "relations": {
+        "muscle_groups": [
+          {
+            "muscle_group_id": "00cd7dee-e996-426e-b53e-e67b037d4907",
+            "is_primary": 0
+          },
+          {
+            "muscle_group_id": "0f5aa458-f9df-45b1-98ab-219ca9ce9b44",
+            "is_primary": 1
+          },
+          {
+            "muscle_group_id": "3e742369-19b4-4ea5-9867-1c19cab4716d",
+            "is_primary": 0
+          },
+          {
+            "muscle_group_id": "68fe1106-34b1-4879-bee5-34d956f69a9b",
+            "is_primary": 0
+          },
+          {
+            "muscle_group_id": "cbe3b11a-330b-4325-bee9-fe3f1c1bd068",
+            "is_primary": 0
+          },
+          {
+            "muscle_group_id": "e28a9206-8705-43b2-941a-553a4419df00",
+            "is_primary": 0
+          }
+        ],
+        "equipment": [
+          {
+            "equipment_id": "1f4c7594-d8cc-41a9-872d-199c3d779942",
+            "is_required": 1
+          }
+        ],
+        "section_types": [
+          {
+            "section_type_id": "4e1bf46f-3437-44de-917a-d114fbcea2af"
+          },
+          {
+            "section_type_id": "c5bb04f8-0779-4642-8244-a460df5b74a1"
+          }
+        ],
+        "units": [
+          {
+            "measurement_unit_id": "e7d5c491-a03c-4937-a4c5-ff9d79c7b41b",
+            "is_default": 1
+          },
+          {
+            "measurement_unit_id": "e8e11d96-a0ec-488b-b58f-296bd5e0b329",
+            "is_default": 0
+          }
+        ],
+        "tags": [
+          {
+            "tag_id": "0ad8fa9e-7ea5-49b2-975f-544dd22aa6aa"
+          },
+          {
+            "tag_id": "74a09d46-0aa8-4eba-b61a-fa2f5e5ff9cf"
+          }
+        ]
+      },
+      "image": {
+        "path": "/img/exercises/stair-climber.svg",
+        "dataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMjAgMjMwIj4KICA8c3R5bGU+CiAgICAuZjF7YW5pbWF0aW9uOnNoMSA3LjhzIGxpbmVhciBpbmZpbml0ZX0uZjJ7YW5pbWF0aW9uOnNoMiA3LjhzIGxpbmVhciBpbmZpbml0ZX0uZjN7YW5pbWF0aW9uOnNoMyA3LjhzIGxpbmVhciBpbmZpbml0ZX0uZjR7YW5pbWF0aW9uOnNoNCA3LjhzIGxpbmVhciBpbmZpbml0ZX0uZjV7YW5pbWF0aW9uOnNoNSA3LjhzIGxpbmVhciBpbmZpbml0ZX0uZjZ7YW5pbWF0aW9uOnNoNiA3LjhzIGxpbmVhciBpbmZpbml0ZX0KICAgIEBrZXlmcmFtZXMgc2gxezAlLDEzLjMle29wYWNpdHk6MX0xNi43JSw5Ni43JXtvcGFjaXR5OjB9MTAwJXtvcGFjaXR5OjF9fQogICAgQGtleWZyYW1lcyBzaDJ7MCUsMTYuNyV7b3BhY2l0eTowfTIwJSwzMCV7b3BhY2l0eToxfTMzLjMlLDEwMCV7b3BhY2l0eTowfX0KICAgIEBrZXlmcmFtZXMgc2gzezAlLDMzLjMle29wYWNpdHk6MH0zNi43JSw0Ni43JXtvcGFjaXR5OjF9NTAlLDEwMCV7b3BhY2l0eTowfX0KICAgIEBrZXlmcmFtZXMgc2g0ezAlLDUwJXtvcGFjaXR5OjB9NTMuMyUsNjMuMyV7b3BhY2l0eToxfTY2LjclLDEwMCV7b3BhY2l0eTowfX0KICAgIEBrZXlmcmFtZXMgc2g1ezAlLDY2Ljcle29wYWNpdHk6MH03MCUsODAle29wYWNpdHk6MX04My4zJSwxMDAle29wYWNpdHk6MH19CiAgICBAa2V5ZnJhbWVzIHNoNnswJSw4My4zJXtvcGFjaXR5OjB9ODYuNyUsOTYuNyV7b3BhY2l0eToxfTEwMCUsMTAwJXtvcGFjaXR5OjB9fQogIDwvc3R5bGU+CiAgPHJlY3Qgd2lkdGg9IjIyMCIgaGVpZ2h0PSIyMzAiIGZpbGw9IiMxMTE4MjciIHJ4PSIxMiIvPgogIDxsaW5lIHgxPSIyMCIgeTE9IjIxMCIgeDI9IjIwMCIgeTI9IjIxMCIgc3Ryb2tlPSIjMzc0MTUxIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDx0ZXh0IHg9IjExMCIgeT0iMjI1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0idWktc2Fucy1zZXJpZixzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSI5IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjNDc1NTY5IiBsZXR0ZXItc3BhY2luZz0iMiI+U1RBSVIgQ0xJTUJFUjwvdGV4dD4KICA8ZyBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+PGxpbmUgeDE9IjE3OCIgeTE9IjIxMCIgeDI9IjE3OCIgeTI9IjkyIiBzdHJva2Utd2lkdGg9IjUiLz48bGluZSB4MT0iMTM4IiB5MT0iMTEyIiB4Mj0iMTc4IiB5Mj0iMTEyIiBzdHJva2Utd2lkdGg9IjUiLz48L2c+CiAgICA8cmVjdCB4PSIxNjIiIHk9IjY4IiB3aWR0aD0iMzIiIGhlaWdodD0iMjQiIHJ4PSI0IiBmaWxsPSIjMzc0MTUxIi8+PHJlY3QgeD0iMTY3IiB5PSI3MyIgd2lkdGg9IjIyIiBoZWlnaHQ9IjkiIHJ4PSIyIiBmaWxsPSIjNDc1NTY5Ii8+CiAgICA8cmVjdCB4PSI3MCIgeT0iMjA0IiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjYiIHJ4PSIyIiBmaWxsPSIjMzc0MTUxIi8+CiAgPCEtLSBGcmFtZSAxOiBQaWUgZGVyZWNobyBhYmFqbywgaXpxdWllcmRvIGFycmliYSAtLT4KICA8ZyBjbGFzcz0iZjEiPgogICAgPHJlY3QgeD0iODEiIHk9IjE2MCIgd2lkdGg9IjM0IiBoZWlnaHQ9IjciIHJ4PSIyIiBmaWxsPSIjMzc0MTUxIi8+PHJlY3QgeD0iOTkiIHk9IjE5NiIgd2lkdGg9IjM0IiBoZWlnaHQ9IjciIHJ4PSIyIiBmaWxsPSIjNDc1NTY5Ii8+PGcgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiPjxwb2x5bGluZSBwb2ludHM9IjEwMCwxMTQgMTQwLjQsMTM2LjEgOTgsMTU0IDEwOCwxNTQiIHN0cm9rZT0iIzY0NzQ4YiIvPjxwb2x5bGluZSBwb2ludHM9IjEwMCwxMTQgMTExLjYsNTkuMiIgc3Ryb2tlPSIjOTRhM2I4Ii8+PHBvbHlsaW5lIHBvaW50cz0iMTAwLDExNCAxMzIuMSwxNDYuOSAxMTYsMTkwIDEyNiwxOTAiIHN0cm9rZT0iIzk0YTNiOCIvPjxwb2x5bGluZSBwb2ludHM9IjExMS42LDU5LjIgMTIyLjYsOTEuNCAxNTAsMTA4IiBzdHJva2U9IiM5NGEzYjgiLz48L2c+PGNpcmNsZSBjeD0iMTE0LjMiIGN5PSI0Ni41IiByPSIxMiIgZmlsbD0iIzk0YTNiOCIvPjxjaXJjbGUgY3g9IjEzMi4xIiBjeT0iMTQ2LjkiIHI9IjUiIGZpbGw9IiM2NDc0OGIiLz48Y2lyY2xlIGN4PSIxMjIuNiIgY3k9IjkxLjQiIHI9IjQiIGZpbGw9IiM2NDc0OGIiLz4KICA8L2c+CiAgPCEtLSBGcmFtZSAyOiBQZWRhbGVzIGEgbWl0YWQgZGUgY2FtaW5vIC0tPgogIDxnIGNsYXNzPSJmMiI+CiAgICA8cmVjdCB4PSI4MSIgeT0iMTY5IiB3aWR0aD0iMzQiIGhlaWdodD0iNyIgcng9IjIiIGZpbGw9IiMzNzQxNTEiLz48cmVjdCB4PSI5OSIgeT0iMTg3IiB3aWR0aD0iMzQiIGhlaWdodD0iNyIgcng9IjIiIGZpbGw9IiM0NzU1NjkiLz48ZyBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSI+PHBvbHlsaW5lIHBvaW50cz0iMTAwLDExNCAxMzcuOSwxNDAuMSA5OCwxNjMgMTA4LDE2MyIgc3Ryb2tlPSIjNjQ3NDhiIi8+PHBvbHlsaW5lIHBvaW50cz0iMTAwLDExNCAxMTEuNiw1OS4yIiBzdHJva2U9IiM5NGEzYjgiLz48cG9seWxpbmUgcG9pbnRzPSIxMDAsMTE0IDEzNy43LDE0MC40IDExNiwxODEgMTI2LDE4MSIgc3Ryb2tlPSIjOTRhM2I4Ii8+PHBvbHlsaW5lIHBvaW50cz0iMTExLjYsNTkuMiAxMjIuNiw5MS40IDE1MCwxMDgiIHN0cm9rZT0iIzk0YTNiOCIvPjwvZz48Y2lyY2xlIGN4PSIxMTQuMyIgY3k9IjQ2LjUiIHI9IjEyIiBmaWxsPSIjOTRhM2I4Ii8+PGNpcmNsZSBjeD0iMTM3LjciIGN5PSIxNDAuNCIgcj0iNSIgZmlsbD0iIzY0NzQ4YiIvPjxjaXJjbGUgY3g9IjEyMi42IiBjeT0iOTEuNCIgcj0iNCIgZmlsbD0iIzY0NzQ4YiIvPgogIDwvZz4KICA8IS0tIEZyYW1lIDM6IFBlZGFsZXMgYmFqYW4vc3ViZW4gLS0+CiAgPGcgY2xhc3M9ImYzIj4KICAgIDxyZWN0IHg9IjgxIiB5PSIxODciIHdpZHRoPSIzNCIgaGVpZ2h0PSI3IiByeD0iMiIgZmlsbD0iIzM3NDE1MSIvPjxyZWN0IHg9Ijk5IiB5PSIxNjkiIHdpZHRoPSIzNCIgaGVpZ2h0PSI3IiByeD0iMiIgZmlsbD0iIzQ3NTU2OSIvPjxnIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIj48cG9seWxpbmUgcG9pbnRzPSIxMDAsMTE0IDEzMC41LDE0OC40IDk4LDE4MSAxMDgsMTgxIiBzdHJva2U9IiM2NDc0OGIiLz48cG9seWxpbmUgcG9pbnRzPSIxMDAsMTE0IDExMS42LDU5LjIiIHN0cm9rZT0iIzk0YTNiOCIvPjxwb2x5bGluZSBwb2ludHM9IjEwMCwxMTQgMTQ0LjIsMTI2LjcgMTE2LDE2MyAxMjYsMTYzIiBzdHJva2U9IiM5NGEzYjgiLz48cG9seWxpbmUgcG9pbnRzPSIxMTEuNiw1OS4yIDEyMi42LDkxLjQgMTUwLDEwOCIgc3Ryb2tlPSIjOTRhM2I4Ii8+PC9nPjxjaXJjbGUgY3g9IjExNC4zIiBjeT0iNDYuNSIgcj0iMTIiIGZpbGw9IiM5NGEzYjgiLz48Y2lyY2xlIGN4PSIxNDQuMiIgY3k9IjEyNi43IiByPSI1IiBmaWxsPSIjNjQ3NDhiIi8+PGNpcmNsZSBjeD0iMTIyLjYiIGN5PSI5MS40IiByPSI0IiBmaWxsPSIjNjQ3NDhiIi8+CiAgPC9nPgogIDwhLS0gRnJhbWUgNDogUGllIGl6cXVpZXJkbyBhYmFqbywgZGVyZWNobyBhcnJpYmEgLS0+CiAgPGcgY2xhc3M9ImY0Ij4KICAgIDxyZWN0IHg9IjgxIiB5PSIxOTYiIHdpZHRoPSIzNCIgaGVpZ2h0PSI3IiByeD0iMiIgZmlsbD0iIzM3NDE1MSIvPjxyZWN0IHg9Ijk5IiB5PSIxNjAiIHdpZHRoPSIzNCIgaGVpZ2h0PSI3IiByeD0iMiIgZmlsbD0iIzQ3NTU2OSIvPjxnIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBmaWxsPSJub25lIj48cG9seWxpbmUgcG9pbnRzPSIxMDAsMTE0IDEyNC45LDE1Mi43IDk4LDE5MCAxMDgsMTkwIiBzdHJva2U9IiM2NDc0OGIiLz48cG9seWxpbmUgcG9pbnRzPSIxMDAsMTE0IDExMS42LDU5LjIiIHN0cm9rZT0iIzk0YTNiOCIvPjxwb2x5bGluZSBwb2ludHM9IjEwMCwxMTQgMTQ1LjcsMTE4LjkgMTE2LDE1NCAxMjYsMTU0IiBzdHJva2U9IiM5NGEzYjgiLz48cG9seWxpbmUgcG9pbnRzPSIxMTEuNiw1OS4yIDEyMi42LDkxLjQgMTUwLDEwOCIgc3Ryb2tlPSIjOTRhM2I4Ii8+PC9nPjxjaXJjbGUgY3g9IjExNC4zIiBjeT0iNDYuNSIgcj0iMTIiIGZpbGw9IiM5NGEzYjgiLz48Y2lyY2xlIGN4PSIxNDUuNyIgY3k9IjExOC45IiByPSI1IiBmaWxsPSIjNjQ3NDhiIi8+PGNpcmNsZSBjeD0iMTIyLjYiIGN5PSI5MS40IiByPSI0IiBmaWxsPSIjNjQ3NDhiIi8+CiAgPC9nPgogIDwhLS0gRnJhbWUgNTogUGVkYWxlcyBhIG1pdGFkIGRlIGNhbWlubyAtLT4KICA8ZyBjbGFzcz0iZjUiPgogICAgPHJlY3QgeD0iODEiIHk9IjE4NyIgd2lkdGg9IjM0IiBoZWlnaHQ9IjciIHJ4PSIyIiBmaWxsPSIjMzc0MTUxIi8+PHJlY3QgeD0iOTkiIHk9IjE2OSIgd2lkdGg9IjM0IiBoZWlnaHQ9IjciIHJ4PSIyIiBmaWxsPSIjNDc1NTY5Ii8+PGcgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiPjxwb2x5bGluZSBwb2ludHM9IjEwMCwxMTQgMTMwLjUsMTQ4LjQgOTgsMTgxIDEwOCwxODEiIHN0cm9rZT0iIzY0NzQ4YiIvPjxwb2x5bGluZSBwb2ludHM9IjEwMCwxMTQgMTExLjYsNTkuMiIgc3Ryb2tlPSIjOTRhM2I4Ii8+PHBvbHlsaW5lIHBvaW50cz0iMTAwLDExNCAxNDQuMiwxMjYuNyAxMTYsMTYzIDEyNiwxNjMiIHN0cm9rZT0iIzk0YTNiOCIvPjxwb2x5bGluZSBwb2ludHM9IjExMS42LDU5LjIgMTIyLjYsOTEuNCAxNTAsMTA4IiBzdHJva2U9IiM5NGEzYjgiLz48L2c+PGNpcmNsZSBjeD0iMTE0LjMiIGN5PSI0Ni41IiByPSIxMiIgZmlsbD0iIzk0YTNiOCIvPjxjaXJjbGUgY3g9IjE0NC4yIiBjeT0iMTI2LjciIHI9IjUiIGZpbGw9IiM2NDc0OGIiLz48Y2lyY2xlIGN4PSIxMjIuNiIgY3k9IjkxLjQiIHI9IjQiIGZpbGw9IiM2NDc0OGIiLz4KICA8L2c+CiAgPCEtLSBGcmFtZSA2OiBQZWRhbGVzIGJhamFuL3N1YmVuIC0tPgogIDxnIGNsYXNzPSJmNiI+CiAgICA8cmVjdCB4PSI4MSIgeT0iMTY5IiB3aWR0aD0iMzQiIGhlaWdodD0iNyIgcng9IjIiIGZpbGw9IiMzNzQxNTEiLz48cmVjdCB4PSI5OSIgeT0iMTg3IiB3aWR0aD0iMzQiIGhlaWdodD0iNyIgcng9IjIiIGZpbGw9IiM0NzU1NjkiLz48ZyBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSI+PHBvbHlsaW5lIHBvaW50cz0iMTAwLDExNCAxMzcuOSwxNDAuMSA5OCwxNjMgMTA4LDE2MyIgc3Ryb2tlPSIjNjQ3NDhiIi8+PHBvbHlsaW5lIHBvaW50cz0iMTAwLDExNCAxMTEuNiw1OS4yIiBzdHJva2U9IiM5NGEzYjgiLz48cG9seWxpbmUgcG9pbnRzPSIxMDAsMTE0IDEzNy43LDE0MC40IDExNiwxODEgMTI2LDE4MSIgc3Ryb2tlPSIjOTRhM2I4Ii8+PHBvbHlsaW5lIHBvaW50cz0iMTExLjYsNTkuMiAxMjIuNiw5MS40IDE1MCwxMDgiIHN0cm9rZT0iIzk0YTNiOCIvPjwvZz48Y2lyY2xlIGN4PSIxMTQuMyIgY3k9IjQ2LjUiIHI9IjEyIiBmaWxsPSIjOTRhM2I4Ii8+PGNpcmNsZSBjeD0iMTM3LjciIGN5PSIxNDAuNCIgcj0iNSIgZmlsbD0iIzY0NzQ4YiIvPjxjaXJjbGUgY3g9IjEyMi42IiBjeT0iOTEuNCIgcj0iNCIgZmlsbD0iIzY0NzQ4YiIvPgogIDwvZz4KPC9zdmc+Cg=="
+      }
+    },
+    {
       "key": "2b564c11-f7b4-4074-9f40-f79cfaecb870",
-      "hash": "07c2b9d634dafa",
+      "hash": "1543f21bf1ac3b",
       "row": {
         "name": "Standing Biceps Stretch",
         "description": "De pie, llevar ambos brazos hacia atrás y entrelazar los dedos (o simplemente llevar los brazos hacia atrás con las palmas mirando hacia adelante). Elevar levemente los brazos hacia arriba y hacia atrás, abriendo el pecho y estirando los bíceps.",
         "technical_notes": "Mantener el torso erguido y los hombros relajados (no elevarlos). La tensión se siente en la parte anterior del brazo y el pecho. Respirar profundamente durante el estiramiento.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "e569b7db-c27a-4666-9dd5-d6e72bffc041",
-        "video_path": "https://www.youtube.com/shorts/j0rdJpN4B8Y",
+        "video_path": "https://www.youtube.com/shorts/4ECz6yYNwMo",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=G1I--Obo0eQ",
+        "video_long_path": "https://www.youtube.com/watch?v=GxmlOiwUfN8",
         "image_url": "/img/exercises/standing-biceps-stretch.svg",
         "met_value": 7
       },
@@ -21319,7 +21681,7 @@
     },
     {
       "key": "3cead082-854e-490c-98dd-be6eda2c368a",
-      "hash": "162edb9565bacb",
+      "hash": "04de65a9ac9c1f",
       "row": {
         "name": "Standing Cross Crunch",
         "description": "De pie con las manos detrás de la cabeza, llevar el codo hacia la rodilla contraria que sube en diagonal, contrayendo los oblicuos, y alternar lados.",
@@ -21329,7 +21691,7 @@
         "video_path": "https://www.youtube.com/shorts/PAYKVg-j1NU",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=unMZPDjMn10",
+        "video_long_path": "https://www.youtube.com/watch?v=af-znhrttng",
         "image_url": "/img/exercises/standing-cross-crunch.svg",
         "met_value": 7
       },
@@ -21445,7 +21807,7 @@
     },
     {
       "key": "c73b4784-1305-4518-a7f5-1fd831dd83fd",
-      "hash": "1bbdc3e2e0aee9",
+      "hash": "11db39f1150269",
       "row": {
         "name": "Standing Knees to Elbow",
         "description": "De pie, llevar alternadamente la rodilla hacia el codo del mismo lado (o el contrario) contrayendo el abdomen, a ritmo de cardio y sin saltar.",
@@ -21455,7 +21817,7 @@
         "video_path": "https://www.youtube.com/shorts/5ww4xOMRYtU",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=ZL9Y-IIedb0",
+        "video_long_path": "https://www.youtube.com/watch?v=9UGBuUIv4YA",
         "image_url": "/img/exercises/standing-knees-to-elbow.svg",
         "met_value": 7
       },
@@ -21566,17 +21928,17 @@
     },
     {
       "key": "0560b5f6-653d-4d2d-b167-fd084db3ad9e",
-      "hash": "0aef708781557e",
+      "hash": "18c2dc46c6170e",
       "row": {
         "name": "Step Jack",
         "description": "El jumping jack amigable con las rodillas: en vez de saltar, se abre una pierna por vez al costado apoyando el pie mientras los brazos suben overhead. Mismo pulso, cero impacto.",
         "technical_notes": "Buscar ritmo: si se hace demasiado suave no sube el pulso. Cuidado con terminar saltando sin querer al entusiasmarse: el punto es no impactar.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "0f5aa458-f9df-45b1-98ab-219ca9ce9b44",
-        "video_path": "https://www.youtube.com/shorts/XQuY76XD_LU",
+        "video_path": "https://www.youtube.com/shorts/8F9CHbCZwMQ",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=QlTvs93astY",
+        "video_long_path": "https://www.youtube.com/watch?v=rqHuS8Y2OyA",
         "image_url": "/img/exercises/step-jack.svg",
         "met_value": 7
       },
@@ -21776,7 +22138,7 @@
     },
     {
       "key": "e4568cd7-3480-4e19-be20-3a539a03883a",
-      "hash": "06ba3a6961986e",
+      "hash": "1eb91b472ce65a",
       "row": {
         "name": "Superman Hold",
         "description": "Acostado boca abajo con brazos extendidos al frente y piernas estiradas. Elevar simultáneamente brazos, pecho y piernas del piso, manteniendo la posición isométrica. Trabaja la cadena posterior.",
@@ -21786,7 +22148,7 @@
         "video_path": "https://www.youtube.com/shorts/ZUQzFACmLmo",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=LZoWdePF1NQ",
+        "video_long_path": "https://www.youtube.com/watch?v=U4tLt7kJEQE",
         "image_url": "/img/exercises/superman-hold.svg",
         "met_value": 7
       },
@@ -21920,17 +22282,17 @@
     },
     {
       "key": "76ed4ce8-b130-4291-805b-76d58435693a",
-      "hash": "0a78769722227d",
+      "hash": "1734ffe87a2f04",
       "row": {
         "name": "Supine Abdominal Stretch",
         "description": "Acostado boca arriba, extender los brazos por encima de la cabeza y estirar el cuerpo completamente, sintiendo el alargamiento desde los dedos de los pies hasta las puntas de los dedos de las manos. Permitir una ligera extensión lumbar.",
         "technical_notes": "Este es un estiramiento general de la cadena anterior. Respirar profundamente. Puede acompañarse de una leve retroversión pélvica para proteger la zona lumbar.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "9ebc9099-6c5f-4841-8c79-0e63d89e5d14",
-        "video_path": "https://www.youtube.com/shorts/tQwHhKnJ1KU",
+        "video_path": "https://www.youtube.com/shorts/SL0AP7npMWE",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/gxSgt9QS1R8",
+        "video_long_path": "https://www.youtube.com/watch?v=Q1Y4gTliGvg",
         "image_url": "/img/exercises/supine-abdominal-stretch.svg",
         "met_value": 7
       },
@@ -22035,14 +22397,14 @@
     },
     {
       "key": "b6762a6b-355d-429e-bd38-e45bec38e710",
-      "hash": "196dd05cbc48a5",
+      "hash": "155e2215643591",
       "row": {
         "name": "Supine Spinal Twist",
         "description": "Acostado boca arriba con los brazos en T (perpendiculares al cuerpo), llevar las rodillas dobladas hacia un lado hasta donde sea posible sin despegar los hombros del suelo. Mantener el estiramiento y cambiar de lado.",
         "technical_notes": "Los hombros deben permanecer pegados al suelo durante toda la rotación. La cabeza puede rotar hacia el lado opuesto para aumentar el estiramiento. Respirar profundamente en la posición de estiramiento.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "d56158d8-ea6e-438f-afd4-c7d467f6f926",
-        "video_path": "https://www.youtube.com/shorts/ElKoMMaTPCM",
+        "video_path": "https://www.youtube.com/shorts/6x-JDY9b6S0",
         "is_compound": 0,
         "is_active": 1,
         "video_long_path": "https://www.youtube.com/watch?v=pmikAsyIpFU",
@@ -22320,7 +22682,7 @@
     },
     {
       "key": "1c15fdea-6ead-4369-a3b7-5f4ae57049a4",
-      "hash": "078d8490e080db",
+      "hash": "1cda7652d644ef",
       "row": {
         "name": "Tibialis Raise",
         "description": "Apoyado de espaldas contra una pared, con los talones adelantados y apoyados en el piso, levantar las puntas de los pies hacia las canillas y bajar controlado. Trabaja el tibial anterior, antagonista del gemelo.",
@@ -22330,7 +22692,7 @@
         "video_path": "https://www.youtube.com/shorts/pQcvW08rnAk",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=OPEuhclsTUQ",
+        "video_long_path": "https://www.youtube.com/watch?v=fXWdHOrmzmE",
         "image_url": "/img/exercises/tibialis-raise.svg",
         "met_value": 7
       },
@@ -22455,7 +22817,7 @@
     },
     {
       "key": "de88dad2-0e13-47df-9148-9751be52ec96",
-      "hash": "1cdacb925b3e34",
+      "hash": "1d90512c48035f",
       "row": {
         "name": "Toe Touch Sit-Up",
         "description": "Acostado boca arriba con piernas estiradas y apoyadas en el piso. Se eleva el torso completo (recorrido completo, no crunch) y al llegar arriba se estiran los brazos para tocar la punta de los pies.",
@@ -22465,7 +22827,7 @@
         "video_path": "https://www.youtube.com/watch?v=9iEI95-eZWk",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=rHEzFsLf4-o",
+        "video_long_path": "https://www.youtube.com/watch?v=hvdGWObB4mQ",
         "image_url": "/img/exercises/toe-touch-sit-up.svg",
         "met_value": 7
       },
@@ -22657,7 +23019,7 @@
     },
     {
       "key": "69ef3f46-17db-4b80-8885-7d574f8bab91",
-      "hash": "072bc8b52781aa",
+      "hash": "0211a19f1fa3aa",
       "row": {
         "name": "Upward to Downward Dog",
         "description": "Transición continua entre perro boca arriba (cadera abajo, pecho abierto) y perro boca abajo (cadera alta, talones al piso).",
@@ -22667,7 +23029,7 @@
         "video_path": "https://www.youtube.com/shorts/jPzbaiT0ZNY",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=pmGdxqoh5-E",
+        "video_long_path": "https://www.youtube.com/watch?v=Jrth-OZmx4o",
         "image_url": "/img/exercises/upward-to-downward-dog.svg",
         "met_value": 7
       },
@@ -22732,7 +23094,7 @@
     },
     {
       "key": "a30033d4-2aef-4378-8b30-ec73eb1e9ff9",
-      "hash": "15f5d009c6ac27",
+      "hash": "18c284f83c8af5",
       "row": {
         "name": "V-Up",
         "description": "Tumbado boca arriba con los brazos extendidos sobre la cabeza, elevar simultáneamente piernas y torso para tocar los pies formando una \"V\", luego bajar con control.",
@@ -22742,7 +23104,7 @@
         "video_path": "https://www.youtube.com/watch?v=iP2fjvG0g3w",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=7UVgs18Y1P4",
+        "video_long_path": "https://www.youtube.com/watch?v=fJOjpza8GLg",
         "image_url": "/img/exercises/v-up.svg",
         "met_value": 7
       },
@@ -22797,7 +23159,7 @@
     },
     {
       "key": "a58925a6-de4a-4dea-b531-b2e91ef829e2",
-      "hash": "07b2df0ca1afda",
+      "hash": "0d4b8da3506ded",
       "row": {
         "name": "Walking",
         "description": "Caminar a paso tranquilo, utilizado como recuperación activa entre estaciones de trabajo dentro de un circuito.",
@@ -22807,7 +23169,7 @@
         "video_path": "https://www.youtube.com/shorts/0PuI3k55jzs",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/0PuI3k55jzs",
+        "video_long_path": "https://www.youtube.com/watch?v=kLvCLZ-sHZU",
         "image_url": "/img/exercises/walking.svg",
         "met_value": 7
       },
@@ -23039,14 +23401,14 @@
     },
     {
       "key": "8afba6ce-a357-4681-a66e-501a4b8294de",
-      "hash": "165592daf0a580",
+      "hash": "00bd0757a1a606",
       "row": {
         "name": "Wall Ball Shot",
         "description": "Sentadilla completa con balón medicinal lanzándolo hacia una marca en la pared (target 3 m / 10 ft). Recibir el balón y repetir sin pausa.",
         "technical_notes": null,
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "0f5aa458-f9df-45b1-98ab-219ca9ce9b44",
-        "video_path": "https://www.youtube.com/watch?v=fpUD0mcFp_0",
+        "video_path": "https://www.youtube.com/shorts/m-q8jlR4lhw",
         "is_compound": 1,
         "is_active": 1,
         "video_long_path": "https://www.youtube.com/watch?v=739bkdUhh5w",
@@ -23109,17 +23471,17 @@
     },
     {
       "key": "95e26859-cbb4-456b-b5f8-9509bb7d8e2c",
-      "hash": "04371ff86a5080",
+      "hash": "1c543a6d8e61e1",
       "row": {
         "name": "Wall Lat Stretch",
         "description": "De pie junto a una pared con un brazo extendido apoyado. Inclinar el cuerpo lateralmente alejándose de la pared para estirar el músculo dorsal ancho.",
         "technical_notes": null,
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "d8fe29d5-376d-487f-ae07-312b5f96a5e9",
-        "video_path": "https://www.youtube.com/shorts/KndXFCRPnCQ",
+        "video_path": "https://www.youtube.com/shorts/jilYOSZPIek",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=JW_B7HJFT2Q",
+        "video_long_path": "https://www.youtube.com/watch?v=P9NXcWuJ8pw",
         "image_url": "/img/exercises/wall-lat-stretch.svg",
         "met_value": 7
       },
@@ -23166,17 +23528,17 @@
     },
     {
       "key": "3c93dcb8-b346-4b0d-a68d-ada330f4bf34",
-      "hash": "1e4fcd3ca665e0",
+      "hash": "0e4ac9f7d9f661",
       "row": {
         "name": "Wall Shoulder CAR",
         "description": "De pie junto a una pared, codo apoyado a 90°. Realizar una rotación articular controlada del hombro alejando el antebrazo de la pared. Mejora el rango de movimiento del hombro.",
         "technical_notes": null,
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "4022be26-1f8e-45a1-8748-a0967b7c6ed5",
-        "video_path": "https://www.youtube.com/shorts/LpWU3-teVfk",
+        "video_path": "https://www.youtube.com/shorts/yKJ2nV60MxA",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=eY_fHyJKIdU",
+        "video_long_path": "https://www.youtube.com/watch?v=woHBBtB45uc",
         "image_url": "/img/exercises/wall-shoulder-car.svg",
         "met_value": 7
       },
@@ -23272,7 +23634,7 @@
     },
     {
       "key": "7c960239-d588-4f8f-9b8d-3cf83e1514a3",
-      "hash": "02f26bfc90600b",
+      "hash": "132803c484f928",
       "row": {
         "name": "Wall Shoulder Stretch",
         "description": "De pie frente a una pared, apoyar la palma del brazo extendido contra ella a la altura del hombro. Rotar el torso alejándose de la pared para estirar el hombro anterior y el pectoral, manteniendo el brazo fijo.",
@@ -23282,7 +23644,7 @@
         "video_path": "https://www.youtube.com/shorts/u1yB7Fx0BNQ",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=KSGiEQzNwgk",
+        "video_long_path": "https://www.youtube.com/watch?v=ZsrI7ayIGdE",
         "image_url": "/img/exercises/wall-shoulder-stretch.svg",
         "met_value": 7
       },
@@ -23333,7 +23695,7 @@
     },
     {
       "key": "ca101434-ab95-4cb4-bedc-ffc50fc1a315",
-      "hash": "1ca28abbb23154",
+      "hash": "00faadcf67668b",
       "row": {
         "name": "Wall Sit",
         "description": "Con toda la espalda apoyada en la pared, se desliza hacia abajo hasta que los muslos quedan cerca de paralelos al piso y se sostiene. Isométrico de cuádriceps muy usado en rehabilitación de dolor patelofemoral.",
@@ -23343,7 +23705,7 @@
         "video_path": "https://www.youtube.com/shorts/mDdLC-yKudY",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=qbwoTaNH6as",
+        "video_long_path": "https://www.youtube.com/watch?v=uYJtEDEVyXw",
         "image_url": "/img/exercises/wall-sit.svg",
         "met_value": 7
       },
@@ -23523,17 +23885,17 @@
     },
     {
       "key": "698fbe5f-ec5d-4df9-9e46-f548be7d1c5e",
-      "hash": "1c6ff717183147",
+      "hash": "084962d8afeee7",
       "row": {
         "name": "Wall Thoracic Extensions",
         "description": "De pie frente a una pared con los brazos extendidos y manos apoyadas. Caminar los pies hacia atrás e inclinar el torso hacia adelante, dejando que la columna torácica se extienda mientras los brazos permanecen contra la pared.",
         "technical_notes": "El objetivo es la movilidad torácica, no lumbar. Mantener el core activo para que el movimiento ocurra en la zona media de la espalda. Los brazos pueden estar a distintas alturas para trabajar diferentes segmentos. Respirar profundo en cada extensión.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "d56158d8-ea6e-438f-afd4-c7d467f6f926",
-        "video_path": "https://www.youtube.com/watch?v=sWawOhi0l9U",
+        "video_path": "https://www.youtube.com/shorts/AH-hQqgo5p0",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/3kd40d5m1WE",
+        "video_long_path": "https://www.youtube.com/watch?v=t1orADsBLHQ",
         "image_url": "/img/exercises/wall-thoracic-extensions.svg",
         "met_value": 7
       },
@@ -23581,7 +23943,7 @@
     },
     {
       "key": "7de0fe18-fb87-468a-9b1d-d4432ef7575b",
-      "hash": "00bcbbb8ad076f",
+      "hash": "0ee447381bdc26",
       "row": {
         "name": "Wall Walk",
         "description": null,
@@ -23591,7 +23953,7 @@
         "video_path": "https://www.youtube.com/shorts/kAZkLII49fk",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/ZS__mYv0qVE",
+        "video_long_path": "https://www.youtube.com/watch?v=q7uyfZyqSFE",
         "image_url": "/img/exercises/wall-walk.svg",
         "met_value": 7
       },
@@ -23630,7 +23992,7 @@
     },
     {
       "key": "ca1db789-ef76-47f9-b1ba-3b81d7b68f62",
-      "hash": "1d528176785a4b",
+      "hash": "0dfff42f703d48",
       "row": {
         "name": "Weighted Bird Dog",
         "description": "Desde cuadrupedia (manos y rodillas en el suelo), extender simultáneamente el brazo derecho hacia adelante sosteniendo una mancuerna y la pierna izquierda hacia atrás, manteniendo la espalda plana. Alternar lados.",
@@ -23640,7 +24002,7 @@
         "video_path": "https://www.youtube.com/shorts/ufuvra20cyk",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/HF4eJtPEVkA",
+        "video_long_path": "https://www.youtube.com/watch?v=QWLyT0XcqtU",
         "image_url": "/img/exercises/weighted-bird-dog.svg",
         "met_value": 7
       },
@@ -23900,7 +24262,7 @@
     },
     {
       "key": "7cde6e25-3489-48e9-8285-4f9daf741f82",
-      "hash": "1bfec65f058e20",
+      "hash": "083c1e1576c3b3",
       "row": {
         "name": "Weighted Lunge",
         "description": "Zancada con carga (mancuernas al costado o barra). Bajar hasta que la rodilla trasera casi toque el suelo y volver a la posición de pie, alternando piernas.",
@@ -23910,7 +24272,7 @@
         "video_path": "https://www.youtube.com/shorts/mJilHWIBWO8",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/i3TNJmnInI0",
+        "video_long_path": "https://www.youtube.com/watch?v=l_CC5oTsjSQ",
         "image_url": "/img/exercises/weighted-lunge.svg",
         "met_value": 7
       },
@@ -24121,7 +24483,7 @@
     },
     {
       "key": "b02f1f5b-bb52-449b-8f16-aed65e2f4ba8",
-      "hash": "17bb5ab61e6b25",
+      "hash": "0e7ab46460ab7c",
       "row": {
         "name": "Weighted Sit-Up",
         "description": "Sit-up completo sosteniendo un disco o mancuerna en el pecho o sobre la cabeza. Las rodillas están flexionadas y los pies anclados. El peso aumenta la resistencia del movimiento.",
@@ -24131,7 +24493,7 @@
         "video_path": "https://www.youtube.com/watch?v=qVRdlNFe1r0",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=D_pSUxAQJ_s",
+        "video_long_path": "https://www.youtube.com/watch?v=ntR5bfM-pQ4",
         "image_url": "/img/exercises/weighted-sit-up.svg",
         "met_value": 7
       },
@@ -24171,17 +24533,17 @@
     },
     {
       "key": "cff58e1a-657c-4b01-9f73-e933a96dd98a",
-      "hash": "063c290fd5e38d",
+      "hash": "10b2b17cbe7926",
       "row": {
         "name": "Wide Negative Push-Up",
         "description": "Flexión negativa con las manos más abiertas que los hombros: descenso lento hasta el suelo y retorno asistido con las rodillas.",
         "technical_notes": "El agarre ancho carga más el pectoral y menos el tríceps. Cuidar que los hombros no se adelanten en el punto bajo.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "ef87c973-9379-4a66-8012-1f498644cb58",
-        "video_path": "https://www.youtube.com/watch?v=Z8nUVpSZAhE",
+        "video_path": "https://www.youtube.com/shorts/Pj4VTg_qeAA",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=QwTW7DXBw5w",
+        "video_long_path": "https://www.youtube.com/watch?v=sC4SP_E4hmM",
         "image_url": "/img/exercises/wide-negative-push-up.svg",
         "met_value": 7
       },
@@ -24307,17 +24669,17 @@
     },
     {
       "key": "537e90ed-35e7-47bc-a0c5-585ceb74621b",
-      "hash": "1a7b99b9a9ec29",
+      "hash": "00bb6702562f49",
       "row": {
         "name": "Wrist Extensor Stretch",
         "description": "Extender un brazo al frente con la palma mirando hacia abajo. Doblar la muñeca hacia abajo (flexión) apuntando los dedos hacia el suelo. Con la mano libre, empujar suavemente los dedos hacia abajo para intensificar el estiramiento del antebrazo. Repetir del otro lado.",
         "technical_notes": "Esencial para prevenir lesiones en muñeca y antebrazo, especialmente útil después de ejercicios con kettlebell o barra. Mantener el codo extendido durante el estiramiento para mayor efectividad.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "b4c38feb-cb72-42b4-aaa4-c5330892c42c",
-        "video_path": "https://www.youtube.com/watch?v=cnuBSIWReSc",
+        "video_path": "https://www.youtube.com/shorts/a3xiwSKng5E",
         "is_compound": 0,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/shorts/63LEj3oP6lA",
+        "video_long_path": "https://www.youtube.com/watch?v=iumHB3XlWJc",
         "image_url": "/img/exercises/wrist-extensor-stretch.svg",
         "met_value": 7
       },
@@ -24413,17 +24775,17 @@
     },
     {
       "key": "224d4b27-250a-41eb-b4ed-48d29bd32c77",
-      "hash": "01c85531608218",
+      "hash": "0e394c6c639e77",
       "row": {
         "name": "Yoga Push-Up",
         "description": "Comenzar en posición downward dog (V invertida). Llevar el cuerpo hacia adelante en un arco, bajando el pecho entre las manos (chaturanga/push-up bajo) y luego extender los brazos para llegar a cobra o upward dog. Volver a downward dog.",
         "technical_notes": "El movimiento combina tres posiciones de yoga en una secuencia fluida. En chaturanga los codos rozan el cuerpo. En upward dog las caderas y piernas se despegan del suelo. Mantener el core activo en todo momento. Es un excelente calentamiento de movilidad para toda la cadena anterior y posterior.",
         "difficulty_level_id": "b8ea1f83-6e0b-4954-b36d-95169b0c2392",
         "primary_muscle_group_id": "ef87c973-9379-4a66-8012-1f498644cb58",
-        "video_path": "https://www.youtube.com/shorts/_2aDj69aE9s",
+        "video_path": "https://www.youtube.com/shorts/IhGQBMmrN-Q",
         "is_compound": 1,
         "is_active": 1,
-        "video_long_path": "https://www.youtube.com/watch?v=-7TEPQKkTxI",
+        "video_long_path": "https://www.youtube.com/watch?v=bQIk_XIu3cQ",
         "image_url": "/img/exercises/yoga-push-up.svg",
         "met_value": 7
       },
